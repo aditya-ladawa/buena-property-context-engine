@@ -62,9 +62,15 @@
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --radius: 0.125rem;
+  /* Buena dark terminal aesthetic */
+  --background: oklch(0.16 0.005 250);
+  --foreground: oklch(0.7 0.01 250);
+  --grid-line: oklch(0.25 0.005 250 / 0.5);
+  --terminal-border: oklch(0.35 0.008 250);
+  --terminal-bg: oklch(0.18 0.005 250);
+  --terminal-muted: oklch(0.45 0.008 250);
+  --accent-pink: oklch(0.75 0.12 350);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
