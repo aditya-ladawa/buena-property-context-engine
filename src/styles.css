@@ -143,8 +143,32 @@
     border-color: var(--color-border);
   }
 
-  body {
+  html, body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-feature-settings: "ss01", "ss02";
+    letter-spacing: 0.02em;
   }
+}
+
+@layer utilities {
+  .grid-bg {
+    background-image:
+      linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+  .terminal-window {
+    background: var(--terminal-bg);
+    border: 1px solid var(--terminal-border);
+  }
+  .text-mono-xs {
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .scrollbar-thin::-webkit-scrollbar { width: 6px; height: 6px; }
+  .scrollbar-thin::-webkit-scrollbar-thumb { background: var(--terminal-border); border-radius: 2px; }
+  .scrollbar-thin::-webkit-scrollbar-track { background: transparent; }
 }
