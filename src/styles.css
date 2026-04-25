@@ -63,13 +63,13 @@
 
 :root {
   --radius: 0.125rem;
-  /* Buena dark terminal aesthetic — near-black, warm muted grays */
-  --background: oklch(0.17 0.002 60);
-  --foreground: oklch(0.62 0.008 60);
-  --grid-line: oklch(0.26 0.003 60 / 0.55);
-  --terminal-border: oklch(0.3 0.004 60);
-  --terminal-bg: oklch(0.18 0.002 60);
-  --terminal-muted: oklch(0.45 0.006 60);
+  /* Buena dark terminal aesthetic — near-black bg, warm off-white text, visible grid */
+  --background: oklch(0.19 0.003 80);
+  --foreground: oklch(0.88 0.012 85);
+  --grid-line: oklch(0.32 0.004 80 / 0.7);
+  --terminal-border: oklch(0.36 0.005 80);
+  --terminal-bg: oklch(0.205 0.003 80);
+  --terminal-muted: oklch(0.55 0.008 80);
   --accent-pink: oklch(0.55 0.07 20);
   --card: var(--terminal-bg);
   --card-foreground: var(--foreground);
