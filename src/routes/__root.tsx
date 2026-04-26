@@ -2,6 +2,22 @@ import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/r
 
 import appCss from "../styles.css?url";
 
+const resizeObserverErrorFilter = `
+(() => {
+  const isResizeObserverLoop = (message) => typeof message === "string" && message.includes("ResizeObserver loop completed with undelivered notifications");
+  window.addEventListener("error", (event) => {
+    if (isResizeObserverLoop(event.message)) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+    }
+  }, true);
+  window.addEventListener("unhandledrejection", (event) => {
+    const reason = event.reason instanceof Error ? event.reason.message : event.reason;
+    if (isResizeObserverLoop(reason)) event.preventDefault();
+  }, true);
+})();
+`;
+
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -55,6 +71,7 @@ function RootShell({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
+        <script dangerouslySetInnerHTML={{ __html: resizeObserverErrorFilter }} />
       </head>
       <body>
         {children}

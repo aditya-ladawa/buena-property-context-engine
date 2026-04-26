@@ -6,6 +6,7 @@ import { GoogleGenAI } from "@google/genai";
 import { PROJECT_ROOT, PROPERTY_ID, SEMANTIC_DECISIONS_PATH, SEMANTIC_OBSERVATIONS_PATH, SEMANTIC_SUMMARY_PATH } from "../config";
 import type { EntityIndex, EntityLinkRecord, EntityResolution, EvidenceRef, Observation, ObservationDecision, ObservationKind, SemanticDecisionRecord, SemanticExtractionSummary, SourceRegistry, SourceRegistryEntry, WorkItem } from "../types";
 import { readJsonLinesIfExists, sha256Text, writeJson, writeJsonLines } from "../utils/fs";
+import type { IngestProgressEvent } from "../cli/ingest";
 
 type SemanticArtifacts = {
   observations: Observation[];
@@ -17,6 +18,8 @@ type KeywordCategory = {
   weight: number;
   terms: string[];
 };
+
+type Progress = (event: IngestProgressEvent) => void;
 
 const SEMANTIC_EXTRACTOR_VERSION = 1;
 const DEFAULT_GEMINI_TRIAGE_MODEL = "gemma-4-26b-a4b-it";
@@ -301,14 +304,16 @@ function priorityForSelection(workItem: WorkItem, categories: string[]) {
   return categoryScore + recency + complexity;
 }
 
-export async function runSemanticExtraction(workItems: WorkItem[], registry: SourceRegistry, entityIndex: EntityIndex, entityLinkRecords: EntityLinkRecord[], now = new Date().toISOString()): Promise<SemanticArtifacts> {
+export async function runSemanticExtraction(workItems: WorkItem[], registry: SourceRegistry, entityIndex: EntityIndex, entityLinkRecords: EntityLinkRecord[], now = new Date().toISOString(), progress?: Progress): Promise<SemanticArtifacts> {
   const selectionLimit = Number.parseInt(process.env.SEMANTIC_EXTRACT_LIMIT ?? "25", 10);
+  progress?.({ stage: "semantic_extraction", level: "info", message: `Semantic extractor configured with limit ${selectionLimit}.` });
   const sourceById = new Map(registry.sources.map((source) => [source.sourceId, source]));
   const linkByWorkItem = new Map(entityLinkRecords.filter((record) => record.targetType === "work_item" && record.workItemId).map((record) => [record.workItemId!, record]));
   const previousObservations = reusedRecords(await readJsonLinesIfExists<Observation>(SEMANTIC_OBSERVATIONS_PATH));
   const previousDecisions = reusedRecords((await readJsonLinesIfExists<SemanticDecisionRecord>(SEMANTIC_DECISIONS_PATH)).filter((decision) => decision.decision !== "error"));
   const modelName = semanticModelName();
   const model = createModel();
+  progress?.({ stage: "semantic_extraction", level: model ? "info" : "warning", message: model ? `Gemini/Gemma model ready: ${modelName}.` : "GEMINI_API_KEY unavailable; high-signal threads will be marked needs_review instead of deep extracted." });
 
   const observations: Observation[] = [];
   const decisions: SemanticDecisionRecord[] = [];
@@ -348,27 +353,35 @@ export async function runSemanticExtraction(workItems: WorkItem[], registry: Sou
   candidates.sort((a, b) => b.priority - a.priority || b.workItem.sourceIds.length - a.workItem.sourceIds.length || a.workItem.workItemId.localeCompare(b.workItem.workItemId));
   const selected = candidates.slice(0, Math.max(0, selectionLimit));
   const selectedIds = new Set(selected.map((candidate) => candidate.workItem.workItemId));
+  progress?.({ stage: "semantic_triage", level: "info", message: `Semantic triage found ${candidates.length} high-signal email thread(s); ${selected.length} selected for deep model extraction, ${Math.max(0, candidates.length - selected.length)} deferred.` });
   let extractedWorkItems = 0;
   let erroredWorkItems = 0;
+  let deepIndex = 0;
 
   for (const candidate of candidates) {
     const linkRecord = linkByWorkItem.get(candidate.workItem.workItemId);
     if (!selectedIds.has(candidate.workItem.workItemId)) {
+      progress?.({ stage: "semantic_triage", level: "info", message: `Deferred ${candidate.workItem.workItemId}: bounded selection limit ${selectionLimit}.`, data: { workItemId: candidate.workItem.workItemId, sourceIds: candidate.workItem.sourceIds, categories: candidate.categories, priority: candidate.priority } });
       decisions.push(decisionRecord({ workItemId: candidate.workItem.workItemId, inputHash: candidate.inputHash, sourceIds: candidate.workItem.sourceIds, categories: candidate.categories, decision: "deferred", reason: `High-signal thread deferred after bounded selection limit ${selectionLimit}.`, linkedEntityIds: candidate.linkedEntityIds, now }));
       continue;
     }
     if (!model) {
+      progress?.({ stage: "semantic_model", level: "warning", message: `Skipped model extraction for ${candidate.workItem.workItemId}: missing GEMINI_API_KEY.`, data: { workItemId: candidate.workItem.workItemId, sourceIds: candidate.workItem.sourceIds, categories: candidate.categories } });
       decisions.push(decisionRecord({ workItemId: candidate.workItem.workItemId, inputHash: candidate.inputHash, sourceIds: candidate.workItem.sourceIds, categories: candidate.categories, decision: "needs_review", reason: "High-signal thread selected, but GEMINI_API_KEY is not available.", linkedEntityIds: candidate.linkedEntityIds, now }));
       continue;
     }
 
     try {
+      deepIndex += 1;
+      progress?.({ stage: "semantic_model", level: "info", message: `Calling ${model.model} for ${candidate.workItem.workItemId} (${deepIndex}/${selected.length}).`, data: { workItemId: candidate.workItem.workItemId, sourceIds: candidate.workItem.sourceIds, categories: candidate.categories, linkedEntityIds: candidate.linkedEntityIds, textChars: candidate.text.length } });
       const parsed = await callExtractor(model, candidate.workItem, candidate.text, linkRecord, entityIndex);
       const extracted = observationsFromModel(candidate.workItem, candidate.inputHash, parsed, linkRecord, entityIndex);
       observations.push(...extracted);
       decisions.push(decisionRecord({ workItemId: candidate.workItem.workItemId, inputHash: candidate.inputHash, sourceIds: candidate.workItem.sourceIds, categories: candidate.categories, decision: "deep_extract", reason: `Google GenAI ${model.model} extracted ${extracted.length} durable semantic observation(s).`, linkedEntityIds: candidate.linkedEntityIds, now }));
       extractedWorkItems += 1;
+      progress?.({ stage: "semantic_model", level: "success", message: `${model.model} extracted ${extracted.length} durable observation(s) from ${candidate.workItem.workItemId}.`, data: { workItemId: candidate.workItem.workItemId, observationIds: extracted.map((observation) => observation.observationId), sourceIds: candidate.workItem.sourceIds } });
     } catch (error) {
+      progress?.({ stage: "semantic_model", level: "error", message: `${model.model} failed for ${candidate.workItem.workItemId}: ${error instanceof Error ? error.message : String(error)}`, data: { workItemId: candidate.workItem.workItemId, sourceIds: candidate.workItem.sourceIds } });
       decisions.push(decisionRecord({ workItemId: candidate.workItem.workItemId, inputHash: candidate.inputHash, sourceIds: candidate.workItem.sourceIds, categories: candidate.categories, decision: "error", reason: error instanceof Error ? error.message : String(error), linkedEntityIds: candidate.linkedEntityIds, now }));
       erroredWorkItems += 1;
     }
@@ -393,5 +406,6 @@ export async function runSemanticExtraction(workItems: WorkItem[], registry: Sou
   await writeJsonLines(SEMANTIC_OBSERVATIONS_PATH, observations);
   await writeJsonLines(SEMANTIC_DECISIONS_PATH, decisions);
   await writeJson(SEMANTIC_SUMMARY_PATH, summary);
+  progress?.({ stage: "semantic_extraction", level: erroredWorkItems > 0 ? "warning" : "success", message: `Semantic artifacts written: ${observations.length} observations, ${decisions.length} decisions.`, data: summary });
   return { observations, decisions, summary };
 }

@@ -189,6 +189,42 @@ function summarizeActivity(event: AgentActivity) {
   return `${event.label}: ${event.detail}`;
 }
 
+function nodeTypeLabel(type: string) {
+  if (type === "property") return "Property";
+  if (type === "building") return "Building";
+  if (type === "unit") return "Unit";
+  if (type === "owner") return "Owner";
+  if (type === "tenant") return "Tenant";
+  if (type === "contractor") return "Contractor";
+  if (type === "invoice") return "Invoice";
+  if (type === "letter") return "Document";
+  return type.replace(/_/g, " ");
+}
+
+function managementNote(node: ContextGraphNode, relations: Array<ContextGraphEdge & { other: string }>, hiddenRelationCount: number) {
+  const byLabel = (label: string) => relations.find((edge) => edge.label === label)?.other;
+  const related = (label: string) => relations.filter((edge) => edge.label === label).map((edge) => edge.other).slice(0, 3).join(", ");
+  const hidden = hiddenRelationCount > 0 ? ` ${hiddenRelationCount} more linked record${hiddenRelationCount === 1 ? "" : "s"} available on click.` : "";
+
+  if (node.type === "property") return `Property command center. Prioritize open risks, unpaid/duplicate invoices, tenant issues, owner/ETV decisions, and building-wide maintenance.${hidden}`;
+  if (node.type === "building") return `Building ${node.id}. Units: ${related("unit_in_building") || "linked below"}. Watch shared repairs, access/door issues, utilities, roof, and anything affecting multiple residents.${hidden}`;
+  if (node.type === "unit") return `Unit ${node.id}. Building: ${byLabel("unit_in_building") || "unknown"}. Owner: ${byLabel("owner_owned_unit") || "unknown"}. Tenant: ${byLabel("tenant_occupied_unit") || "check context"}. Prioritize arrears, lease dates, damages, and active messages.${hidden}`;
+  if (node.type === "tenant") return `Tenant ${node.id}. Unit: ${byLabel("tenant_occupied_unit") || "unknown"}. Check occupancy dates, complaints, arrears, handover, and unresolved correspondence before replying.${hidden}`;
+  if (node.type === "owner") return `Owner ${node.id}. Units: ${related("owner_owned_unit") || "unknown"}. Check balances, ETV/voting relevance, approvals, and document history before commitments.${hidden}`;
+  if (node.type === "contractor") return `Vendor ${node.id}. Check related invoices, recurring defects, service quality, duplicates, and payment status before assigning work.${hidden}`;
+  if (node.type === "invoice") return `Invoice ${node.id}. Verify vendor, amount, duplicate risk, payment status, and whether it belongs to this property/unit before approval.${hidden}`;
+  if (node.type === "letter") return `Document ${node.id}. Check deadlines, ETV decisions, monetary relevance, affected entity, and whether it changes obligations or status.${hidden}`;
+  return `${node.label}.${hidden}`;
+}
+
+function toolCallLabel(event: AgentActivity) {
+  if (event.label === "read_property_context") return "Reading property context";
+  if (event.label === "read_entity_context") return "Reading entity context";
+  if (event.label === "append_context_note") return "Writing context note";
+  if (event.label === "create_context_correction") return "Preparing context correction";
+  return event.label.replace(/_/g, " ");
+}
+
 const INITIAL_MESSAGES: Msg[] = [
   {
     role: "agent",
@@ -203,8 +239,8 @@ function ChatPage() {
   const [threadId, setThreadId] = useState<string | null>(null);
   const [threads, setThreads] = useState<ThreadSummary[]>([]);
   const [todos, setTodos] = useState<Todo[]>([]);
-  const [threadsOpen, setThreadsOpen] = useState(true);
-  const [todosOpen, setTodosOpen] = useState(true);
+  const [threadsOpen, setThreadsOpen] = useState(false);
+  const [todosOpen, setTodosOpen] = useState(false);
   const [deletingThreadId, setDeletingThreadId] = useState<string | null>(null);
   const [isSending, setIsSending] = useState(false);
   const [apiError, setApiError] = useState<string | null>(null);
@@ -212,9 +248,12 @@ function ChatPage() {
   const [contextGraph, setContextGraph] = useState<ContextGraph>({ nodes: [], edges: [] });
   const [selectedGraphNodeId, setSelectedGraphNodeId] = useState<string | null>(null);
   const [hoveredGraphNodeId, setHoveredGraphNodeId] = useState<string | null>(null);
+  const [expandedGraphNodeIds, setExpandedGraphNodeIds] = useState<Set<string>>(() => new Set(["LIE-001"]));
   const [entityTypeFilter, setEntityTypeFilter] = useState<string | null>(null);
   const [legendOpen, setLegendOpen] = useState(false);
+  const [agentStreamOpen, setAgentStreamOpen] = useState(true);
   const [activities, setActivities] = useState<AgentActivity[]>([]);
+  const [toolCallNotices, setToolCallNotices] = useState<AgentActivity[]>([]);
   const [liveBrief, setLiveBrief] = useState<LiveBrief>({
     question: "",
     status: "idle",
@@ -337,6 +376,7 @@ function ChatPage() {
     setIsSending(true);
     setApiError(null);
     setActivities([]);
+    setToolCallNotices([]);
     setLiveBrief({
       question: t,
       status: "starting",
@@ -383,6 +423,21 @@ function ChatPage() {
           return;
         }
         if (event.type === "activity") {
+          if (["create_context_correction", "append_context_note", "write_todos"].includes(event.label) || /write|edit|correct|doc/i.test(`${event.label} ${event.detail}`)) {
+            setAgentStreamOpen(true);
+          }
+          if (event.phase === "tool_call" && event.label !== "write_todos") {
+            setToolCallNotices((current) => [
+              ...current.slice(-3),
+              {
+                id: `${Date.now()}-${current.length}`,
+                phase: event.phase,
+                label: event.label,
+                detail: event.detail,
+                createdAt: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" }),
+              },
+            ]);
+          }
           setLiveBrief((current) => ({
             ...current,
             status: event.phase === "done" ? "complete" : event.phase.replace(/_/g, " "),
@@ -444,10 +499,23 @@ function ChatPage() {
   };
 
   const contextOverview = useMemo(() => parseContextOverview(contextMarkdown), [contextMarkdown]);
+  const graphNodeById = useMemo(() => new Map(contextGraph.nodes.map((node) => [node.id, node])), [contextGraph.nodes]);
+  const graphRelationsById = useMemo(() => {
+    const relations = new Map<string, Array<ContextGraphEdge & { other: string }>>();
+    for (const edge of contextGraph.edges) {
+      const fromRelations = relations.get(edge.from) ?? [];
+      fromRelations.push({ ...edge, other: edge.to });
+      relations.set(edge.from, fromRelations);
+
+      const toRelations = relations.get(edge.to) ?? [];
+      toRelations.push({ ...edge, other: edge.from });
+      relations.set(edge.to, toRelations);
+    }
+    return relations;
+  }, [contextGraph.edges]);
   const visibleGraph = useMemo(() => {
-    const nodeById = new Map(contextGraph.nodes.map((node) => [node.id, node]));
-    const queryFocusIds = liveBrief.ids.filter((id) => nodeById.has(id) && id !== "LIE-001");
-    const focusIds = selectedGraphNodeId && nodeById.has(selectedGraphNodeId)
+    const queryFocusIds = liveBrief.ids.filter((id) => graphNodeById.has(id) && id !== "LIE-001");
+    const focusIds = selectedGraphNodeId && graphNodeById.has(selectedGraphNodeId)
       ? [selectedGraphNodeId, ...queryFocusIds.filter((id) => id !== selectedGraphNodeId)]
       : queryFocusIds;
     const visibleIds = new Set<string>();
@@ -477,24 +545,32 @@ function ChatPage() {
         }
       }
     } else {
-      for (const node of contextGraph.nodes) {
-        if (["property", "building"].includes(node.type)) visibleIds.add(node.id);
-      }
-      for (const edge of contextGraph.edges) {
-        if (visibleIds.has(edge.from) || visibleIds.has(edge.to)) {
-          if (visibleIds.size < 12 && contextGraph.nodes.find((node) => node.id === edge.to)?.type === "unit") {
-            visibleIds.add(edge.from);
-            visibleIds.add(edge.to);
-          }
-        }
+      visibleIds.add("LIE-001");
+      for (const edge of graphRelationsById.get("LIE-001") ?? []) {
+        if (visibleIds.size < 10) visibleIds.add(edge.other);
       }
     }
 
-    const nodes = [...visibleIds].map((id) => nodeById.get(id)).filter((node): node is ContextGraphNode => Boolean(node)).slice(0, 36);
+    for (const id of expandedGraphNodeIds) {
+      if (!graphNodeById.has(id)) continue;
+      visibleIds.add(id);
+      for (const edge of graphRelationsById.get(id) ?? []) {
+        if (visibleIds.size < 42) visibleIds.add(edge.other);
+      }
+    }
+
+    if (selectedGraphNodeId && graphNodeById.has(selectedGraphNodeId)) {
+      visibleIds.add(selectedGraphNodeId);
+      for (const edge of graphRelationsById.get(selectedGraphNodeId) ?? []) {
+        if (visibleIds.size < 42) visibleIds.add(edge.other);
+      }
+    }
+
+    const nodes = [...visibleIds].map((id) => graphNodeById.get(id)).filter((node): node is ContextGraphNode => Boolean(node)).slice(0, 42);
     const ids = new Set(nodes.map((node) => node.id));
-    const edges = contextGraph.edges.filter((edge) => ids.has(edge.from) && ids.has(edge.to)).slice(0, 70);
-    return { nodes, edges, focusIds: new Set(focusIds) };
-  }, [contextGraph, liveBrief.ids, selectedGraphNodeId, entityTypeFilter]);
+    const edges = contextGraph.edges.filter((edge) => ids.has(edge.from) && ids.has(edge.to)).slice(0, 90);
+    return { nodes, edges, focusIds: new Set([...focusIds, ...expandedGraphNodeIds]) };
+  }, [contextGraph.edges, contextGraph.nodes, expandedGraphNodeIds, graphNodeById, graphRelationsById, liveBrief.ids, selectedGraphNodeId, entityTypeFilter]);
   const activeContextMetrics = useMemo(() => {
     const correctionCall = [...activities].reverse().find((event) => event.label === "create_context_correction" && event.phase === "tool_call");
     const correctionResult = [...activities].reverse().find((event) => event.label === "create_context_correction" && event.phase === "tool_result");
@@ -548,13 +624,18 @@ function ChatPage() {
     return "var(--terminal-muted)";
   };
 
+  const entityFill = (type: string, active: boolean) => {
+    const color = entityColor(type);
+    return `color-mix(in srgb, ${color} ${active ? 52 : 38}%, var(--terminal-bg))`;
+  };
+
   const flowGraph = useMemo(() => {
     const count = Math.max(visibleGraph.nodes.length, 1);
     const centerId = selectedGraphNodeId && visibleGraph.nodes.some((node) => node.id === selectedGraphNodeId)
       ? selectedGraphNodeId
       : visibleGraph.focusIds.values().next().value ?? "LIE-001";
     const relatedToSelected = new Set<string>();
-    const activeNodeId = hoveredGraphNodeId ?? selectedGraphNodeId;
+    const activeNodeId = selectedGraphNodeId;
     if (activeNodeId) {
       relatedToSelected.add(activeNodeId);
       for (const edge of visibleGraph.edges) {
@@ -572,34 +653,42 @@ function ChatPage() {
     const nodes: Node[] = orderedNodes.map((node, index) => {
       const focused = visibleGraph.focusIds.has(node.id);
       const selected = selectedGraphNodeId === node.id;
-      const hovered = hoveredGraphNodeId === node.id;
       const related = relatedToSelected.has(node.id);
       const typeFiltered = entityTypeFilter ? node.type === entityTypeFilter : false;
       const muted = Boolean(activeNodeId) && !related || Boolean(entityTypeFilter) && !typeFiltered && node.id !== "LIE-001";
-      const radiusX = index === 0 ? 0 : 220 + (index % 2) * 38;
-      const radiusY = index === 0 ? 0 : 128 + (index % 3) * 22;
-      const angle = (index / count) * Math.PI * 2;
+      const tier = index === 0 ? 0 : Math.ceil(index / 10);
+      const slot = index === 0 ? 0 : (index - 1) % 10;
+      const tierCount = Math.min(10, count - 1 - (tier - 1) * 10);
+      const radius = 150 + tier * 120;
+      const angle = index === 0 ? 0 : (slot / Math.max(tierCount, 1)) * Math.PI * 2 + tier * 0.28;
+      const directRelationCount = graphRelationsById.get(node.id)?.length ?? 0;
+      const visibleRelationCount = visibleGraph.edges.filter((edge) => edge.from === node.id || edge.to === node.id).length;
+      const hiddenRelationCount = Math.max(0, directRelationCount - visibleRelationCount);
       return {
         id: node.id,
         position: {
-          x: Math.cos(angle) * radiusX,
-          y: Math.sin(angle) * radiusY,
+          x: Math.cos(angle) * radius,
+          y: Math.sin(angle) * radius,
         },
         data: {
           label: (
-            <div className="max-w-40 text-center">
-              <div className="truncate text-[10px] text-foreground">{node.id}</div>
-              <div className="truncate text-[9px] text-muted-foreground">{node.label}</div>
+            <div className="flex h-full w-full flex-col items-center justify-center rounded-full px-2 text-center">
+              <div className="max-w-[5.6rem] truncate text-[10px] text-foreground drop-shadow-sm">{node.id}</div>
+              <div className="mt-0.5 max-w-[5.8rem] truncate text-[8px] uppercase tracking-wide text-foreground/75">{nodeTypeLabel(node.type)}</div>
+              {hiddenRelationCount > 0 && <div className="mt-1 text-[9px] text-foreground">+{hiddenRelationCount}</div>}
             </div>
           ),
         },
         style: {
-          width: selected || focused || hovered ? 148 : 124,
+          width: 96,
+          height: 96,
           opacity: muted ? 0.28 : 1,
-          border: `${selected || focused || hovered || typeFiltered ? 2 : 1}px solid ${entityColor(node.type)}`,
-          background: "var(--terminal-bg)",
+          border: `${selected || focused || typeFiltered ? 2 : 1}px solid ${entityColor(node.type)}`,
+          borderRadius: "9999px",
+          background: entityFill(node.type, selected || focused || typeFiltered),
           color: "var(--terminal-fg)",
-          boxShadow: "none",
+          boxShadow: selected ? `0 0 0 4px color-mix(in srgb, ${entityColor(node.type)} 18%, transparent), 0 0 28px color-mix(in srgb, ${entityColor(node.type)} 30%, transparent)` : "none",
+          transition: "opacity 160ms ease, border-color 160ms ease, box-shadow 160ms ease, background 160ms ease",
         },
       };
     });
@@ -616,13 +705,13 @@ function ChatPage() {
           source: edge.from,
           target: edge.to,
           label: undefined,
-          animated: false,
+          animated: Boolean(selected),
           style: { stroke: focused || selected ? "var(--chart-1)" : "var(--terminal-border)", strokeWidth: focused || selected ? 2 : 1, opacity: muted ? 0.16 : 0.75 },
           labelStyle: { fill: "var(--terminal-muted)", fontSize: 9 },
         };
       });
     return { nodes, edges };
-  }, [visibleGraph, selectedGraphNodeId, hoveredGraphNodeId, entityTypeFilter]);
+  }, [visibleGraph, selectedGraphNodeId, entityTypeFilter, graphRelationsById]);
 
   const selectedGraphNode = useMemo(
     () => contextGraph.nodes.find((node) => node.id === selectedGraphNodeId) ?? null,
@@ -630,11 +719,15 @@ function ChatPage() {
   );
   const selectedGraphRelations = useMemo(() => {
     if (!selectedGraphNodeId) return [];
-    return contextGraph.edges
-      .filter((edge) => edge.from === selectedGraphNodeId || edge.to === selectedGraphNodeId)
+    return (graphRelationsById.get(selectedGraphNodeId) ?? [])
       .slice(0, 8)
-      .map((edge) => ({ ...edge, other: edge.from === selectedGraphNodeId ? edge.to : edge.from }));
-  }, [contextGraph.edges, selectedGraphNodeId]);
+      .map((edge) => ({ ...edge, otherNode: graphNodeById.get(edge.other) }));
+  }, [graphNodeById, graphRelationsById, selectedGraphNodeId]);
+  const hoverGraphNode = hoveredGraphNodeId ? graphNodeById.get(hoveredGraphNodeId) ?? null : null;
+  const activeGraphNode = hoverGraphNode ?? selectedGraphNode;
+  const activeGraphRelations = activeGraphNode ? (graphRelationsById.get(activeGraphNode.id) ?? []) : [];
+  const visibleRelationCount = activeGraphNode ? visibleGraph.edges.filter((edge) => edge.from === activeGraphNode.id || edge.to === activeGraphNode.id).length : 0;
+  const hiddenRelationCount = Math.max(0, activeGraphRelations.length - visibleRelationCount);
 
   const getMessageLabel = (role: Msg["role"]) => {
     if (role === "user") return "YOU";
@@ -646,7 +739,7 @@ function ChatPage() {
     <div className="h-screen w-screen overflow-hidden grid-bg flex flex-col">
       <SiteHeader />
 
-      <div className="flex-1 min-h-0 overflow-hidden grid w-full grid-cols-1 gap-4 px-3 pb-4 pt-16 sm:px-4 lg:grid-cols-[minmax(0,1.05fr)_minmax(360px,0.95fr)] xl:px-5">
+      <div className="flex-1 min-h-0 overflow-hidden grid w-full grid-cols-1 gap-2 px-2 pb-2 pt-16 sm:px-3 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] xl:px-3">
         {/* LEFT: Chat */}
         <TerminalWindow title="AGENT.BUENA.COM" className="h-full min-h-0">
           <div className="flex h-full min-h-0">
@@ -724,7 +817,7 @@ function ChatPage() {
               </div>
             </aside>
 
-            <div className="flex min-w-0 flex-1 flex-col h-full min-h-0">
+              <div className="flex min-w-0 flex-1 flex-col h-full min-h-0 bg-background/10">
               {apiError && (
                 <div className="border-b border-border px-4 py-2 text-xs text-[var(--chart-4)]">
                   {apiError}
@@ -733,7 +826,7 @@ function ChatPage() {
 
               <div
                 ref={scrollRef}
-                className="flex-1 min-h-0 overflow-y-auto scrollbar-thin px-4 py-5 space-y-5 sm:px-5 sm:py-6"
+                className="flex-1 min-h-0 overflow-y-auto scrollbar-thin px-3 py-4 space-y-4 sm:px-4 sm:py-5"
               >
                 {messages.filter((message) => message.role !== "tool").map((m, i) => (
                   <div
@@ -768,6 +861,18 @@ function ChatPage() {
                   </div>
                 ))}
               </div>
+              {toolCallNotices.length > 0 && (
+                <div className="border-t border-[var(--chart-2)]/40 bg-[var(--chart-2)]/5 px-3 py-2 sm:px-4">
+                  <div className="mb-1 text-mono-xs text-[var(--chart-2)]">TOOL CALLS</div>
+                  <div className="flex flex-wrap gap-1.5">
+                    {toolCallNotices.map((event) => (
+                      <div key={event.id} className="border border-[var(--chart-2)]/60 bg-[var(--chart-2)]/10 px-2 py-1 text-xs text-[var(--chart-2)]">
+                        {toolCallLabel(event)} <span className="text-[0.62rem] opacity-70">{event.createdAt}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
               {todos.length > 0 && (
                 <div className="border-t border-border">
                   <button
@@ -788,21 +893,23 @@ function ChatPage() {
                   </button>
                   {todosOpen && (
                     <div className="max-h-36 overflow-y-auto scrollbar-thin px-3 pb-3 sm:px-4">
-                      <div className="space-y-1">
+                      <div className="border-l border-border/80 bg-background/20 py-1 pl-3 font-mono text-xs leading-relaxed text-muted-foreground">
                         {todos.map((todo, index) => (
                           <div
                             key={`${todo.content}-${index}`}
-                            className="flex items-center gap-2 border border-border/70 px-2 py-1.5 text-xs text-muted-foreground"
+                            className="grid grid-cols-[1.6rem_minmax(0,1fr)] gap-2 py-0.5"
                           >
                             <span
-                              className={`h-1.5 w-1.5 shrink-0 rounded-full ${
+                              className={`text-[0.68rem] ${
                                 todo.status === "completed"
-                                  ? "bg-[var(--chart-3)]"
+                                  ? "text-[var(--chart-3)]"
                                   : todo.status === "in_progress"
-                                    ? "bg-[var(--chart-1)]"
-                                    : "bg-muted-foreground/50"
+                                    ? "text-[var(--chart-1)]"
+                                    : "text-muted-foreground/70"
                               }`}
-                            />
+                            >
+                              {todo.status === "completed" ? "[x]" : todo.status === "in_progress" ? "[~]" : "[ ]"}
+                            </span>
                             <span className={todo.status === "completed" ? "line-through opacity-70" : ""}>
                               {todo.content}
                             </span>
@@ -835,12 +942,12 @@ function ChatPage() {
         </TerminalWindow>
 
         {/* RIGHT: 2 stacked panels */}
-        <div className="grid h-full min-h-0 min-w-0 overflow-hidden grid-rows-[minmax(0,1fr)_minmax(0,1fr)] gap-4">
+        <div className={`grid h-full min-h-0 min-w-0 overflow-hidden gap-4 ${agentStreamOpen ? "grid-rows-[minmax(0,1fr)_minmax(0,1fr)]" : "grid-rows-[minmax(0,1fr)_auto]"}`}>
           <TerminalWindow title="ENTITY.GRAPH" className="min-h-0">
             <div className="h-full min-h-0 min-w-0 p-4 flex flex-col sm:p-5">
               <div className="mb-3 flex items-center justify-between gap-3 text-mono-xs text-muted-foreground">
                 <span>LIVE ENTITY RELATIONSHIPS</span>
-                <span>{visibleGraph.nodes.length ? `${visibleGraph.nodes.length} FOCUSED NODES` : "NO GRAPH"}</span>
+                <span>{visibleGraph.nodes.length ? `${visibleGraph.nodes.length} VISIBLE` : "NO GRAPH"}</span>
               </div>
               <div className="relative flex-1 min-h-0 overflow-hidden border border-border/60 bg-background/20">
                 <ReactFlow
@@ -855,7 +962,14 @@ function ChatPage() {
                   elementsSelectable
                   onNodeMouseEnter={(_, node) => setHoveredGraphNodeId(node.id)}
                   onNodeMouseLeave={() => setHoveredGraphNodeId(null)}
-                  onNodeClick={(_, node) => setSelectedGraphNodeId(node.id)}
+                  onNodeClick={(_, node) => {
+                    setSelectedGraphNodeId(node.id);
+                    setExpandedGraphNodeIds((current) => {
+                      const next = new Set(current);
+                      next.add(node.id);
+                      return next;
+                    });
+                  }}
                   onPaneClick={() => setSelectedGraphNodeId(null)}
                   proOptions={{ hideAttribution: true }}
                   className="bg-background/20"
@@ -863,32 +977,54 @@ function ChatPage() {
                   <Background color="var(--terminal-border)" gap={22} size={1} />
                   <Controls className="!bg-background/80 !border !border-border [&_button]:!bg-background [&_button]:!border-border [&_button_svg]:!fill-foreground" />
                 </ReactFlow>
-                {(hoveredGraphNodeId || selectedGraphNode) && (
-                <div className="pointer-events-none absolute right-3 top-3 max-w-[44%] border border-border/80 bg-background/90 p-2 text-xs text-muted-foreground shadow-xl backdrop-blur">
-                  {(() => {
-                    const node = hoveredGraphNodeId ? contextGraph.nodes.find((candidate) => candidate.id === hoveredGraphNodeId) : selectedGraphNode;
-                    const nodeId = node?.id;
-                    const relations = nodeId ? contextGraph.edges
-                      .filter((edge) => edge.from === nodeId || edge.to === nodeId)
-                      .slice(0, 4)
-                      .map((edge) => ({ ...edge, other: edge.from === nodeId ? edge.to : edge.from })) : [];
-                    if (!node) return null;
-                    return (
-                    <div>
-                      <div className="mb-1 text-mono-xs text-foreground">{node.id}</div>
-                      <div className="mb-2 text-mono-xs" style={{ color: entityColor(node.type) }}>{node.type}</div>
-                      <div className="line-clamp-2">{node.label}</div>
-                      <div className="mt-2 space-y-1">
-                        {relations.length ? relations.map((edge) => (
-                          <div key={`${edge.from}-${edge.to}-${edge.label}`} className="truncate">{edge.label}: {edge.other}</div>
-                        )) : <div>No direct visible relations.</div>}
-                      </div>
-                    </div>
-                    );
-                  })()}
+                {activeGraphNode && (
+                <div className="pointer-events-none absolute left-3 top-3 max-w-[52%] border border-border/80 bg-background/90 p-3 text-xs text-muted-foreground shadow-xl backdrop-blur">
+                  <div className="mb-1 flex items-center gap-2">
+                    <span className="h-2.5 w-2.5 rounded-full" style={{ background: entityColor(activeGraphNode.type) }} />
+                    <span className="text-mono-xs text-foreground">{activeGraphNode.id}</span>
+                    <span className="text-mono-xs" style={{ color: entityColor(activeGraphNode.type) }}>{nodeTypeLabel(activeGraphNode.type)}</span>
+                  </div>
+                  <div className="line-clamp-2 text-foreground/90">{activeGraphNode.label}</div>
+                  <div className="mt-2 leading-relaxed">
+                    {managementNote(activeGraphNode, activeGraphRelations, hiddenRelationCount)}
+                  </div>
                 </div>
                 )}
+                {selectedGraphNode && selectedGraphRelations.length > 0 && (
+                  <div className="absolute bottom-3 left-3 max-w-[58%] border border-border/80 bg-background/90 p-2 text-xs text-muted-foreground shadow-xl backdrop-blur">
+                    <div className="mb-1 text-mono-xs text-foreground">NEXT RELATIONS</div>
+                    <div className="grid grid-cols-2 gap-1">
+                      {selectedGraphRelations.slice(0, 6).map((edge) => (
+                        <button
+                          key={`${edge.from}-${edge.to}-${edge.label}`}
+                          type="button"
+                          onClick={() => {
+                            setSelectedGraphNodeId(edge.other);
+                            setExpandedGraphNodeIds((current) => {
+                              const next = new Set(current);
+                              next.add(edge.other);
+                              return next;
+                            });
+                          }}
+                          className="pointer-events-auto truncate border border-border bg-background/75 px-2 py-1 text-left hover:bg-accent hover:text-foreground"
+                        >
+                          <span style={{ color: entityColor(edge.otherNode?.type ?? "") }}>{edge.other}</span>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
                 <div className="absolute right-2 top-2 text-mono-xs">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setSelectedGraphNodeId(null);
+                      setExpandedGraphNodeIds(new Set(["LIE-001"]));
+                    }}
+                    className="mr-1 border border-border bg-background/85 px-2 py-1 text-muted-foreground backdrop-blur transition-colors hover:bg-accent hover:text-foreground"
+                  >
+                    RESET
+                  </button>
                   <button
                     type="button"
                     onClick={() => setLegendOpen((open) => !open)}
@@ -924,11 +1060,30 @@ function ChatPage() {
           </TerminalWindow>
 
           <TerminalWindow title="AGENT.STREAM" className="min-h-0 overflow-hidden">
-            <div className="flex h-full min-h-0 min-w-0 flex-col p-3 text-sm text-foreground sm:p-4">
+            <div className={`flex h-full min-h-0 min-w-0 flex-col text-sm text-foreground ${agentStreamOpen ? "p-3 sm:p-4" : "p-2"}`}>
               <div className="mb-2 flex items-center justify-between gap-3 border border-border/70 bg-background/30 p-2.5 text-mono-xs text-muted-foreground">
                 <span>SEQUENTIAL RUN LOG</span>
-                <span className={liveBrief.status === "complete" ? "text-[var(--chart-3)]" : "text-[var(--chart-1)]"}>{liveBrief.status.toUpperCase()}</span>
+                <div className="flex items-center gap-2">
+                  <span className={liveBrief.status === "complete" ? "text-[var(--chart-3)]" : "text-[var(--chart-1)]"}>{liveBrief.status.toUpperCase()}</span>
+                  <button
+                    type="button"
+                    onClick={() => setAgentStreamOpen((open) => !open)}
+                    className="border border-border bg-background/70 px-2 py-1 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                  >
+                    {agentStreamOpen ? "COLLAPSE" : "EXPAND"}
+                  </button>
+                </div>
               </div>
+              {!agentStreamOpen && (
+                <button
+                  type="button"
+                  onClick={() => setAgentStreamOpen(true)}
+                  className="border border-border/70 bg-background/20 px-3 py-1.5 text-left text-xs text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                >
+                  {activities.length ? `${activities.length} streamed event${activities.length === 1 ? "" : "s"}. Expand to inspect tool calls, corrections, and writes.` : "Collapsed. Expand when you want to inspect agent activity."}
+                </button>
+              )}
+              {agentStreamOpen && (
               <div ref={streamRef} className="min-h-0 flex-1 overflow-y-auto scrollbar-thin border border-border/70 bg-background/20 p-3">
                 {activities.length ? (
                   <div className="space-y-2">
@@ -968,6 +1123,7 @@ function ChatPage() {
                   </div>
                 )}
               </div>
+              )}
             </div>
           </TerminalWindow>
         </div>

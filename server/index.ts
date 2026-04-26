@@ -1,7 +1,7 @@
 import "dotenv/config";
 import cors from "cors";
 import express from "express";
-import { appendFile, mkdir, readFile, writeFile } from "node:fs/promises";
+import { appendFile, mkdir, readFile, readdir, stat, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -10,6 +10,7 @@ import { v4 as uuidv4 } from "uuid";
 import { createAgent, tool } from "langchain";
 import { SqliteSaver } from "@langchain/langgraph-checkpoint-sqlite";
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
+import { runIngest, type IngestResult } from "../src/server/context-engine/cli/ingest";
 
 type ChatRole = "user" | "agent" | "tool";
 
@@ -49,6 +50,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
 const runtimeDir = path.join(rootDir, ".agent-data");
 const checkpointPath = path.join(runtimeDir, "chat-checkpoints.sqlite");
+const incrementalRoot = path.join(rootDir, "data", "incremental");
+const manifestPath = path.join(rootDir, "workdir", "manifest.json");
+let ingestRunning = false;
 
 await mkdir(runtimeDir, { recursive: true });
 
@@ -291,6 +295,92 @@ function getStreamTokenText(token: unknown): string {
 
 function writeStreamEvent(res: express.Response, event: unknown) {
   res.write(`${JSON.stringify(event)}\n`);
+}
+
+async function walkDirSummary(dirPath: string): Promise<{ fileCount: number; totalBytes: number }> {
+  const entries = await readdir(dirPath, { withFileTypes: true });
+  const summaries = await Promise.all(entries.map(async (entry) => {
+    const entryPath = path.join(dirPath, entry.name);
+    if (entry.isDirectory()) return walkDirSummary(entryPath);
+    if (!entry.isFile()) return { fileCount: 0, totalBytes: 0 };
+    const fileStat = await stat(entryPath);
+    return { fileCount: 1, totalBytes: fileStat.size };
+  }));
+  return summaries.reduce((total, next) => ({ fileCount: total.fileCount + next.fileCount, totalBytes: total.totalBytes + next.totalBytes }), { fileCount: 0, totalBytes: 0 });
+}
+
+async function currentAppliedIncrementalDay() {
+  const manifest = await readTextIfExists(manifestPath);
+  if (!manifest) return undefined;
+  const parsed = JSON.parse(manifest) as { items?: { incrementalDay?: string; status?: string }[] };
+  return parsed.items
+    ?.map((item) => item.incrementalDay)
+    .filter((day): day is string => Boolean(day))
+    .sort((a, b) => a.localeCompare(b))
+    .at(-1);
+}
+
+async function listIncrementalDeltas() {
+  const appliedThroughDay = await currentAppliedIncrementalDay();
+  const entries = await readdir(incrementalRoot, { withFileTypes: true }).catch(() => []);
+  const days = entries
+    .filter((entry) => entry.isDirectory() && /^day-\d+$/.test(entry.name))
+    .map((entry) => entry.name)
+    .sort((a, b) => a.localeCompare(b));
+
+  return Promise.all(days.map(async (day) => {
+    const dayRoot = path.join(incrementalRoot, day);
+    const summary = await walkDirSummary(dayRoot);
+    const manifestText = await readTextIfExists(path.join(dayRoot, "incremental_manifest.json"));
+    const manifest = manifestText ? JSON.parse(manifestText) as Record<string, unknown> : undefined;
+    return {
+      day,
+      path: path.relative(rootDir, dayRoot).replaceAll("\\", "/"),
+      fileCount: summary.fileCount,
+      totalBytes: summary.totalBytes,
+      applied: appliedThroughDay ? day.localeCompare(appliedThroughDay) <= 0 : false,
+      manifest,
+    };
+  }));
+}
+
+function emitIngestSummary(res: express.Response, result: IngestResult) {
+  writeStreamEvent(res, { type: "log", level: "success", message: `Manifest complete: ${result.manifestItems} source records, ${result.normalized} normalized, ${result.newlyNormalized} new.` });
+  writeStreamEvent(res, { type: "log", level: "success", message: `Facts rebuilt: ${result.facts.factCount} facts across ${result.entities} entities and ${result.workItems} work items.` });
+  writeStreamEvent(res, { type: "log", level: result.context.conflictSections > 0 ? "warning" : "success", message: `Context patched: ${result.context.patchedSections} sections, ${result.context.conflictSections} conflicts.` });
+  writeStreamEvent(res, { type: "log", level: result.coverage.missingAssignments > 0 || result.coverage.pendingWorkItems > 0 ? "warning" : "success", message: `Coverage: ${result.coverage.assignedSources}/${result.coverage.eligibleSources} sources assigned, ${result.coverage.pendingWorkItems} pending work items.` });
+  writeStreamEvent(res, { type: "log", level: "info", message: "Terminal JSON result", data: result });
+}
+
+async function streamIngest(res: express.Response, label: string, options: Parameters<typeof runIngest>[0]) {
+  if (ingestRunning) {
+    writeStreamEvent(res, { type: "error", error: "Another ingest is already running. Wait for it to finish before starting a new run." });
+    res.end();
+    return;
+  }
+
+  ingestRunning = true;
+  const startedAt = new Date().toISOString();
+  writeStreamEvent(res, { type: "log", level: "info", message: `${label} started at ${startedAt}` });
+  writeStreamEvent(res, { type: "log", level: "info", message: options?.incrementalThroughDay ? `Including incremental deltas through ${options.incrementalThroughDay}.` : "Historic ingest only. data/incremental is intentionally skipped." });
+  try {
+    const result = await runIngest({
+      ...options,
+      onProgress: (event) => {
+        const eventData = event.data && typeof event.data === "object"
+          ? { stage: event.stage, ...(event.data as Record<string, unknown>) }
+          : { stage: event.stage, value: event.data };
+        writeStreamEvent(res, { type: "log", level: event.level, message: event.message, data: eventData });
+      },
+    });
+    emitIngestSummary(res, result);
+    writeStreamEvent(res, { type: "done", result, deltas: await listIncrementalDeltas() });
+  } catch (error) {
+    writeStreamEvent(res, { type: "error", error: error instanceof Error ? error.message : "Unknown ingest error" });
+  } finally {
+    ingestRunning = false;
+    res.end();
+  }
 }
 
 function streamActivityFromUpdate(chunk: unknown) {
@@ -582,6 +672,44 @@ app.get("/api/context/graph", async (_req, res, next) => {
   try {
     res.json(await buildContextGraph());
   } catch (error) {
+    next(error);
+  }
+});
+
+app.get("/api/ingest/deltas", async (_req, res, next) => {
+  try {
+    const deltas = await listIncrementalDeltas();
+    res.json({
+      running: ingestRunning,
+      noticed: deltas.length,
+      message: deltas.length ? `Noticed ${deltas.length} incremental delta${deltas.length === 1 ? "" : "s"}. Want to update?` : "No incremental deltas found.",
+      deltas,
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+app.post("/api/ingest/historic", async (_req, res) => {
+  res.setHeader("Content-Type", "application/x-ndjson; charset=utf-8");
+  res.setHeader("Cache-Control", "no-cache, no-transform");
+  res.setHeader("X-Accel-Buffering", "no");
+  await streamIngest(res, "Historic ingest", {});
+});
+
+app.post("/api/ingest/incremental", async (req, res, next) => {
+  try {
+    const parsed = z.object({ day: z.string().regex(/^day-\d+$/) }).parse(req.body);
+    res.setHeader("Content-Type", "application/x-ndjson; charset=utf-8");
+    res.setHeader("Cache-Control", "no-cache, no-transform");
+    res.setHeader("X-Accel-Buffering", "no");
+    await streamIngest(res, `Incremental update ${parsed.day}`, { incrementalThroughDay: parsed.day });
+  } catch (error) {
+    if (res.headersSent) {
+      writeStreamEvent(res, { type: "error", error: error instanceof Error ? error.message : "Unknown ingest error" });
+      res.end();
+      return;
+    }
     next(error);
   }
 });
