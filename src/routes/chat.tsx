@@ -81,6 +81,97 @@ type CorrectionActivity = {
 
 const AGENT_API = import.meta.env.VITE_AGENT_API_URL ?? "http://localhost:8787";
 
+type VoiceRecorder = {
+  startedAt: number;
+  stop: () => Promise<ArrayBuffer>;
+  cancel: () => void;
+};
+
+function mergeAudioChunks(chunks: Float32Array[]) {
+  const totalLength = chunks.reduce((total, chunk) => total + chunk.length, 0);
+  const merged = new Float32Array(totalLength);
+  let offset = 0;
+  for (const chunk of chunks) {
+    merged.set(chunk, offset);
+    offset += chunk.length;
+  }
+  return merged;
+}
+
+function encodePcm16(samples: Float32Array, sourceSampleRate: number, targetSampleRate = 24000) {
+  const ratio = sourceSampleRate / targetSampleRate;
+  const outputLength = Math.max(1, Math.round(samples.length / ratio));
+  const buffer = new ArrayBuffer(outputLength * 2);
+  const view = new DataView(buffer);
+
+  for (let i = 0; i < outputLength; i += 1) {
+    const sourceIndex = i * ratio;
+    const leftIndex = Math.floor(sourceIndex);
+    const rightIndex = Math.min(leftIndex + 1, samples.length - 1);
+    const fraction = sourceIndex - leftIndex;
+    const sample = (samples[leftIndex] ?? 0) * (1 - fraction) + (samples[rightIndex] ?? 0) * fraction;
+    const clamped = Math.max(-1, Math.min(1, sample));
+    view.setInt16(i * 2, clamped < 0 ? clamped * 0x8000 : clamped * 0x7fff, true);
+  }
+
+  return buffer;
+}
+
+async function createVoiceRecorder(): Promise<VoiceRecorder> {
+  if (!navigator.mediaDevices?.getUserMedia) throw new Error("Microphone access is not available in this browser.");
+
+  const AudioContextClass = window.AudioContext ?? (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
+  if (!AudioContextClass) throw new Error("Web Audio is not available in this browser.");
+
+  const stream = await navigator.mediaDevices.getUserMedia({
+    audio: { channelCount: 1, echoCancellation: true, noiseSuppression: true, autoGainControl: true },
+  });
+  const context = new AudioContextClass();
+  await context.resume().catch(() => undefined);
+  const source = context.createMediaStreamSource(stream);
+  const processor = context.createScriptProcessor(4096, 1, 1);
+  const chunks: Float32Array[] = [];
+  let stopped = false;
+
+  processor.onaudioprocess = (event) => {
+    if (stopped) return;
+    chunks.push(new Float32Array(event.inputBuffer.getChannelData(0)));
+  };
+
+  source.connect(processor);
+  processor.connect(context.destination);
+
+  const cleanup = async () => {
+    if (stopped) return;
+    stopped = true;
+    processor.onaudioprocess = null;
+    try {
+      source.disconnect();
+      processor.disconnect();
+    } catch {
+      // Already disconnected by a concurrent stop/cancel path.
+    }
+    stream.getTracks().forEach((track) => track.stop());
+    await context.close().catch(() => undefined);
+  };
+
+  return {
+    startedAt: Date.now(),
+    stop: async () => {
+      await cleanup();
+      return encodePcm16(mergeAudioChunks(chunks), context.sampleRate);
+    },
+    cancel: () => {
+      void cleanup();
+    },
+  };
+}
+
+async function readApiError(response: Response, fallback: string) {
+  const body = (await response.json().catch(() => null)) as { error?: string } | null;
+  return body?.error ?? fallback;
+}
+
 function extractSection(markdown: string, title: string) {
   const match = markdown.match(new RegExp(`## ${title}\\n\\n([\\s\\S]*?)(?=\\n<!-- BCE:SECTION|\\n## |$)`, "i"));
   return match?.[1]?.trim() ?? "";
@@ -189,6 +280,56 @@ function summarizeActivity(event: AgentActivity) {
   return `${event.label}: ${event.detail}`;
 }
 
+function activityVisual(event: AgentActivity) {
+  if (event.phase === "start") return { tone: "var(--chart-1)", icon: "01", title: "Agent started", badge: "START" };
+  if (event.phase === "done") return { tone: "var(--chart-3)", icon: "OK", title: "Response complete", badge: "DONE" };
+  if (event.phase === "tool_call") return { tone: "var(--chart-2)", icon: "TC", title: toolCallLabel(event), badge: "CALL" };
+  if (event.phase === "tool_result") return { tone: "var(--chart-3)", icon: "TR", title: toolResultLabel(event), badge: "RESULT" };
+  if (/error|fail/i.test(event.phase)) return { tone: "var(--destructive)", icon: "!!", title: "Needs attention", badge: "ERROR" };
+  return { tone: "var(--chart-5)", icon: "EV", title: event.phase.replace(/_/g, " "), badge: "EVENT" };
+}
+
+function toolResultLabel(event: AgentActivity) {
+  if (event.label === "read_property_context") return "Property context loaded";
+  if (event.label === "read_entity_context") return "Entity context loaded";
+  if (event.label === "append_context_note") return "Context note saved";
+  if (event.label === "create_context_correction") return "Correction recorded";
+  if (event.label === "search_local_services") return "Local services returned";
+  if (event.label === "write_todos") return "Checklist updated";
+  return `${event.label.replace(/_/g, " ")} finished`;
+}
+
+function activityChips(event: AgentActivity) {
+  const data = parseActivityJson(event.detail);
+  const chips: string[] = [];
+  if (event.label) chips.push(event.label.replace(/_/g, " "));
+  for (const id of extractContextIds(`${event.label} ${event.detail}`).slice(0, 4)) chips.push(id);
+  if (data) {
+    for (const key of ["targetSectionId", "entityId", "propertyId", "query", "city"] as const) {
+      const value = data[key];
+      if (typeof value === "string" && value.trim()) chips.push(value.trim());
+    }
+    for (const key of ["targetEntityIds", "targetSourceIds", "targetFactIds"] as const) {
+      const value = data[key];
+      if (Array.isArray(value) && value.length) chips.push(`${key.replace(/^target/, "")}: ${value.length}`);
+    }
+  }
+  return [...new Set(chips)].slice(0, 6);
+}
+
+function activityDescription(event: AgentActivity) {
+  const data = parseActivityJson(event.detail);
+  if (!data) return summarizeActivity(event).slice(0, 220);
+  if (event.label === "create_context_correction") {
+    const correction = typeof data.correction === "string" ? data.correction : undefined;
+    return correction ?? summarizeActivity(event);
+  }
+  if (event.label === "write_todos") return "Task plan changed while answering.";
+  if (event.phase === "tool_call") return "The agent is using a capability instead of exposing the raw request payload.";
+  if (event.phase === "tool_result") return "The capability returned data and the agent is folding it into the answer.";
+  return summarizeActivity(event);
+}
+
 function nodeTypeLabel(type: string) {
   if (type === "property") return "Property";
   if (type === "building") return "Building";
@@ -255,6 +396,9 @@ function ChatPage() {
   const [agentStreamOpen, setAgentStreamOpen] = useState(true);
   const [activities, setActivities] = useState<AgentActivity[]>([]);
   const [toolCallNotices, setToolCallNotices] = useState<AgentActivity[]>([]);
+  const [isRecording, setIsRecording] = useState(false);
+  const [isVoiceBusy, setIsVoiceBusy] = useState(false);
+  const [voiceStatus, setVoiceStatus] = useState<string | null>(null);
   const [liveBrief, setLiveBrief] = useState<LiveBrief>({
     question: "",
     status: "idle",
@@ -264,6 +408,9 @@ function ChatPage() {
   });
   const scrollRef = useRef<HTMLDivElement>(null);
   const streamRef = useRef<HTMLDivElement>(null);
+  const recorderRef = useRef<VoiceRecorder | null>(null);
+  const playbackUrlRef = useRef<string | null>(null);
+  const playbackRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
@@ -272,6 +419,14 @@ function ChatPage() {
   useEffect(() => {
     streamRef.current?.scrollTo({ top: streamRef.current.scrollHeight, behavior: "smooth" });
   }, [activities]);
+
+  useEffect(() => {
+    return () => {
+      recorderRef.current?.cancel();
+      playbackRef.current?.pause();
+      if (playbackUrlRef.current) URL.revokeObjectURL(playbackUrlRef.current);
+    };
+  }, []);
 
   const loadThreads = async () => {
     const response = await fetch(`${AGENT_API}/api/threads`);
@@ -287,6 +442,7 @@ function ChatPage() {
     setThreadId(data.thread.threadId);
     setMessages(data.thread.messages.length ? data.thread.messages : INITIAL_MESSAGES);
     setTodos(data.thread.todos ?? []);
+    setTodosOpen(false);
   };
 
   const loadContext = async () => {
@@ -309,6 +465,7 @@ function ChatPage() {
     setThreadId(data.thread.threadId);
     setMessages(data.thread.messages.length ? data.thread.messages : INITIAL_MESSAGES);
     setTodos(data.thread.todos ?? []);
+    setTodosOpen(false);
     localStorage.setItem("buena-thread-id", data.thread.threadId);
     await loadThreads();
   };
@@ -324,6 +481,7 @@ function ChatPage() {
       setThreadId(null);
       setMessages(INITIAL_MESSAGES);
       setTodos([]);
+      setTodosOpen(false);
     }
 
     const response = await fetch(`${AGENT_API}/api/threads/${id}`, { method: "DELETE" });
@@ -365,8 +523,42 @@ function ChatPage() {
     };
   }, []);
 
-  const send = async () => {
-    const t = input.trim();
+  const playSpeech = async (text: string) => {
+    const spokenText = text.replace(/\s+/g, " ").trim().slice(0, 6000);
+    if (!spokenText) return;
+
+    setVoiceStatus("Generating Gradium voice reply...");
+    const response = await fetch(`${AGENT_API}/api/voice/speak`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text: spokenText }),
+    });
+    if (!response.ok) throw new Error(await readApiError(response, "Gradium voice synthesis failed"));
+
+    const blob = await response.blob();
+    if (playbackUrlRef.current) URL.revokeObjectURL(playbackUrlRef.current);
+    playbackRef.current?.pause();
+
+    const url = URL.createObjectURL(blob);
+    const audio = new Audio(url);
+    playbackUrlRef.current = url;
+    playbackRef.current = audio;
+    setVoiceStatus("Playing Gradium voice reply...");
+
+    await new Promise<void>((resolve, reject) => {
+      audio.onended = () => resolve();
+      audio.onerror = () => reject(new Error("Voice playback failed."));
+      void audio.play().catch(reject);
+    });
+
+    setVoiceStatus("Voice reply finished.");
+    window.setTimeout(() => {
+      setVoiceStatus((current) => current === "Voice reply finished." ? null : current);
+    }, 2500);
+  };
+
+  const sendMessage = async (messageText: string, options: { speakReply?: boolean } = {}) => {
+    const t = messageText.trim();
     if (!t || isSending) return;
     const activeThreadId = threadId;
     if (!activeThreadId) {
@@ -378,6 +570,7 @@ function ChatPage() {
     setApiError(null);
     setActivities([]);
     setToolCallNotices([]);
+    setTodosOpen(false);
     setLiveBrief({
       question: t,
       status: "starting",
@@ -395,17 +588,18 @@ function ChatPage() {
         body: JSON.stringify({ threadId: activeThreadId, message: t }),
       });
       if (!response.ok) {
-        const body = (await response.json().catch(() => null)) as { error?: string } | null;
-        throw new Error(body?.error ?? "Agent request failed");
+        throw new Error(await readApiError(response, "Agent request failed"));
       }
       if (!response.body) throw new Error("Agent response stream is unavailable");
 
       const reader = response.body.getReader();
       const decoder = new TextDecoder();
       let buffer = "";
+      let finalAgentText = "";
 
       const handleEvent = (event: ChatStreamEvent) => {
         if (event.type === "delta") {
+          finalAgentText += event.content;
           setLiveBrief((current) => ({
             ...current,
             status: current.activeTool ? `using ${current.activeTool}` : "answering",
@@ -463,6 +657,8 @@ function ChatPage() {
           return;
         }
         if (event.type === "done") {
+          const lastAgentMessage = [...event.thread.messages].reverse().find((message) => message.role === "agent" && message.content.trim());
+          if (lastAgentMessage) finalAgentText = lastAgentMessage.content;
           setMessages(event.thread.messages);
           setTodos(event.todos ?? event.thread.todos ?? []);
           setLiveBrief((current) => ({ ...current, status: "complete", activeTool: undefined }));
@@ -485,6 +681,14 @@ function ChatPage() {
       if (buffer.trim()) handleEvent(JSON.parse(buffer) as ChatStreamEvent);
 
       await Promise.all([loadThreads(), loadContext()]);
+      if (options.speakReply) {
+        try {
+          await playSpeech(finalAgentText);
+        } catch (error) {
+          setVoiceStatus("Voice reply failed.");
+          setApiError(error instanceof Error ? error.message : "Voice reply failed.");
+        }
+      }
     } catch (error) {
       setApiError(error instanceof Error ? error.message : "Agent request failed");
       setMessages((m) => [
@@ -496,6 +700,58 @@ function ChatPage() {
       ]);
     } finally {
       setIsSending(false);
+    }
+  };
+
+  const send = async () => {
+    await sendMessage(input);
+  };
+
+  const startVoiceRecording = async () => {
+    if (isRecording || isVoiceBusy || isSending) return;
+    try {
+      setApiError(null);
+      setVoiceStatus("Requesting microphone access...");
+      recorderRef.current = await createVoiceRecorder();
+      setIsRecording(true);
+      setVoiceStatus("Listening. Click STOP when done.");
+    } catch (error) {
+      setVoiceStatus(null);
+      setApiError(error instanceof Error ? error.message : "Could not start microphone recording.");
+    }
+  };
+
+  const stopVoiceRecording = async () => {
+    const recorder = recorderRef.current;
+    if (!recorder || isVoiceBusy) return;
+
+    setIsRecording(false);
+    setIsVoiceBusy(true);
+    setApiError(null);
+    setVoiceStatus("Transcribing with Gradium...");
+
+    try {
+      const pcm = await recorder.stop();
+      recorderRef.current = null;
+      const response = await fetch(`${AGENT_API}/api/voice/transcribe`, {
+        method: "POST",
+        headers: { "Content-Type": "application/octet-stream" },
+        body: pcm,
+      });
+      if (!response.ok) throw new Error(await readApiError(response, "Gradium transcription failed"));
+
+      const data = (await response.json()) as { transcript?: string };
+      const transcript = data.transcript?.trim();
+      if (!transcript) throw new Error("Gradium did not return a transcript. Try speaking closer to the microphone.");
+
+      setVoiceStatus(`Heard: ${transcript}`);
+      await sendMessage(transcript, { speakReply: true });
+    } catch (error) {
+      setVoiceStatus("Voice request failed.");
+      setApiError(error instanceof Error ? error.message : "Voice request failed.");
+    } finally {
+      recorderRef.current = null;
+      setIsVoiceBusy(false);
     }
   };
 
@@ -921,18 +1177,36 @@ function ChatPage() {
                   )}
                 </div>
               )}
+              {voiceStatus && (
+                <div className="border-t border-border px-3 py-2 text-xs text-muted-foreground sm:px-4">
+                  <span className={`mr-2 text-mono-xs ${isRecording ? "text-[var(--chart-4)]" : "text-[var(--chart-2)]"}`}>VOICE</span>
+                  {voiceStatus}
+                </div>
+              )}
               <div className="border-t border-border p-3 flex gap-2 sm:p-4">
+                <button
+                  type="button"
+                  onClick={() => void (isRecording ? stopVoiceRecording() : startVoiceRecording())}
+                  disabled={!isRecording && (!threadId || isSending || isVoiceBusy)}
+                  className={`text-mono-xs px-3 py-2 border transition-colors disabled:opacity-50 ${
+                    isRecording
+                      ? "border-[var(--chart-4)] bg-[var(--chart-4)]/10 text-[var(--chart-4)] hover:bg-[var(--chart-4)]/15"
+                      : "border-border text-foreground hover:bg-accent"
+                  }`}
+                >
+                  {isRecording ? "STOP" : isVoiceBusy ? "VOICE..." : "VOICE"}
+                </button>
                 <input
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   onKeyDown={(e) => e.key === "Enter" && void send()}
                   placeholder={threadId ? "ask the agent…" : "creating thread…"}
-                  disabled={!threadId || isSending}
+                  disabled={!threadId || isSending || isRecording || isVoiceBusy}
                   className="flex-1 bg-transparent border border-border px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-foreground/40 disabled:opacity-50"
                 />
                 <button
                   onClick={() => void send()}
-                  disabled={!threadId || isSending}
+                  disabled={!threadId || isSending || isRecording || isVoiceBusy}
                   className="text-mono-xs px-4 py-2 border border-border text-foreground hover:bg-accent transition-colors disabled:opacity-50"
                 >
                   {isSending ? "..." : "SEND"}
@@ -943,13 +1217,9 @@ function ChatPage() {
         </TerminalWindow>
 
         {/* RIGHT: 2 stacked panels */}
-        <div className={`grid h-full min-h-0 min-w-0 overflow-hidden gap-4 ${agentStreamOpen ? "grid-rows-[minmax(0,1fr)_minmax(0,1fr)]" : "grid-rows-[minmax(0,1fr)_auto]"}`}>
-          <TerminalWindow title="ENTITY.GRAPH" className="min-h-0">
-            <div className="h-full min-h-0 min-w-0 p-4 flex flex-col sm:p-5">
-              <div className="mb-3 flex items-center justify-between gap-3 text-mono-xs text-muted-foreground">
-                <span>LIVE ENTITY RELATIONSHIPS</span>
-                <span>{visibleGraph.nodes.length ? `${visibleGraph.nodes.length} VISIBLE` : "NO GRAPH"}</span>
-              </div>
+        <div className={`grid h-full min-h-0 min-w-0 overflow-hidden gap-2 ${agentStreamOpen ? "grid-rows-[minmax(0,1fr)_minmax(0,1fr)]" : "grid-rows-[minmax(0,1fr)_auto]"}`}>
+          <TerminalWindow title="LIVE ENTITY RELATIONSHIPS" className="min-h-0">
+            <div className="h-full min-h-0 min-w-0 flex flex-col">
               <div className="relative flex-1 min-h-0 overflow-hidden border border-border/60 bg-background/20">
                 <ReactFlow
                   nodes={flowGraph.nodes}
@@ -1060,21 +1330,23 @@ function ChatPage() {
             </div>
           </TerminalWindow>
 
-          <TerminalWindow title="AGENT.STREAM" className="min-h-0 overflow-hidden">
-            <div className={`flex h-full min-h-0 min-w-0 flex-col text-sm text-foreground ${agentStreamOpen ? "p-3 sm:p-4" : "p-2"}`}>
-              <div className="mb-2 flex items-center justify-between gap-3 border border-border/70 bg-background/30 p-2.5 text-mono-xs text-muted-foreground">
-                <span>SEQUENTIAL RUN LOG</span>
-                <div className="flex items-center gap-2">
-                  <span className={liveBrief.status === "complete" ? "text-[var(--chart-3)]" : "text-[var(--chart-1)]"}>{liveBrief.status.toUpperCase()}</span>
-                  <button
-                    type="button"
-                    onClick={() => setAgentStreamOpen((open) => !open)}
-                    className="border border-border bg-background/70 px-2 py-1 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
-                  >
-                    {agentStreamOpen ? "COLLAPSE" : "EXPAND"}
-                  </button>
-                </div>
+          <TerminalWindow
+            title="AGENT.STREAM"
+            className="min-h-0 overflow-hidden"
+            headerRight={(
+              <div className="flex shrink-0 items-center gap-3 text-mono-xs text-muted-foreground">
+                <span className={liveBrief.status === "complete" ? "text-[var(--chart-3)]" : "text-[var(--chart-1)]"}>{liveBrief.status.toUpperCase()}</span>
+                <button
+                  type="button"
+                  onClick={() => setAgentStreamOpen((open) => !open)}
+                  className="border border-border bg-background/70 px-2 py-1 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                >
+                  {agentStreamOpen ? "COLLAPSE" : "EXPAND"}
+                </button>
               </div>
+            )}
+          >
+            <div className="flex h-full min-h-0 min-w-0 flex-col text-sm text-foreground">
               {!agentStreamOpen && (
                 <button
                   type="button"
@@ -1085,7 +1357,7 @@ function ChatPage() {
                 </button>
               )}
               {agentStreamOpen && (
-              <div ref={streamRef} className="min-h-0 flex-1 overflow-y-auto scrollbar-thin border border-border/70 bg-background/20 p-3">
+              <div ref={streamRef} className="min-h-0 flex-1 overflow-y-auto scrollbar-thin border border-border/70 bg-background/20 p-2">
                 {activities.length ? (
                   <div className="space-y-2">
                     {affectedSection && (
@@ -1098,25 +1370,66 @@ function ChatPage() {
                         </div>
                       </details>
                     )}
-                    {activities.map((event, index) => (
-                      <div key={event.id} className="grid grid-cols-[1.6rem_4.8rem_minmax(0,1fr)] gap-2 border border-border/60 bg-background/40 px-2 py-2 text-xs">
-                        <span className="text-muted-foreground">{String(index + 1).padStart(2, "0")}</span>
-                        <span className="truncate text-[var(--chart-2)]">{event.phase}</span>
-                        <div className="min-w-0">
-                          <div className="flex items-center justify-between gap-2">
-                            <span className="truncate text-foreground">{summarizeActivity(event)}</span>
-                            <span className="shrink-0 text-[0.62rem] text-muted-foreground">{event.createdAt}</span>
-                          </div>
-                          {event.label === "create_context_correction" && correctionActivity && (
-                            <div className="mt-1 flex flex-wrap gap-1.5">
-                              {[...(correctionActivity.targetEntityIds ?? []), correctionActivity.correctionId].filter(Boolean).slice(0, 5).map((id) => (
-                                <span key={id} className="border border-border px-1.5 py-0.5 text-[0.62rem] text-muted-foreground">{id}</span>
-                              ))}
-                            </div>
-                          )}
+                    <div className="relative overflow-hidden border border-border/70 bg-background/25 p-3">
+                      <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--chart-2)] to-transparent opacity-80" />
+                      <div className="mb-3 grid grid-cols-3 gap-2 text-center text-mono-xs">
+                        <div className="border border-border/60 bg-background/45 p-2">
+                          <div className="text-[var(--chart-2)]">{liveBrief.touchedTools.length}</div>
+                          <div className="text-muted-foreground">TOOLS</div>
+                        </div>
+                        <div className="border border-border/60 bg-background/45 p-2">
+                          <div className="text-[var(--chart-1)]">{liveBrief.ids.length}</div>
+                          <div className="text-muted-foreground">IDS</div>
+                        </div>
+                        <div className="border border-border/60 bg-background/45 p-2">
+                          <div className="text-[var(--chart-3)]">{activities.length}</div>
+                          <div className="text-muted-foreground">STEPS</div>
                         </div>
                       </div>
-                    ))}
+                      <div className="relative space-y-3 before:absolute before:bottom-5 before:left-5 before:top-5 before:w-px before:bg-gradient-to-b before:from-[var(--chart-2)] before:via-border before:to-transparent">
+                        {activities.map((event, index) => {
+                          const visual = activityVisual(event);
+                          const chips = activityChips(event);
+                          const isLatest = index === activities.length - 1 && liveBrief.status !== "complete";
+                          return (
+                            <div key={event.id} className="group relative grid grid-cols-[2.6rem_minmax(0,1fr)] gap-3">
+                              <div className="relative z-10 flex h-10 w-10 items-center justify-center border bg-background text-[0.62rem] font-semibold shadow-[0_0_0_4px_var(--terminal-bg)] transition-transform duration-300 group-hover:scale-105" style={{ borderColor: visual.tone, color: visual.tone }}>
+                                {isLatest && <span className="absolute inset-[-5px] animate-ping border opacity-30" style={{ borderColor: visual.tone }} />}
+                                <span>{visual.icon}</span>
+                              </div>
+                              <div className="min-w-0 border border-border/70 bg-background/45 p-3 transition-colors duration-200 group-hover:border-foreground/35">
+                                <div className="mb-1 flex items-start justify-between gap-3">
+                                  <div className="min-w-0">
+                                    <div className="flex flex-wrap items-center gap-2">
+                                      <span className="text-mono-xs" style={{ color: visual.tone }}>{visual.badge}</span>
+                                      <span className="text-[0.62rem] text-muted-foreground">#{String(index + 1).padStart(2, "0")}</span>
+                                    </div>
+                                    <div className="mt-1 truncate text-sm text-foreground">{visual.title}</div>
+                                  </div>
+                                  <span className="shrink-0 text-[0.62rem] text-muted-foreground">{event.createdAt}</span>
+                                </div>
+                                <div className="text-xs leading-relaxed text-muted-foreground">{activityDescription(event)}</div>
+                                {chips.length > 0 && (
+                                  <div className="mt-2 flex flex-wrap gap-1.5">
+                                    {chips.map((chip) => (
+                                      <span key={chip} className="border border-border/70 bg-background/55 px-1.5 py-0.5 text-[0.62rem] text-muted-foreground">
+                                        {chip}
+                                      </span>
+                                    ))}
+                                  </div>
+                                )}
+                                {event.detail.trim().startsWith("{") && (
+                                  <details className="mt-2 text-[0.62rem] text-muted-foreground">
+                                    <summary className="cursor-pointer text-mono-xs hover:text-foreground">RAW PAYLOAD</summary>
+                                    <pre className="mt-1 max-h-28 overflow-auto whitespace-pre-wrap border border-border/60 bg-background/60 p-2 scrollbar-thin">{event.detail}</pre>
+                                  </details>
+                                )}
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
                   </div>
                 ) : (
                   <div className="grid h-full place-items-center text-center text-xs text-muted-foreground">

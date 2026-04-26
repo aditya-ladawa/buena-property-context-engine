@@ -7,6 +7,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { z } from "zod";
 import { v4 as uuidv4 } from "uuid";
+import WebSocket from "ws";
 import { createAgent, tool } from "langchain";
 import { SqliteSaver } from "@langchain/langgraph-checkpoint-sqlite";
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
@@ -53,6 +54,9 @@ const checkpointPath = path.join(runtimeDir, "chat-checkpoints.sqlite");
 const incrementalRoot = path.join(rootDir, "data", "incremental");
 const manifestPath = path.join(rootDir, "workdir", "manifest.json");
 let ingestRunning = false;
+const gradiumSttUrl = "wss://api.gradium.ai/api/speech/asr";
+const gradiumTtsUrl = "https://api.gradium.ai/api/post/speech/tts";
+const defaultGradiumVoiceId = process.env.GRADIUM_VOICE_ID ?? "0y1VZjPabOBU3rWy";
 
 const propertyLocations: Record<string, { label: string; address: string; note: string }> = {
   "LIE-001": {
@@ -103,6 +107,11 @@ const localServiceSearchSchema = z.object({
   entityId: z.string().min(1).optional().describe("Optional property/building/entity ID, for example HAUS-12 or LIE-001."),
   location: z.string().min(1).optional().describe("Optional explicit address or neighborhood. If omitted, use the known property address for the entity."),
   maxResults: z.number().int().min(1).max(8).default(5).optional(),
+});
+
+const voiceSpeakSchema = z.object({
+  text: z.string().min(1).max(6000),
+  voiceId: z.string().min(1).optional(),
 });
 
 function safeFileStem(value: string) {
@@ -359,6 +368,112 @@ function getStreamTokenText(token: unknown): string {
 
 function writeStreamEvent(res: express.Response, event: unknown) {
   res.write(`${JSON.stringify(event)}\n`);
+}
+
+function getGradiumApiKey() {
+  const apiKey = process.env.GRADIUM_API_KEY;
+  if (!apiKey) throw new Error("GRADIUM_API_KEY is not configured. Add it to .env and restart the API server.");
+  return apiKey;
+}
+
+function parseGradiumMessage(data: WebSocket.RawData) {
+  const text = Buffer.isBuffer(data)
+    ? data.toString("utf8")
+    : Array.isArray(data)
+      ? Buffer.concat(data).toString("utf8")
+      : data instanceof ArrayBuffer
+        ? Buffer.from(data).toString("utf8")
+        : String(data);
+  try {
+    return JSON.parse(text) as { type?: string; text?: string; message?: string; code?: number };
+  } catch {
+    return { type: "raw", text };
+  }
+}
+
+async function transcribeGradiumPcm(pcm: Buffer) {
+  if (pcm.byteLength < 2400) throw new Error("No usable voice audio was captured.");
+
+  const apiKey = getGradiumApiKey();
+  const frameBytes = 1920 * 2;
+
+  return await new Promise<string>((resolve, reject) => {
+    const ws = new WebSocket(gradiumSttUrl, { headers: { "x-api-key": apiKey } });
+    const transcriptParts: string[] = [];
+    let settled = false;
+    let timeout: ReturnType<typeof setTimeout> | undefined;
+
+    const finish = (error?: Error) => {
+      if (settled) return;
+      settled = true;
+      if (timeout) clearTimeout(timeout);
+      ws.close();
+      if (error) {
+        reject(error);
+        return;
+      }
+      resolve(transcriptParts.join(" ").replace(/\s+/g, " ").trim());
+    };
+
+    timeout = setTimeout(() => {
+      finish(new Error("Gradium STT timed out while processing audio."));
+    }, 45_000);
+
+    ws.on("open", () => {
+      ws.send(JSON.stringify({ type: "setup", model_name: "default", input_format: "pcm" }));
+    });
+
+    ws.on("message", (data) => {
+      const message = parseGradiumMessage(data);
+
+      if (message.type === "ready") {
+        for (let offset = 0; offset < pcm.byteLength; offset += frameBytes) {
+          const chunk = pcm.subarray(offset, Math.min(offset + frameBytes, pcm.byteLength));
+          ws.send(JSON.stringify({ type: "audio", audio: chunk.toString("base64") }));
+        }
+        ws.send(JSON.stringify({ type: "end_of_stream" }));
+        return;
+      }
+
+      if (message.type === "text" && message.text?.trim()) transcriptParts.push(message.text.trim());
+      if (message.type === "error") finish(new Error(`Gradium STT failed: ${message.message ?? `code ${message.code ?? "unknown"}`}`));
+      if (message.type === "end_of_stream") finish();
+    });
+
+    ws.on("error", (error) => finish(error instanceof Error ? error : new Error("Gradium STT WebSocket failed.")));
+    ws.on("close", (code, reason) => {
+      if (!settled && transcriptParts.length > 0) finish();
+      if (!settled) finish(new Error(`Gradium STT closed before a transcript was returned (${code}${reason.length ? `: ${reason.toString()}` : ""}).`));
+    });
+  });
+}
+
+async function synthesizeGradiumSpeech(input: z.infer<typeof voiceSpeakSchema>) {
+  const response = await fetch(gradiumTtsUrl, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "x-api-key": getGradiumApiKey(),
+    },
+    body: JSON.stringify({
+      text: input.text,
+      voice_id: input.voiceId ?? defaultGradiumVoiceId,
+      output_format: "wav",
+      model_name: "default",
+      only_audio: true,
+      json_config: JSON.stringify({ rewrite_rules: "de", padding_bonus: -1.4 }),
+    }),
+  });
+
+  if (!response.ok) {
+    const body = await response.text().catch(() => "");
+    throw new Error(`Gradium TTS failed with ${response.status}: ${body.slice(0, 300)}`);
+  }
+
+  return {
+    audio: Buffer.from(await response.arrayBuffer()),
+    contentType: response.headers.get("content-type") ?? "audio/wav",
+  };
 }
 
 async function walkDirSummary(dirPath: string): Promise<{ fileCount: number; totalBytes: number }> {
@@ -688,7 +803,8 @@ function createChatAgent(threadId: string, setTodos: (todos: Todo[]) => void) {
     checkpointer,
     systemPrompt: [
       "You are the Buena chat agent for a property context-engine demo.",
-      "Answer concisely and practically.",
+      "Answer concisely and practically. This is often used as a voice agent, so prefer short spoken answers: 1-3 sentences by default, with only the key IDs, actions, and caveats.",
+      "When the user asks for detail, give detail; otherwise avoid long lists and avoid reading large context excerpts aloud.",
       "Known location context: HAUS-12 is at Immanuelkirchstraße 26, 10405 Berlin, Germany and is part of the main property WEG Immanuelkirchstraße 26 (LIE-001).",
       "Use read_property_context when the user asks about the property, context engine, ingestion, or architecture.",
       "Use read_entity_context when the user asks about a specific building, unit, owner, tenant, contractor, invoice, letter, or email.",
@@ -730,6 +846,29 @@ app.use(express.json({ limit: "1mb" }));
 
 app.get("/api/health", (_req, res) => {
   res.json({ ok: true });
+});
+
+app.post("/api/voice/transcribe", express.raw({ type: ["application/octet-stream", "audio/pcm"], limit: "12mb" }), async (req, res, next) => {
+  try {
+    const pcm = Buffer.isBuffer(req.body) ? req.body : Buffer.from(req.body ?? []);
+    const transcript = await transcribeGradiumPcm(pcm);
+    res.json({ transcript });
+  } catch (error) {
+    next(error);
+  }
+});
+
+app.post("/api/voice/speak", async (req, res, next) => {
+  try {
+    const parsed = voiceSpeakSchema.parse(req.body);
+    const { audio, contentType } = await synthesizeGradiumSpeech(parsed);
+    res.setHeader("Content-Type", contentType);
+    res.setHeader("Content-Length", String(audio.byteLength));
+    res.setHeader("Cache-Control", "no-store");
+    res.send(audio);
+  } catch (error) {
+    next(error);
+  }
 });
 
 app.get("/api/context", async (_req, res, next) => {
