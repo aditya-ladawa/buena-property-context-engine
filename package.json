@@ -19,8 +19,10 @@
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",
+    "@google/genai": "^1.50.1",
     "@hookform/resolvers": "^5.2.2",
     "@langchain/core": "^1.1.41",
+    "@langchain/google-genai": "^2.1.28",
     "@langchain/langgraph": "^1.2.9",
     "@langchain/langgraph-checkpoint-sqlite": "^1.0.1",
     "@langchain/openai": "^1.4.4",
@@ -55,6 +57,7 @@
     "@tanstack/react-router": "^1.168.0",
     "@tanstack/react-start": "^1.167.14",
     "@tanstack/router-plugin": "^1.167.10",
+    "@xyflow/react": "^12.10.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",

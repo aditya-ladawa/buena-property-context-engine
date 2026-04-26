@@ -21,6 +21,7 @@ import type {
   Observation,
   ObservationDecision,
   ObservationKind,
+  RelationshipType,
   SourceRegistry,
   SourceRegistryEntry,
   WorkItem,
@@ -39,7 +40,7 @@ type ExtractionArtifacts = {
 
 type JsonRecord = Record<string, unknown>;
 
-const DETERMINISTIC_EXTRACTOR_VERSION = 4;
+const DETERMINISTIC_EXTRACTOR_VERSION = 6;
 
 function absolutePath(relativePath: string) {
   return path.join(PROJECT_ROOT, relativePath);
@@ -195,6 +196,83 @@ function extractEntityProfile(record: JsonRecord, source: SourceRegistryEntry, w
   });
 }
 
+function asStringArray(value: unknown) {
+  if (Array.isArray(value)) return value.filter(present);
+  if (present(value)) return value.split(/[;,]/).map((entry) => entry.trim()).filter(Boolean);
+  return [];
+}
+
+function relationshipObservation(params: {
+  relationshipType: RelationshipType;
+  fromEntityId: string;
+  toEntityId: string;
+  source: SourceRegistryEntry;
+  workItem: WorkItem;
+  inputHash: string;
+  entityIndex: EntityIndex;
+  validFrom?: string;
+  validTo?: string;
+  field?: string;
+}) {
+  return observation({
+    workItem: params.workItem,
+    inputHash: params.inputHash,
+    sourceIds: [params.source.sourceId],
+    kind: "relationship",
+    statement: `Relationship ${params.relationshipType}: ${params.fromEntityId} -> ${params.toEntityId}${params.validFrom ? ` from ${params.validFrom}` : ""}${params.validTo ? ` to ${params.validTo}` : ""}.`,
+    evidence: [sourceEvidence(params.source, params.field)],
+    reason: "Deterministic relationship extraction from canonical master data.",
+    attributes: compact({
+      relationshipType: params.relationshipType,
+      fromEntityId: params.fromEntityId,
+      toEntityId: params.toEntityId,
+      validFrom: params.validFrom,
+      validTo: params.validTo,
+      primaryEntityId: params.toEntityId,
+      entities: uniqueSorted([params.fromEntityId, params.toEntityId, PROPERTY_ID]),
+    }),
+    entityIndex: params.entityIndex,
+  });
+}
+
+function extractRelationships(record: JsonRecord, source: SourceRegistryEntry, workItem: WorkItem, inputHash: string, entityIndex: EntityIndex, field?: string) {
+  const id = present(record.id) ? record.id : undefined;
+  if (!id) return [];
+  const entityType = inferEntityType(source, record);
+  const relationships: Observation[] = [];
+
+  if (entityType === "building") {
+    relationships.push(relationshipObservation({ relationshipType: "property_has_building", fromEntityId: PROPERTY_ID, toEntityId: id, source, workItem, inputHash, entityIndex, field }));
+  }
+
+  if (entityType === "unit" && present(record.haus_id)) {
+    relationships.push(relationshipObservation({ relationshipType: "unit_in_building", fromEntityId: id, toEntityId: record.haus_id, source, workItem, inputHash, entityIndex, field }));
+  }
+
+  if (entityType === "owner") {
+    for (const unitId of asStringArray(record.einheit_ids)) {
+      relationships.push(relationshipObservation({ relationshipType: "owner_owned_unit", fromEntityId: id, toEntityId: unitId, source, workItem, inputHash, entityIndex, field }));
+    }
+  }
+
+  if (entityType === "tenant" && present(record.einheit_id)) {
+    relationships.push(relationshipObservation({
+      relationshipType: "tenant_occupied_unit",
+      fromEntityId: id,
+      toEntityId: record.einheit_id,
+      validFrom: present(record.mietbeginn) ? record.mietbeginn : undefined,
+      validTo: present(record.mietende) ? record.mietende : undefined,
+      source,
+      workItem,
+      inputHash,
+      entityIndex,
+      field,
+    }));
+  }
+
+  return relationships;
+}
+
 async function extractMasterData(source: SourceRegistryEntry, workItem: WorkItem, inputHash: string, entityIndex: EntityIndex) {
   const normalizedPath = source.normalizedPaths.find((candidate) => candidate.endsWith(".json"));
   if (!normalizedPath) return [];
@@ -205,6 +283,7 @@ async function extractMasterData(source: SourceRegistryEntry, workItem: WorkItem
     for (const record of value.filter((entry): entry is JsonRecord => typeof entry === "object" && entry !== null)) {
       const extracted = extractEntityProfile(record, source, workItem, inputHash, entityIndex);
       if (extracted) observations.push(extracted);
+      observations.push(...extractRelationships(record, source, workItem, inputHash, entityIndex));
     }
   } else if (typeof value === "object" && value !== null) {
     const data = value as JsonRecord;
@@ -213,10 +292,12 @@ async function extractMasterData(source: SourceRegistryEntry, workItem: WorkItem
         for (const record of entry.filter((candidate): candidate is JsonRecord => typeof candidate === "object" && candidate !== null)) {
           const extracted = extractEntityProfile(record, source, workItem, inputHash, entityIndex, field);
           if (extracted) observations.push(extracted);
+          observations.push(...extractRelationships(record, source, workItem, inputHash, entityIndex, field));
         }
       } else if (typeof entry === "object" && entry !== null) {
         const extracted = extractEntityProfile(entry as JsonRecord, source, workItem, inputHash, entityIndex, field);
         if (extracted) observations.push(extracted);
+        observations.push(...extractRelationships(entry as JsonRecord, source, workItem, inputHash, entityIndex, field));
       }
     }
   }
@@ -247,7 +328,7 @@ function paymentObservation(row: JsonRecord, source: SourceRegistryEntry, workIt
     evidence: [sourceEvidence(source, "jsonl_row", lineStart)],
     decision: present(String(row.error_types ?? "")) ? "needs_review" : "keep",
     reason: "Deterministic bank/index row extraction.",
-    attributes: compact({ transactionId, date, type, amount, counterparty, reference, row }),
+    attributes: compact({ transactionId, date, eventDate: date, type, amount, counterparty, reference, primaryEntityId: transactionId, entities: [transactionId, PROPERTY_ID], row }),
     entityIndex,
   });
 }
@@ -269,7 +350,7 @@ function invoiceObservation(row: JsonRecord, source: SourceRegistryEntry, workIt
     evidence: [sourceEvidence(source, lineStart ? "jsonl_row" : "pdf_text", lineStart)],
     decision: JSON.stringify(row).includes("FAKE") || JSON.stringify(row).includes("DUP-") ? "needs_review" : "keep",
     reason: lineStart ? "Deterministic invoice index row extraction." : "Deterministic invoice PDF text extraction.",
-    attributes: compact({ invoiceId, contractorId, invoiceNumber, date, gross, net, vat, row }),
+    attributes: compact({ invoiceId, contractorId, invoiceNumber, date, eventDate: date, gross, net, vat, primaryEntityId: invoiceId, entities: uniqueSorted([invoiceId, contractorId, PROPERTY_ID]), row }),
     entityIndex,
   });
 }
@@ -288,7 +369,7 @@ function emailMetadataObservation(row: JsonRecord, source: SourceRegistryEntry, 
     evidence: [sourceEvidence(source, lineStart ? "jsonl_row" : "email_headers", lineStart)],
     decision: "needs_review",
     reason: "Deterministic email metadata only; semantic body extraction is reserved for the LLM extractor.",
-    attributes: compact({ emailId, threadId, subject, date, row }),
+    attributes: compact({ emailId, threadId, subject, date, eventDate: date, primaryEntityId: emailId, entities: uniqueSorted([emailId, PROPERTY_ID]), row }),
     entityIndex,
   });
 }
@@ -308,7 +389,7 @@ function letterObservation(row: JsonRecord, source: SourceRegistryEntry, workIte
     statement: `Letter ${letterId} is a ${letterType} document dated ${date}${subject && subject !== letterType ? ` about ${subject}` : ""}${decisions.length > 0 ? ` with ${decisions.length} extracted meeting decision(s)` : ""}${amount ? ` and amount ${amount}` : ""}.`,
     evidence: [sourceEvidence(source, "pdf_text")],
     reason: "Deterministic letter PDF text extraction.",
-    attributes: compact({ letterId, letterType, date, subject, decisions, amount, row }),
+    attributes: compact({ letterId, letterType, date, eventDate: date, subject, decisions, amount, primaryEntityId: letterId, entities: uniqueSorted([letterId, PROPERTY_ID]), row }),
     entityIndex,
   });
 }

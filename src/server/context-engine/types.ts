@@ -132,7 +132,8 @@ export type WorkItemProcessor =
   | "structured_extractor"
   | "email_thread_extractor"
   | "pdf_letter_extractor"
-  | "invoice_bank_reconciler";
+  | "invoice_bank_reconciler"
+  | "semantic_extractor";
 
 export type WorkItemStatus = "pending" | "processing" | "processed" | "ignored" | "error";
 
@@ -164,6 +165,14 @@ export type WorkItem = {
 
 export type ObservationKind =
   | "entity_profile"
+  | "relationship"
+  | "issue"
+  | "decision"
+  | "obligation"
+  | "deadline"
+  | "risk"
+  | "status_change"
+  | "communication_event"
   | "maintenance_issue"
   | "meeting_decision"
   | "payment"
@@ -256,6 +265,88 @@ export type ExtractionSummary = {
   errorRecords: number;
 };
 
+export type RelationshipType =
+  | "property_has_building"
+  | "unit_in_building"
+  | "owner_owned_unit"
+  | "tenant_occupied_unit"
+  | "invoice_for_contractor"
+  | "payment_references_entity"
+  | "source_mentions_entity"
+  | "event_involves_entity";
+
+export type EntityLinkMatchType =
+  | "property_scope"
+  | "declared_id"
+  | "alias"
+  | "email"
+  | "filename"
+  | "relationship"
+  | "work_item_aggregate";
+
+export type EntityLinkCandidate = {
+  entityId: string;
+  entityType: EntityType;
+  matchType: EntityLinkMatchType;
+  reason: string;
+  evidence: string;
+  sourceIds: string[];
+  inheritedFrom?: string;
+};
+
+export type EntityLinkRecord = {
+  recordId: string;
+  propertyId: string;
+  targetType: "source" | "work_item";
+  sourceId?: string;
+  workItemId?: string;
+  sourceIds: string[];
+  sourceDate?: string;
+  candidateLinks: EntityLinkCandidate[];
+  decision: "linked" | "property_only" | "ambiguous" | "unlinked" | "error";
+  reason: string;
+  createdAt: string;
+};
+
+export type EntityLinkSummary = {
+  generatedAt: string;
+  propertyId: string;
+  sourceRecords: number;
+  workItemRecords: number;
+  linkedRecords: number;
+  propertyOnlyRecords: number;
+  ambiguousRecords: number;
+  unlinkedRecords: number;
+  errorRecords: number;
+};
+
+export type SemanticDecisionRecord = {
+  decisionId: string;
+  propertyId: string;
+  workItemId: string;
+  inputHash: string;
+  sourceIds: string[];
+  categories: string[];
+  decision: "deep_extract" | "metadata_only" | "ignore" | "needs_review" | "deferred" | "error";
+  reason: string;
+  linkedEntityIds: string[];
+  createdAt: string;
+};
+
+export type SemanticExtractionSummary = {
+  generatedAt: string;
+  propertyId: string;
+  workItems: number;
+  decisionedWorkItems: number;
+  selectedForDeepExtraction: number;
+  extractedWorkItems: number;
+  reusedWorkItems: number;
+  deferredWorkItems: number;
+  erroredWorkItems: number;
+  observations: number;
+  decisions: number;
+};
+
 export type FactKind =
   | "property_profile"
   | "building"
@@ -263,6 +354,14 @@ export type FactKind =
   | "owner"
   | "tenant"
   | "contractor"
+  | "relationship"
+  | "issue"
+  | "decision"
+  | "obligation"
+  | "deadline"
+  | "risk"
+  | "status_change"
+  | "communication_event"
   | "payment"
   | "invoice"
   | "document"
@@ -280,6 +379,15 @@ export type FactRecord = {
   sourceObservationIds: string[];
   sourceIds: string[];
   mentions: string[];
+  entities: string[];
+  primaryEntityId?: string;
+  eventDate?: string;
+  validFrom?: string;
+  validTo?: string;
+  dueDate?: string;
+  relationshipType?: RelationshipType;
+  fromEntityId?: string;
+  toEntityId?: string;
   evidence: EvidenceRef[];
   decision: ObservationDecision;
   updatedAt: string;
@@ -313,6 +421,47 @@ export type PatchLogEntry = {
   reason: string;
   sourceFactIds: string[];
   createdAt: string;
+};
+
+export type ContextCorrection = {
+  correctionId: string;
+  propertyId: string;
+  status: "proposed" | "accepted" | "rejected";
+  correction: string;
+  reason: string;
+  targetSectionId?: string;
+  targetSectionHash?: string;
+  targetFactIds: string[];
+  targetEntityIds: string[];
+  targetSourceIds: string[];
+  provenance: {
+    type: "chat_thread" | "manual";
+    threadId?: string;
+  };
+  createdAt: string;
+};
+
+export type ChangeSet = {
+  schemaVersion: number;
+  propertyId: string;
+  generatedAt: string;
+  previousFactCount: number;
+  nextFactCount: number;
+  addedFactIds: string[];
+  removedFactIds: string[];
+  modifiedFactIds: string[];
+  unchangedFactCount: number;
+  changedSourceIds: string[];
+  changedEntities: string[];
+  affectedViews: string[];
+};
+
+export type EntityContextSummary = {
+  generatedAt: string;
+  propertyId: string;
+  entityCount: number;
+  writtenEntityContexts: number;
+  contextRoot: string;
 };
 
 export type CoverageReport = {

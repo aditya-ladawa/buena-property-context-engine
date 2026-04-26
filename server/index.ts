@@ -1,14 +1,15 @@
 import "dotenv/config";
 import cors from "cors";
 import express from "express";
-import { mkdir } from "node:fs/promises";
+import { appendFile, mkdir, readFile, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { z } from "zod";
 import { v4 as uuidv4 } from "uuid";
 import { createAgent, tool } from "langchain";
 import { SqliteSaver } from "@langchain/langgraph-checkpoint-sqlite";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 
 type ChatRole = "user" | "agent" | "tool";
 
@@ -32,6 +33,18 @@ type ThreadRecord = {
   todos: Todo[];
 };
 
+type ContextGraphNode = {
+  id: string;
+  label: string;
+  type: string;
+};
+
+type ContextGraphEdge = {
+  from: string;
+  to: string;
+  label: string;
+};
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
 const runtimeDir = path.join(rootDir, ".agent-data");
@@ -49,6 +62,177 @@ const todoSchema = z.object({
     }),
   ),
 });
+
+const entityContextSchema = z.object({
+  entityId: z.string().min(1),
+});
+
+const contextNoteSchema = z.object({
+  note: z.string().min(1),
+  reason: z.string().min(1),
+});
+
+const correctionSchema = z.object({
+  correction: z.string().min(1),
+  reason: z.string().min(1),
+  targetSectionId: z.string().min(1).optional(),
+  targetFactIds: z.array(z.string().min(1)).default([]),
+  targetEntityIds: z.array(z.string().min(1)).default([]),
+  targetSourceIds: z.array(z.string().min(1)).default([]),
+});
+
+function safeFileStem(value: string) {
+  return value
+    .replace(/\.[^.]+$/, "")
+    .replace(/[^A-Za-z0-9_-]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 120);
+}
+
+async function readTextIfExists(filePath: string) {
+  try {
+    return await readFile(filePath, "utf8");
+  } catch {
+    return undefined;
+  }
+}
+
+function sha256Text(value: string) {
+  return createHash("sha256").update(value).digest("hex");
+}
+
+function stableId(prefix: string, value: unknown) {
+  return `${prefix}-${sha256Text(JSON.stringify(value)).slice(0, 16).toUpperCase()}`;
+}
+
+function contextSectionHash(markdown: string, sectionId: string) {
+  const regex = new RegExp(`<!-- BCE:SECTION ${sectionId} START hash=([a-f0-9]+) -->\\n([\\s\\S]*?)\\n<!-- BCE:SECTION ${sectionId} END -->`, "m");
+  return markdown.match(regex)?.[1];
+}
+
+async function buildContextGraph() {
+  const entityIndexText = await readTextIfExists(path.join(rootDir, "contexts", "LIE-001", "entity-index.json"));
+  const factIndexText = await readTextIfExists(path.join(rootDir, "contexts", "LIE-001", "fact-index.json"));
+  if (!entityIndexText) return { nodes: [], edges: [] };
+
+  const entityIndex = JSON.parse(entityIndexText) as {
+    entities: Record<string, { id: string; type: string; displayName: string; relatedEntityIds?: string[] }>;
+  };
+  const factIndex = factIndexText ? JSON.parse(factIndexText) as {
+    facts?: { kind: string; fromEntityId?: string; toEntityId?: string; relationshipType?: string; decision?: string; subjectId?: string; entities?: string[] }[];
+  } : undefined;
+
+  const includeTypes = new Set(["property", "building", "unit", "owner", "tenant", "contractor"]);
+  const selected = new Set(
+    Object.values(entityIndex.entities)
+      .filter((entity) => includeTypes.has(entity.type))
+      .map((entity) => entity.id),
+  );
+
+  for (const fact of factIndex?.facts ?? []) {
+    if (fact.kind === "invoice" && fact.decision !== "keep" && fact.subjectId) selected.add(fact.subjectId);
+    for (const entityId of fact.entities ?? []) {
+      if (entityIndex.entities[entityId]?.type === "contractor" && fact.kind === "invoice") selected.add(entityId);
+    }
+  }
+
+  const nodes: ContextGraphNode[] = [...selected]
+    .map((id) => entityIndex.entities[id])
+    .filter(Boolean)
+    .map((entity) => ({ id: entity.id, label: entity.displayName || entity.id, type: entity.type }));
+
+  const edgeKeys = new Set<string>();
+  const edges: ContextGraphEdge[] = [];
+  const addEdge = (from: string | undefined, to: string | undefined, label: string) => {
+    if (!from || !to || from === to || !selected.has(from) || !selected.has(to)) return;
+    const key = `${from}->${to}:${label}`;
+    if (edgeKeys.has(key)) return;
+    edgeKeys.add(key);
+    edges.push({ from, to, label });
+  };
+
+  for (const entityId of selected) {
+    const entity = entityIndex.entities[entityId];
+    for (const relatedId of entity?.relatedEntityIds ?? []) addEdge(entityId, relatedId, "related");
+  }
+  for (const fact of factIndex?.facts ?? []) {
+    if (fact.kind === "relationship") addEdge(fact.fromEntityId, fact.toEntityId, fact.relationshipType ?? "relationship");
+    if (fact.kind === "invoice" && fact.subjectId) {
+      for (const entityId of fact.entities ?? []) addEdge(fact.subjectId, entityId, "invoice_link");
+    }
+  }
+
+  return { nodes, edges };
+}
+
+async function appendContextNote(note: string, reason: string) {
+  const contextPath = path.join(rootDir, "contexts", "LIE-001", "Context.md");
+  const existing = await readTextIfExists(contextPath);
+  if (!existing) return "No generated property context found. Run `npm run context:ingest` first.";
+
+  const now = new Date().toISOString();
+  const entry = [`- ${now} agent note: ${note.trim()}`, `  Reason: ${reason.trim()}`].join("\n");
+  const heading = "## Human And Agent Notes";
+  const sectionStart = existing.indexOf(`\n${heading}\n`);
+  let next: string;
+
+  if (sectionStart === -1) {
+    const firstManagedSection = existing.indexOf("\n<!-- BCE:SECTION ");
+    const notes = `${heading}\n\n${entry}\n\n`;
+    next = firstManagedSection === -1
+      ? `${existing.trimEnd()}\n\n${notes}`
+      : `${existing.slice(0, firstManagedSection).trimEnd()}\n\n${notes}${existing.slice(firstManagedSection + 1)}`;
+  } else {
+    const insertAt = sectionStart + `\n${heading}\n`.length;
+    next = `${existing.slice(0, insertAt)}\n${entry}\n${existing.slice(insertAt)}`;
+  }
+
+  await writeFile(contextPath, next.endsWith("\n") ? next : `${next}\n`, "utf8");
+  return "Appended note outside BCE managed sections. Future ingestion will preserve it; durable source-backed facts still require source ingestion/extraction.";
+}
+
+async function createContextCorrection(threadId: string, input: z.infer<typeof correctionSchema>) {
+  const contextPath = path.join(rootDir, "contexts", "LIE-001", "Context.md");
+  const correctionsPath = path.join(rootDir, "contexts", "LIE-001", "corrections.jsonl");
+  const now = new Date().toISOString();
+  const context = await readTextIfExists(contextPath);
+  const correction = {
+    correctionId: stableId("CORR", { threadId, correction: input.correction, reason: input.reason, now }),
+    propertyId: "LIE-001",
+    status: "proposed",
+    correction: input.correction.trim(),
+    reason: input.reason.trim(),
+    targetSectionId: input.targetSectionId,
+    targetSectionHash: context && input.targetSectionId ? contextSectionHash(context, input.targetSectionId) : undefined,
+    targetFactIds: [...new Set(input.targetFactIds)],
+    targetEntityIds: [...new Set(input.targetEntityIds)],
+    targetSourceIds: [...new Set(input.targetSourceIds)],
+    provenance: { type: "chat_thread", threadId },
+    createdAt: now,
+  };
+
+  await mkdir(path.dirname(correctionsPath), { recursive: true });
+  await appendFile(correctionsPath, `${JSON.stringify(correction)}\n`, "utf8");
+
+  if (context) {
+    await appendContextNote(
+      `Correction ${correction.correctionId} proposed: ${correction.correction}`,
+      `Recorded from chat thread ${threadId.slice(0, 6)}. Targets: ${[
+        correction.targetSectionId ? `section ${correction.targetSectionId}` : "",
+        correction.targetFactIds.length ? `facts ${correction.targetFactIds.join(", ")}` : "",
+        correction.targetEntityIds.length ? `entities ${correction.targetEntityIds.join(", ")}` : "",
+        correction.targetSourceIds.length ? `sources ${correction.targetSourceIds.join(", ")}` : "",
+      ].filter(Boolean).join("; ") || "unspecified"}.`,
+    );
+  }
+
+  return [
+    `Recorded correction ${correction.correctionId} as proposed.`,
+    `Correction log: contexts/LIE-001/corrections.jsonl`,
+    correction.targetSectionHash ? `Captured current managed-section hash for ${correction.targetSectionId}: ${correction.targetSectionHash}` : "No managed-section hash captured.",
+    "This does not directly rewrite generated facts. It preserves provenance and can be applied by a future correction-overlay/materialization step.",
+  ].join("\n");
+}
 
 function createEmptyThread(threadId: string): ThreadRecord {
   const now = new Date().toISOString();
@@ -86,6 +270,50 @@ function getMessageText(message: unknown): string {
       .join("\n");
   }
   return "";
+}
+
+function getStreamTokenText(token: unknown): string {
+  const candidate = token as { content?: unknown; contentBlocks?: { type?: string; text?: string }[] };
+  if (Array.isArray(candidate.contentBlocks)) {
+    return candidate.contentBlocks
+      .filter((block) => block.type === "text" && block.text)
+      .map((block) => block.text)
+      .join("");
+  }
+  if (typeof candidate.content === "string") return candidate.content;
+  if (Array.isArray(candidate.content)) {
+    return candidate.content
+      .map((item) => typeof item === "string" ? item : item && typeof item === "object" && "text" in item ? String((item as { text?: unknown }).text ?? "") : "")
+      .join("");
+  }
+  return "";
+}
+
+function writeStreamEvent(res: express.Response, event: unknown) {
+  res.write(`${JSON.stringify(event)}\n`);
+}
+
+function streamActivityFromUpdate(chunk: unknown) {
+  const entries = Object.entries(chunk as Record<string, { messages?: unknown[] }>);
+  return entries.flatMap(([step, content]) => {
+    const messages = content?.messages ?? [];
+    const activities: { phase: string; label: string; detail: string }[] = [];
+    for (const message of messages) {
+      const candidate = message as { tool_calls?: { name?: string; args?: unknown }[]; name?: string; content?: unknown; _getType?: () => string };
+      if (Array.isArray(candidate.tool_calls) && candidate.tool_calls.length > 0) {
+        for (const call of candidate.tool_calls) {
+          activities.push({ phase: "tool_call", label: call.name ?? "tool", detail: JSON.stringify(call.args ?? {}) });
+        }
+        continue;
+      }
+      if (candidate._getType?.() === "tool") {
+        activities.push({ phase: "tool_result", label: candidate.name ?? "tool_result", detail: getMessageText(message).slice(0, 180) });
+        continue;
+      }
+      if (step === "model") activities.push({ phase: "model", label: "agent_reasoning", detail: "Planning next response step" });
+    }
+    return activities;
+  });
 }
 
 function getToolCallMessages(messages: unknown[]): ChatMessage[] {
@@ -166,6 +394,13 @@ function checkpointMessagesToChatMessages(messages: unknown[]): ChatMessage[] {
   return chatMessages;
 }
 
+function hideToolMessages(thread: ThreadRecord): ThreadRecord {
+  return {
+    ...thread,
+    messages: thread.messages.filter((message) => message.role !== "tool"),
+  };
+}
+
 async function getCheckpointThread(threadId: string): Promise<ThreadRecord> {
   const tuple = await checkpointer.getTuple({ configurable: { thread_id: threadId, checkpoint_ns: "" } });
   if (!tuple) return createEmptyThread(threadId);
@@ -176,14 +411,14 @@ async function getCheckpointThread(threadId: string): Promise<ThreadRecord> {
   const firstUserMessage = chatMessages.find((message) => message.role === "user")?.content;
   const updatedAt = checkpoint.ts ?? new Date().toISOString();
 
-  return {
+  return hideToolMessages({
     threadId,
     title: firstUserMessage?.slice(0, 48) || `Thread ${threadId.slice(0, 6)}`,
     createdAt: updatedAt,
     updatedAt,
     messages: chatMessages.length ? chatMessages : createEmptyThread(threadId).messages,
     todos: getTodosFromMessages(messages),
-  };
+  });
 }
 
 async function listCheckpointThreads(): Promise<ThreadRecord[]> {
@@ -202,14 +437,14 @@ async function listCheckpointThreads(): Promise<ThreadRecord[]> {
     const firstUserMessage = chatMessages.find((message) => message.role === "user")?.content;
     const updatedAt = checkpoint.ts ?? new Date().toISOString();
 
-    latestByThread.set(threadId, {
+    latestByThread.set(threadId, hideToolMessages({
       threadId,
       title: firstUserMessage?.slice(0, 48) || `Thread ${threadId.slice(0, 6)}`,
       createdAt: updatedAt,
       updatedAt,
       messages: chatMessages.length ? chatMessages : createEmptyThread(threadId).messages,
       todos: getTodosFromMessages(messages),
-    });
+    }));
   }
 
   return [...latestByThread.values()].sort((a, b) => Date.parse(b.updatedAt) - Date.parse(a.updatedAt));
@@ -240,12 +475,7 @@ function createChatAgent(threadId: string, setTodos: (todos: Todo[]) => void) {
 
   const readPropertyContext = tool(
     async () => {
-      return [
-        "Property: LIE-001, WEG Immanuelkirchstrasse 26.",
-        "Dataset domains: stammdaten, bank transactions, emails, invoices, letters, incremental updates.",
-        "Current architecture: sources -> normalized documents -> work queue -> observations -> assertions -> Context.md.",
-        "Rule: Chat agent reads context and requests updates; Context Agent owns Context.md writes.",
-      ].join("\n");
+      return await readTextIfExists(path.join(rootDir, "contexts", "LIE-001", "Context.md")) ?? "No generated property context found. Run `npm run context:ingest` first.";
     },
     {
       name: "read_property_context",
@@ -254,28 +484,56 @@ function createChatAgent(threadId: string, setTodos: (todos: Todo[]) => void) {
     },
   );
 
-  const model = new ChatOpenAI({
-    model: process.env.OPENROUTER_MODEL,
-    apiKey: process.env.OPENROUTER_API_KEY,
-    configuration: {
-      baseURL: process.env.OPENROUTER_BASE_URL ?? "https://openrouter.ai/api/v1",
-      defaultHeaders: {
-        "HTTP-Referer": process.env.OPENROUTER_SITE_URL ?? "http://localhost:5173",
-        "X-Title": process.env.OPENROUTER_APP_NAME ?? "Buena Context Engine",
-      },
+  const readEntityContext = tool(
+    async ({ entityId }) => {
+      return await readTextIfExists(path.join(rootDir, "contexts", "LIE-001", "entities", `${safeFileStem(entityId)}.md`)) ?? `No generated entity context found for ${entityId}. Run \`npm run context:ingest\` or check entity-index.json.`;
     },
+    {
+      name: "read_entity_context",
+      description: "Read generated scoped context for a specific entity such as HAUS-12, EH-014, MIE-001, EIG-001, DL-003, INV-00042, or EMAIL-00001.",
+      schema: entityContextSchema,
+    },
+  );
+
+  const appendContextNoteTool = tool(
+    async ({ note, reason }) => appendContextNote(note, reason),
+    {
+      name: "append_context_note",
+      description: "Append a human/agent note to Context.md outside BCE managed sections. Use only when the user explicitly asks to update context or save a note. Do not use for source-backed facts that require ingestion.",
+      schema: contextNoteSchema,
+    },
+  );
+
+  const createContextCorrectionTool = tool(
+    async (input) => createContextCorrection(threadId, input),
+    {
+      name: "create_context_correction",
+      description: "Record a user-requested correction as an auditable proposed correction with optional target section, fact, entity, and source IDs. Use this when the user says context/facts are wrong and asks you to correct them. It does not directly edit BCE managed sections.",
+      schema: correctionSchema,
+    },
+  );
+
+  const model = new ChatGoogleGenerativeAI({
+    model: process.env.GEMINI_CHAT_MODEL ?? "gemini-3-pro-preview",
+    apiKey: process.env.GEMINI_API_KEY,
+    temperature: 0,
   });
 
   return createAgent({
     model,
-    tools: [writeTodos, readPropertyContext],
+    tools: [writeTodos, readPropertyContext, readEntityContext, appendContextNoteTool, createContextCorrectionTool],
     checkpointer,
     systemPrompt: [
       "You are the Buena chat agent for a property context-engine demo.",
       "Answer concisely and practically.",
       "Use read_property_context when the user asks about the property, context engine, ingestion, or architecture.",
+      "Use read_entity_context when the user asks about a specific building, unit, owner, tenant, contractor, invoice, letter, or email.",
+      "Use append_context_note only when the user explicitly asks to update or save a context note. Explain that notes are preserved because they live outside BCE managed sections.",
+      "Use create_context_correction when the user says generated context or a fact is wrong and asks you to correct it. Capture target section IDs, fact IDs, entity IDs, and source IDs when the user provides them.",
+      "Do not overwrite managed BCE sections. Durable facts should come from source ingestion and evidence, not direct chat edits.",
+      "Context.md managed sections are guarded by BCE hashes; if a human edits a managed block, ingestion records a conflict instead of destroying the edit.",
       "Use write_todos before answering any request that has multiple steps, design decisions, or implementation work.",
-      "Do not claim Context.md has been updated unless a context-writer tool exists and was used.",
+      "Do not claim generated facts have changed unless a correction overlay/materialization step has applied them. If create_context_correction is used, say the correction was recorded as proposed.",
     ].join("\n"),
   });
 }
@@ -292,7 +550,7 @@ async function fallbackReply(message: string, threadId: string): Promise<{ reply
     reply: [
       `Local fallback response for thread \`${threadId.slice(0, 6)}\`.`,
       "",
-      "The LangChain agent backend is wired, but no `OPENROUTER_API_KEY` is available in this process, so I cannot call the model yet.",
+      "The LangChain agent backend is wired, but no `GEMINI_API_KEY` is available in this process, so I cannot call the model yet.",
       "",
       `Your message was: ${message}`,
     ].join("\n"),
@@ -305,6 +563,27 @@ app.use(express.json({ limit: "1mb" }));
 
 app.get("/api/health", (_req, res) => {
   res.json({ ok: true });
+});
+
+app.get("/api/context", async (_req, res, next) => {
+  try {
+    const markdown = await readTextIfExists(path.join(rootDir, "contexts", "LIE-001", "Context.md"));
+    res.json({
+      propertyId: "LIE-001",
+      markdown: markdown ?? "No generated property context found. Run `npm run context:ingest` first.",
+      exists: Boolean(markdown),
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+app.get("/api/context/graph", async (_req, res, next) => {
+  try {
+    res.json(await buildContextGraph());
+  } catch (error) {
+    next(error);
+  }
 });
 
 app.get("/api/threads", async (_req, res, next) => {
@@ -367,13 +646,15 @@ app.post("/api/chat", async (req, res, next) => {
       })
       .parse(req.body);
 
-    let todos: Todo[] = [];
-    let reply: string;
+    res.setHeader("Content-Type", "application/x-ndjson; charset=utf-8");
+    res.setHeader("Cache-Control", "no-cache, no-transform");
+    res.setHeader("X-Accel-Buffering", "no");
 
-    if (!process.env.OPENROUTER_API_KEY) {
+    let todos: Todo[] = [];
+
+    if (!process.env.GEMINI_API_KEY) {
       const fallback = await fallbackReply(parsed.message, parsed.threadId);
       todos = fallback.todos;
-      reply = fallback.reply;
       const emptyThread = createEmptyThread(parsed.threadId);
       const now = new Date().toISOString();
       const updated: ThreadRecord = {
@@ -384,28 +665,50 @@ app.post("/api/chat", async (req, res, next) => {
         messages: [
           ...emptyThread.messages,
           { role: "user", content: parsed.message, createdAt: now },
-          { role: "agent", content: reply, createdAt: new Date().toISOString() },
+          { role: "agent", content: fallback.reply, createdAt: new Date().toISOString() },
         ],
       };
-      res.json({ thread: updated, reply, todos });
+      writeStreamEvent(res, { type: "delta", content: fallback.reply });
+      writeStreamEvent(res, { type: "done", thread: updated, todos });
+      res.end();
       return;
-    } else {
-      const agent = createChatAgent(parsed.threadId, (nextTodos) => {
-        todos = nextTodos;
-      });
+    }
 
-      const result = await agent.invoke(
-        { messages: [{ role: "user", content: parsed.message }] } as never,
-        { configurable: { thread_id: parsed.threadId } },
-      );
+    const agent = createChatAgent(parsed.threadId, (nextTodos) => {
+      todos = nextTodos;
+      writeStreamEvent(res, { type: "todos", todos });
+      writeStreamEvent(res, { type: "activity", phase: "update", label: "write_todos", detail: `${todos.length} todo item(s) updated` });
+    });
 
-      const resultMessages = (result as { messages?: unknown[] }).messages ?? [];
-      reply = getMessageText(resultMessages.at(-1)) || "I could not produce a text response.";
+    writeStreamEvent(res, { type: "activity", phase: "start", label: "user_request", detail: parsed.message.slice(0, 160) });
+
+    const stream = await agent.stream(
+      { messages: [{ role: "user", content: parsed.message }] } as never,
+      { configurable: { thread_id: parsed.threadId }, streamMode: ["updates", "messages"] } as never,
+    ) as AsyncIterable<[string, unknown]>;
+
+    for await (const [mode, chunk] of stream) {
+      if (mode === "messages") {
+        const [token] = chunk as [unknown, unknown];
+        const text = getStreamTokenText(token);
+        if (text) writeStreamEvent(res, { type: "delta", content: text });
+        continue;
+      }
+      if (mode === "updates") {
+        for (const activity of streamActivityFromUpdate(chunk)) writeStreamEvent(res, { type: "activity", ...activity });
+      }
     }
 
     const updated = await getCheckpointThread(parsed.threadId);
-    res.json({ thread: updated, reply, todos });
+    writeStreamEvent(res, { type: "activity", phase: "done", label: "agent_response", detail: "Response complete" });
+    writeStreamEvent(res, { type: "done", thread: updated, todos });
+    res.end();
   } catch (error) {
+    if (res.headersSent) {
+      writeStreamEvent(res, { type: "error", error: error instanceof Error ? error.message : "Unknown server error" });
+      res.end();
+      return;
+    }
     next(error);
   }
 });

@@ -108,7 +108,28 @@ function dateValue(value: string) {
 }
 
 function factDate(fact: FactRecord) {
-  return attr(fact, "date") || String((fact.structured.row as Record<string, unknown> | undefined)?.datum ?? "");
+  const date = fact.eventDate ?? fact.dueDate ?? fact.validFrom ?? attr(fact, "date");
+  return date || String((fact.structured.row as Record<string, unknown> | undefined)?.datum ?? "");
+}
+
+function evidenceQuote(fact: FactRecord) {
+  return fact.evidence.find((entry) => entry.quote)?.quote?.replace(/\s+/g, " ").slice(0, 180) ?? "";
+}
+
+function factStatus(fact: FactRecord) {
+  return attr(fact, "status") || fact.decision;
+}
+
+function factPriority(fact: FactRecord) {
+  return attr(fact, "priority") || "unknown";
+}
+
+function displayPriority(fact: FactRecord) {
+  return factPriority(fact) === "unknown" ? "n/a" : factPriority(fact);
+}
+
+function isSemanticFact(fact: FactRecord) {
+  return ["issue", "decision", "obligation", "deadline", "risk", "status_change", "communication_event"].includes(fact.kind);
 }
 
 function buildPropertySection(entityIndex: EntityIndex, factsBySubject: Map<string, FactRecord>) {
@@ -249,16 +270,25 @@ function buildDocumentsSection(factIndex: FactIndex) {
   const documents = factIndex.facts.filter((fact) => fact.kind === "document").sort((a, b) => dateValue(attr(b, "date")) - dateValue(attr(a, "date")));
   const byType = new Map<string, number>();
   for (const document of documents) byType.set(attr(document, "letterType") || "unknown", (byType.get(attr(document, "letterType") || "unknown") ?? 0) + 1);
-  const decisionDocs = documents.filter((document) => Array.isArray(document.structured.decisions) && document.structured.decisions.length > 0);
+  const decisionDocs = documents.filter((document) => attr(document, "letterType") === "etv_protokoll" && Array.isArray(document.structured.decisions) && document.structured.decisions.length > 0);
   const decisionRows = decisionDocs.map((document) => [document.subjectId ?? "", attr(document, "date"), attr(document, "letterType"), (document.structured.decisions as string[]).slice(0, 3).join("; "), sourceRef(document)]);
-  const rows = documents.slice(0, 50).map((document) => [document.subjectId ?? "", attr(document, "date"), attr(document, "letterType"), attr(document, "subject"), attr(document, "amount"), sourceRef(document)]);
+  const monetaryTypes = new Set(["mahnung", "hausgeld", "bka", "mieterhoehung"]);
+  const rows = documents.slice(0, 50).map((document) => [
+    document.subjectId ?? "",
+    attr(document, "date"),
+    attr(document, "letterType"),
+    attr(document, "subject"),
+    monetaryTypes.has(attr(document, "letterType")) ? attr(document, "amount") || "needs_review" : "n/a",
+    sourceRef(document),
+  ]);
   return makeSection("documents", "Letters And Documents", [
     `- Document metadata facts: ${documents.length}`,
-    `- Documents with extracted meeting decisions: ${decisionDocs.length}`,
+    `- ETV protocols with extracted decisions: ${decisionDocs.length}`,
     `- Types: ${[...byType.entries()].sort((a, b) => b[1] - a[1]).map(([name, count]) => `${name} (${count})`).join(", ")}`,
+    `- Amount is shown as n/a when the document type does not contain a direct monetary amount.`,
     `- Table below shows latest ${rows.length}; complete structured facts and extracted text are in fact-index.json and normalized PDF markdown.`,
     "",
-    "### Extracted Meeting Decisions",
+    "### Extracted ETV Protocol Decisions",
     "",
     table(["Letter", "Date", "Type", "Decisions", "Sources"], decisionRows),
     "",
@@ -268,22 +298,67 @@ function buildDocumentsSection(factIndex: FactIndex) {
   ], documents.map((fact) => fact.factId));
 }
 
+function buildOpenIssuesSection(factIndex: FactIndex) {
+  const facts = factIndex.facts
+    .filter((fact) => ["issue", "deadline", "obligation"].includes(fact.kind))
+    .filter((fact) => factStatus(fact) !== "resolved")
+    .sort((a, b) => dateValue(factDate(b)) - dateValue(factDate(a)))
+    .slice(0, 80);
+  const rows = facts.map((fact) => [fact.factId, fact.kind, attr(fact, "subtype"), factDate(fact), fact.dueDate ?? "", factStatus(fact), factPriority(fact), fact.entities.slice(0, 6).join(", "), fact.statement, sourceRef(fact)]);
+  return makeSection("current-open-issues", "Current Open Issues", [
+    `- Open issue/deadline/obligation facts: ${facts.length}`,
+    "- These facts come from scoped observations; ambiguous items stay needs_review instead of being silently promoted.",
+    "",
+    table(["Fact", "Kind", "Subtype", "Date", "Due", "Status", "Priority", "Entities", "Summary", "Sources"], rows),
+  ], facts.map((fact) => fact.factId));
+}
+
+function buildRecentChangesSection(factIndex: FactIndex) {
+  const facts = factIndex.facts
+    .filter((fact) => ["status_change", "decision", "communication_event", "issue", "deadline", "obligation"].includes(fact.kind))
+    .sort((a, b) => dateValue(factDate(b)) - dateValue(factDate(a)))
+    .slice(0, 80);
+  const rows = facts.map((fact) => [fact.factId, factDate(fact), fact.kind, attr(fact, "subtype"), fact.entities.slice(0, 6).join(", "), fact.statement, sourceRef(fact)]);
+  return makeSection("recent-important-changes", "Recent Important Changes", [
+    `- Recent semantic/change facts shown: ${facts.length}`,
+    "",
+    table(["Fact", "Date", "Kind", "Subtype", "Entities", "Summary", "Sources"], rows),
+  ], facts.map((fact) => fact.factId));
+}
+
+function buildRisksSection(factIndex: FactIndex) {
+  const facts = factIndex.facts
+    .filter((fact) => fact.kind === "risk" || fact.kind === "invoice" && fact.decision !== "keep" || isSemanticFact(fact) && fact.decision !== "keep")
+    .sort((a, b) => dateValue(factDate(b)) - dateValue(factDate(a)))
+    .slice(0, 100);
+  const rows = facts.map((fact) => [fact.factId, fact.kind, attr(fact, "subtype") || "n/a", factDate(fact), fact.decision, displayPriority(fact), fact.entities.slice(0, 6).join(", "), fact.statement, evidenceQuote(fact) || "n/a", sourceRef(fact)]);
+  return makeSection("risks-needs-review", "Risks / Needs Review", [
+    `- Risk, semantic needs-review, or invoice anomaly facts: ${facts.length}`,
+    "- Routine email metadata is intentionally excluded here; it remains in Communications Needing Review.",
+    "- Evidence quotes are included when extracted from unstructured text; n/a means deterministic metadata did not include a body quote.",
+    "",
+    table(["Fact", "Kind", "Subtype", "Date", "Decision", "Priority", "Entities", "Summary", "Evidence", "Sources"], rows),
+  ], facts.map((fact) => fact.factId));
+}
+
 function buildCommunicationsSection(factIndex: FactIndex) {
   const communications = factIndex.facts.filter((fact) => fact.kind === "communication").sort((a, b) => dateValue(String((b.structured.glimpse as Record<string, unknown> | undefined)?.dateRange?.[1] ?? "")) - dateValue(String((a.structured.glimpse as Record<string, unknown> | undefined)?.dateRange?.[1] ?? "")));
   const highSignalPattern = /mangel|schaden|heizung|dach|aufzug|einspruch|sonderumlage|kaution|jahresabrechnung|beschluss|etv|mahnung|kündigung|kuendigung|wasser|reparatur|angebot/i;
   const highSignal = communications.filter((fact) => highSignalPattern.test(fact.statement) || highSignalPattern.test(JSON.stringify(fact.structured))).slice(0, 100);
+  const triageLabel = (fact: FactRecord) => fact.decision === "needs_review" ? "queued_for_body_review" : fact.decision;
   const rows = highSignal.map((fact) => {
     const glimpse = fact.structured.glimpse as Record<string, unknown> | undefined;
     const dateRange = Array.isArray(glimpse?.dateRange) ? glimpse.dateRange.join(" to ") : "";
     const preview = glimpse?.preview as Record<string, unknown> | undefined;
-    return [fact.subjectId ?? fact.factId, dateRange, Array.isArray(preview?.subjects) ? preview.subjects.join("; ") : fact.statement, fact.decision, sourceRef(fact)];
+    return [fact.subjectId ?? fact.factId, dateRange, Array.isArray(preview?.subjects) ? preview.subjects.join("; ") : fact.statement, triageLabel(fact), sourceRef(fact)];
   });
-  return makeSection("communications-review", "Communications Needing Review", [
+  return makeSection("communications-review", "High-Signal Communications Queue", [
     `- Communication metadata facts: ${communications.length}`,
     `- High-signal review candidates shown: ${rows.length}`,
-    `- These are header/glimpse facts only. Body-level semantic extraction is the next LLM step.`,
+    "- queued_for_body_review means the thread was linked from metadata and keyword triage, but its full body has not been promoted into durable semantic facts yet.",
+    "- This is not an entity-link failure. Semantic body facts, when extracted, are promoted into Current Open Issues, Recent Important Changes, and Risks / Needs Review.",
     "",
-    table(["Thread/Fact", "Date range", "Subject", "Decision", "Sources"], rows),
+    table(["Thread/Fact", "Date range", "Subject", "Triage", "Sources"], rows),
   ], communications.map((fact) => fact.factId));
 }
 
@@ -294,7 +369,11 @@ function buildProvenanceSection(factIndex: FactIndex) {
     "- Source registry: contexts/LIE-001/source-registry.json",
     "- Entity index: contexts/LIE-001/entity-index.json",
     "- Fact index: contexts/LIE-001/fact-index.json",
+    "- Entity links: workdir/entity-links/entity-links.jsonl",
     "- Observations: workdir/observations/observations.jsonl",
+    "- Semantic observations: workdir/semantic/observations.jsonl",
+    "- Latest change set: workdir/changes/latest-change-set.json",
+    "- Entity context views: contexts/LIE-001/entities/*.md",
     "- Patch log: contexts/LIE-001/patch-log.jsonl",
     "",
     table(["Fact kind", "Count"], stats.map(([kind, count]) => [kind, String(count)])),
@@ -313,6 +392,9 @@ export function buildContextSections(factIndex: FactIndex, entityIndex: EntityIn
     buildFinancialSection(factIndex),
     buildInvoicesSection(factIndex),
     buildDocumentsSection(factIndex),
+    buildOpenIssuesSection(factIndex),
+    buildRecentChangesSection(factIndex),
+    buildRisksSection(factIndex),
     buildCommunicationsSection(factIndex),
     buildProvenanceSection(factIndex),
   ];
@@ -369,7 +451,9 @@ function mergeManagedSections(existing: string | undefined, factIndex: FactIndex
     };
   }
 
-  let markdown = existing;
+  let markdown = existing.includes("Generated:")
+    ? existing.replace(/^Generated: .*$/m, `Generated: ${factIndex.generatedAt}`)
+    : existing.replace(/^# Context:.*$/m, (title) => `${title}\n\nGenerated: ${factIndex.generatedAt}`);
   const patches: PatchLogEntry[] = [];
   let conflicts = 0;
   for (const section of sections) {

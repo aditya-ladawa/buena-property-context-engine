@@ -80,7 +80,8 @@ function firstMatch(text: string, patterns: RegExp[]) {
 
 function parseMoney(value: string | undefined) {
   if (!value) return undefined;
-  const normalized = value.replace(/\./g, "").replace(",", ".").replace(/[^\d.-]/g, "");
+  const cleaned = value.replace(/[^\d,.-]/g, "");
+  const normalized = cleaned.includes(",") ? cleaned.replace(/\./g, "").replace(",", ".") : cleaned;
   const parsed = Number.parseFloat(normalized);
   return Number.isFinite(parsed) ? parsed.toFixed(2) : undefined;
 }
