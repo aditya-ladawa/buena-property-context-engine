@@ -21,8 +21,7 @@ That is the main design bet: make context a durable substrate the agent can trav
 ## What Is Included
 
 - `data/`: demo source dataset for judges.
-- `workdir/`: prepared ingest artifacts so the project can be inspected quickly.
-- `contexts/`: generated local context views. This remains ignored because users can regenerate it from `data/` and `workdir/`.
+- `contexts/`: generated property context artifacts committed for judge inspection, including `Context.md`, entity views, fact index, source registry, coverage report, and patch log.
 - `.env.example`: required environment variable names without secrets.
 
 Secrets are intentionally not committed. Do not commit `.env`, API keys, local runtime state, or generated build output.

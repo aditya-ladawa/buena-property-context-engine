@@ -391,6 +391,7 @@ function ChatPage() {
   const [contextDraft, setContextDraft] = useState("");
   const [contextEditStatus, setContextEditStatus] = useState("NOTE: Human corrections saved here become protected context and are wrapped in <user> tags.");
   const [isSavingContext, setIsSavingContext] = useState(false);
+  const [contextPanelOpen, setContextPanelOpen] = useState(true);
   const [contextGraph, setContextGraph] = useState<ContextGraph>({ nodes: [], edges: [] });
   const [selectedGraphNodeId, setSelectedGraphNodeId] = useState<string | null>(null);
   const [hoveredGraphNodeId, setHoveredGraphNodeId] = useState<string | null>(null);
@@ -463,6 +464,7 @@ function ChatPage() {
   };
 
   const beginContextEdit = () => {
+    setContextPanelOpen(true);
     setEditingContext(true);
     setContextDraft(contextMarkdown);
     setContextEditStatus("NOTE: Human corrections saved here become protected context and are wrapped in <user> tags.");
@@ -1034,6 +1036,15 @@ function ChatPage() {
     return "AGENT";
   };
 
+  const contextOpenForLayout = contextPanelOpen || editingContext;
+  const rightPanelRows = agentStreamOpen
+    ? contextOpenForLayout
+      ? "grid-rows-[minmax(0,0.9fr)_minmax(0,1fr)_minmax(0,0.9fr)]"
+      : "grid-rows-[minmax(0,1fr)_auto_minmax(0,0.9fr)]"
+    : contextOpenForLayout
+      ? "grid-rows-[minmax(0,1fr)_minmax(0,1fr)_auto]"
+      : "grid-rows-[minmax(0,1fr)_auto_auto]";
+
   return (
     <div className="h-screen w-screen overflow-hidden grid-bg flex flex-col">
       <SiteHeader />
@@ -1259,7 +1270,7 @@ function ChatPage() {
         </TerminalWindow>
 
         {/* RIGHT: graph, context artifact, stream */}
-        <div className={`grid h-full min-h-0 min-w-0 overflow-hidden gap-2 ${agentStreamOpen ? "grid-rows-[minmax(0,0.9fr)_minmax(0,1fr)_minmax(0,0.9fr)]" : "grid-rows-[minmax(0,1fr)_minmax(0,1fr)_auto]"}`}>
+        <div className={`grid h-full min-h-0 min-w-0 overflow-hidden gap-2 ${rightPanelRows}`}>
           <TerminalWindow title="LIVE ENTITY RELATIONSHIPS" className="min-h-0">
             <div className="h-full min-h-0 min-w-0 flex flex-col">
               <div className="relative flex-1 min-h-0 overflow-hidden border border-border/60 bg-background/20">
@@ -1374,9 +1385,18 @@ function ChatPage() {
 
           <TerminalWindow
             title="CONTEXT.MD"
-            className="min-h-0 overflow-hidden"
+            className={contextOpenForLayout ? "min-h-0 overflow-hidden" : "overflow-hidden"}
+            bodyClassName={contextOpenForLayout ? undefined : "hidden"}
             headerRight={(
               <div className="flex shrink-0 items-center gap-2 text-mono-xs text-muted-foreground">
+                <button
+                  type="button"
+                  onClick={() => setContextPanelOpen((open) => !open)}
+                  disabled={editingContext}
+                  className="border border-border bg-background/70 px-2 py-1 transition-colors hover:bg-accent hover:text-foreground disabled:cursor-not-allowed disabled:opacity-50"
+                >
+                  {contextPanelOpen ? "COLLAPSE" : "EXPAND"}
+                </button>
                 {!editingContext ? (
                   <button
                     type="button"
@@ -1409,9 +1429,11 @@ function ChatPage() {
             )}
           >
             <section className="flex h-full min-h-0 flex-col border border-border/70 bg-background/20">
-              <div className="border-b border-border/70 px-3 py-2 text-xs text-muted-foreground">
-                {contextEditStatus}
-              </div>
+              {(contextPanelOpen || editingContext) && (
+                <div className="border-b border-border/70 px-3 py-2 text-xs text-muted-foreground">
+                  {contextEditStatus}
+                </div>
+              )}
               {editingContext ? (
                 <textarea
                   value={contextDraft}
@@ -1419,11 +1441,11 @@ function ChatPage() {
                   spellCheck={false}
                   className="min-h-0 flex-1 resize-none bg-background/35 p-3 font-mono text-xs leading-relaxed text-foreground outline-none scrollbar-thin focus:bg-background/50"
                 />
-              ) : (
-                <pre className="min-h-0 flex-1 overflow-auto whitespace-pre-wrap p-3 font-mono text-xs leading-relaxed text-foreground scrollbar-thin">
-                  {contextMarkdown}
-                </pre>
-              )}
+              ) : contextPanelOpen ? (
+                <div className="min-h-0 flex-1 overflow-auto p-4 text-sm leading-relaxed text-foreground scrollbar-thin [&_a]:text-[var(--chart-2)] [&_blockquote]:border-l [&_blockquote]:border-border [&_blockquote]:pl-3 [&_code]:border [&_code]:border-border [&_code]:bg-background/60 [&_code]:px-1 [&_code]:py-0.5 [&_code]:text-[var(--chart-2)] [&_h1]:mb-4 [&_h1]:border-b [&_h1]:border-border [&_h1]:pb-3 [&_h1]:text-xl [&_h1]:uppercase [&_h1]:tracking-wider [&_h2]:mb-3 [&_h2]:mt-6 [&_h2]:border-b [&_h2]:border-border/70 [&_h2]:pb-2 [&_h2]:text-base [&_h2]:uppercase [&_h2]:tracking-wider [&_h3]:mb-2 [&_h3]:mt-5 [&_h3]:text-sm [&_h3]:uppercase [&_h3]:tracking-wider [&_li]:my-1 [&_ol]:my-3 [&_ol]:list-decimal [&_ol]:pl-5 [&_p]:my-3 [&_p]:text-muted-foreground [&_pre]:my-4 [&_pre]:overflow-auto [&_pre]:border [&_pre]:border-border [&_pre]:bg-background/60 [&_pre]:p-3 [&_strong]:text-foreground [&_table]:my-4 [&_table]:w-full [&_table]:border-collapse [&_table]:text-xs [&_td]:border [&_td]:border-border/60 [&_td]:px-2 [&_td]:py-1 [&_td]:align-top [&_td]:text-muted-foreground [&_th]:border [&_th]:border-border [&_th]:bg-background/60 [&_th]:px-2 [&_th]:py-1 [&_th]:text-left [&_th]:text-foreground [&_ul]:my-3 [&_ul]:list-disc [&_ul]:pl-5">
+                  <ReactMarkdown remarkPlugins={[remarkGfm]}>{contextMarkdown}</ReactMarkdown>
+                </div>
+              ) : null}
             </section>
           </TerminalWindow>
 
