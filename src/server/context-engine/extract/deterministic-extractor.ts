@@ -39,7 +39,7 @@ type ExtractionArtifacts = {
 
 type JsonRecord = Record<string, unknown>;
 
-const DETERMINISTIC_EXTRACTOR_VERSION = 2;
+const DETERMINISTIC_EXTRACTOR_VERSION = 4;
 
 function absolutePath(relativePath: string) {
   return path.join(PROJECT_ROOT, relativePath);
@@ -256,18 +256,20 @@ function invoiceObservation(row: JsonRecord, source: SourceRegistryEntry, workIt
   const invoiceId = String(row.id ?? row.invoiceId ?? source.declaredIds.find((id) => id.startsWith("INV-")) ?? source.sourceId);
   const contractorId = String(row.dienstleister_id ?? row.contractorId ?? source.declaredIds.find((id) => id.startsWith("DL-")) ?? "unknown contractor");
   const invoiceNumber = String(row.rechnungsnr ?? row.invoiceNumber ?? invoiceId);
-  const gross = String(row.brutto ?? row.gross ?? "unknown gross");
+  const gross = String(row.brutto ?? row.gross ?? row.grossAmount ?? "unknown gross");
+  const net = String(row.netto ?? row.netAmount ?? "");
+  const vat = String(row.mwst ?? row.vatAmount ?? "");
   const date = String(row.datum ?? row.date ?? source.sourceDate ?? "unknown date");
   return observation({
     workItem,
     inputHash,
     sourceIds: [source.sourceId],
     kind: "invoice",
-    statement: `Invoice ${invoiceId} (${invoiceNumber}) is dated ${date} for ${contractorId} with gross amount ${gross}.`,
-    evidence: [sourceEvidence(source, lineStart ? "jsonl_row" : "filename_metadata", lineStart)],
+    statement: `Invoice ${invoiceId} (${invoiceNumber}) is dated ${date} for ${contractorId} with gross amount ${gross}${net ? `, net ${net}` : ""}${vat ? `, VAT ${vat}` : ""}.`,
+    evidence: [sourceEvidence(source, lineStart ? "jsonl_row" : "pdf_text", lineStart)],
     decision: JSON.stringify(row).includes("FAKE") || JSON.stringify(row).includes("DUP-") ? "needs_review" : "keep",
-    reason: lineStart ? "Deterministic invoice index row extraction." : "Deterministic invoice filename metadata extraction.",
-    attributes: compact({ invoiceId, contractorId, invoiceNumber, date, gross, row }),
+    reason: lineStart ? "Deterministic invoice index row extraction." : "Deterministic invoice PDF text extraction.",
+    attributes: compact({ invoiceId, contractorId, invoiceNumber, date, gross, net, vat, row }),
     entityIndex,
   });
 }
@@ -295,15 +297,18 @@ function letterObservation(row: JsonRecord, source: SourceRegistryEntry, workIte
   const letterId = String(row.letterId ?? source.declaredIds.find((id) => id.startsWith("LTR-")) ?? source.sourceId);
   const letterType = String(row.letterType ?? "unknown letter type");
   const date = String(row.date ?? source.sourceDate ?? "unknown date");
+  const subject = String(row.subject ?? letterType);
+  const decisions = Array.isArray(row.decisions) ? row.decisions : [];
+  const amount = String(row.amount ?? "");
   return observation({
     workItem,
     inputHash,
     sourceIds: [source.sourceId],
     kind: "document_metadata",
-    statement: `Letter ${letterId} is a ${letterType} document dated ${date}.`,
-    evidence: [sourceEvidence(source, "filename_metadata")],
-    reason: "Deterministic letter filename metadata extraction.",
-    attributes: compact({ letterId, letterType, date, row }),
+    statement: `Letter ${letterId} is a ${letterType} document dated ${date}${subject && subject !== letterType ? ` about ${subject}` : ""}${decisions.length > 0 ? ` with ${decisions.length} extracted meeting decision(s)` : ""}${amount ? ` and amount ${amount}` : ""}.`,
+    evidence: [sourceEvidence(source, "pdf_text")],
+    reason: "Deterministic letter PDF text extraction.",
+    attributes: compact({ letterId, letterType, date, subject, decisions, amount, row }),
     entityIndex,
   });
 }

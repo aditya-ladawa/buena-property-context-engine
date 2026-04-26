@@ -57,6 +57,7 @@ export type SourceRegistryEntry = ManifestItem &
   DuplicateInfo & {
     normalizedPaths: string[];
     normalizedSha256?: string;
+    normalizerVersion?: number;
     ignoreReason?: string;
     error?: string;
   };
@@ -253,6 +254,65 @@ export type ExtractionSummary = {
   ignoreDecisions: number;
   duplicateDecisions: number;
   errorRecords: number;
+};
+
+export type FactKind =
+  | "property_profile"
+  | "building"
+  | "unit"
+  | "owner"
+  | "tenant"
+  | "contractor"
+  | "payment"
+  | "invoice"
+  | "document"
+  | "communication"
+  | "source_bundle"
+  | "review_item";
+
+export type FactRecord = {
+  factId: string;
+  propertyId: string;
+  kind: FactKind;
+  subjectId?: string;
+  statement: string;
+  structured: Record<string, unknown>;
+  sourceObservationIds: string[];
+  sourceIds: string[];
+  mentions: string[];
+  evidence: EvidenceRef[];
+  decision: ObservationDecision;
+  updatedAt: string;
+};
+
+export type FactIndex = {
+  schemaVersion: number;
+  propertyId: string;
+  generatedAt: string;
+  factCount: number;
+  stats: Record<string, number>;
+  facts: FactRecord[];
+};
+
+export type ContextSection = {
+  sectionId: string;
+  title: string;
+  hash: string;
+  content: string;
+  sourceFactIds: string[];
+};
+
+export type PatchLogEntry = {
+  patchId: string;
+  propertyId: string;
+  sectionId: string;
+  status: "applied" | "conflict";
+  beforeHash?: string;
+  expectedBeforeHash?: string;
+  afterHash: string;
+  reason: string;
+  sourceFactIds: string[];
+  createdAt: string;
 };
 
 export type CoverageReport = {

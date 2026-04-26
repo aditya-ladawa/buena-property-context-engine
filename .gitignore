@@ -22,8 +22,15 @@ dist-ssr
 # Internal assistant/project memory
 codex_mem/
 
+# Raw and generated context-engine artifacts
+data/
+workdir/
+contexts/
+
 # Local agent runtime state
 .agent-data/
+.entire/
+.opencode/
 
 # Wrangler / Cloudflare
 .wrangler/

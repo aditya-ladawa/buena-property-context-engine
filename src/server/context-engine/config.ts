@@ -10,6 +10,9 @@ export const PROPERTY_CONTEXT_ROOT = path.join(CONTEXTS_ROOT, PROPERTY_ID);
 export const MANIFEST_PATH = path.join(WORKDIR_ROOT, "manifest.json");
 export const SOURCE_REGISTRY_PATH = path.join(PROPERTY_CONTEXT_ROOT, "source-registry.json");
 export const ENTITY_INDEX_PATH = path.join(PROPERTY_CONTEXT_ROOT, "entity-index.json");
+export const FACT_INDEX_PATH = path.join(PROPERTY_CONTEXT_ROOT, "fact-index.json");
+export const CONTEXT_MD_PATH = path.join(PROPERTY_CONTEXT_ROOT, "Context.md");
+export const PATCH_LOG_PATH = path.join(PROPERTY_CONTEXT_ROOT, "patch-log.jsonl");
 export const NORMALIZED_ROOT = path.join(WORKDIR_ROOT, "normalized");
 export const WORK_QUEUE_PATH = path.join(WORKDIR_ROOT, "work-queue.jsonl");
 export const OBSERVATIONS_ROOT = path.join(WORKDIR_ROOT, "observations");
@@ -21,3 +24,4 @@ export const EXTRACTION_SUMMARY_PATH = path.join(OBSERVATIONS_ROOT, "summary.jso
 export const COVERAGE_REPORT_PATH = path.join(PROPERTY_CONTEXT_ROOT, "coverage-report.md");
 
 export const SCHEMA_VERSION = 1;
+export const NORMALIZER_VERSION = 3;

@@ -1,10 +1,11 @@
-import { PROPERTY_ID, SCHEMA_VERSION, SOURCE_REGISTRY_PATH } from "../config";
+import { NORMALIZER_VERSION, PROPERTY_ID, SCHEMA_VERSION, SOURCE_REGISTRY_PATH } from "../config";
 import type { Manifest, SourceRegistry, SourceRegistryEntry } from "../types";
 import { writeJson } from "../utils/fs";
 
 function reusablePreviousSource(source: SourceRegistryEntry, previous?: SourceRegistry) {
   const previousSource = previous?.sources.find((candidate) => candidate.rawPath === source.rawPath && candidate.rawSha256 === source.rawSha256 && candidate.kind === source.kind);
   if (!previousSource || previousSource.normalizedPaths.length === 0) return undefined;
+  if (previousSource.normalizerVersion !== NORMALIZER_VERSION) return undefined;
   if (!["normalized", "queued", "processed"].includes(previousSource.status)) return undefined;
   return previousSource;
 }
@@ -44,6 +45,7 @@ export function buildSourceRegistry(manifest: Manifest, previous?: SourceRegistr
       source.status = "normalized";
       source.normalizedPaths = previousSource.normalizedPaths;
       source.normalizedSha256 = previousSource.normalizedSha256;
+      source.normalizerVersion = previousSource.normalizerVersion;
     }
   }
 
