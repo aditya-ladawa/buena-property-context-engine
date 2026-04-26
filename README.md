@@ -2,6 +2,22 @@
 
 Hackathon demo for a source-backed property-management context engine. It ingests property data, normalizes records, extracts observations, materializes context artifacts, and exposes a chat/voice UI for agents and property managers.
 
+## Core Approach
+
+The context problem is that property-management data is a messy data space: emails, PDFs, invoices, bank rows, letters, master data, and incremental updates. A generic agent answers by doing a fresh random walk through that space every time: search, open a file, skim, jump somewhere else, hope the relevant evidence was not missed.
+
+We invert that workflow. Instead of making the agent wander raw data at query time, ingestion reshapes the data space into a traversable grid. Every source becomes a stable record with hashes, normalized views, compact glimpses, entity candidates, durable facts, and KV-style pointers.
+
+The agent then traverses the grid deliberately:
+
+```text
+sourceId -> normalized artifact -> workItem -> glimpse -> entity -> fact -> Context.md section
+```
+
+Glimpses are small, bounded summaries with dates, source kind, preview fields, metrics, and entity hints. KV-style pointers preserve exact paths and IDs back to evidence. This gives the agent a map: it can jump to the right entity, source, fact, or context section instead of blindly crawling folders.
+
+That is the main design bet: make context a durable substrate the agent can traverse, not a temporary pile of retrieved chunks.
+
 ## What Is Included
 
 - `data/`: demo source dataset for judges.

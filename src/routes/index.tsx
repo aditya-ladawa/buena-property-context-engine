@@ -42,6 +42,11 @@ function Home() {
             The goal is not a marketing site. It is an operational prototype: run ingestion, inspect
             what changed, explore entity relations, and ask an agent questions with provenance.
           </p>
+          <p className="mt-4 text-sm md:text-base text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            Our core idea: invert the agent's random walk through raw data. Instead of letting an
+            LLM wander files at answer time, we reshape the data space into a grid of glimpses,
+            entity links, and KV-style pointers the agent can traverse deliberately.
+          </p>
         </section>
 
         <section className="w-full grid md:grid-cols-3 gap-px bg-border border border-border mb-24">
@@ -114,6 +119,30 @@ function Home() {
             </div>
           </div>
 
+          <div className="mt-8 border border-border bg-background/40 p-7">
+            <p className="mb-4 text-mono-xs text-muted-foreground">[ APPROACH ]</p>
+            <h3 className="mb-5 text-xl uppercase tracking-wider text-foreground">
+              Invert The Random Walk
+            </h3>
+            <div className="grid gap-6 text-sm leading-relaxed text-muted-foreground md:grid-cols-3">
+              <p>
+                Raw property operations data is not agent-friendly. It is a loose space of emails,
+                bank rows, invoices, letters, PDFs, and master records. A generic agent has to search
+                that space repeatedly and can easily miss the one source that matters.
+              </p>
+              <p>
+                We make the data space itself traversable. Ingestion turns each source into stable
+                normalized artifacts, compact glimpses, entity candidates, durable facts, and
+                addressable pointers. The agent starts from the grid, not from a blind filesystem crawl.
+              </p>
+              <p>
+                The result is a property-specific context substrate: sourceId to workItem to glimpse to
+                entity to fact to Context.md section. Those KV-like pointers let the agent jump to
+                evidence, explain provenance, and update context without losing human corrections.
+              </p>
+            </div>
+          </div>
+
           <div className="mt-8 grid gap-px border border-border bg-border md:grid-cols-4">
             {[
               ["01", "Incremental", "Detects day-by-day deltas under data/incremental and updates only the affected source/fact/context surface."],
@@ -142,6 +171,11 @@ function Home() {
                 pipeline converts raw data into a navigable semantic layer: sources become normalized
                 artifacts, artifacts become work items, work items get entity candidates, and only
                 then do LLM calls happen on bounded high-signal slices.
+              </p>
+              <p>
+                This is the inversion: the expensive exploration happens once during ingestion. At
+                question time, the agent reads compact glimpses and follows stable IDs instead of
+                performing a fresh random walk through raw documents.
               </p>
               <p>
                 Every work item carries a glimpse: a compact summary, date range, source kinds,
