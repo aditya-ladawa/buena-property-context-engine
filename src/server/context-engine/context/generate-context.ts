@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import { CONTEXT_MD_PATH, PATCH_LOG_PATH, PROPERTY_ID } from "../config";
 import type { ContextSection, EntityIndex, EntityRecord, FactIndex, FactRecord, PatchLogEntry } from "../types";
 import { readJsonLinesIfExists, sha256Text, writeJsonLines, writeText } from "../utils/fs";
+import { validateHumanAuthority } from "./user-blocks";
 
 export type ContextGenerationSummary = {
   sectionCount: number;
@@ -409,6 +410,7 @@ function initialContext(factIndex: FactIndex, sections: ContextSection[]) {
     "This file is a dense materialized view for agents. The source of truth is the structured artifact chain: source registry, entity index, observations, fact index, and patch log.",
     "",
     "Human notes can be added outside BCE managed sections. Managed sections are bounded by BCE markers and carry content hashes for surgical updates.",
+    "Text inside <user>...</user> tags is protected human-confirmed context. Never delete, rewrite, summarize away, move, or overwrite it. If generated evidence conflicts with a <user> block, preserve the <user> block and add any new generated information around it.",
     "",
     ...sections.map(managedSection),
     "",
@@ -486,6 +488,9 @@ export async function writeContextMarkdown(factIndex: FactIndex, entityIndex: En
   const sections = buildContextSections(factIndex, entityIndex);
   const existing = await readTextIfExists(CONTEXT_MD_PATH);
   const { markdown, patches, conflicts } = mergeManagedSections(existing, factIndex, sections, now);
+  if (existing && !validateHumanAuthority(existing, markdown)) {
+    throw new Error("Blocked because protected <user> blocks changed.");
+  }
   await writeText(CONTEXT_MD_PATH, markdown.endsWith("\n") ? markdown : `${markdown}\n`);
 
   if (patches.length > 0) {

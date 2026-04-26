@@ -168,8 +168,8 @@ async function createVoiceRecorder(): Promise<VoiceRecorder> {
 }
 
 async function readApiError(response: Response, fallback: string) {
-  const body = (await response.json().catch(() => null)) as { error?: string } | null;
-  return body?.error ?? fallback;
+  const body = (await response.json().catch(() => null)) as { error?: string; reason?: string; message?: string } | null;
+  return body?.error ?? body?.reason ?? body?.message ?? fallback;
 }
 
 function extractSection(markdown: string, title: string) {
@@ -387,6 +387,10 @@ function ChatPage() {
   const [isSending, setIsSending] = useState(false);
   const [apiError, setApiError] = useState<string | null>(null);
   const [contextMarkdown, setContextMarkdown] = useState("Loading generated context...");
+  const [editingContext, setEditingContext] = useState(false);
+  const [contextDraft, setContextDraft] = useState("");
+  const [contextEditStatus, setContextEditStatus] = useState("NOTE: Human corrections saved here become protected context and are wrapped in <user> tags.");
+  const [isSavingContext, setIsSavingContext] = useState(false);
   const [contextGraph, setContextGraph] = useState<ContextGraph>({ nodes: [], edges: [] });
   const [selectedGraphNodeId, setSelectedGraphNodeId] = useState<string | null>(null);
   const [hoveredGraphNodeId, setHoveredGraphNodeId] = useState<string | null>(null);
@@ -456,6 +460,44 @@ function ChatPage() {
     const graphData = (await graphResponse.json()) as ContextGraph;
     setContextMarkdown(contextData.markdown);
     setContextGraph(graphData);
+  };
+
+  const beginContextEdit = () => {
+    setEditingContext(true);
+    setContextDraft(contextMarkdown);
+    setContextEditStatus("NOTE: Human corrections saved here become protected context and are wrapped in <user> tags.");
+  };
+
+  const cancelContextEdit = () => {
+    setEditingContext(false);
+    setContextDraft("");
+  };
+
+  const saveContextEdit = async () => {
+    setIsSavingContext(true);
+    setApiError(null);
+    try {
+      const response = await fetch(`${AGENT_API}/api/context`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ content: contextDraft, author: "frontend-user" }),
+      });
+      if (!response.ok) throw new Error(await readApiError(response, "Could not save context edit"));
+
+      const result = (await response.json()) as { status: string; content: string; message?: string; reason?: string };
+      if (result.status === "blocked") throw new Error(result.reason ?? "Protected <user> blocks changed.");
+
+      setContextMarkdown(result.content);
+      setContextDraft("");
+      setEditingContext(false);
+      setContextEditStatus(result.message ?? "Saved direct artifact edits with protected <user> tags.");
+      await loadContext();
+    } catch (error) {
+      setApiError(error instanceof Error ? error.message : "Could not save context edit");
+      setContextEditStatus(error instanceof Error ? error.message : "Could not save context edit");
+    } finally {
+      setIsSavingContext(false);
+    }
   };
 
   const createThread = async () => {
@@ -1216,8 +1258,8 @@ function ChatPage() {
           </div>
         </TerminalWindow>
 
-        {/* RIGHT: 2 stacked panels */}
-        <div className={`grid h-full min-h-0 min-w-0 overflow-hidden gap-2 ${agentStreamOpen ? "grid-rows-[minmax(0,1fr)_minmax(0,1fr)]" : "grid-rows-[minmax(0,1fr)_auto]"}`}>
+        {/* RIGHT: graph, context artifact, stream */}
+        <div className={`grid h-full min-h-0 min-w-0 overflow-hidden gap-2 ${agentStreamOpen ? "grid-rows-[minmax(0,0.9fr)_minmax(0,1fr)_minmax(0,0.9fr)]" : "grid-rows-[minmax(0,1fr)_minmax(0,1fr)_auto]"}`}>
           <TerminalWindow title="LIVE ENTITY RELATIONSHIPS" className="min-h-0">
             <div className="h-full min-h-0 min-w-0 flex flex-col">
               <div className="relative flex-1 min-h-0 overflow-hidden border border-border/60 bg-background/20">
@@ -1328,6 +1370,61 @@ function ChatPage() {
                 </div>
               </div>
             </div>
+          </TerminalWindow>
+
+          <TerminalWindow
+            title="CONTEXT.MD"
+            className="min-h-0 overflow-hidden"
+            headerRight={(
+              <div className="flex shrink-0 items-center gap-2 text-mono-xs text-muted-foreground">
+                {!editingContext ? (
+                  <button
+                    type="button"
+                    onClick={beginContextEdit}
+                    className="border border-border bg-background/70 px-2 py-1 transition-colors hover:bg-accent hover:text-foreground"
+                  >
+                    EDIT
+                  </button>
+                ) : (
+                  <>
+                    <button
+                      type="button"
+                      onClick={() => void saveContextEdit()}
+                      disabled={isSavingContext}
+                      className="border border-[var(--chart-3)]/70 bg-[var(--chart-3)]/10 px-2 py-1 text-[var(--chart-3)] transition-colors hover:bg-[var(--chart-3)]/15 disabled:opacity-50"
+                    >
+                      {isSavingContext ? "SAVING" : "SAVE <USER>"}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={cancelContextEdit}
+                      disabled={isSavingContext}
+                      className="border border-border bg-background/70 px-2 py-1 transition-colors hover:bg-accent hover:text-foreground disabled:opacity-50"
+                    >
+                      CANCEL
+                    </button>
+                  </>
+                )}
+              </div>
+            )}
+          >
+            <section className="flex h-full min-h-0 flex-col border border-border/70 bg-background/20">
+              <div className="border-b border-border/70 px-3 py-2 text-xs text-muted-foreground">
+                {contextEditStatus}
+              </div>
+              {editingContext ? (
+                <textarea
+                  value={contextDraft}
+                  onChange={(event) => setContextDraft(event.target.value)}
+                  spellCheck={false}
+                  className="min-h-0 flex-1 resize-none bg-background/35 p-3 font-mono text-xs leading-relaxed text-foreground outline-none scrollbar-thin focus:bg-background/50"
+                />
+              ) : (
+                <pre className="min-h-0 flex-1 overflow-auto whitespace-pre-wrap p-3 font-mono text-xs leading-relaxed text-foreground scrollbar-thin">
+                  {contextMarkdown}
+                </pre>
+              )}
+            </section>
           </TerminalWindow>
 
           <TerminalWindow

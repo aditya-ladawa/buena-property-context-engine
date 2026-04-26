@@ -12,6 +12,7 @@ import { createAgent, tool } from "langchain";
 import { SqliteSaver } from "@langchain/langgraph-checkpoint-sqlite";
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 import { runIngest, type IngestResult } from "../src/server/context-engine/cli/ingest";
+import { markUserContextChanges } from "../src/server/context-engine/context/user-blocks";
 
 type ChatRole = "user" | "agent" | "tool";
 
@@ -112,6 +113,11 @@ const localServiceSearchSchema = z.object({
 const voiceSpeakSchema = z.object({
   text: z.string().min(1).max(6000),
   voiceId: z.string().min(1).optional(),
+});
+
+const contextPutSchema = z.object({
+  content: z.string(),
+  author: z.string().min(1).max(120).default("frontend-user"),
 });
 
 function safeFileStem(value: string) {
@@ -265,6 +271,16 @@ async function createContextCorrection(threadId: string, input: z.infer<typeof c
     correction.targetSectionHash ? `Captured current managed-section hash for ${correction.targetSectionId}: ${correction.targetSectionHash}` : "No managed-section hash captured.",
     "This does not directly rewrite generated facts. It preserves provenance and can be applied by a future correction-overlay/materialization step.",
   ].join("\n");
+}
+
+async function saveProtectedContextEdit(content: string, author: string) {
+  const contextPath = path.join(rootDir, "contexts", "LIE-001", "Context.md");
+  const current = await readTextIfExists(contextPath);
+  if (!current) throw new Error("No generated property context found. Run `npm run context:ingest` first.");
+
+  const updated = markUserContextChanges(current, content, author);
+  await writeFile(contextPath, updated.endsWith("\n") ? updated : `${updated}\n`, "utf8");
+  return updated.endsWith("\n") ? updated : `${updated}\n`;
 }
 
 async function searchLocalServices(input: z.infer<typeof localServiceSearchSchema>) {
@@ -815,6 +831,7 @@ function createChatAgent(threadId: string, setTodos: (todos: Todo[]) => void) {
       "For edit requests, do not silently guess which fact, section, entity, or source should change. Ask one concise clarification question when needed, then proceed after the user answers.",
       "Do not overwrite managed BCE sections. Durable facts should come from source ingestion and evidence, not direct chat edits.",
       "Context.md managed sections are guarded by BCE hashes; if a human edits a managed block, ingestion records a conflict instead of destroying the edit.",
+      "Text inside <user>...</user> tags is protected human-confirmed context. Never delete, rewrite, summarize away, move, or overwrite it. If generated evidence conflicts with a <user> block, preserve the <user> block and treat it as authoritative.",
       "Use write_todos before answering any request that has multiple steps, design decisions, or implementation work.",
       "Do not claim generated facts have changed unless a correction overlay/materialization step has applied them. If create_context_correction is used, say the correction was recorded as proposed.",
     ].join("\n"),
@@ -880,6 +897,24 @@ app.get("/api/context", async (_req, res, next) => {
       exists: Boolean(markdown),
     });
   } catch (error) {
+    next(error);
+  }
+});
+
+app.put("/api/context", async (req, res, next) => {
+  try {
+    const parsed = contextPutSchema.parse(req.body);
+    const content = await saveProtectedContextEdit(parsed.content, parsed.author);
+    res.json({
+      status: "saved",
+      content,
+      message: "Saved direct artifact edits with protected <user> tags.",
+    });
+  } catch (error) {
+    if (error instanceof Error && error.message === "Blocked because protected <user> blocks changed.") {
+      res.status(409).json({ status: "blocked", reason: error.message });
+      return;
+    }
     next(error);
   }
 });
