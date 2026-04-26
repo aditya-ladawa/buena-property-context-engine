@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02316",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240911_133700_EMAIL-02316.eml",
+  "rawSha256": "c18adbd19ad80f08e2f4518f8bcc47086eef1d9f34c38065157ecf617d4fe0ef",
+  "metadata": {
+    "headers": {
+      "from": "Olga Holsten <olga.holsten@heiztechnik-berlin.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Auftragsbestaetigung",
+      "date": "Wed, 11 Sep 2024 13:37:00 -0000",
+      "message-id": "<177702011370.22256.11257376779344683892@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 197
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02316.md"
+  ],
+  "normalizedSha256": "6a6bc8866e7a0b281f7f2947a4551a9d8d197e01286455d44d80d1be97c42ea1"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02631",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241016_205800_EMAIL-02631.eml",
+  "rawSha256": "b8c7a27263f0a45f36b6b5502a6095ce3b9917a202f43f9c0bf9f070f358eb8c",
+  "metadata": {
+    "headers": {
+      "from": "Frau Dorothe Wulf <dorothe.wulf@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Owners meeting - agenda item",
+      "date": "Wed, 16 Oct 2024 20:58:00 -0000",
+      "message-id": "<177702011370.22256.5866771895632982729@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 161
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02631.md"
+  ],
+  "normalizedSha256": "b6f9a7f0928621e1775b0a24e1d877443edd48978c79365537e2466c5f1f14cd"
+}

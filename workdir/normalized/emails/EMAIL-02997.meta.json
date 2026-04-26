@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02997",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241124_150300_EMAIL-02997.eml",
+  "rawSha256": "70d7532dc839290a125295901d42f9a8ebf9430fa56a735bc4adfde8ff8b9f7d",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Tom Hartmann <tom.hartmann@icloud.com>",
+      "subject": "Re: Verkaufsabsicht WE 29",
+      "date": "Sun, 24 Nov 2024 15:03:00 -0000",
+      "message-id": "<177702011370.22256.1499261185222671671@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15910587837911117403@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15910587837911117403@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 469
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02997.md"
+  ],
+  "normalizedSha256": "0ea3a14c59edf4c5af6164890b5a14a4eb4ecd33e361722b9969401beea2e6ea"
+}

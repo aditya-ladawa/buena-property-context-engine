@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05108",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250721_204600_EMAIL-05108.eml",
+  "rawSha256": "0cf82b54eca32a61b5bc0feaa3ce178ab820d19193b055e5f36d11e44c6a478d",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Winfried Ullmann <winfried.ullmann@yahoo.de>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Mon, 21 Jul 2025 20:46:00 -0000",
+      "message-id": "<177702011370.22256.3965611411268439769@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.752588447296070676@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.752588447296070676@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 417
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05108.md"
+  ],
+  "normalizedSha256": "3359761f08fe7b2bcf6c180b3f3a965cac0d9b956ffa6794d5dd4f5475dae9ac"
+}

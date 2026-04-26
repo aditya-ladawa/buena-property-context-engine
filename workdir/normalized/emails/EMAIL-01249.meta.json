@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01249",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240518_161100_EMAIL-01249.eml",
+  "rawSha256": "96b8794f95aa9f464225ec82f127f791aa5591b130b0455b94967841c5f1ff8e",
+  "metadata": {
+    "headers": {
+      "from": "Vattenfall Europe Sales GmbH <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Jahresabrechnung 2023",
+      "date": "Sat, 18 May 2024 16:11:00 -0000",
+      "message-id": "<177702011370.22256.13011646906335634719@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 211
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01249.md"
+  ],
+  "normalizedSha256": "6aafe1fa4b78e177b2d5c64c69e096b64870e16d82171631a1e3e8f751d25322"
+}

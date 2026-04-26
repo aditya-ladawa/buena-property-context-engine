@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00750",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240327_180300_EMAIL-00750.eml",
+  "rawSha256": "a38f81f92bb9546124f9983f928608d708fe429ebd5f3abde7cb51bb49288316",
+  "metadata": {
+    "headers": {
+      "from": "Herr Willfried Harloff <willfried.harloff@yahoo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Modernisierung - Zustimmung",
+      "date": "Wed, 27 Mar 2024 18:03:00 -0000",
+      "message-id": "<177702011370.22256.4752385455059723170@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 166
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00750.md"
+  ],
+  "normalizedSha256": "405844c7c0ad672f1af287d547a5c43c62cde89dbbd3f8457e0199f94489c458"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05203",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250805_133500_EMAIL-05203.eml",
+  "rawSha256": "9788a69bd6c68e9701b0d9ce594cccdb45afe101974e84a66bf88bb3f0f7271d",
+  "metadata": {
+    "headers": {
+      "from": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Elektro-Pruefung",
+      "date": "Tue, 05 Aug 2025 13:35:00 -0000",
+      "message-id": "<177702011370.22256.11105332778418463987@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 254
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05203.md"
+  ],
+  "normalizedSha256": "5ea5a8ffd401814dafcb85620d35eb59d86042f4fffcfdc3713d900d319f9cc1"
+}

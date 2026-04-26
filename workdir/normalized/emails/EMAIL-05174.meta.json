@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05174",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250731_151600_EMAIL-05174.eml",
+  "rawSha256": "9e0f1d2ab61d633cf38aa24d04ada90a77b0bac639f0d1634abadd2d01d53d0d",
+  "metadata": {
+    "headers": {
+      "from": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Schliessanlage",
+      "date": "Thu, 31 Jul 2025 15:16:00 -0000",
+      "message-id": "<177702011370.22256.7339032258754959045@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 254
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05174.md"
+  ],
+  "normalizedSha256": "280f246ff85486162829a3b8d35397b240d55c697345deb1742498d6cd79517f"
+}

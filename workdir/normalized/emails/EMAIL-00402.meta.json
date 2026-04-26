@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00402",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240216_162000_EMAIL-00402.eml",
+  "rawSha256": "d5c15d61a366bfdf50ca02c9876a9537b8503859229651031ba761fbbcf40767",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeister-bauer.de>",
+      "subject": "Re: Nachtrag Reparatur",
+      "date": "Fri, 16 Feb 2024 16:20:00 -0000",
+      "message-id": "<177702011370.22256.10906244442776617270@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8753872406992845581@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8753872406992845581@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 441
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00402.md"
+  ],
+  "normalizedSha256": "911caa56f78c556840dcb64ca2c93a35c873143ed90a51ca2dd2bd67b38b09d8"
+}

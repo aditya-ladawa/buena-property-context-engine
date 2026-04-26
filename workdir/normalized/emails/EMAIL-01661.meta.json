@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01661",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240705_042700_EMAIL-01661.eml",
+  "rawSha256": "fe7a97e023cb5cf1329b9679dddce5b941baa0cbdcbbad01f027196a6fc8ae9d",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Louise Ladeck <louise.ladeck@outlook.com>",
+      "subject": "Re: Kuendigung Mietvertrag",
+      "date": "Fri, 05 Jul 2024 04:27:00 -0000",
+      "message-id": "<177702011370.22256.5311537488775904959@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.17933662155387188859@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.17933662155387188859@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 460
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01661.md"
+  ],
+  "normalizedSha256": "b53adc043fc8f65f996dc8dff9e39298b6677d982ed296f4750e09cea8c45f68"
+}

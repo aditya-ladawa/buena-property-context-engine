@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06406",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251215_154200_EMAIL-06406.eml",
+  "rawSha256": "334c4a6ae07501292432c6cfe4592fbe33724e6a15a08d683c7eeec9e80711ed",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Ronald Kelley <ronald.kelley@icloud.com>",
+      "subject": "Monatsbericht",
+      "date": "Mon, 15 Dec 2025 15:42:00 -0000",
+      "message-id": "<177702011370.22256.10290441227671026854@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 127
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06406.md"
+  ],
+  "normalizedSha256": "8e98c933127fe99212fc2b0704e1ffc912fd45b0ee8a2df59dc7bcb871a6453c"
+}

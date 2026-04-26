@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02495",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241002_105400_EMAIL-02495.eml",
+  "rawSha256": "4ad31d1822fd5e2dc34302e253d7cfa7b0391026242804b043539fd36ce5b1ab",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Frau Josefine Nohlmans <josefine.nohlmans@gmail.com>",
+      "subject": "Re: Sonderumlage - Einspruch",
+      "date": "Wed, 02 Oct 2024 10:54:00 -0000",
+      "message-id": "<177702011370.22256.16499724665503222385@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.12235062286134997702@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.12235062286134997702@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 483
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02495.md"
+  ],
+  "normalizedSha256": "e95402c0ec6fc004ff92cbb0fcd101c35bdad226c8b05251be3ac4dfa6af5ae3"
+}

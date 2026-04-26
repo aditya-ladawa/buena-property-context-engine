@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06363",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251212_080200_EMAIL-06363.eml",
+  "rawSha256": "e57553bde17f9d032b9d1d1b705ae7487c852d1fca3a030c078f3c40c5b69f45",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "subject": "Re: Mahnung Rechnung RE-2025-5289",
+      "date": "Fri, 12 Dec 2025 08:02:00 -0000",
+      "message-id": "<177702011370.22256.4037304781092679569@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.7386391538833299955@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.7386391538833299955@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 493
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06363.md"
+  ],
+  "normalizedSha256": "8c21f5fff888569c95ac367e505b408b309d55fa5ca62b8521e87a6671380f58"
+}

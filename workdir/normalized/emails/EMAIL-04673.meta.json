@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04673",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250531_140600_EMAIL-04673.eml",
+  "rawSha256": "10d8b31205ece13659534cc2bc61e5b6c08afdb4c13fccfaac12a06464721390",
+  "metadata": {
+    "headers": {
+      "from": "Berliner Wasserbetriebe <falk.trommler@berliner-wasserbetriebe.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Abschlagsanpassung",
+      "date": "Sat, 31 May 2025 14:06:00 -0000",
+      "message-id": "<177702011370.22256.11313538478313932743@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 144
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04673.md"
+  ],
+  "normalizedSha256": "e8f3965504f03c633df970a1dd95222bd8b8eda4a513db472530fe207cee3447"
+}

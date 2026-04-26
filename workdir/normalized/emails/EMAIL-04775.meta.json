@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04775",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250614_122400_EMAIL-04775.eml",
+  "rawSha256": "f82161db04f93f2ba46c4f7b83bcd8bf4c9134bf3a0f0824283ed7effc993914",
+  "metadata": {
+    "headers": {
+      "from": "Herr Markus Fliegner <markus.fliegner@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 06",
+      "date": "Sat, 14 Jun 2025 12:24:00 -0000",
+      "message-id": "<177702011370.22256.15609704265286624072@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 189
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04775.md"
+  ],
+  "normalizedSha256": "3497f486bb8ef8cdc1b40cd75ba1c31f319213f6ad37cddc6bd47103e565a79c"
+}

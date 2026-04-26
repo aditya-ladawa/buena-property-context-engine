@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00231",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240129_105600_EMAIL-00231.eml",
+  "rawSha256": "b0d9b6c03cd823a38906200460cdab9bbb05331bcc66c07d4d8074376f0baca4",
+  "metadata": {
+    "headers": {
+      "from": "Allianz Versicherungs-AG <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Jahresabrechnung 2023",
+      "date": "Mon, 29 Jan 2024 10:56:00 -0000",
+      "message-id": "<177702011370.22256.9083960761467955043@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 207
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00231.md"
+  ],
+  "normalizedSha256": "5e4127a805832a5c5493cf6a8dce676b21db6b0916c081dec1aea8116cbbac5e"
+}

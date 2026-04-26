@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06550",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/incremental/day-01/emails/2026-01/20260102_103800_EMAIL-06550.eml",
+  "rawSha256": "d9f6ed45375aab76cf1ea5cd4a438e28ecdd9e482028b767dc15132631f9e0b5",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Oswald =?utf-8?q?Gr=C3=B6ttner?= <oswald.groettner@t-online.de>",
+      "subject": "Re: Sonderumlage - Einspruch",
+      "date": "Fri, 02 Jan 2026 10:38:00 -0000",
+      "message-id": "<177702013017.22389.16931317960967549330@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702013017.22389.13522349369555828642@huber-partner-verwaltung.de>",
+      "references": "<177702013017.22389.13522349369555828642@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 459
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06550.md"
+  ],
+  "normalizedSha256": "a89682ff8fb178f451dfed6196d88e7e9d17d1bd09c7507e0f17aaec1b4c2bf3"
+}

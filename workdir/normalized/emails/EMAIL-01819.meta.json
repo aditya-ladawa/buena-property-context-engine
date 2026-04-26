@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01819",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240721_021300_EMAIL-01819.eml",
+  "rawSha256": "67ad55b2cba6d4d92d9a9360cb1c9b503588b1f31136b0676c7d4214463bf39f",
+  "metadata": {
+    "headers": {
+      "from": "Edeltraud Renner <edeltraud.renner@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Re: Defektes Fenster",
+      "date": "Sun, 21 Jul 2024 02:13:00 -0000",
+      "message-id": "<177702011370.22256.7690004630730726761@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8277541482372314600@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8277541482372314600@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 256
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01819.md"
+  ],
+  "normalizedSha256": "4f0ba643e6f349eadbc5e106149ea6a0849a90770c185476baaaca2bfbedc180"
+}

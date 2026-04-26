@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05370",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250822_100400_EMAIL-05370.eml",
+  "rawSha256": "00364989942bfa42290b1dbfc87d6c93f6c61ef413ae038e7926b19e3f87c0ea",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Kranz Vermoegensverwaltung <kranz.vermoegensverwaltung@capital-partners.com>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Fri, 22 Aug 2025 10:04:00 -0000",
+      "message-id": "<177702011370.22256.14114795083744218829@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.16761562603122549272@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.16761562603122549272@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 409
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05370.md"
+  ],
+  "normalizedSha256": "97f088246a99a7932d9adccb8fb34dd05b7fdb33acd14062a237787995f83fc8"
+}

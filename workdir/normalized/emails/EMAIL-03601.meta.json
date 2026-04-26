@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03601",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250130_090000_EMAIL-03601.eml",
+  "rawSha256": "43271887b2a81132e2d3ae4d950bfda867914787dcb7633ab19f7051a51b35dc",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Magrit Mitschke <magrit.mitschke@gmail.com>",
+      "subject": "Re: Frage zu Kaution",
+      "date": "Thu, 30 Jan 2025 09:00:00 -0000",
+      "message-id": "<177702011370.22256.14856522505795848444@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15988291775207865085@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15988291775207865085@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 466
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03601.md"
+  ],
+  "normalizedSha256": "ddcec3395ad4403195c6f4019717d0fca8ad53c0632e19075d8bbe05d5230bbc"
+}

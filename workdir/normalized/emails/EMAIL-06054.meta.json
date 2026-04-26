@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06054",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251105_182400_EMAIL-06054.eml",
+  "rawSha256": "ac5062211cab18443d5039054f2e600cecd9ea35a6fed25a04bc58ca96327421",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kennedy <thomas.kennedy@securelock-systems-ltd.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Quote: Treppenhausreinigung",
+      "date": "Wed, 05 Nov 2025 18:24:00 -0000",
+      "message-id": "<177702011370.22256.14612051449488317152@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 202
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06054.md"
+  ],
+  "normalizedSha256": "80cf52af309c20ce3a7b55d214623ed142401b815b668ac3b39a9d7f52e6bf19"
+}

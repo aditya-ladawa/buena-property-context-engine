@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03035",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241129_101700_EMAIL-03035.eml",
+  "rawSha256": "1c7751c51a1a346546e729d51ffc4998c1bc30fc6a43f7a4e89cfb2a4f629f1c",
+  "metadata": {
+    "headers": {
+      "from": "Frau Hulda Eckbauer <hulda.eckbauer@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "SEV - Monatsauszug",
+      "date": "Fri, 29 Nov 2024 10:17:00 -0000",
+      "message-id": "<177702011370.22256.5153881763430031124@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 180
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03035.md"
+  ],
+  "normalizedSha256": "c32c1bcd57742aa782a23c2196400e1d7268bfd3157cb51d786f21f351a2fae8"
+}

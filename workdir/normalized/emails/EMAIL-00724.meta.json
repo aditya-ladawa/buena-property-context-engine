@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00724",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240325_104300_EMAIL-00724.eml",
+  "rawSha256": "b9da1dd1d4f713d82aa597e379328023b80ad6bcb37b01c4768fcd8eb1d0c398",
+  "metadata": {
+    "headers": {
+      "from": "Frau =?utf-8?q?D=C3=B6rte?= Kraus <doerte.kraus@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 39",
+      "date": "Mon, 25 Mar 2024 10:43:00 -0000",
+      "message-id": "<177702011370.22256.5032478895557027880@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 209
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00724.md"
+  ],
+  "normalizedSha256": "fe9014020252953a1fabe5432441fbac77852fded987411cd0947aaa99a8965a"
+}

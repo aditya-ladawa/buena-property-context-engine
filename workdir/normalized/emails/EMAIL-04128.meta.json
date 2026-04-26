@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04128",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250326_164800_EMAIL-04128.eml",
+  "rawSha256": "c47fbc1ca22781ecbef3e4c65b3d9d079beece6358c888ab400383be81166403",
+  "metadata": {
+    "headers": {
+      "from": "Falk Trommler <falk.trommler@berliner-wasserbetriebe.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Auftragsbestaetigung",
+      "date": "Wed, 26 Mar 2025 16:48:00 -0000",
+      "message-id": "<177702011370.22256.3470205661310619831@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 197
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04128.md"
+  ],
+  "normalizedSha256": "afcd496fba5fd82bf45d414403d107e7b200e656a7cb39ccb8520d4a32634c29"
+}

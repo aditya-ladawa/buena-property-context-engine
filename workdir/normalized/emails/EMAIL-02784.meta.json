@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02784",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241101_130000_EMAIL-02784.eml",
+  "rawSha256": "08e4823629f91c081044127a706ebc3dc6973bae1ef374507269e590919aa881",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Frau Dorothe Wulf <dorothe.wulf@icloud.com>",
+      "subject": "Re: Mieterwechsel in WE 46",
+      "date": "Fri, 01 Nov 2024 13:00:00 -0000",
+      "message-id": "<177702011370.22256.1218979381411737196@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3764366757608375917@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3764366757608375917@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 411
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02784.md"
+  ],
+  "normalizedSha256": "7db08d74253b8a123144fd1981c4170f2b033f24c6a0f8368f2e30f696349370"
+}

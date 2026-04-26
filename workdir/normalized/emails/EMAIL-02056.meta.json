@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02056",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240816_105600_EMAIL-02056.eml",
+  "rawSha256": "5eeea87807765bcc2983ef88fb4fc293e8b0018c5c8a1ca037ded7a1c1f7c1f3",
+  "metadata": {
+    "headers": {
+      "from": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Nachtrag Reparatur",
+      "date": "Fri, 16 Aug 2024 10:56:00 -0000",
+      "message-id": "<177702011370.22256.4456238408135228733@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 184
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02056.md"
+  ],
+  "normalizedSha256": "31334d933b319fdf9d1eb47061d0d833e2e02d40cb75f1978ff539bd41821927"
+}

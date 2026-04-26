@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02802",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241103_055300_EMAIL-02802.eml",
+  "rawSha256": "6f88c5fdf2fd2655b66569a3040d515c5d61b716c175088632f95b7e577ca381",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Falk Trommler <falk.trommler@berliner-wasserbetriebe.de>",
+      "subject": "Re: Rechnung RE-2024-7562",
+      "date": "Sun, 03 Nov 2024 05:53:00 -0000",
+      "message-id": "<177702011370.22256.11001991763324145508@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14200955266149234569@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14200955266149234569@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 433
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02802.md"
+  ],
+  "normalizedSha256": "2b5d0a05bc98a8b90f94023ed8e3b16597a20902e24c630dae4894498c0c12b5"
+}

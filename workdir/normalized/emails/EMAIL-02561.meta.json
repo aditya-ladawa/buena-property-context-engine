@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02561",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241008_160600_EMAIL-02561.eml",
+  "rawSha256": "8fc8c584e375516b04c64896dc4cb54734d7d10218ae906e62c12f7995eb6762",
+  "metadata": {
+    "headers": {
+      "from": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Elektro-Pruefung",
+      "date": "Tue, 08 Oct 2024 16:06:00 -0000",
+      "message-id": "<177702011370.22256.11219369617211684543@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 255
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02561.md"
+  ],
+  "normalizedSha256": "fb9be07dba3c44b4146373084a69e62f6aa19c8f0d11f97db341d5b293507f17"
+}

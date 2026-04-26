@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06217",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251125_093300_EMAIL-06217.eml",
+  "rawSha256": "fa3f5ec21a8f6aa2d52bec9a8adfe05bd26326e44217bf7d00e04494deea8020",
+  "metadata": {
+    "headers": {
+      "from": "Wilma Roht <wilma.roht@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wohnungsuebergabe",
+      "date": "Tue, 25 Nov 2025 09:33:00 -0000",
+      "message-id": "<177702011370.22256.5383618240775626667@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 155
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06217.md"
+  ],
+  "normalizedSha256": "7eda870c95fa7439a61e0992ad7797690be55b39fce68346b9ee842d185bcbde"
+}

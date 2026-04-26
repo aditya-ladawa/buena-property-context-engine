@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05634",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250915_234800_EMAIL-05634.eml",
+  "rawSha256": "5ea471c22b984b27814b627f2d32b945051bd236f54ad356a805588e16744465",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "subject": "Re: Auftragsbestaetigung",
+      "date": "Mon, 15 Sep 2025 23:48:00 -0000",
+      "message-id": "<177702011370.22256.16871501646512642253@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4089366815206388653@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4089366815206388653@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 462
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05634.md"
+  ],
+  "normalizedSha256": "4cb0cded21e66d5035f5232d7d1744cb08f615735aa5571dbda267596e79db5e"
+}

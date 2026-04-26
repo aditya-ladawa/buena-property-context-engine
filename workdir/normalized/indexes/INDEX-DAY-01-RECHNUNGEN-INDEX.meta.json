@@ -1,0 +1,15 @@
+{
+  "sourceId": "INDEX-DAY-01-RECHNUNGEN-INDEX",
+  "propertyId": "LIE-001",
+  "kind": "index_csv",
+  "rawPath": "data/incremental/day-01/rechnungen_index.csv",
+  "rawSha256": "a325be3b4edc883f4677957c6ed0b515b76553948be9d8987413b17c52ead97e",
+  "normalizedPaths": [
+    "workdir/normalized/indexes/INDEX-DAY-01-RECHNUNGEN-INDEX.jsonl"
+  ],
+  "normalizedSha256": "469a0f384e9541145bc52b4ccbd2aeeec79c4aca3eb6feae5837fec054f510c2",
+  "metadata": {
+    "rowCount": 1,
+    "format": "csv"
+  }
+}

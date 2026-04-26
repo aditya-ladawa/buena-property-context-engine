@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05779",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251004_170700_EMAIL-05779.eml",
+  "rawSha256": "805b42bd838796d43e42c87c178dc200629b2aa8a7d995b80d22845bbceb5d13",
+  "metadata": {
+    "headers": {
+      "from": "Frau Dunja Schacht <dunja.schacht@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Modernisierung - Zustimmung",
+      "date": "Sat, 04 Oct 2025 17:07:00 -0000",
+      "message-id": "<177702011370.22256.8992516571931721202@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 162
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05779.md"
+  ],
+  "normalizedSha256": "019bc0453c606842b29658a184076cb06e0f42fce74061b40fa475afdf77afe7"
+}

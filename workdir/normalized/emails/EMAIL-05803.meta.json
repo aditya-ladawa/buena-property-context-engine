@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05803",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251007_083500_EMAIL-05803.eml",
+  "rawSha256": "89386396c1d1419ac18df8905598754680736c1ba7d02568bed46ed9ac85e028",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Frau Dunja Schacht <dunja.schacht@gmx.de>",
+      "subject": "Re: Mieterwechsel in WE 28",
+      "date": "Tue, 07 Oct 2025 08:35:00 -0000",
+      "message-id": "<177702011370.22256.8632328288195942954@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.16247579442978938155@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.16247579442978938155@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 450
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05803.md"
+  ],
+  "normalizedSha256": "7f6e08bbd343bce9fb0df770752a9dd2fc35bb6b8a9772cb027bdd4adfee5b83"
+}

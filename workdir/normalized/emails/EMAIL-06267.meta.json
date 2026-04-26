@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06267",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251130_144100_EMAIL-06267.eml",
+  "rawSha256": "85ded2c72a78517e2ef5047000e764785c63eda2062b68d85062f9ad4df77fbe",
+  "metadata": {
+    "headers": {
+      "from": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mahnung Rechnung RE-2025-2320",
+      "date": "Sun, 30 Nov 2025 14:41:00 -0000",
+      "message-id": "<177702011370.22256.7459881506025400636@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 234
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06267.md"
+  ],
+  "normalizedSha256": "d29afeed72e56b8a69aed03fe18aebe32982b623e3d0cda90f06a5bec83256a9"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02430",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240924_150500_EMAIL-02430.eml",
+  "rawSha256": "03a0609b3c9d02404ac481f8646527aba087239fef5f6befc2ab88cf652e1859",
+  "metadata": {
+    "headers": {
+      "from": "Herr Horst Vollbrecht <horst.vollbrecht@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Modernisierung - Zustimmung",
+      "date": "Tue, 24 Sep 2024 15:05:00 -0000",
+      "message-id": "<177702011370.22256.10984129449838496620@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 165
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02430.md"
+  ],
+  "normalizedSha256": "db1bd97c21e81ef937490458331b0168c1896a1f8b3c7acbed352d0f6f257590"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01826",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240721_184200_EMAIL-01826.eml",
+  "rawSha256": "bfd666d83de40a1eb4e7c9b0c8d9cd0f1cd984d0f3b8f5cc5d433ce93c4ad6ec",
+  "metadata": {
+    "headers": {
+      "from": "Herr Wolfgang Hettner <wolfgang.hettner@web.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 10",
+      "date": "Sun, 21 Jul 2024 18:42:00 -0000",
+      "message-id": "<177702011370.22256.3179117499298817710@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 190
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01826.md"
+  ],
+  "normalizedSha256": "516da44e8aca0f264f8c8a87ae86b972d5d637bdb10698b9c11ea7093230600a"
+}

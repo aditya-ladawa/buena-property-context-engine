@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01721",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240710_092600_EMAIL-01721.eml",
+  "rawSha256": "a7371e99c6369002a7bc9e2b80a50a7800403f9ad767376c76e55432cc872340",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Erdal Beckmann <erdal.beckmann@gmx.de>",
+      "subject": "Kurze Rueckmeldung bitte",
+      "date": "Wed, 10 Jul 2024 09:26:00 -0000",
+      "message-id": "<177702011370.22256.8312227424064896639@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 126
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01721.md"
+  ],
+  "normalizedSha256": "3fe382a4fa9edeee75c74223d93ff506e8afb8da2def8d86b600708311a39f60"
+}

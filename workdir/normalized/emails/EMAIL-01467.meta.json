@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01467",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240611_151600_EMAIL-01467.eml",
+  "rawSha256": "38b16e177f11803e945507da249df5116d4e076311f808a33c306138bb8db5e2",
+  "metadata": {
+    "headers": {
+      "from": "Herr Gottlob Hahn <gottlob.hahn@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 40",
+      "date": "Tue, 11 Jun 2024 15:16:00 -0000",
+      "message-id": "<177702011370.22256.2288854056698256683@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 209
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01467.md"
+  ],
+  "normalizedSha256": "618a703520451727b68c133213764a9a4d2f87c78237aaf5415475c1a1f4520a"
+}

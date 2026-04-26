@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05251",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250811_054500_EMAIL-05251.eml",
+  "rawSha256": "afe2a32a5f3e8caf0b74537e054409bd6c9ba6d6f314a202fd86da674510d0ee",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Edelgard Wulf <edelgard.wulf@gmx.de>",
+      "subject": "Re: Frage zu Kaution",
+      "date": "Mon, 11 Aug 2025 05:45:00 -0000",
+      "message-id": "<177702011370.22256.14126695630428006357@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3115218210079299687@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3115218210079299687@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 425
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05251.md"
+  ],
+  "normalizedSha256": "c0ebcc3f4ae51b20b254dab69eb15e9d7f2af55aef47a937ef1992c350508ebe"
+}

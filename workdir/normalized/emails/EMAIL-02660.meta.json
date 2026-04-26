@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02660",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241020_093300_EMAIL-02660.eml",
+  "rawSha256": "528c652e381edc5252febb8d129eeab59f5e8e48a7c4ad42a6361823702fa732",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Ronald Kelley <ronald.kelley@icloud.com>",
+      "subject": "Protokoll-Entwurf ETV",
+      "date": "Sun, 20 Oct 2024 09:33:00 -0000",
+      "message-id": "<177702011370.22256.17183987457726249792@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 130
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02660.md"
+  ],
+  "normalizedSha256": "c156f183e0f61e03c2504d35e3de9ccb551797cabb13859185f1ece6ebc99c08"
+}

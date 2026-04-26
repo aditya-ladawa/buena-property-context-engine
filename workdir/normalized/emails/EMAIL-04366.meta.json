@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04366",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250424_135500_EMAIL-04366.eml",
+  "rawSha256": "e472b4c5e95d5d0e24630d394f6a35ac83ca75092d2f92e317634e986a5dc2e6",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Ronald Kelley <ronald.kelley@icloud.com>",
+      "subject": "Abstimmung zu Angebot",
+      "date": "Thu, 24 Apr 2025 13:55:00 -0000",
+      "message-id": "<177702011370.22256.409067802513260391@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 128
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04366.md"
+  ],
+  "normalizedSha256": "845f9d59bd96b4427482122825fae0c6eb5bea4841523d68216942fce85871e5"
+}

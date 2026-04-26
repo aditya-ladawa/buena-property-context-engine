@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00095",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240112_112800_EMAIL-00095.eml",
+  "rawSha256": "e7c607cd98cd9422676f1e2d75b3b18ed8d5a389a6a908fd3237e18c86f8109f",
+  "metadata": {
+    "headers": {
+      "from": "Edeltraud Renner <edeltraud.renner@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wohnungsuebergabe",
+      "date": "Fri, 12 Jan 2024 11:28:00 -0000",
+      "message-id": "<177702011370.22256.12585086853715941400@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 161
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00095.md"
+  ],
+  "normalizedSha256": "d2008e0aaf84a25281660196cfbedb0ffbbad427d24bedc33022eacd1a3ff60d"
+}

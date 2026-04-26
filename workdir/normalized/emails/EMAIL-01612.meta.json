@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01612",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240628_162000_EMAIL-01612.eml",
+  "rawSha256": "c4631346ec0017614ef8d1027854557f8450fa265201197aef58cc03c56c36d0",
+  "metadata": {
+    "headers": {
+      "from": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Reparatur Aufzug",
+      "date": "Fri, 28 Jun 2024 16:20:00 -0000",
+      "message-id": "<177702011370.22256.4297170674744773518@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 264
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01612.md"
+  ],
+  "normalizedSha256": "334609175f92ccc30305800c358bef34723b8cf853a2c413e2ab46e858f17b8b"
+}

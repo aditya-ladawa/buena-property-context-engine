@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01718",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240710_002400_EMAIL-01718.eml",
+  "rawSha256": "783e35de11fcc5c433c63ce48b3ff927edc064e0ff2403ee9bb776cbdd5183c9",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Wolfgang Hettner <wolfgang.hettner@web.de>",
+      "subject": "Re: Mieterwechsel in WE 34",
+      "date": "Wed, 10 Jul 2024 00:24:00 -0000",
+      "message-id": "<177702011370.22256.680618770873215952@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.18393528387362327487@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.18393528387362327487@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 418
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01718.md"
+  ],
+  "normalizedSha256": "10113d80302fa90d48c9b16d913c1c3bdb1d95e456072c5c4271f0f2bce3df2a"
+}

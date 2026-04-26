@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05276",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250812_223500_EMAIL-05276.eml",
+  "rawSha256": "08152bc0f550168ea142201ea20c6577a2522e37c090c8d2b6b04d8f140e54d3",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "subject": "Re: Auftragsbestaetigung",
+      "date": "Tue, 12 Aug 2025 22:35:00 -0000",
+      "message-id": "<177702011370.22256.15561978262699838377@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.9522796104126054040@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.9522796104126054040@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 424
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05276.md"
+  ],
+  "normalizedSha256": "00dfee633ac24b5084cd9b37107c710f82a04ef8897f2e9bd7441f83f5146ddf"
+}

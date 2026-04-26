@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05046",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250715_131800_EMAIL-05046.eml",
+  "rawSha256": "a0ca8445fd43c8ba64f1a55b7084852289ea090cdb884eec7afaecc1c0700c2f",
+  "metadata": {
+    "headers": {
+      "from": "Frau Kunigunda Ditschlerin <kunigunda.ditschlerin@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Question about annual statement",
+      "date": "Tue, 15 Jul 2025 13:18:00 -0000",
+      "message-id": "<177702011370.22256.3991428363509244557@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 173
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05046.md"
+  ],
+  "normalizedSha256": "b0f2de11e62e9de2010ddd41bb216dc34c9147f3447db2554c0af74738b3b557"
+}

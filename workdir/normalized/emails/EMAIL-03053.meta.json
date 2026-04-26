@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03053",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241130_220700_EMAIL-03053.eml",
+  "rawSha256": "611ceef89c85ed2b125f22a20e742564a385174f15d7cf5eb5173568b3139678",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "subject": "Re: Wartungsbericht",
+      "date": "Sat, 30 Nov 2024 22:07:00 -0000",
+      "message-id": "<177702011370.22256.10514309715802620688@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.7717456716395899239@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.7717456716395899239@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 430
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03053.md"
+  ],
+  "normalizedSha256": "16b13df24856018630a19aeb786c37e9dfea0b753b52606065aa36d3bc12807f"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00812",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240403_091100_EMAIL-00812.eml",
+  "rawSha256": "139c57d0461c21202349b4d96116c681746634cf600e6597e097e14fdbd01b50",
+  "metadata": {
+    "headers": {
+      "from": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Nachtrag Reparatur",
+      "date": "Wed, 03 Apr 2024 09:11:00 -0000",
+      "message-id": "<177702011370.22256.1125769202329388193@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 183
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00812.md"
+  ],
+  "normalizedSha256": "0a4f57b8b89d5df0244126544e42080f80519c9f76694ff42b3a05e31038ba43"
+}

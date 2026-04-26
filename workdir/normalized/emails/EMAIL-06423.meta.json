@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06423",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251217_145100_EMAIL-06423.eml",
+  "rawSha256": "40e1ef52e5474812ad4a3afa7ff54946a44931d38c58c6cd1360c56d61590091",
+  "metadata": {
+    "headers": {
+      "from": "Frau Hiltrud Speer <hiltrud.speer@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 03",
+      "date": "Wed, 17 Dec 2025 14:51:00 -0000",
+      "message-id": "<177702011370.22256.16844829343146370810@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 187
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06423.md"
+  ],
+  "normalizedSha256": "b3ffd0eebcb3b9fe7aaf76055be6ce24517b6d734634a37cd335cc4ed4d28f16"
+}

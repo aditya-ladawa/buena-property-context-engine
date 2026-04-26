@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06077",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251108_033100_EMAIL-06077.eml",
+  "rawSha256": "6ef6b2b3ea92b894c02f5f585a33d552fb41cec0d282e814875afc5b35aab36d",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Willfried Harloff <willfried.harloff@yahoo.de>",
+      "subject": "Re: Verkaufsabsicht WE 13",
+      "date": "Sat, 08 Nov 2025 03:31:00 -0000",
+      "message-id": "<177702011370.22256.1602881613727398384@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10250992525042945810@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10250992525042945810@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 440
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06077.md"
+  ],
+  "normalizedSha256": "d26b29f77b90b38694bf0e3fa326c14c55d638d2b6edd7eb430f780e4eb7531f"
+}

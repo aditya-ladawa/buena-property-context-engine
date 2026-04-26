@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05910",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251019_023100_EMAIL-05910.eml",
+  "rawSha256": "77354a66f059419d55347bf8c8d0a220ff03ab513f970fab5d0ff0259c30c35a",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "=?utf-8?q?J=C3=B6rgen?= Seidel <joergen.seidel@gmx.de>",
+      "subject": "Re: Schluesselverlust",
+      "date": "Sun, 19 Oct 2025 02:31:00 -0000",
+      "message-id": "<177702011370.22256.11632930093362200521@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4560898916786396184@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4560898916786396184@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 441
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05910.md"
+  ],
+  "normalizedSha256": "afa7b935051c86af7b9a0fa5f3d8b5b6b3c0b8af12cbc37a3ef7925c7b2de3eb"
+}

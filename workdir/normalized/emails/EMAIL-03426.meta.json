@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03426",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250109_200300_EMAIL-03426.eml",
+  "rawSha256": "154367a4c3201a5bce132540d86956f91ad4db1ed91b669fe5cd0be171781f3f",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Galina Wohlgemut <galina.wohlgemut@outlook.com>",
+      "subject": "Re: Kuendigung Mietvertrag",
+      "date": "Thu, 09 Jan 2025 20:03:00 -0000",
+      "message-id": "<177702011370.22256.4812034939335436588@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.17059318758072247370@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.17059318758072247370@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 495
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03426.md"
+  ],
+  "normalizedSha256": "7dc975880a311c84e41548665ce3ca3ddaac570e69e501f2b1fd360710aef6a7"
+}

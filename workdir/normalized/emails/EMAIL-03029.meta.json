@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03029",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241128_113000_EMAIL-03029.eml",
+  "rawSha256": "c5120489449df8bb489ad12b43323b81f4bdfec1fb70fc5fdada4e73275a7cfd",
+  "metadata": {
+    "headers": {
+      "from": "Falk Trommler <falk.trommler@berliner-wasserbetriebe.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Terminbestaetigung Wartung",
+      "date": "Thu, 28 Nov 2024 11:30:00 -0000",
+      "message-id": "<177702011370.22256.13988052273856090747@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 139
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03029.md"
+  ],
+  "normalizedSha256": "0af211234f56f24dc0363a6562d745236c5456f30ceba28708958579f59662a9"
+}

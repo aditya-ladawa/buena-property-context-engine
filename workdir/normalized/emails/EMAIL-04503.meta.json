@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04503",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250513_134700_EMAIL-04503.eml",
+  "rawSha256": "3f3145b68e42d09f7ed1b9feaf9d29c79da1302dc6f7056f72cf7015e5446bf9",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Arnulf Heintze <arnulf.heintze@gmail.com>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Tue, 13 May 2025 13:47:00 -0000",
+      "message-id": "<177702011370.22256.6380062102593613881@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3893523392504954052@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3893523392504954052@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 415
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04503.md"
+  ],
+  "normalizedSha256": "5bc8c07113c5820e43e55fccbc40eafa5d3d694e4f3326e3aaf56e3c946c87f2"
+}

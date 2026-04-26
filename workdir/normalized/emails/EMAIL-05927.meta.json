@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05927",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251021_131400_EMAIL-05927.eml",
+  "rawSha256": "cfeeb7407ff61ed64fb523ccc7af482179014ef2867cb15e8cc1c58fbbd35de6",
+  "metadata": {
+    "headers": {
+      "from": "Frau Dunja Schacht <dunja.schacht@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 28",
+      "date": "Tue, 21 Oct 2025 13:14:00 -0000",
+      "message-id": "<177702011370.22256.12706871266841920342@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 187
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05927.md"
+  ],
+  "normalizedSha256": "e29df6c66edc5aa1fcdb54295c5c0a399db1e4c4edfecd70a15b4c0de220d52a"
+}

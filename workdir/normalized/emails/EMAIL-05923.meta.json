@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05923",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251020_203200_EMAIL-05923.eml",
+  "rawSha256": "7e1f6a0295209453718423af073c260138b71368c6b770e9797263b438ca9e40",
+  "metadata": {
+    "headers": {
+      "from": "Herr Wolfgang Hettner <wolfgang.hettner@web.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "SEV - Monatsauszug",
+      "date": "Mon, 20 Oct 2025 20:32:00 -0000",
+      "message-id": "<177702011370.22256.9314197996253558747@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 182
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05923.md"
+  ],
+  "normalizedSha256": "3bce4ee05a8c249028f253ba922f05036a92f825624a67637296979383a6b651"
+}

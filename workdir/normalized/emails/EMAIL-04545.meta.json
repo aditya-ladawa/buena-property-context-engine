@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04545",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250518_011000_EMAIL-04545.eml",
+  "rawSha256": "e3d74c8ad1403b300fe59ba0461b3c1ee9e685678d0143bb8d2a53638604dd2f",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Joanna =?utf-8?q?Sch=C3=A4fer?= <joanna.schaefer@outlook.com>",
+      "subject": "Re: Wohnungsuebergabe",
+      "date": "Sun, 18 May 2025 01:10:00 -0000",
+      "message-id": "<177702011370.22256.3354133936044232575@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4611705832214562766@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4611705832214562766@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 386
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04545.md"
+  ],
+  "normalizedSha256": "86a6e4a4b1e45c3d726894d54f963b90f487d700d0b2917bc5e113304f015cdf"
+}

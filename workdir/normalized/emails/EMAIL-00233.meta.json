@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00233",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240129_113200_EMAIL-00233.eml",
+  "rawSha256": "c9a69a65abec198988d41384b4639ab30fe3df91592ea1c9db54a27006f98659",
+  "metadata": {
+    "headers": {
+      "from": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Terminbestaetigung Wartung",
+      "date": "Mon, 29 Jan 2024 11:32:00 -0000",
+      "message-id": "<177702011370.22256.8715011027966943994@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 138
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00233.md"
+  ],
+  "normalizedSha256": "09a2c115568558dd26dfd3aa28b0610689ca1667b7246cbe91bd442a3b8ff33c"
+}

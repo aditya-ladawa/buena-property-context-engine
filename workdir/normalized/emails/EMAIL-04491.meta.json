@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04491",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250511_202800_EMAIL-04491.eml",
+  "rawSha256": "4206038224b7a1928fffdcad6b5405352114c47cc67115c0f0438081280e62b8",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Marliese Hermann <marliese.hermann@posteo.de>",
+      "subject": "Re: Defektes Fenster",
+      "date": "Sun, 11 May 2025 20:28:00 -0000",
+      "message-id": "<177702011370.22256.17992766633000810765@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13671750686543011521@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13671750686543011521@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 435
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04491.md"
+  ],
+  "normalizedSha256": "5f9642cc2210b5564cf9e46c7e53b5b042f5894c4515a5732c637dec01918f9c"
+}

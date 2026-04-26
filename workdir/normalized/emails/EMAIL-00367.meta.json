@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00367",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240213_011700_EMAIL-00367.eml",
+  "rawSha256": "453687c3c8ecdeb59d9e055c34801f30a973ab7a341813649a37172c1b675cb9",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Galina Wohlgemut <galina.wohlgemut@outlook.com>",
+      "subject": "Re: Ruhestoerung",
+      "date": "Tue, 13 Feb 2024 01:17:00 -0000",
+      "message-id": "<177702011370.22256.7232419779464394715@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13421948259935423349@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13421948259935423349@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 595
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00367.md"
+  ],
+  "normalizedSha256": "34dbeb8c24da861e802e6855d7882dbbc3bc8aee70ba90c9da8e927cb247724c"
+}

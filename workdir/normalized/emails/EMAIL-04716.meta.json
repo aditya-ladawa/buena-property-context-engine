@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04716",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250607_113600_EMAIL-04716.eml",
+  "rawSha256": "166a0f5ebd9e376115e16cdb29a4bcf07456b109f08eef6e3ea17c7fecc50f3b",
+  "metadata": {
+    "headers": {
+      "from": "Irmengard Mentzel <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Terminbestaetigung Wartung",
+      "date": "Sat, 07 Jun 2025 11:36:00 -0000",
+      "message-id": "<177702011370.22256.14094013978820271170@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 143
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04716.md"
+  ],
+  "normalizedSha256": "62a15cee19fef2ca29849cadfac01b2e5fe5dd21e199a9aa7b3684bbdae65720"
+}

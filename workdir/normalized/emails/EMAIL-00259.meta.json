@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00259",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240201_082900_EMAIL-00259.eml",
+  "rawSha256": "1c3ffd48030b21bb3f9a070b914288d7b4cbb145b684cfc8196f11603dc82f48",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Osman Jacob <osman.jacob@yahoo.de>",
+      "subject": "Re: Mieterwechsel in WE 01",
+      "date": "Thu, 01 Feb 2024 08:29:00 -0000",
+      "message-id": "<177702011370.22256.5875870052067997955@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15727753906031835757@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15727753906031835757@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 437
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00259.md"
+  ],
+  "normalizedSha256": "6af5a2c43522e77315d2185ca57aefef81086f6a018d8cf9b5e4606b9e6ab386"
+}

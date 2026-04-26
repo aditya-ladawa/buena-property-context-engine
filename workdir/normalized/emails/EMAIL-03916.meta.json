@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03916",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250304_123100_EMAIL-03916.eml",
+  "rawSha256": "06c35bd2881dd1a33e785b62f814f289aa73cad5ba7349f253eb7a618b02a868",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Magrit Mitschke <magrit.mitschke@gmail.com>",
+      "subject": "Re: Wasserschaden Bad",
+      "date": "Tue, 04 Mar 2025 12:31:00 -0000",
+      "message-id": "<177702011370.22256.7773428947501195767@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.6512016371323822889@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.6512016371323822889@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 490
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03916.md"
+  ],
+  "normalizedSha256": "80684137d8f936db0d38f3b2e62d8ca6443f69b4b5073f04e68a144e2abbb1a4"
+}

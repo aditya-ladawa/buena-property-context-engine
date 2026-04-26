@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01557",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240621_142900_EMAIL-01557.eml",
+  "rawSha256": "185acbc9be6367164ef49652bc1eab644ff83dd7ac0b5f291ea82bbc66937cc0",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Frau Hiltrud Speer <hiltrud.speer@t-online.de>",
+      "subject": "Re: Question about annual statement",
+      "date": "Fri, 21 Jun 2024 14:29:00 -0000",
+      "message-id": "<177702011370.22256.3696808438698642711@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.16702467022127695166@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.16702467022127695166@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 316
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01557.md"
+  ],
+  "normalizedSha256": "98d367f228caf9f5150f36ede1d7817221ac44ef90059de4d4901a5e84d5f22e"
+}

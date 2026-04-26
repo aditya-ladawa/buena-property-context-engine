@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00264",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240201_113300_EMAIL-00264.eml",
+  "rawSha256": "b188c4c3d66c1cc54f7452ac66701a388de5409f99f3053260a4eff617e59f0e",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Catherine Heydrich <catherine.heydrich@dachdecker-richter.de>",
+      "subject": "Re: Terminbestaetigung Wartung",
+      "date": "Thu, 01 Feb 2024 11:33:00 -0000",
+      "message-id": "<177702011370.22256.894768172093221201@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.6257787378067008492@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.6257787378067008492@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 400
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00264.md"
+  ],
+  "normalizedSha256": "0ab27d08fd5e3e9f165f3270c80920e389b6b6154904f4a0326fe1bdab3fdc9e"
+}

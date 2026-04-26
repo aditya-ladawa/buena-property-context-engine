@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05693",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250923_014300_EMAIL-05693.eml",
+  "rawSha256": "18f1e3a5629a1fa79f04420723abcf8be5c1193c2d593afb988d9b363566b9f4",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Ewa Thies <ewa.thies@gmail.com>",
+      "subject": "Re: Wohnung untervermieten",
+      "date": "Tue, 23 Sep 2025 01:43:00 -0000",
+      "message-id": "<177702011370.22256.17664805638817185678@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.12981860598608150780@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.12981860598608150780@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 445
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05693.md"
+  ],
+  "normalizedSha256": "1075ef4cfca100337d590ff7d7eb4cd97bd1c91746453715ae10a9be0f3232b4"
+}

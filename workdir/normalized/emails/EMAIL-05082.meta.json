@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05082",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250719_105800_EMAIL-05082.eml",
+  "rawSha256": "81968739f2d15e5187da1c7cf181c9fcd0070c373b547b8b774b444992ab44ec",
+  "metadata": {
+    "headers": {
+      "from": "Steffi Riehl <steffi.riehl@posteo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Ruhestoerung",
+      "date": "Sat, 19 Jul 2025 10:58:00 -0000",
+      "message-id": "<177702011370.22256.3215189315232920071@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 324
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05082.md"
+  ],
+  "normalizedSha256": "5a309ae658b421810e567b35e8863847cd5531158d21afad2315bb326a3926d0"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05800",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251006_211900_EMAIL-05800.eml",
+  "rawSha256": "a6e1d5aeafaaabda0ef9bb9488499ca8baf5b7b1bbc86a3f4029503268e1a125",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Catherine Heydrich <catherine.heydrich@dachdecker-richter.de>",
+      "subject": "Re: Mahnung Rechnung RE-2025-5882",
+      "date": "Mon, 06 Oct 2025 21:19:00 -0000",
+      "message-id": "<177702011370.22256.851802406337137732@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.741600995623915897@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.741600995623915897@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 462
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05800.md"
+  ],
+  "normalizedSha256": "b8d9c4fc17df1fecc7815304902ef50ec1c77de450ae5a91094e1c0fa3b8c880"
+}

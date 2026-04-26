@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00114",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240114_074100_EMAIL-00114.eml",
+  "rawSha256": "9b710ccebeb3bee757a9670314dc7276f4aba47d76ce038605c38a92db7f6f72",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "=?utf-8?q?Bj=C3=B6rn?= Weinhage <bjoern.weinhage@gmx.de>",
+      "subject": "Re: Defektes Fenster",
+      "date": "Sun, 14 Jan 2024 07:41:00 -0000",
+      "message-id": "<177702011370.22256.5686135469471627482@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15405874627539048422@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15405874627539048422@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 427
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00114.md"
+  ],
+  "normalizedSha256": "55a473cb3514fc92777e273fdadcebee877261879801a241d3039b32264bcfec"
+}

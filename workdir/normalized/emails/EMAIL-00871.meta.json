@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00871",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240408_140800_EMAIL-00871.eml",
+  "rawSha256": "b170d8ba446eb7808cc3f4107a4d7f4dba4df21441cda8a7d1527aa7536fa1f3",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "=?utf-8?q?Bj=C3=B6rn?= Weinhage <bjoern.weinhage@gmx.de>",
+      "subject": "Re: Internet/TV-Anschluss",
+      "date": "Mon, 08 Apr 2024 14:08:00 -0000",
+      "message-id": "<177702011370.22256.17873609823203541478@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.812298320559373629@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.812298320559373629@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 376
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00871.md"
+  ],
+  "normalizedSha256": "9a9cb09a9f9568f9441efa0899e6f422383279127784bc86259c682c4bef8908"
+}

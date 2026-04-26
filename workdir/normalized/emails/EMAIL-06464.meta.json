@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06464",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251222_065500_EMAIL-06464.eml",
+  "rawSha256": "0a195e2754f57a41e27aa6e03dc49c300db849e70b6de0406bb5f5b744c92b4b",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "subject": "Re: Angebot: Dachabdichtung Haus 12",
+      "date": "Mon, 22 Dec 2025 06:55:00 -0000",
+      "message-id": "<177702011370.22256.14314713744375524393@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.7933312244983282794@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.7933312244983282794@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 529
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06464.md"
+  ],
+  "normalizedSha256": "74f5d6049fb1446ae4a3548b31c6525110e95047729cebf14edddbaa96ba5cc5"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04110",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250323_195600_EMAIL-04110.eml",
+  "rawSha256": "2d7d0cf86adaab8de4bbd328f0f3a8427be72657a2d329dfcf62aac5e8d4fb41",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Lisa Brown <lisa.brown@techclean-international.com>",
+      "subject": "Re: Quote: Reparatur Aufzug",
+      "date": "Sun, 23 Mar 2025 19:56:00 -0000",
+      "message-id": "<177702011370.22256.17284751842500362327@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.12292879813674954510@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.12292879813674954510@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 349
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04110.md"
+  ],
+  "normalizedSha256": "3c0b38a0710525f34e4d53b19cb1b8a9d9a1ef07227c7204e275b0ec3eccda9b"
+}

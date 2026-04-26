@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02008",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240810_174100_EMAIL-02008.eml",
+  "rawSha256": "0facddba77627997ad9c8ae2bcb43730f5acee7739872a33abd46fc47648cf28",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "subject": "Re: Rechnung RE-2024-7950",
+      "date": "Sat, 10 Aug 2024 17:41:00 -0000",
+      "message-id": "<177702011370.22256.15313657159291179224@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14122086264647151976@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14122086264647151976@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 459
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02008.md"
+  ],
+  "normalizedSha256": "411ffe51cb884989d5af4d548ea71736b26f2513108ed7b541ff876537371c53"
+}

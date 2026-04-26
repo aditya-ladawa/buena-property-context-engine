@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05361",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250820_203200_EMAIL-05361.eml",
+  "rawSha256": "6e8bf5ae0414d421335105b093b618dbef28b8726269eefb6cd42a9426121979",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeister-bauer.de>",
+      "subject": "Re: Angebot: Dachabdichtung Haus 12",
+      "date": "Wed, 20 Aug 2025 20:32:00 -0000",
+      "message-id": "<177702011370.22256.16935602155698059389@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8155135820855011758@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8155135820855011758@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 493
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05361.md"
+  ],
+  "normalizedSha256": "c45f13198dce6630c34ae97d5bb00b82dd8af450415ca6976938b5ba0e8e7894"
+}

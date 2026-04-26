@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04849",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250622_173700_EMAIL-04849.eml",
+  "rawSha256": "f63f59bd9474af502a31e835df27ee39e01610ae5c51be5c067c3242c6791aae",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Lisa Brown <lisa.brown@techclean-international.com>",
+      "subject": "Re: Quote: Schliessanlage",
+      "date": "Sun, 22 Jun 2025 17:37:00 -0000",
+      "message-id": "<177702011370.22256.6910084684656597643@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.6119374732388860724@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.6119374732388860724@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 393
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04849.md"
+  ],
+  "normalizedSha256": "c0842d3eab1e9b72a7a32bb6323101e654a81713815876fbb0ccbef452d96f33"
+}

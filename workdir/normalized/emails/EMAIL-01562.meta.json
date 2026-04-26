@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01562",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240621_210700_EMAIL-01562.eml",
+  "rawSha256": "14c5e422019a3ac1dbb4258a456c072c7ba2d0c921be3a59000d49b644e2a038",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "subject": "Re: Angebot: Gartenpflege Sommer",
+      "date": "Fri, 21 Jun 2024 21:07:00 -0000",
+      "message-id": "<177702011370.22256.9802281806361078440@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15491493259462534705@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15491493259462534705@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 486
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01562.md"
+  ],
+  "normalizedSha256": "4ccaa1691406e564df4ac6597182657f62cc47668e8b2be6afda647c92510a44"
+}

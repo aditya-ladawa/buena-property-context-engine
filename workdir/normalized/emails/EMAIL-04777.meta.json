@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04777",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250615_080200_EMAIL-04777.eml",
+  "rawSha256": "0d13aa13275b2ba3624fc037f6bb05c25871588741abdda3138f8e46e26aa59c",
+  "metadata": {
+    "headers": {
+      "from": "Olga Holsten <olga.holsten@heiztechnik-berlin.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Gartenpflege Sommer",
+      "date": "Sun, 15 Jun 2025 08:02:00 -0000",
+      "message-id": "<177702011370.22256.810793467150322099@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 255
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04777.md"
+  ],
+  "normalizedSha256": "3d8cc14bbf64f4af98728ca5ece39234fb578827a9a92f0eac6ef6627cd4f5ed"
+}

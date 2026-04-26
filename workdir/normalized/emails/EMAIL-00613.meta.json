@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00613",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240311_090100_EMAIL-00613.eml",
+  "rawSha256": "e6c9ae70802b3f38155ea6a4f0b19753e58658e5799ef0a0a23aaabdc17a2afa",
+  "metadata": {
+    "headers": {
+      "from": "Frau Dorothe Wulf <dorothe.wulf@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Question about annual statement",
+      "date": "Mon, 11 Mar 2024 09:01:00 -0000",
+      "message-id": "<177702011370.22256.287808461762909744@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 164
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00613.md"
+  ],
+  "normalizedSha256": "e08dcd897c151d1a5ec98f3904037f47606bb1ebb78b65aff9c31bf69622bb1a"
+}

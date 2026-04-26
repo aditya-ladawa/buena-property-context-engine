@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01777",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240716_113200_EMAIL-01777.eml",
+  "rawSha256": "a910f61a4fcdc4bdc6c61f8e6483311334af684dbab0a2e0d59c8a44dd0c8ba2",
+  "metadata": {
+    "headers": {
+      "from": "Steffi Riehl <steffi.riehl@posteo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Haustuer schliesst nicht",
+      "date": "Tue, 16 Jul 2024 11:32:00 -0000",
+      "message-id": "<177702011370.22256.16848583738943809009@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 151
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01777.md"
+  ],
+  "normalizedSha256": "05b169ea44cff42d96fc5f35a44804a9adb09b4c3fe099823e45f11662f84b52"
+}

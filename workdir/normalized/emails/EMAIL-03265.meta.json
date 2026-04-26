@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03265",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241225_073800_EMAIL-03265.eml",
+  "rawSha256": "d37556db2e5fb851bd897e0069f7ee6e4b6bce727bb65504ef711ad13852b157",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Edelgard Wulf <edelgard.wulf@gmx.de>",
+      "subject": "Re: Parkplatz-Frage",
+      "date": "Wed, 25 Dec 2024 07:38:00 -0000",
+      "message-id": "<177702011370.22256.6440152805717458109@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10177401277782574596@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10177401277782574596@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 403
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03265.md"
+  ],
+  "normalizedSha256": "4e9f36f2f08e754aec4ddbd2199c5bc708dfa45c1e4e82bd753fedab36c135c9"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00737",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240326_144500_EMAIL-00737.eml",
+  "rawSha256": "b608307b550720ff695aa6b6bbf52d28ad75feec37c29f5a49a497494d09b107",
+  "metadata": {
+    "headers": {
+      "from": "Frau Silja Henschel <silja.henschel@posteo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 20",
+      "date": "Tue, 26 Mar 2024 14:45:00 -0000",
+      "message-id": "<177702011370.22256.5928080534736647908@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 211
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00737.md"
+  ],
+  "normalizedSha256": "971ed67b21cbb31456b8cee87405b0e574f29cb1e2553332f25e9cf07040ba0a"
+}

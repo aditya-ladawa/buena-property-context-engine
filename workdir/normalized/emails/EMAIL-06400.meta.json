@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06400",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251215_103000_EMAIL-06400.eml",
+  "rawSha256": "c419503ee747fd6769019b673f499aacd72079d75252db42c911303995e1a5f2",
+  "metadata": {
+    "headers": {
+      "from": "Herr Osman Jacob <osman.jacob@yahoo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 01",
+      "date": "Mon, 15 Dec 2025 10:30:00 -0000",
+      "message-id": "<177702011370.22256.1561356475274196452@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 185
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06400.md"
+  ],
+  "normalizedSha256": "e8feeaa5107a597ba638029819a9dfb5bc17f261128f0de5d17fc88d87bdb5e8"
+}

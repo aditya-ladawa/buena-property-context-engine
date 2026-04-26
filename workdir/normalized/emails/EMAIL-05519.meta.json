@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05519",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250904_151600_EMAIL-05519.eml",
+  "rawSha256": "530733f859f220ff62b07df0d73bfe9ba94e347750533c7ee3f810051380ec22",
+  "metadata": {
+    "headers": {
+      "from": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeister-bauer.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wartungsbericht",
+      "date": "Thu, 04 Sep 2025 15:16:00 -0000",
+      "message-id": "<177702011370.22256.6574028503161717791@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 209
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05519.md"
+  ],
+  "normalizedSha256": "8aedd4f1ae94484ac3f44a55ed38368c7cd4221d0e7fb10be7e841ee70386d8f"
+}

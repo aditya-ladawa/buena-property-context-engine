@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05856",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251013_090200_EMAIL-05856.eml",
+  "rawSha256": "d4c51170f6e6c228b845ab6d1940dff216e6c956d2c62cf2df7e4d54518a7771",
+  "metadata": {
+    "headers": {
+      "from": "=?utf-8?q?J=C3=B6rgen?= Seidel <joergen.seidel@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Defektes Fenster",
+      "date": "Mon, 13 Oct 2025 09:02:00 -0000",
+      "message-id": "<177702011370.22256.147721613920023610@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 170
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05856.md"
+  ],
+  "normalizedSha256": "7966cbf7ec934d901759dbc75ffbe1e3e0231097b19af88edd61e619e469dd84"
+}

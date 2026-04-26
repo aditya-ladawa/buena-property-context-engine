@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00192",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240124_162200_EMAIL-00192.eml",
+  "rawSha256": "466a1743b003688a4b205807dcce07d79d2c7319cabcb36c9903c8fcec3cc611",
+  "metadata": {
+    "headers": {
+      "from": "Herr Tom Hartmann <tom.hartmann@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 29",
+      "date": "Wed, 24 Jan 2024 16:22:00 -0000",
+      "message-id": "<177702011370.22256.11345495472631909815@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 186
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00192.md"
+  ],
+  "normalizedSha256": "419a394e931c6cc82222ac5824333c19757e67180afcef8047135d9e55173e8c"
+}

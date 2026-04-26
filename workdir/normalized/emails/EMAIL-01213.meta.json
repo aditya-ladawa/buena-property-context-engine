@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01213",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240514_111200_EMAIL-01213.eml",
+  "rawSha256": "219272bd3e87c96d0caafb069b18c7e284355312faad335f926f7b7ff5cbcea8",
+  "metadata": {
+    "headers": {
+      "from": "Frau Xenia Conradi <xenia.conradi@outlook.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Sonderumlage - Einspruch",
+      "date": "Tue, 14 May 2024 11:12:00 -0000",
+      "message-id": "<177702011370.22256.18338546230776669306@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 226
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01213.md"
+  ],
+  "normalizedSha256": "85e0a6d3b60b94d1bbfd76cebf484fd06d2d159330ca9564151ccf0171e3837d"
+}

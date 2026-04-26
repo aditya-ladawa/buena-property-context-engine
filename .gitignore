@@ -22,9 +22,8 @@ dist-ssr
 # Internal assistant/project memory
 codex_mem/
 
-# Raw and generated context-engine artifacts
-data/
-workdir/
+# Generated context-engine views remain local by default. The demo dataset
+# (`data/`) and prepared work artifacts (`workdir/`) are committed for judges.
 contexts/
 
 # Local agent runtime state

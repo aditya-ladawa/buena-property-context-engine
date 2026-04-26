@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05872",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251014_021200_EMAIL-05872.eml",
+  "rawSha256": "6b6abfc1efaf6cd12f8b2aae9cc17cc9b9cd1033c79618e9dd589cebcb4d141b",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Ferenc Stahr <ferenc.stahr@gmx.de>",
+      "subject": "Re: Kuendigung Mietvertrag",
+      "date": "Tue, 14 Oct 2025 02:12:00 -0000",
+      "message-id": "<177702011370.22256.13138536040005588704@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14844879751009282812@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14844879751009282812@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 458
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05872.md"
+  ],
+  "normalizedSha256": "4d0288facafe004acef616262d6b923ef7df71776ff6ca7f13b50fba8fbb91f7"
+}

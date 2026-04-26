@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05686",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250922_000300_EMAIL-05686.eml",
+  "rawSha256": "f35d7edbb2820963a26c749c2f177d3ed30b4c9281451a6c15ae87f9874fd560",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Magrit Mitschke <magrit.mitschke@gmail.com>",
+      "subject": "Re: Parkplatz-Frage",
+      "date": "Mon, 22 Sep 2025 00:03:00 -0000",
+      "message-id": "<177702011370.22256.10719641590309010723@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.5773113510240754078@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.5773113510240754078@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 438
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05686.md"
+  ],
+  "normalizedSha256": "5cd70bb54aabdbe1a3aead5067280b33a93fea17d0ee58f3eba49d63c0f458b4"
+}

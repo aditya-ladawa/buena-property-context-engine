@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04244",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250409_103500_EMAIL-04244.eml",
+  "rawSha256": "3cc2c28d528227fa060e45cf4be38a99c49a2f2f30330e9b28093c347c0e0791",
+  "metadata": {
+    "headers": {
+      "from": "Herr Wolfgang Hettner <wolfgang.hettner@web.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 34",
+      "date": "Wed, 09 Apr 2025 10:35:00 -0000",
+      "message-id": "<177702011370.22256.2303626124684684682@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 213
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04244.md"
+  ],
+  "normalizedSha256": "aadf7da0cede58b42228ee151024093aaf1905f815e9f0e66016c60d82762c56"
+}

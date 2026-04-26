@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03390",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250105_174500_EMAIL-03390.eml",
+  "rawSha256": "ac0d774f41151abd00557ffc4764fe84f05748175b083b99d1b0abbc366df779",
+  "metadata": {
+    "headers": {
+      "from": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Rechnung RE-2025-2661",
+      "date": "Sun, 05 Jan 2025 17:45:00 -0000",
+      "message-id": "<177702011370.22256.16530809039941641449@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 204
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03390.md"
+  ],
+  "normalizedSha256": "02b0fc3faad68f404e232126977b9abf03c062485995804915280971a9b0f994"
+}

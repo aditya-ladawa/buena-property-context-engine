@@ -1,0 +1,14 @@
+{
+  "sourceId": "BANK-BASE-KONTOAUSZUG-2024-2025-CAMT053",
+  "propertyId": "LIE-001",
+  "kind": "bank_xml",
+  "rawPath": "data/bank/kontoauszug_2024_2025.camt053.xml",
+  "rawSha256": "a484bf741548b1900dc50975da0a55fb64f4340b6b4b2eaca3fb884a9a874733",
+  "normalizedPaths": [
+    "workdir/normalized/bank/BANK-BASE-KONTOAUSZUG-2024-2025-CAMT053.xml"
+  ],
+  "normalizedSha256": "a484bf741548b1900dc50975da0a55fb64f4340b6b4b2eaca3fb884a9a874733",
+  "metadata": {
+    "format": "xml"
+  }
+}

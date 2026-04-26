@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06069",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251106_230200_EMAIL-06069.eml",
+  "rawSha256": "45221b41b8555e069e6881913d21849373990d20c4e0052e95e1543576ead483",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Jasmin Trub <jasmin.trub@outlook.com>",
+      "subject": "Re: Mietminderung Ankuendigung",
+      "date": "Thu, 06 Nov 2025 23:02:00 -0000",
+      "message-id": "<177702011370.22256.4787287066124123740@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.5131695245077311454@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.5131695245077311454@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 507
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06069.md"
+  ],
+  "normalizedSha256": "a6922380e59279a8464e2c92992c124a6ce2d1c4ed8f7b9a844fc4533d789af5"
+}

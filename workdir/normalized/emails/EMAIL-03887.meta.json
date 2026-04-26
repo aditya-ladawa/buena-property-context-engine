@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03887",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250301_111100_EMAIL-03887.eml",
+  "rawSha256": "fafab2e2058a09de0a4459534b4d6b6bf54bf1fe610c82069c14f82feda7a456",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Ingbert Nerger <ingbert.nerger@gmx.de>",
+      "subject": "Protokoll-Entwurf ETV",
+      "date": "Sat, 01 Mar 2025 11:11:00 -0000",
+      "message-id": "<177702011370.22256.7186229964453440442@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 128
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03887.md"
+  ],
+  "normalizedSha256": "eabc7575908d2f45bf7f8d4355ddc0b871456c739fc69e363c9a74a82cead4a2"
+}

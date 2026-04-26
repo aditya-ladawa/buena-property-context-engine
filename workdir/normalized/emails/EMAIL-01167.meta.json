@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01167",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240509_213700_EMAIL-01167.eml",
+  "rawSha256": "34b945e8a6e7e919829274d0390f9b01323e1e797046d05da7464d4c9b80fba2",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Peggy Hein <peggy.hein@outlook.com>",
+      "subject": "Re: Verstopfter Abfluss",
+      "date": "Thu, 09 May 2024 21:37:00 -0000",
+      "message-id": "<177702011370.22256.4573853336137796589@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.18297143812507720182@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.18297143812507720182@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 422
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01167.md"
+  ],
+  "normalizedSha256": "ed0092827c3f79a2d67bbed86fc7bbd82f91f05568e561715d4356279c3138ed"
+}

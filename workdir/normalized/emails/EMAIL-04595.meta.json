@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04595",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250523_091100_EMAIL-04595.eml",
+  "rawSha256": "f161d8295962bb37671e2661ac6911d3d27ad15541c30fffda0bdcfb0947aa35",
+  "metadata": {
+    "headers": {
+      "from": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-saless.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Rechnung RE-2025-4630",
+      "date": "Fri, 23 May 2025 09:11:00 -0000",
+      "message-id": "<177702011370.22256.7181882054621411302@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 221
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04595.md"
+  ],
+  "normalizedSha256": "2393d934400368420e46cbc7362ce081cd944226dd468e5440048fac1237b134"
+}

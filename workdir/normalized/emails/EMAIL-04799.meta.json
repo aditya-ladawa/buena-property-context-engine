@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04799",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250617_034700_EMAIL-04799.eml",
+  "rawSha256": "4bfd4d347650051c3356557cea9f71f5013473987a36e5ef9e2de4baaab03960",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Irmengard Mentzel <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "subject": "Re: Angebot: Reparatur Aufzug",
+      "date": "Tue, 17 Jun 2025 03:47:00 -0000",
+      "message-id": "<177702011370.22256.4155566388496421380@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.11364802394814230409@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.11364802394814230409@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 522
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04799.md"
+  ],
+  "normalizedSha256": "7663417d5ecfdb6a6ebe3e03f322d72ca02ddefd39b427d2c897173f93fb6fb8"
+}

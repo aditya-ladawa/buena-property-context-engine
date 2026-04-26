@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03727",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250213_182700_EMAIL-03727.eml",
+  "rawSha256": "5a25d45ed0c5cafb132068f731c2f5f08808826cf5765dfe628fb824b8afc34c",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Slawomir =?utf-8?q?S=C3=B6lzer?= <slawomir.soelzer@hausmeister-mueller.de>",
+      "subject": "Re: Mahnung Rechnung RE-2025-7742",
+      "date": "Thu, 13 Feb 2025 18:27:00 -0000",
+      "message-id": "<177702011370.22256.1018389038945655990@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.16085472032674605905@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.16085472032674605905@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 465
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03727.md"
+  ],
+  "normalizedSha256": "52e3c4b2ebfbd5fcf595aae183f54ee7bebf623cc848b9f4ca707c3a778fbc2d"
+}

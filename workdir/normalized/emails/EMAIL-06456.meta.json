@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06456",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251221_123500_EMAIL-06456.eml",
+  "rawSha256": "7d9848830f4e92c3f25ee1d1ded9a2ba5b595d4dfa2e3e57c13fb3e6c5af2cde",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Falk Trommler <falk.trommler@berliner-wasserbetriebe.de>",
+      "subject": "Re: Rechnung RE-2025-4926",
+      "date": "Sun, 21 Dec 2025 12:35:00 -0000",
+      "message-id": "<177702011370.22256.349701250913420199@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.11027197595086267585@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.11027197595086267585@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 466
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06456.md"
+  ],
+  "normalizedSha256": "7202c9a030ed774908daaca9b9e190389a79044ca5a8a768f5e8f9d5e9de7bb8"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05349",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250819_103700_EMAIL-05349.eml",
+  "rawSha256": "5c244deb39da33b0aa7d59e52bfcfe9a8dacc807872b44c0b7fc5e13dbb2845e",
+  "metadata": {
+    "headers": {
+      "from": "Frau Xenia Conradi <xenia.conradi@outlook.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "SEV - Monatsauszug",
+      "date": "Tue, 19 Aug 2025 10:37:00 -0000",
+      "message-id": "<177702011370.22256.2862323762739991061@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 179
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05349.md"
+  ],
+  "normalizedSha256": "8608073c8df4657e889b15b35da40937cba71ed652f50335a2c5a9d900830f56"
+}

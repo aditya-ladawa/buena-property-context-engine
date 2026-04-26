@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05945",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251023_105100_EMAIL-05945.eml",
+  "rawSha256": "496a6a12f6e4d7fafaf4abc83acbdab717f4d1a2c165e8e255d31b9407cebdaf",
+  "metadata": {
+    "headers": {
+      "from": "Irmengard Mentzel <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Auftragsbestaetigung",
+      "date": "Thu, 23 Oct 2025 10:51:00 -0000",
+      "message-id": "<177702011370.22256.12225120040070511633@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 205
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05945.md"
+  ],
+  "normalizedSha256": "c4a3d6f74992988c5b27ff02f09eff88f5dbbf7403206326664b63f4af4e50aa"
+}

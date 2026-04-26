@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02759",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241029_153200_EMAIL-02759.eml",
+  "rawSha256": "812ebfa0e822d4c25809fb92becce0c983b993b2e19a5d1eb828c68db4e30ca4",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Ronald Kelley <ronald.kelley@icloud.com>",
+      "subject": "Kurze Rueckmeldung bitte",
+      "date": "Tue, 29 Oct 2024 15:32:00 -0000",
+      "message-id": "<177702011370.22256.13701724315088196086@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 128
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02759.md"
+  ],
+  "normalizedSha256": "8919a8f71f59ab14097ee849c666f93d214d761da77639870a3172ff04096135"
+}

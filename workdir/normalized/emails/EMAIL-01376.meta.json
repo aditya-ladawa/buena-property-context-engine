@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01376",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240601_153000_EMAIL-01376.eml",
+  "rawSha256": "eedfbe279bff84f13c4bde947b937e653232f18e6ccfa62cc625935fad4b24bf",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Arnulf Heintze <arnulf.heintze@gmail.com>",
+      "subject": "Re: Verkaufsabsicht WE 49",
+      "date": "Sat, 01 Jun 2024 15:30:00 -0000",
+      "message-id": "<177702011370.22256.15981264295522736744@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.6204781397697604407@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.6204781397697604407@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 463
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01376.md"
+  ],
+  "normalizedSha256": "63abf47e4f979eafd2c17d90474a9180a617d1080a7845c58e443bd7c59e4adf"
+}

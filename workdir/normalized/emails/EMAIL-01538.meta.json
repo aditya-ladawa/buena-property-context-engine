@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01538",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240619_113700_EMAIL-01538.eml",
+  "rawSha256": "00d8ad6947180145392b8fb1ea1ee058cb1607a2804c185f876cc61c8af224ae",
+  "metadata": {
+    "headers": {
+      "from": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Sanitaer-Reparatur",
+      "date": "Wed, 19 Jun 2024 11:37:00 -0000",
+      "message-id": "<177702011370.22256.555022262020189159@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 258
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01538.md"
+  ],
+  "normalizedSha256": "3acc6ed61c86125683c9fe53da158784e9bdf872279da86664bcb8464ca8807c"
+}

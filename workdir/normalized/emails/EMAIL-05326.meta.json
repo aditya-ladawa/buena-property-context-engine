@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05326",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250817_113400_EMAIL-05326.eml",
+  "rawSha256": "4da91899dff63ee8c276ec1a3222c917e58026f7f8343d7e8adc19958527726a",
+  "metadata": {
+    "headers": {
+      "from": "Falk Trommler <falk.trommler@berliner-wasserbetriebe.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wartungsbericht",
+      "date": "Sun, 17 Aug 2025 11:34:00 -0000",
+      "message-id": "<177702011370.22256.4915846941743896438@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 208
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05326.md"
+  ],
+  "normalizedSha256": "b60ae36aa14cba619cb2a2480ce00ac2efb71ec0378b8d9c00b0d88db6da6fa1"
+}

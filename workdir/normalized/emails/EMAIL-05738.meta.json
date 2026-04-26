@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05738",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250928_180700_EMAIL-05738.eml",
+  "rawSha256": "691759dcbee9053db302f7ad6a52ecd3a65a674a2f996c202a04ecea0f6a5ab4",
+  "metadata": {
+    "headers": {
+      "from": "Herr Marcus Dowerg <marcus.dowerg@outlook.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Sun, 28 Sep 2025 18:07:00 -0000",
+      "message-id": "<177702011370.22256.15876795041956795425@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 239
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05738.md"
+  ],
+  "normalizedSha256": "c684b46c8aeb8fc06a3e113ece5aa2d5c68ff9720e3352ec6f87a33255b10058"
+}

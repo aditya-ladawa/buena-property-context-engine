@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02381",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240919_094300_EMAIL-02381.eml",
+  "rawSha256": "dcbeee72bed9e9062981203dbb55f3031afb607b216a066b5ac90075de48f88b",
+  "metadata": {
+    "headers": {
+      "from": "Frau Gertraud Holsten <gertraud.holsten@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Modernisierung - Zustimmung",
+      "date": "Thu, 19 Sep 2024 09:43:00 -0000",
+      "message-id": "<177702011370.22256.17232869655015265330@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 165
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02381.md"
+  ],
+  "normalizedSha256": "93794df0d2d943a9d3a0290ba3eb76af37074db041895a134eaf5d007f4228b7"
+}

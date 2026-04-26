@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05295",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250814_152900_EMAIL-05295.eml",
+  "rawSha256": "1c7ed99d2056422f447ab4fe4c469b1892520e14492c4caf2427f5dd9291d3d9",
+  "metadata": {
+    "headers": {
+      "from": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Gartenpflege Sommer",
+      "date": "Thu, 14 Aug 2025 15:29:00 -0000",
+      "message-id": "<177702011370.22256.14554189435062992077@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 266
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05295.md"
+  ],
+  "normalizedSha256": "fb7a9063a8faf3d71096e35ead8536d932d2fc9653ca80f2e4e167bae17eb39e"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00102",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240112_225600_EMAIL-00102.eml",
+  "rawSha256": "dfe895fb7de61c1d7d7c222fc49a8353fe170dbec3aa8c47bf1ee9e62ac64289",
+  "metadata": {
+    "headers": {
+      "from": "Catherine Heydrich <catherine.heydrich@dachdecker-richter.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Elektro-Pruefung",
+      "date": "Fri, 12 Jan 2024 22:56:00 -0000",
+      "message-id": "<177702011370.22256.1769147578524900695@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 252
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00102.md"
+  ],
+  "normalizedSha256": "800d1bdb7315a6d7d571c8d7b7609ee393659a7861b19cf8f56eeeca96f6dac7"
+}

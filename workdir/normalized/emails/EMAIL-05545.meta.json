@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05545",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250906_144100_EMAIL-05545.eml",
+  "rawSha256": "2916ab8f90c52f84ef836c7a020fc55ab295ae558014467e7bd55bfe564d3eea",
+  "metadata": {
+    "headers": {
+      "from": "Herr Horst Vollbrecht <horst.vollbrecht@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Question about annual statement",
+      "date": "Sat, 06 Sep 2025 14:41:00 -0000",
+      "message-id": "<177702011370.22256.6287862374292021048@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 168
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05545.md"
+  ],
+  "normalizedSha256": "8b76772a7f99ee1beaaf80586ae4648e0aef72abf94aaecd3ddf5a89f7000601"
+}

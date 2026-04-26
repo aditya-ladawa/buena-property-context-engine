@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03320",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241230_160400_EMAIL-03320.eml",
+  "rawSha256": "413a02961f8fc9ffc9f23c0ab1c53461378bbcb76dc8aa5cb35236ecfc789fba",
+  "metadata": {
+    "headers": {
+      "from": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Jahreswartung Heizungsanlage",
+      "date": "Mon, 30 Dec 2024 16:04:00 -0000",
+      "message-id": "<177702011370.22256.7567805536965712019@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 266
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03320.md"
+  ],
+  "normalizedSha256": "6709e7a0096cd17446591485e2c3cfd4fa4f897a19b92ea655609cdad4dce868"
+}

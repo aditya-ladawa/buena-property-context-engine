@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01695",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240708_132400_EMAIL-01695.eml",
+  "rawSha256": "18fedab3252c853717fa92ede02c4cef62b3eb829b262b854f87f74b1e7a1704",
+  "metadata": {
+    "headers": {
+      "from": "Herr Wolfgang Hettner <wolfgang.hettner@web.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 34",
+      "date": "Mon, 08 Jul 2024 13:24:00 -0000",
+      "message-id": "<177702011370.22256.18393528387362327487@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 190
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01695.md"
+  ],
+  "normalizedSha256": "444f5a279d68f8ff11bf3d09c782d74237964053ad2c7f6553b0a417ff130a65"
+}

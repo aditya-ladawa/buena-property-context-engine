@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00417",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240219_133400_EMAIL-00417.eml",
+  "rawSha256": "c17cdf364bd7cd2f9a3b2bb9839cb4971a111507ee7c71de196dd22cb4f1d8c4",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr =?utf-8?q?S=C3=BCkr=C3=BC?= Aumann <suekrue.aumann@posteo.de>",
+      "subject": "Re: Verkaufsabsicht WE 41",
+      "date": "Mon, 19 Feb 2024 13:34:00 -0000",
+      "message-id": "<177702011370.22256.6350634075314086950@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.5979167519116865554@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.5979167519116865554@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 469
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00417.md"
+  ],
+  "normalizedSha256": "f80cf2a23e5ec710cc1c9c2fc031467de8fa1e3c9d4fe989e8cc0d17098c85a7"
+}

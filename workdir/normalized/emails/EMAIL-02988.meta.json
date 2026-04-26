@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02988",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241123_114400_EMAIL-02988.eml",
+  "rawSha256": "7ed711b483bcce7ea9a5ba21341e4b6ae6149ffa965dcffd50762fb5d0a61a0e",
+  "metadata": {
+    "headers": {
+      "from": "Anwohner <nachbar.mitte@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Laerm von Ihrem Objekt",
+      "date": "Sat, 23 Nov 2024 11:44:00 -0000",
+      "message-id": "<177702011370.22256.4903099796048244430@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 170
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02988.md"
+  ],
+  "normalizedSha256": "095cdecdccbe14e233ec54f30b62265bb6a06d45b6a352fc0cb6a048751a917e"
+}

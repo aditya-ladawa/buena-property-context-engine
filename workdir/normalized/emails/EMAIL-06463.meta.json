@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06463",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251222_000400_EMAIL-06463.eml",
+  "rawSha256": "04346011dfa4b9328f439dbb50c8276bbc620a32319b50166cce52cfcfc41b3d",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Thomas Kennedy <thomas.kennedy@securelock-systems-ltd.com>",
+      "subject": "Re: Maintenance report",
+      "date": "Mon, 22 Dec 2025 00:04:00 -0000",
+      "message-id": "<177702011370.22256.11167100813371406302@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.16617488103295774738@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.16617488103295774738@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 347
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06463.md"
+  ],
+  "normalizedSha256": "63f2086a9cda3af0769bb6aadd655611cca3a9bad700919756e0e1eba80b49c6"
+}

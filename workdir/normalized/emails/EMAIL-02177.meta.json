@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02177",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240828_164700_EMAIL-02177.eml",
+  "rawSha256": "76592610afa6902021afd32c9641d779acc9035040a64064b9b4fca05097d3fa",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Alwine Sager <alwine.sager@web.de>",
+      "subject": "Re: Ruhestoerung",
+      "date": "Wed, 28 Aug 2024 16:47:00 -0000",
+      "message-id": "<177702011370.22256.9610458728743355629@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4163273993254410075@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4163273993254410075@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 549
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02177.md"
+  ],
+  "normalizedSha256": "ffeaf735194df5871779ff6558c15a55a278d6499677ddf1450916246e201a43"
+}

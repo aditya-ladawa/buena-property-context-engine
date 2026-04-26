@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03185",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241215_221300_EMAIL-03185.eml",
+  "rawSha256": "e47edd642fb54083f7d7bc9e00f622d76a9559896458b02a1fae4119ad27a0c4",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Frau Anni Wagenknecht <anni.wagenknecht@gmx.de>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Sun, 15 Dec 2024 22:13:00 -0000",
+      "message-id": "<177702011370.22256.6852149893207070945@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.17829790703136957372@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.17829790703136957372@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 392
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03185.md"
+  ],
+  "normalizedSha256": "dca0dd65574fd08b15039d68f277fc7d498cf6163402c9eee05621ccf37d7139"
+}

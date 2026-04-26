@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04675",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250531_163100_EMAIL-04675.eml",
+  "rawSha256": "5325465dd61af41c332650d2944f4c217452baaeac3c5c03fc7c0f22fcdef914",
+  "metadata": {
+    "headers": {
+      "from": "Herr Dominic Jacobs <dominic.jacobs@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Question about annual statement",
+      "date": "Sat, 31 May 2025 16:31:00 -0000",
+      "message-id": "<177702011370.22256.16891956342211637510@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 166
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04675.md"
+  ],
+  "normalizedSha256": "a0d4c0ff0ea96cb5905d9af4b5d5d2b1356caaf3cfd8c0ee392e958d2509cae4"
+}

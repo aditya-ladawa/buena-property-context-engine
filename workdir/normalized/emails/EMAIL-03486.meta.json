@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03486",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250116_104600_EMAIL-03486.eml",
+  "rawSha256": "71ce8746028dbf5e6450ed808e8ed00263fda497d1b9cb5e18dc59b8ba27e460",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Ronald Kelley <ronald.kelley@icloud.com>",
+      "subject": "Abstimmung zu Angebot",
+      "date": "Thu, 16 Jan 2025 10:46:00 -0000",
+      "message-id": "<177702011370.22256.9285749957208922867@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 127
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03486.md"
+  ],
+  "normalizedSha256": "f76da3ed0e5af4fba90ddac4d379d134082de95cc1cd9dd8376083695b61c1fc"
+}

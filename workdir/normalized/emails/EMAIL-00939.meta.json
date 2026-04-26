@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00939",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240414_144700_EMAIL-00939.eml",
+  "rawSha256": "b24bdf7a05becd143140e2f4c7bfa5bf41175cda6883cd13bfe0c2e393a5b60f",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Ingbert Nerger <ingbert.nerger@gmx.de>",
+      "subject": "Abstimmung zu Angebot",
+      "date": "Sun, 14 Apr 2024 14:47:00 -0000",
+      "message-id": "<177702011370.22256.11519878359749581564@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 131
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00939.md"
+  ],
+  "normalizedSha256": "18ad18c2eeb5287dbd99c42a5c1b2cc7d26fc40fa1eb9971c4cf4c678434ae67"
+}

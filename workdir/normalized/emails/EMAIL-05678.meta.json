@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05678",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250921_144300_EMAIL-05678.eml",
+  "rawSha256": "8f75259ed2e6efad7ee99ea5f75ac2f9686ccceda68f54fb3a1cfa21b88807ad",
+  "metadata": {
+    "headers": {
+      "from": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Jahreswartung Heizungsanlage",
+      "date": "Sun, 21 Sep 2025 14:43:00 -0000",
+      "message-id": "<177702011370.22256.5586575080828933539@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 276
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05678.md"
+  ],
+  "normalizedSha256": "17a8d6ce3548a3ceb0aa207fb4ed9e8ffa644da873baf4f28c0cb93483b3fb6c"
+}

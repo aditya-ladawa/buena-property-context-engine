@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01803",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240718_161600_EMAIL-01803.eml",
+  "rawSha256": "fab265baa852a24afb7e9038e3b775b1124d20437f5fc0ae5fdf6d552f39af03",
+  "metadata": {
+    "headers": {
+      "from": "Frau Xenia Conradi <xenia.conradi@outlook.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Modernisierung - Zustimmung",
+      "date": "Thu, 18 Jul 2024 16:16:00 -0000",
+      "message-id": "<177702011370.22256.2881027362819865227@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 162
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01803.md"
+  ],
+  "normalizedSha256": "eb08b962eb3017fb37d3ce998dd380971c6718966015efb1ad6deae4b21da63f"
+}

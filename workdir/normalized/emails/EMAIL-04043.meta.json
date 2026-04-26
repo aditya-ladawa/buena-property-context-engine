@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04043",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250317_140000_EMAIL-04043.eml",
+  "rawSha256": "b19e59350dad9a8e02b7fb4b1e1bc79324ab0b1ca9c1dc085c274446c1c662d6",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Marliese Hermann <marliese.hermann@posteo.de>",
+      "subject": "Re: Kuendigung Mietvertrag",
+      "date": "Mon, 17 Mar 2025 14:00:00 -0000",
+      "message-id": "<177702011370.22256.10060028742241389412@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14363449447428762167@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14363449447428762167@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 493
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04043.md"
+  ],
+  "normalizedSha256": "c7e333081a10d02f3d96ba03b91094bd68277bd5944a66efbfbd6354330a0deb"
+}

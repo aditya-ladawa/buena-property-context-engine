@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05958",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251024_175000_EMAIL-05958.eml",
+  "rawSha256": "11f3755e8590087e399a8a33c989e90b2dbfc39849ad962578dd14c9a0245f71",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Frau =?utf-8?q?D=C3=B6rte?= Kraus <doerte.kraus@gmx.de>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Fri, 24 Oct 2025 17:50:00 -0000",
+      "message-id": "<177702011370.22256.9309031548301148454@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14773143544284224107@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14773143544284224107@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 493
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05958.md"
+  ],
+  "normalizedSha256": "493392e1f285800b5c789d69f665adf4541e4db79283ba4698045130e6ebd934"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02744",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241028_141300_EMAIL-02744.eml",
+  "rawSha256": "b25a230b61f2981dcff7d34fcf3a0aa9e981c7391fe46f8f99a6fe557b9d9c64",
+  "metadata": {
+    "headers": {
+      "from": "Kranz Vermoegensverwaltung <kranz.vermoegensverwaltung@capital-partners.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 17",
+      "date": "Mon, 28 Oct 2024 14:13:00 -0000",
+      "message-id": "<177702011370.22256.9635818441161823933@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 218
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02744.md"
+  ],
+  "normalizedSha256": "92761359b5819000b3b4afccbee19267967c70f2a48bc2ff86b9492e18f2c4b4"
+}

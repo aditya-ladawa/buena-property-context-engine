@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04887",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250627_113000_EMAIL-04887.eml",
+  "rawSha256": "9a8f8c7528f8d0d28e4361968150532d6d691ba4a57b094d7db3d6c890767cbd",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Horst Vollbrecht <horst.vollbrecht@gmx.de>",
+      "subject": "Re: SEV - Monatsauszug",
+      "date": "Fri, 27 Jun 2025 11:30:00 -0000",
+      "message-id": "<177702011370.22256.10506471093601062293@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.16116999577362738751@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.16116999577362738751@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 446
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04887.md"
+  ],
+  "normalizedSha256": "b9869c8e92c92e71724052f90033146cff37a5ad72555402a18ad4401c2271eb"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01517",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240617_150900_EMAIL-01517.eml",
+  "rawSha256": "e2af1f8a929a526ade542c6678419c53e2a2b31efd9eabbd7dc788204a64266d",
+  "metadata": {
+    "headers": {
+      "from": "Herr Markus Fliegner <markus.fliegner@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "SEV - Monatsauszug",
+      "date": "Mon, 17 Jun 2024 15:09:00 -0000",
+      "message-id": "<177702011370.22256.741273611035995891@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 181
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01517.md"
+  ],
+  "normalizedSha256": "05febcdd0f7747cadb8b3b8a81dab4efc83a502cb87bf9659e5e7af56b4e4088"
+}

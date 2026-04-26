@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02646",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241018_113800_EMAIL-02646.eml",
+  "rawSha256": "f564e6d60db8be5ac5752273e1c7082b4c901cb424ceb60b67c3c801c6847fa2",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Caroline Bohlander <caroline.bohlander@gmx.de>",
+      "subject": "Re: SEV - Monatsauszug",
+      "date": "Fri, 18 Oct 2024 11:38:00 -0000",
+      "message-id": "<177702011370.22256.7699875062063907658@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.12071128193992125696@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.12071128193992125696@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 445
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02646.md"
+  ],
+  "normalizedSha256": "3a2f527e3eb6c1cea5fc2349b61bb1663e90e0158d228d00c16a976a63ef9935"
+}

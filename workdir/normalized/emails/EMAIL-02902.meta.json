@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02902",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241114_145700_EMAIL-02902.eml",
+  "rawSha256": "0dfd05a3264ea0fa0cd96435c2a856a676e04bbd6c44c27cd6169ef0df7661bb",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Dunja Schacht <dunja.schacht@gmx.de>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Thu, 14 Nov 2024 14:57:00 -0000",
+      "message-id": "<177702011370.22256.14232346704627699901@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10845409338689793933@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10845409338689793933@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 421
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02902.md"
+  ],
+  "normalizedSha256": "5c90a5c8a758d331356d697754922c871c8c3d730f4f7cbb089b10966e6037ec"
+}

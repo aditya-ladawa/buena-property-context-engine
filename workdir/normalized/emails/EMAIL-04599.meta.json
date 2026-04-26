@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04599",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250523_113600_EMAIL-04599.eml",
+  "rawSha256": "4ebdd15d505f1f2838f107168678eea2fc3fa69bd8765ded0514631a9dd9fa10",
+  "metadata": {
+    "headers": {
+      "from": "Frau Dunja Schacht <dunja.schacht@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "SEV - Monatsauszug",
+      "date": "Fri, 23 May 2025 11:36:00 -0000",
+      "message-id": "<177702011370.22256.4236541877010968286@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 179
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04599.md"
+  ],
+  "normalizedSha256": "72567fb38718c9d4088fe6bb7c03a05d2a17f83dbff844f6fe665cbb1d3d441f"
+}

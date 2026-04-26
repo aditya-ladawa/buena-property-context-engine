@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04307",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250416_135300_EMAIL-04307.eml",
+  "rawSha256": "c5b70891cd6f73445a00e2724e18a59629e02bb9ceaefbbb391222fa7b0917c6",
+  "metadata": {
+    "headers": {
+      "from": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeister-bauer.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Jahreswartung Heizungsanlage",
+      "date": "Wed, 16 Apr 2025 13:53:00 -0000",
+      "message-id": "<177702011370.22256.8913877481211251280@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 271
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04307.md"
+  ],
+  "normalizedSha256": "125233ec815261e4cc821aff52062932dca4206f468aba3d29850a9a2412760f"
+}

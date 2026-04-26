@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01952",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240803_175700_EMAIL-01952.eml",
+  "rawSha256": "1511fcb11869faf6e124cab7a586916101f1c0e69fc6d0ff00f9b3156d0f49f4",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Paul-Heinz =?utf-8?q?K=C3=B6hler?= <paul.heinz.koehler@aufzug-schindler-co.de>",
+      "subject": "Re: Nachtrag Reparatur",
+      "date": "Sat, 03 Aug 2024 17:57:00 -0000",
+      "message-id": "<177702011370.22256.55430345064272719@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13220670948568738630@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13220670948568738630@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 448
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01952.md"
+  ],
+  "normalizedSha256": "8d73f77aadb19792fbf45c1429af4b481c6a8d88ad53f6d6ea8d416eb1340784"
+}

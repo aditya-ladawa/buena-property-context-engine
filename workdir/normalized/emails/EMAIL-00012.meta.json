@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00012",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240103_004300_EMAIL-00012.eml",
+  "rawSha256": "8317502d9318f923b9661a154f0ad379da20a7bb5528ecfcc0c61c7bcbec2cd4",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "subject": "Re: Terminbestaetigung Wartung",
+      "date": "Wed, 03 Jan 2024 00:43:00 -0000",
+      "message-id": "<177702011370.22256.15788804502478790551@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14497787349501255051@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14497787349501255051@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 407
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00012.md"
+  ],
+  "normalizedSha256": "77bc2e16888a0deec80aa29c8935925208905412646f10b5236709517659d0c1"
+}

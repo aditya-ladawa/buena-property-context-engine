@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03501",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250117_211200_EMAIL-03501.eml",
+  "rawSha256": "b0d319bdf25e68d99aab9cfc107d92e2aec8fa93d9f591a170822943f6811e86",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "subject": "Re: Mahnung Rechnung RE-2025-3875",
+      "date": "Fri, 17 Jan 2025 21:12:00 -0000",
+      "message-id": "<177702011370.22256.18124888611124369490@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.11198727518610107840@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.11198727518610107840@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 458
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03501.md"
+  ],
+  "normalizedSha256": "9cedcfb75eef808d0b5617ef25bfbb7c1769ef720992d55e03da559c3df766ce"
+}

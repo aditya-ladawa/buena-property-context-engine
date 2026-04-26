@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02528",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241005_142800_EMAIL-02528.eml",
+  "rawSha256": "86f246e6aba3b8a80fad67412d00d92e9408f467b3115e0b3c9ddbec30637118",
+  "metadata": {
+    "headers": {
+      "from": "Galina Wohlgemut <galina.wohlgemut@outlook.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Heizung faellt aus",
+      "date": "Sat, 05 Oct 2024 14:28:00 -0000",
+      "message-id": "<177702011370.22256.17707844321954574170@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 237
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02528.md"
+  ],
+  "normalizedSha256": "38bbefc90f9527f61cf1d36e70ecd3701fc720428cfa6778be005b1d4094fbd8"
+}

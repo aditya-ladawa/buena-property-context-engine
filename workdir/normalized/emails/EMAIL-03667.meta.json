@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03667",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250207_005100_EMAIL-03667.eml",
+  "rawSha256": "d690aeb1bdc3bbc2a36c58c10f6d73caf79304ddf638c3976ce62772c4e8eb06",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "=?utf-8?q?Horst-G=C3=BCnter_Z=C3=A4nker?= <horst.guenter.zaenker@posteo.de>",
+      "subject": "Re: Frage zu Kaution",
+      "date": "Fri, 07 Feb 2025 00:51:00 -0000",
+      "message-id": "<177702011370.22256.8372673404326578657@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.1524715877605484715@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.1524715877605484715@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 438
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03667.md"
+  ],
+  "normalizedSha256": "afb04bbe1da18438ed6ecccfc75b5ceeeaaa6c4cb424ba90f9b4049b005b50e1"
+}

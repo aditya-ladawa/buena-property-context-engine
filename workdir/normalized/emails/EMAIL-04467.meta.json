@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04467",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250509_154900_EMAIL-04467.eml",
+  "rawSha256": "038a868bc82c78a63edc97930baace107898d2f0750bf126d702179f01c0ab29",
+  "metadata": {
+    "headers": {
+      "from": "Paul-Heinz =?utf-8?q?K=C3=B6hler?= <paul.heinz.koehler@aufzug-schindler-co.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Rechnung RE-2025-4917",
+      "date": "Fri, 09 May 2025 15:49:00 -0000",
+      "message-id": "<177702011370.22256.5086803634015136135@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 219
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04467.md"
+  ],
+  "normalizedSha256": "3ddf943101867784243ce43f2a4c6b8b52cf9bce5a6d4d068880323ac3a31f01"
+}

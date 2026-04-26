@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06166",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251120_044700_EMAIL-06166.eml",
+  "rawSha256": "712169bc99f987c8945b1cee5618c194d99357578c8dfee55d046bfd2a0f356e",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "subject": "Re: Terminbestaetigung Wartung",
+      "date": "Thu, 20 Nov 2025 04:47:00 -0000",
+      "message-id": "<177702011370.22256.17247941724680868202@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.16362007157337839748@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.16362007157337839748@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 392
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06166.md"
+  ],
+  "normalizedSha256": "a26b7904502730b17bae9a7abd6cf7f1cdac9d83ef4fd2615f9d96e86268207b"
+}

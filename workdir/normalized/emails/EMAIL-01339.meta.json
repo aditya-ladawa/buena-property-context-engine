@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01339",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240529_101600_EMAIL-01339.eml",
+  "rawSha256": "01efd82d5578b0c6bfdb13aec9d494f827a95c3549cdd43520e537490f05e51b",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Hiltrud Speer <hiltrud.speer@t-online.de>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Wed, 29 May 2024 10:16:00 -0000",
+      "message-id": "<177702011370.22256.7626327154078139964@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10503141629826932585@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10503141629826932585@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 492
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01339.md"
+  ],
+  "normalizedSha256": "acf71dbe7eca91e62c12c175ec9e8fd1101196bd48247aef6fad71d381a92a13"
+}

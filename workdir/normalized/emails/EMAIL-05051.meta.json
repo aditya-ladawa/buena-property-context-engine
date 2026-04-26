@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05051",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250716_045700_EMAIL-05051.eml",
+  "rawSha256": "725144378a049e174c16b813a3a3c0609836392a8430491a24a61fba307f5ed9",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Jasmin Trub <jasmin.trub@outlook.com>",
+      "subject": "Re: Kuendigung Mietvertrag",
+      "date": "Wed, 16 Jul 2025 04:57:00 -0000",
+      "message-id": "<177702011370.22256.13091170097711155712@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8695695791826826775@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8695695791826826775@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 459
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05051.md"
+  ],
+  "normalizedSha256": "bf4e61ad7522518176614008ddf54ec5b1c9bb53ff5bc8398814639df038545c"
+}

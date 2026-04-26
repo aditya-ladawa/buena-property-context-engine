@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02171",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240827_220900_EMAIL-02171.eml",
+  "rawSha256": "60bdb23f55e426613e075639677f443c399b9c1550c40250ba48780f82a64fb4",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeister-bauer.de>",
+      "subject": "Re: Angebot: Schliessanlage",
+      "date": "Tue, 27 Aug 2024 22:09:00 -0000",
+      "message-id": "<177702011370.22256.1139517640359028072@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8121621149121448035@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8121621149121448035@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 521
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02171.md"
+  ],
+  "normalizedSha256": "bb52b2c4666c0a632ad89c105f9e49e7e5fc415834bba4f1915ca3321c8d631c"
+}

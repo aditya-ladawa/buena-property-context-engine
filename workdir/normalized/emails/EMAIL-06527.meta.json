@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06527",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251230_105600_EMAIL-06527.eml",
+  "rawSha256": "8dd9883873450102be139918f1527d57e48a3bab6f1e6246725d83c6e5efc787",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Chantal =?utf-8?q?T=C3=A4sche?= <chantal.taesche@posteo.de>",
+      "subject": "Re: Frage zu Kaution",
+      "date": "Tue, 30 Dec 2025 10:56:00 -0000",
+      "message-id": "<177702011370.22256.6678148056145388251@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.1745488921854118339@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.1745488921854118339@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 461
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06527.md"
+  ],
+  "normalizedSha256": "d50a1c1c283866a3db78259aebec3ab036abc8c2aa9bd904c226bf4e139fb85f"
+}

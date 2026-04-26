@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02911",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241114_185300_EMAIL-02911.eml",
+  "rawSha256": "9394f54ea44e8786a5999720c8efa08d1d2b4438424d65e524ee10ea9f99b76f",
+  "metadata": {
+    "headers": {
+      "from": "Vattenfall Europe Sales GmbH <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Abschlagsanpassung",
+      "date": "Thu, 14 Nov 2024 18:53:00 -0000",
+      "message-id": "<177702011370.22256.18285104814989158305@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 149
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02911.md"
+  ],
+  "normalizedSha256": "ae7ff611a0d1847a2c8f218af8399ae01e0d4dd764801c0b501e62f0ad0bbd36"
+}

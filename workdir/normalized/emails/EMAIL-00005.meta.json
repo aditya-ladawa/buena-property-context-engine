@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00005",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240101_174300_EMAIL-00005.eml",
+  "rawSha256": "a14c0e440ed35c4c44f6d7a1e3b23b63ea79f97fe94cb60a3a1271d317213332",
+  "metadata": {
+    "headers": {
+      "from": "Paul-Heinz =?utf-8?q?K=C3=B6hler?= <paul.heinz.koehler@aufzug-schindler-co.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Jahreswartung Heizungsanlage",
+      "date": "Mon, 01 Jan 2024 17:43:00 -0000",
+      "message-id": "<177702011370.22256.533813698567559864@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 274
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00005.md"
+  ],
+  "normalizedSha256": "416e4c35f4a2b4a83751466fab14c59b13baef769c7b033c4e4f9195e8a656fe"
+}

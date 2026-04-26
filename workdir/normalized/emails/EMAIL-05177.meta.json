@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05177",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250801_143700_EMAIL-05177.eml",
+  "rawSha256": "44b150efb0d5dd08c78029e77361ba5e6a2dcd3ca1bfccf1bd6359eee2b04f1f",
+  "metadata": {
+    "headers": {
+      "from": "Slawomir =?utf-8?q?S=C3=B6lzer?= <slawomir.soelzer@hausmeister-mueller.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Rechnung RE-2025-3018",
+      "date": "Fri, 01 Aug 2025 14:37:00 -0000",
+      "message-id": "<177702011370.22256.15601421372185048308@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 206
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05177.md"
+  ],
+  "normalizedSha256": "e56ef47be8274baa799c18b59192dc22decf1d5a15cc9fb042504c6c096775e1"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00718",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240324_021200_EMAIL-00718.eml",
+  "rawSha256": "597d7ad7016a9602900d5d2411008fdd16626253be5decb0ee4a4542f2c1d340",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Steffi Riehl <steffi.riehl@posteo.de>",
+      "subject": "Re: Parkplatz-Frage",
+      "date": "Sun, 24 Mar 2024 02:12:00 -0000",
+      "message-id": "<177702011370.22256.10980732327874114778@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.12156438679451844435@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.12156438679451844435@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 405
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00718.md"
+  ],
+  "normalizedSha256": "27bfe03334b81cce5556fb5ede036d0709edbec0babf3198ff7b0c24db72b649"
+}

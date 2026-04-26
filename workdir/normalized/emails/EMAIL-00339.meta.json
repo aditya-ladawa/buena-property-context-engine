@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00339",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240209_103800_EMAIL-00339.eml",
+  "rawSha256": "9271c9475b595f19f497076226a6682c9bc024f07fe21ee6b2c5b95050cea8a4",
+  "metadata": {
+    "headers": {
+      "from": "Catherine Heydrich <catherine.heydrich@dachdecker-richter.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mahnung Rechnung RE-2024-5578",
+      "date": "Fri, 09 Feb 2024 10:38:00 -0000",
+      "message-id": "<177702011370.22256.7945900286262840292@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 231
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00339.md"
+  ],
+  "normalizedSha256": "7b2d1e67a125f66b074cfe51f9ee0c813a6ddd26c0764b3269f525849ccc545c"
+}

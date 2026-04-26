@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06018",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251102_120900_EMAIL-06018.eml",
+  "rawSha256": "392d2d0478a493f5b9096201c954f61f1dea96f58e91023c7f941b9c30819c8c",
+  "metadata": {
+    "headers": {
+      "from": "Allianz Versicherungs-AG <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Preisanpassung zum 02.11.2025",
+      "date": "Sun, 02 Nov 2025 12:09:00 -0000",
+      "message-id": "<177702011370.22256.17284588951621072504@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 156
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06018.md"
+  ],
+  "normalizedSha256": "4df9953043787a45c3de45ba91867c7f408d54d72f589e0b8f3015f5e9e0aaa3"
+}

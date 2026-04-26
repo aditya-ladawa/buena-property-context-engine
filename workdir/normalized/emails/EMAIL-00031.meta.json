@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00031",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240105_072100_EMAIL-00031.eml",
+  "rawSha256": "2b874a6ca276823f94780aa1a9e9e5eddf2fe86f157969cd314a0016fe301a04",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "subject": "Re: Rechnung RE-2024-3482",
+      "date": "Fri, 05 Jan 2024 07:21:00 -0000",
+      "message-id": "<177702011370.22256.18075793717920259045@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8973213667651157611@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8973213667651157611@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 464
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00031.md"
+  ],
+  "normalizedSha256": "77975b2713b61d151af40a96c5715a3e8c43df54f0ca43a65d2d22e49480cd28"
+}

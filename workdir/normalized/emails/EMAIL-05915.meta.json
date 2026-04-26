@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05915",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251020_093100_EMAIL-05915.eml",
+  "rawSha256": "bab68810b2a30b2e67642c427589bd065354dec974c4cea3dfb88fa7348eb00f",
+  "metadata": {
+    "headers": {
+      "from": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Terminbestaetigung Wartung",
+      "date": "Mon, 20 Oct 2025 09:31:00 -0000",
+      "message-id": "<177702011370.22256.12898995506564020313@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 141
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05915.md"
+  ],
+  "normalizedSha256": "61a0fae36b67fa3e94cde738064029b2e17922b6ca18229ca30e79d712569b9e"
+}

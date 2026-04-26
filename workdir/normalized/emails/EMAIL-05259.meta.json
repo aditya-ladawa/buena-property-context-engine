@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05259",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250811_161100_EMAIL-05259.eml",
+  "rawSha256": "28bd50704d7b4a9c7c16bc56a50f424a30524a56d6446d1f128e499155cb5655",
+  "metadata": {
+    "headers": {
+      "from": "Carola Buchholz <carola.buchholz@elektro-schmidt-e-k.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mahnung Rechnung RE-2025-5191",
+      "date": "Mon, 11 Aug 2025 16:11:00 -0000",
+      "message-id": "<177702011370.22256.15689633225756129657@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 230
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05259.md"
+  ],
+  "normalizedSha256": "34f903366b55240ff4f2c1d3fb2445d061f678284f1ea3cd525659910063945e"
+}

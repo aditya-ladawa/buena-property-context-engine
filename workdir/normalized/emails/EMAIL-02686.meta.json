@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02686",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241022_145300_EMAIL-02686.eml",
+  "rawSha256": "d1c4b39111d58361fcc3ec90d460b7f7e7560ce606874211a0c05e494ad87d24",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Ingbert Nerger <ingbert.nerger@gmx.de>",
+      "subject": "Monatsbericht",
+      "date": "Tue, 22 Oct 2024 14:53:00 -0000",
+      "message-id": "<177702011370.22256.1266438036360079137@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 131
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02686.md"
+  ],
+  "normalizedSha256": "80094ae178913e2fa820ea376e86c960302005d60b4f93b284e207cbe1758bc8"
+}

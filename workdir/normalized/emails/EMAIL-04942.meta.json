@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04942",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250704_141500_EMAIL-04942.eml",
+  "rawSha256": "6ff8bd47b05d87604e54d6f55967195e054b7fbfbf41f29fcacc2af1542fb09c",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Kunigunda Ditschlerin <kunigunda.ditschlerin@icloud.com>",
+      "subject": "Re: SEV - Monatsauszug",
+      "date": "Fri, 04 Jul 2025 14:15:00 -0000",
+      "message-id": "<177702011370.22256.2531998609512102195@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.5000631162084158330@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.5000631162084158330@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 450
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04942.md"
+  ],
+  "normalizedSha256": "28e982c0473674f52a086439827fcdf498b8a692dac2c7a190064efa473e6089"
+}

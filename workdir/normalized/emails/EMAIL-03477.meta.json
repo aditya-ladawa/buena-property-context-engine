@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03477",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250114_140200_EMAIL-03477.eml",
+  "rawSha256": "e58ecbc0a7ebf05d29ccd68143a3a758753f3e8ef509e8ab195bb24087e2d648",
+  "metadata": {
+    "headers": {
+      "from": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Nachtrag Reparatur",
+      "date": "Tue, 14 Jan 2025 14:02:00 -0000",
+      "message-id": "<177702011370.22256.16500455198658229808@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 190
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03477.md"
+  ],
+  "normalizedSha256": "1f158b25ec5cb8aca86f9af75bb0eea0965a9c4ce2f0e53aee49b22a118356c6"
+}

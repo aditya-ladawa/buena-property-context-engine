@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04582",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250521_160600_EMAIL-04582.eml",
+  "rawSha256": "252bcaf6a9c34f9663b3717ab5b9782de1f69f67fba5a468851f7dad8448f0ee",
+  "metadata": {
+    "headers": {
+      "from": "Olga Holsten <olga.holsten@heiztechnik-berlin.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Nachtrag Reparatur",
+      "date": "Wed, 21 May 2025 16:06:00 -0000",
+      "message-id": "<177702011370.22256.9502149551831933276@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 183
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04582.md"
+  ],
+  "normalizedSha256": "e4a48a2180410cec97418bd51ad20a1cf9683b080b205e4c6c48003f1ed200d7"
+}

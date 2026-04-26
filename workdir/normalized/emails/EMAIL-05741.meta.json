@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05741",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250929_094000_EMAIL-05741.eml",
+  "rawSha256": "eb89940f90278353f64dd414f94ac2b13c95b351e211de6f7c7b4086189a97af",
+  "metadata": {
+    "headers": {
+      "from": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeister-bauer.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Nachtrag Reparatur",
+      "date": "Mon, 29 Sep 2025 09:40:00 -0000",
+      "message-id": "<177702011370.22256.6763826993565244172@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 185
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05741.md"
+  ],
+  "normalizedSha256": "5405197c6e2ddafd94cc77feb05d86b89f496cee6283c9dcb1dd92c733e917c9"
+}

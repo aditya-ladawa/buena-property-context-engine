@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06546",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2026-01/20260101_084400_EMAIL-06546.eml",
+  "rawSha256": "4ee83b925e0c1ad6c2ab8629002e66314ee5128c9ae1fc2f2c1e86b5173349f8",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "subject": "Re: Nachtrag Reparatur",
+      "date": "Thu, 01 Jan 2026 08:44:00 -0000",
+      "message-id": "<177702011370.22256.16606820066926334030@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15309591671032140766@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15309591671032140766@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 444
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06546.md"
+  ],
+  "normalizedSha256": "936096b3e390c27ec14c60e6f7ef466ba7bbe48cebebd466f95aa8aa85457b3a"
+}

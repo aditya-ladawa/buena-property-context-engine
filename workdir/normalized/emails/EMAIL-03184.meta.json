@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03184",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241215_171300_EMAIL-03184.eml",
+  "rawSha256": "9508eb592ef1ac894819238bde9fd185cc91ef65a10a4eb1448d094dbf111d35",
+  "metadata": {
+    "headers": {
+      "from": "Frau Anni Wagenknecht <anni.wagenknecht@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Modernisierung - Zustimmung",
+      "date": "Sun, 15 Dec 2024 17:13:00 -0000",
+      "message-id": "<177702011370.22256.17829790703136957372@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 165
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03184.md"
+  ],
+  "normalizedSha256": "5c4475e6af39a645f2e4f7b1bc35e0ce960e724565a9e14bf5bac5ec27edf906"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05966",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251025_140300_EMAIL-05966.eml",
+  "rawSha256": "969fc39c13175debdd7d6ce1fa108b6f8b93c2c5372c09996f837dfec7c04167",
+  "metadata": {
+    "headers": {
+      "from": "Frau Josefine Nohlmans <josefine.nohlmans@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Modernisierung - Zustimmung",
+      "date": "Sat, 25 Oct 2025 14:03:00 -0000",
+      "message-id": "<177702011370.22256.5455922649278993868@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 166
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05966.md"
+  ],
+  "normalizedSha256": "35ada569a452d74586d09a936d066d6baf6fc2fffcfafc93e7ff965a172e5626"
+}

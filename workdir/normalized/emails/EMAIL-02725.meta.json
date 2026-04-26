@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02725",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241026_100000_EMAIL-02725.eml",
+  "rawSha256": "f466c9b88782093008546178a21b4b45b1998e6f0c64eb5f735e2043c8c6bc81",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Josefine Nohlmans <josefine.nohlmans@gmail.com>",
+      "subject": "Re: Frage zur Hausgeldabrechnung",
+      "date": "Sat, 26 Oct 2024 10:00:00 -0000",
+      "message-id": "<177702011370.22256.897874185966895872@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14934284304386220548@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14934284304386220548@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 518
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02725.md"
+  ],
+  "normalizedSha256": "166247cf8d4d7b5d1b403340a8d0a6c25cbdc3701bd7854337adba894bb9f64b"
+}

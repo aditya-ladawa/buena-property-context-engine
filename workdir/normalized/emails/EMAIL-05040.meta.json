@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05040",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250715_004800_EMAIL-05040.eml",
+  "rawSha256": "e4ad92172157daae97a5fc5928b4192f20525f3f8281b257da4a3bf65875ed47",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Frau Xenia Conradi <xenia.conradi@outlook.com>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Tue, 15 Jul 2025 00:48:00 -0000",
+      "message-id": "<177702011370.22256.3706777144178490874@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15143096428049327432@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15143096428049327432@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 423
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05040.md"
+  ],
+  "normalizedSha256": "27b7e178e1e50adfac88589bed2fd6397bc754a897b93c254f897409fc95ad1f"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01257",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240519_202200_EMAIL-01257.eml",
+  "rawSha256": "92f9b8b31a215e3de62edbf34e1827588039173b488d66b1d48ff8d889452f13",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "subject": "Re: Angebot: Jahreswartung Heizungsanlage",
+      "date": "Sun, 19 May 2024 20:22:00 -0000",
+      "message-id": "<177702011370.22256.15039657426687517523@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8749155419313892380@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8749155419313892380@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 502
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01257.md"
+  ],
+  "normalizedSha256": "04cad0e402d1a720bfb3568de602d6afb94339c7da0b0599d82a1c6033d9ed30"
+}

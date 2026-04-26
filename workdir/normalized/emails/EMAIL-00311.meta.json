@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00311",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240206_101200_EMAIL-00311.eml",
+  "rawSha256": "7154d5181f1ae9b78c57dafcd606fc322bebf57bc23bc731d92f069366c30732",
+  "metadata": {
+    "headers": {
+      "from": "Irmengard Mentzel <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Schliessanlage",
+      "date": "Tue, 06 Feb 2024 10:12:00 -0000",
+      "message-id": "<177702011370.22256.7152521227344790349@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 258
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00311.md"
+  ],
+  "normalizedSha256": "0cf57072bd65b5d73f413af5434348898cb3babd9543cb325648fef10ebea49b"
+}

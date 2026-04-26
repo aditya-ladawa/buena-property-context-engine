@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05317",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250816_151700_EMAIL-05317.eml",
+  "rawSha256": "34f3fa016581d1b09c212d415e42441cb46e72cfc5c967661a978007d35f5086",
+  "metadata": {
+    "headers": {
+      "from": "Frau Irmingard Margraf <irmingard.margraf@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Question about annual statement",
+      "date": "Sat, 16 Aug 2025 15:17:00 -0000",
+      "message-id": "<177702011370.22256.8530462279046489576@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 169
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05317.md"
+  ],
+  "normalizedSha256": "432a197db0546180505e85f796a68c622e9a6f30fc640a71615711f0796836f3"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03948",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250307_222700_EMAIL-03948.eml",
+  "rawSha256": "9c2f29ef8e6edf716493b08d9d25350dbb262cb502d5ddbf5d029940265dd97f",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "subject": "Re: Angebot: Sanitaer-Reparatur",
+      "date": "Fri, 07 Mar 2025 22:27:00 -0000",
+      "message-id": "<177702011370.22256.1638608772780824175@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.1224420426260923264@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.1224420426260923264@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 495
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03948.md"
+  ],
+  "normalizedSha256": "c9ffa42ed2b294d072ecf9b9b2418a005b0dc812052cf2c2831b60e18bf51b5b"
+}

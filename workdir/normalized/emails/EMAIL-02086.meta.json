@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02086",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240819_005000_EMAIL-02086.eml",
+  "rawSha256": "251643f37dd88a815b51d5a173b42822aa354789d6e4399b569cabc7fbfb7493",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Irmengard Mentzel <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "subject": "Re: Auftragsbestaetigung",
+      "date": "Mon, 19 Aug 2024 00:50:00 -0000",
+      "message-id": "<177702011370.22256.2648348952170852773@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.5137414608554166272@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.5137414608554166272@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 458
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02086.md"
+  ],
+  "normalizedSha256": "37e1566359285ffbac2ff059bebe2837f6f14e9147622aebc961532164b23535"
+}

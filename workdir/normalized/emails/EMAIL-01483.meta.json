@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01483",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240613_130700_EMAIL-01483.eml",
+  "rawSha256": "4e345b93271b289c3558e24041d2775cbd38fc4627334d897f0ac34393ef6a3a",
+  "metadata": {
+    "headers": {
+      "from": "Herr Winfried Ullmann <winfried.ullmann@yahoo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Owners meeting - agenda item",
+      "date": "Thu, 13 Jun 2024 13:07:00 -0000",
+      "message-id": "<177702011370.22256.16068880414698974536@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 165
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01483.md"
+  ],
+  "normalizedSha256": "11c8f81e79a0f89e3bdf486323382679c2f3b6a8d74a29ee7aede53d22916be9"
+}

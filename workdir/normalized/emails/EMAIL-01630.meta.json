@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01630",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240630_181000_EMAIL-01630.eml",
+  "rawSha256": "eb54e4d65e5289b0bb8aeb2e762c9f9cb364ed124bbeb175c9e4485918be8a1d",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Thomas Kennedy <thomas.kennedy@securelock-systems-ltd.com>",
+      "subject": "Re: Maintenance report",
+      "date": "Sun, 30 Jun 2024 18:10:00 -0000",
+      "message-id": "<177702011370.22256.16113963568150716511@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.6953076037766466560@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.6953076037766466560@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 389
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01630.md"
+  ],
+  "normalizedSha256": "92eb0aa5e7ff2d9090a1f125737cd6e080a92caf9c9415b6e9c840ddfb76e485"
+}

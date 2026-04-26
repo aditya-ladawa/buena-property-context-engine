@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03631",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250202_152000_EMAIL-03631.eml",
+  "rawSha256": "d2f6cd2c233c360b028c832a9693b3d2762902a670f084b7464ea8e310f2b284",
+  "metadata": {
+    "headers": {
+      "from": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeister-bauer.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mahnung Rechnung RE-2025-6996",
+      "date": "Sun, 02 Feb 2025 15:20:00 -0000",
+      "message-id": "<177702011370.22256.2963198981999822941@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 238
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03631.md"
+  ],
+  "normalizedSha256": "99743021574f2772fad2e19e8e40eeba3eebd218ca36dc9a14191c329f57a82d"
+}

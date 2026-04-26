@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04335",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250419_181700_EMAIL-04335.eml",
+  "rawSha256": "9707e193aea0691044ba81b64ea8efea529aa0dacb8f29b1053fa32bfdeec499",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Gottlob Hahn <gottlob.hahn@gmail.com>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Sat, 19 Apr 2025 18:17:00 -0000",
+      "message-id": "<177702011370.22256.4327242113637004798@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8556096830585275216@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8556096830585275216@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 461
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04335.md"
+  ],
+  "normalizedSha256": "93627a79eb2c25bbd20961439e702986aff9ec08a1df2481d4e0b00a06bf0367"
+}

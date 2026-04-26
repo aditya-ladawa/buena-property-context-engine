@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01561",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240621_203000_EMAIL-01561.eml",
+  "rawSha256": "cede7dbd95fad1716e135fcb7bbabe197ce7d52fc118cbcb99ee5ae38170d39a",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Frau Josefine Nohlmans <josefine.nohlmans@gmail.com>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Fri, 21 Jun 2024 20:30:00 -0000",
+      "message-id": "<177702011370.22256.18228016598047976640@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3709151784971715371@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3709151784971715371@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 469
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01561.md"
+  ],
+  "normalizedSha256": "3cf14c60c2d893ef97525b74027ddf62f043e9908246309b0191fbc5999dcff6"
+}

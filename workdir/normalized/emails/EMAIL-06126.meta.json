@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06126",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251115_123400_EMAIL-06126.eml",
+  "rawSha256": "4d6fc1838ebfcb6860ab34a5eb496a5c7e17328c7355cf40a3eac42695882daf",
+  "metadata": {
+    "headers": {
+      "from": "Louise Ladeck <louise.ladeck@outlook.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wasserschaden Bad",
+      "date": "Sat, 15 Nov 2025 12:34:00 -0000",
+      "message-id": "<177702011370.22256.137777422797925371@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 224
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06126.md"
+  ],
+  "normalizedSha256": "0bf8e4340047faeed7d555af6c844869a5bbc007b9f9766eb164cf766003c9b2"
+}

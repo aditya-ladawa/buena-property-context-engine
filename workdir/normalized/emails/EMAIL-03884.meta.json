@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03884",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250301_091100_EMAIL-03884.eml",
+  "rawSha256": "53924d8390e06cebe1ecebc5e9df622f455d7b02ed573bc5449d019252c1793f",
+  "metadata": {
+    "headers": {
+      "from": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Elektro-Pruefung",
+      "date": "Sat, 01 Mar 2025 09:11:00 -0000",
+      "message-id": "<177702011370.22256.17217519119096692602@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 256
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03884.md"
+  ],
+  "normalizedSha256": "cd1e4cd9e41258fcecdfadd7bcd988f9a7b8b3bb3342b46c61aa2c11de12e361"
+}

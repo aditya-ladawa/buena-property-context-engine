@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02054",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240816_091800_EMAIL-02054.eml",
+  "rawSha256": "695d7e1574caabe351467f3f6f07b7a16a3ae7ec654dd487b2aa16b5faade633",
+  "metadata": {
+    "headers": {
+      "from": "Olga Holsten <olga.holsten@heiztechnik-berlin.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Sanitaer-Reparatur",
+      "date": "Fri, 16 Aug 2024 09:18:00 -0000",
+      "message-id": "<177702011370.22256.11878491083195902988@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 254
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02054.md"
+  ],
+  "normalizedSha256": "44a8963d37c99255b994d306679eff5d18d077cd594cc91ebba5ab5d56212874"
+}

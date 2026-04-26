@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01103",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240502_161900_EMAIL-01103.eml",
+  "rawSha256": "6385cc266ba79c851b307e1b2c7d0f5dce12401f8aa5facaad70d2f04593ce09",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "subject": "Re: Rechnung RE-2024-1767",
+      "date": "Thu, 02 May 2024 16:19:00 -0000",
+      "message-id": "<177702011370.22256.7012022066185407727@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15329779414014842752@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15329779414014842752@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 439
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01103.md"
+  ],
+  "normalizedSha256": "ebd6941eb52e3a8cdfa6a4837dec38106e78217ddec0a93eaddde2cedaa94204"
+}

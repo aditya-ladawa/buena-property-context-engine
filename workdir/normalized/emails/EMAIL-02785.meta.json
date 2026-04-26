@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02785",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241101_145300_EMAIL-02785.eml",
+  "rawSha256": "46ebc2cca78035cdb53416e3c2fbbce7b2ab8732d35ec4827f1eff3f3732b812",
+  "metadata": {
+    "headers": {
+      "from": "Falk Trommler <falk.trommler@berliner-wasserbetriebe.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Rechnung RE-2024-7562",
+      "date": "Fri, 01 Nov 2024 14:53:00 -0000",
+      "message-id": "<177702011370.22256.14200955266149234569@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 202
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02785.md"
+  ],
+  "normalizedSha256": "38c074e804dfb577b2a10e1dee61ba7fc0057245f052e9784c7adeb61ac1cd55"
+}

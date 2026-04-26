@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02594",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241011_153900_EMAIL-02594.eml",
+  "rawSha256": "81d61d1387bdcc8069b7bfdf50cc9c9bd57e36703efb3506b5097d644ad2d587",
+  "metadata": {
+    "headers": {
+      "from": "Paul-Heinz =?utf-8?q?K=C3=B6hler?= <paul.heinz.koehler@aufzug-schindler-co.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Rechnung RE-2024-3076",
+      "date": "Fri, 11 Oct 2024 15:39:00 -0000",
+      "message-id": "<177702011370.22256.15170980031652809150@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 219
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02594.md"
+  ],
+  "normalizedSha256": "5beb621ab633562bfaae6015d06fc70af3282d7a20c1349351afd0bf0d1404d7"
+}

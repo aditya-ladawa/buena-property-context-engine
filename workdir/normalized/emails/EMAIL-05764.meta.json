@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05764",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251003_104000_EMAIL-05764.eml",
+  "rawSha256": "c1c917022c0d64865d813ece96bd7be29f4491b6b4969b35ba0c73a3e0f71bc2",
+  "metadata": {
+    "headers": {
+      "from": "Herr Erdal Beckmann <erdal.beckmann@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Fri, 03 Oct 2025 10:40:00 -0000",
+      "message-id": "<177702011370.22256.13950333125600310008@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 240
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05764.md"
+  ],
+  "normalizedSha256": "441766268fac93206ae1e82a422f06580dbe145f9f811221429aafa0ad6da096"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03661",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250206_104400_EMAIL-03661.eml",
+  "rawSha256": "58f94053e2e75f6d32199f9bdf6db13e56eaadc79abf1455f80bbe984efc94c4",
+  "metadata": {
+    "headers": {
+      "from": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wartungsbericht",
+      "date": "Thu, 06 Feb 2025 10:44:00 -0000",
+      "message-id": "<177702011370.22256.16218544926523268292@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 207
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03661.md"
+  ],
+  "normalizedSha256": "05a2f30a7782088f2eacd8dcd12c9b5cf146b970d21bd4fb41cf32a17ba4a3a2"
+}

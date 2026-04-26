@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02132",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240823_165800_EMAIL-02132.eml",
+  "rawSha256": "388986ef36a63e47b126b517c443bb537aba9e722371cfa535e7a2c82b7ea495",
+  "metadata": {
+    "headers": {
+      "from": "Herr Willfried Harloff <willfried.harloff@yahoo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "SEV - Monatsauszug",
+      "date": "Fri, 23 Aug 2024 16:58:00 -0000",
+      "message-id": "<177702011370.22256.7572301121803276026@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 183
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02132.md"
+  ],
+  "normalizedSha256": "a5a2e01fcac9f2612ef1ed1bcf855f28151169bcc6bcddb0f56877de2ea0eb03"
+}

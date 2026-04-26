@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06009",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251031_144200_EMAIL-06009.eml",
+  "rawSha256": "bfb3a61fca6f65cb2101d6d650caa467ee8b4090d70aa9ecaf823fd1db0aff52",
+  "metadata": {
+    "headers": {
+      "from": "Irmengard Mentzel <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Nachtrag Reparatur",
+      "date": "Fri, 31 Oct 2025 14:42:00 -0000",
+      "message-id": "<177702011370.22256.2329525235381884618@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 188
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06009.md"
+  ],
+  "normalizedSha256": "d093f0fc7896acc47d3e5cbd7ef2e6a6b74bbc9f135438b7ce0f2133d2327e8f"
+}

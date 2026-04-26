@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03940",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250307_083700_EMAIL-03940.eml",
+  "rawSha256": "386006f13f4bc13fdeae194e9fb5c02d7ec74096ce827c4af7d62a70fb5a7a4b",
+  "metadata": {
+    "headers": {
+      "from": "Herr Ingbert Nerger <ingbert.nerger@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht TG 52",
+      "date": "Fri, 07 Mar 2025 08:37:00 -0000",
+      "message-id": "<177702011370.22256.2212705469008659780@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 211
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03940.md"
+  ],
+  "normalizedSha256": "006a397ddb2b8e8361a05d611b1d8c0499438784cedeb59168903edf3e5dc28e"
+}

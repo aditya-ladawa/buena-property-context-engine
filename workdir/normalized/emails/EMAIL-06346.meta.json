@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06346",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251210_153800_EMAIL-06346.eml",
+  "rawSha256": "c651affd5193c55be69b3cc23c1f8586e709fe16e87e829f3d6af7f3639a7a44",
+  "metadata": {
+    "headers": {
+      "from": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wartungsbericht",
+      "date": "Wed, 10 Dec 2025 15:38:00 -0000",
+      "message-id": "<177702011370.22256.12370603081157049788@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 214
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06346.md"
+  ],
+  "normalizedSha256": "796e9bd62d3ab324cbc912b64ec83776ad77205db2073ffb65ce98ac738502bc"
+}

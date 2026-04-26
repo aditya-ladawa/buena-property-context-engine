@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02477",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240929_025900_EMAIL-02477.eml",
+  "rawSha256": "01ceaa2bb7bb9fa3c0642aa07d8b0ec36a382ebac525a6a57ceb4e43360993f4",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Steffi Riehl <steffi.riehl@posteo.de>",
+      "subject": "Re: Wohnung untervermieten",
+      "date": "Sun, 29 Sep 2024 02:59:00 -0000",
+      "message-id": "<177702011370.22256.2276872136696551180@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.696899229172345666@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.696899229172345666@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 448
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02477.md"
+  ],
+  "normalizedSha256": "2b848a70ec06fdcdacbfe6c57b46b387051090e1384a0bdae4b7ea535c7b8821"
+}

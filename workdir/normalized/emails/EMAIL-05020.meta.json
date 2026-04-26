@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05020",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250713_132200_EMAIL-05020.eml",
+  "rawSha256": "6d30e9a71b80c82162959c8351a1affb6021c087154b054b8adfecc8da9e243c",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Catherine Heydrich <catherine.heydrich@dachdecker-richter.de>",
+      "subject": "Re: Angebot: Gartenpflege Sommer",
+      "date": "Sun, 13 Jul 2025 13:22:00 -0000",
+      "message-id": "<177702011370.22256.15708267615976078302@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.1176224323257798206@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.1176224323257798206@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 516
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05020.md"
+  ],
+  "normalizedSha256": "590a7bd2cf4d9396a289e0bdd67d6acb84bb31fffc6f88ab70f2698683c178d7"
+}

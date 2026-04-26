@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03738",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250215_032800_EMAIL-03738.eml",
+  "rawSha256": "daee71ec0ea766a23f6b8cbb049b33c8bc7fae108ce178e1ff81c951b0cc3136",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "subject": "Re: Angebot: Elektro-Pruefung",
+      "date": "Sat, 15 Feb 2025 03:28:00 -0000",
+      "message-id": "<177702011370.22256.9628320367670449261@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10832729708563679268@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10832729708563679268@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 486
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03738.md"
+  ],
+  "normalizedSha256": "0e504fbf5209ef5e3a61d7178d00a7dfd08e5f8ec7c6c26bc52287c604cf7883"
+}

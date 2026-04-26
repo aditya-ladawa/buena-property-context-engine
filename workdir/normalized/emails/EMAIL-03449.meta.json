@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03449",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250112_152300_EMAIL-03449.eml",
+  "rawSha256": "7b62d566af90424b02794252323da62514d12ad1a5922f51a58fae4dbd872709",
+  "metadata": {
+    "headers": {
+      "from": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Auftragsbestaetigung",
+      "date": "Sun, 12 Jan 2025 15:23:00 -0000",
+      "message-id": "<177702011370.22256.14689144401542683525@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 200
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03449.md"
+  ],
+  "normalizedSha256": "f3f13bef1fd7f2150eaf617a5766c0b12f103ff66e7e37ce520ccb8327b1b902"
+}

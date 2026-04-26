@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05137",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250726_163000_EMAIL-05137.eml",
+  "rawSha256": "b086523b40fe070fe3a7f2c03db0a776edb8af579e9dc49aee3b6b097e3aef31",
+  "metadata": {
+    "headers": {
+      "from": "Frau Dunja Schacht <dunja.schacht@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 28",
+      "date": "Sat, 26 Jul 2025 16:30:00 -0000",
+      "message-id": "<177702011370.22256.3930149463456429583@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 210
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05137.md"
+  ],
+  "normalizedSha256": "49bb89db7a5513810425dd49479997531451704620043ad27a6a32923dd8cb5f"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02881",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241112_100200_EMAIL-02881.eml",
+  "rawSha256": "7c6c5b055119758ef9d8d3725787fc5103d5e69de4104bb01f1c41fb4e834278",
+  "metadata": {
+    "headers": {
+      "from": "Catherine Heydrich <catherine.heydrich@dachdecker-richter.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Reparatur Aufzug",
+      "date": "Tue, 12 Nov 2024 10:02:00 -0000",
+      "message-id": "<177702011370.22256.16322104771779912758@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 252
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02881.md"
+  ],
+  "normalizedSha256": "7dbc3c4aff70f46f0274fb6c5c93639981c85c9afd51d4ade03f3368dedc9ee9"
+}

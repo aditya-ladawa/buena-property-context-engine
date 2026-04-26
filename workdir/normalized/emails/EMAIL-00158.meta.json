@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00158",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240119_165000_EMAIL-00158.eml",
+  "rawSha256": "042fb3e703719d49a43b4dc36dfb779bbc818d07a005223199e5e3a31181ed9a",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Kamil Trub <kamil.trub@gmx.de>",
+      "subject": "Re: Internet/TV-Anschluss",
+      "date": "Fri, 19 Jan 2024 16:50:00 -0000",
+      "message-id": "<177702011370.22256.1711077557989393980@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.587459838723423992@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.587459838723423992@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 405
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00158.md"
+  ],
+  "normalizedSha256": "f450ef071b7f79018e491e063baac096a9927023592d2219061fec997a4cb9d8"
+}

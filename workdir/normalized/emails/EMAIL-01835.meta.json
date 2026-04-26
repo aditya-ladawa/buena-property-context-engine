@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01835",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240722_223100_EMAIL-01835.eml",
+  "rawSha256": "9fe8280d33498562376546a9c1cbef07324144396497d382b7c32c3cce68c8dc",
+  "metadata": {
+    "headers": {
+      "from": "Frau Jo Reuter <jo.reuter@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 51",
+      "date": "Mon, 22 Jul 2024 22:31:00 -0000",
+      "message-id": "<177702011370.22256.8568575613626361673@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 206
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01835.md"
+  ],
+  "normalizedSha256": "646cda3a30baaf5e413055fc14b60a62d64187ce30a96f5e1bd0d1f925f30e60"
+}

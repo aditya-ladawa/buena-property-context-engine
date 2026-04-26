@@ -1,0 +1,31 @@
+{
+  "sourceId": "LTR-0064",
+  "propertyId": "LIE-001",
+  "kind": "letter_pdf",
+  "rawPath": "data/briefe/2025-04/20250411_etv_einladung_LTR-0064.pdf",
+  "rawSha256": "428e625f0aa923efb638e0fabc1d76b76c95969c1aad178d65703f640646f416",
+  "metadata": {
+    "filename": "20250411_etv_einladung_LTR-0064.pdf",
+    "date": "2025-04-11",
+    "letterType": "etv_einladung",
+    "letterId": "LTR-0064",
+    "subject": "Einladung zur Eigentuemerversammlung 2025",
+    "decisions": [
+      "TOP 1: Begruessung und Feststellung der Beschlussfaehigkeit",
+      "TOP 2: Genehmigung der Jahresabrechnung des Vorjahres",
+      "TOP 3: Entlastung der Verwaltung",
+      "TOP 4: Beschluss Wirtschaftsplan naechstes Jahr",
+      "TOP 5: Instandhaltungsmassnahmen: Dachrinnen Haus 14",
+      "TOP 6: Sonderumlage Aufzugs-TUeV",
+      "TOP 7: Verschiedenes"
+    ],
+    "hasMeetingDecisions": true,
+    "pageCount": 1,
+    "textLength": 1129,
+    "normalizerVersion": 4
+  },
+  "normalizedPaths": [
+    "workdir/normalized/letters/LTR-0064.md"
+  ],
+  "normalizedSha256": "4cfe61993ceabcfd79454576450cc2f6fc56dd004fbd082bcbe63f9fc6a523b8"
+}

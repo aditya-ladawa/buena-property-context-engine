@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04062",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250318_233900_EMAIL-04062.eml",
+  "rawSha256": "d3ba685f8e4984ef73c45e7d2713181af6134062c4b11d8c954096a9ce709e10",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Kiara Mcintyre <kiara.mcintyre@icloud.com>",
+      "subject": "Re: Noise complaint",
+      "date": "Tue, 18 Mar 2025 23:39:00 -0000",
+      "message-id": "<177702011370.22256.12681889070412935391@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.9918465467683806547@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.9918465467683806547@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 390
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04062.md"
+  ],
+  "normalizedSha256": "4031858a1a2aabfbc4c08abcdaf370f68189359b21693f467db0b45f3569f292"
+}

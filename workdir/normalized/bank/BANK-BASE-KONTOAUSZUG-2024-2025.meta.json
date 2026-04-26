@@ -1,0 +1,15 @@
+{
+  "sourceId": "BANK-BASE-KONTOAUSZUG-2024-2025",
+  "propertyId": "LIE-001",
+  "kind": "bank_csv",
+  "rawPath": "data/bank/kontoauszug_2024_2025.csv",
+  "rawSha256": "16ed2607b03b3cfdeaf323aff92e7cbfa17a25b89b5f9348d4e4a0313f7e139f",
+  "normalizedPaths": [
+    "workdir/normalized/bank/BANK-BASE-KONTOAUSZUG-2024-2025.jsonl"
+  ],
+  "normalizedSha256": "156bf38d750ac6f09ca0c7a6b63e309b3f9ae8727cbc48c0f741720237d79e6d",
+  "metadata": {
+    "rowCount": 1619,
+    "format": "csv"
+  }
+}

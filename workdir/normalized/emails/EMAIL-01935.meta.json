@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01935",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240802_150300_EMAIL-01935.eml",
+  "rawSha256": "762dde3d36ac9b07748e750736f607a567cfbf452d3cfc97cf04adce74985dcf",
+  "metadata": {
+    "headers": {
+      "from": "Kranz Vermoegensverwaltung <kranz.vermoegensverwaltung@capital-partners.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Modernisierung - Zustimmung",
+      "date": "Fri, 02 Aug 2024 15:03:00 -0000",
+      "message-id": "<177702011370.22256.1424874344364786015@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 170
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01935.md"
+  ],
+  "normalizedSha256": "ea1bbc6ce0dc38ed569c6c0943c2dd03e122d5d6e85f5953c1bd24cdc1c4fd07"
+}

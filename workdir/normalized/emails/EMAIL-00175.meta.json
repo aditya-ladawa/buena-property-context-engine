@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00175",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240122_094300_EMAIL-00175.eml",
+  "rawSha256": "d528242635c73d3274d5864c68565ddc5ddd49c3467683a51d31e0ab1c673815",
+  "metadata": {
+    "headers": {
+      "from": "Paul-Heinz =?utf-8?q?K=C3=B6hler?= <paul.heinz.koehler@aufzug-schindler-co.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Treppenhausreinigung",
+      "date": "Mon, 22 Jan 2024 09:43:00 -0000",
+      "message-id": "<177702011370.22256.1724874271536016938@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 266
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00175.md"
+  ],
+  "normalizedSha256": "77d412a38c2405049d35d6b7d58b2a9a87220ed9efba729dc777ee5ac3186242"
+}

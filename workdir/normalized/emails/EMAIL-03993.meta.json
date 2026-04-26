@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03993",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250312_124600_EMAIL-03993.eml",
+  "rawSha256": "3072c637e0e8f9b11d5ba34ba083bba216c45bda13beaed3a06d309b4fb059f4",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "subject": "Re: Terminbestaetigung Wartung",
+      "date": "Wed, 12 Mar 2025 12:46:00 -0000",
+      "message-id": "<177702011370.22256.10993578632297254874@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15698726390500932835@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15698726390500932835@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 363
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03993.md"
+  ],
+  "normalizedSha256": "e1afc99e679c749971db1a138b90b3724b3824b1fc580468b2b91fb0f836155e"
+}

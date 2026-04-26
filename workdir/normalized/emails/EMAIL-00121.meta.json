@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00121",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240115_103200_EMAIL-00121.eml",
+  "rawSha256": "60a4b8b499f69bbb8215b8f3709775d6cb8b45908fe0213d71bc745981e8d19d",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Markus Fliegner <markus.fliegner@gmx.de>",
+      "subject": "Re: Mieterwechsel in WE 06",
+      "date": "Mon, 15 Jan 2024 10:32:00 -0000",
+      "message-id": "<177702011370.22256.1058604332977983907@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.16045275265834268965@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.16045275265834268965@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 445
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00121.md"
+  ],
+  "normalizedSha256": "74017c012d8636d0e206411b2e166081b5d8ba036978b165eabf3ffb8aa748b5"
+}

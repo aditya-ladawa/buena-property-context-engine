@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00715",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240323_041300_EMAIL-00715.eml",
+  "rawSha256": "1a01a08c798bb31a97e60a669726de64d9f089ce249e583d3dc17511f809dbdb",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "subject": "Re: Nachtrag Reparatur",
+      "date": "Sat, 23 Mar 2024 04:13:00 -0000",
+      "message-id": "<177702011370.22256.3330947185264525010@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13628523105505729581@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13628523105505729581@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 441
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00715.md"
+  ],
+  "normalizedSha256": "1703a1a837de2608dd9d7a1640a11b25a98174e6805c00e1663843564b992c14"
+}

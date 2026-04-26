@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04877",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250626_121200_EMAIL-04877.eml",
+  "rawSha256": "9798964c42488b7b662021a8fedbed89a6f6631d22faa23768fd8f5a47336503",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Gottlob Hahn <gottlob.hahn@gmail.com>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Thu, 26 Jun 2025 12:12:00 -0000",
+      "message-id": "<177702011370.22256.9990248049547193254@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.11653308780486097128@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.11653308780486097128@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 463
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04877.md"
+  ],
+  "normalizedSha256": "b18190bfb93567863f22ff2fd999ab365f2abbbfa6c7ff62c887beb2d3faf2a7"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04350",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250422_115500_EMAIL-04350.eml",
+  "rawSha256": "c96abee73c86a10b52abb94c0c85503108bf01219b92270f0dab11c2d325718c",
+  "metadata": {
+    "headers": {
+      "from": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Terminbestaetigung Wartung",
+      "date": "Tue, 22 Apr 2025 11:55:00 -0000",
+      "message-id": "<177702011370.22256.13432442527420840083@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 145
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04350.md"
+  ],
+  "normalizedSha256": "d2e696f716ee8a7f83f65a2d6e304b0d4507158761bf8dc0c1e12baf7bb9ce19"
+}

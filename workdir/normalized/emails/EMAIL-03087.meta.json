@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03087",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241205_000500_EMAIL-03087.eml",
+  "rawSha256": "9efdde030506b5620c44d73c2583456f7aaff46e0057dd2b69eb9a762cca9ea6",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Frau Xenia Conradi <xenia.conradi@outlook.com>",
+      "subject": "Re: Sonderumlage - Einspruch",
+      "date": "Thu, 05 Dec 2024 00:05:00 -0000",
+      "message-id": "<177702011370.22256.2014001578000415925@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4211207601273063631@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4211207601273063631@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 452
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03087.md"
+  ],
+  "normalizedSha256": "9706ebf06c3dbcf8470db32f09ff24d9716be85b5a2e8fc7a7f6fe4152379d09"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01113",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240503_210700_EMAIL-01113.eml",
+  "rawSha256": "f5ce3fe6713ca77314a2f491c0a202108ee06e5ceec8c542cb2ef988e155d455",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Ingolf =?utf-8?q?R=C3=B6hricht?= <ingolf.roehricht@gmail.com>",
+      "subject": "Re: Sonderumlage - Einspruch",
+      "date": "Fri, 03 May 2024 21:07:00 -0000",
+      "message-id": "<177702011370.22256.11001730580801362386@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3635520800795834108@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3635520800795834108@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 486
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01113.md"
+  ],
+  "normalizedSha256": "4b40c649a082828660711eef46c0b660a6e0103600d29b8207ba973889fae5b7"
+}

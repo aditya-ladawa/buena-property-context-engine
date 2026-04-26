@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04999",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250711_101600_EMAIL-04999.eml",
+  "rawSha256": "dbbc12e6d38ff67ea573ed64101246bbd588253eaf16cd2d11aae3f15ae0b480",
+  "metadata": {
+    "headers": {
+      "from": "Falk Trommler <falk.trommler@berliner-wasserbetriebe.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Elektro-Pruefung",
+      "date": "Fri, 11 Jul 2025 10:16:00 -0000",
+      "message-id": "<177702011370.22256.4192739896838982298@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 252
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04999.md"
+  ],
+  "normalizedSha256": "b03fbb7021095642bd597ab5f4a837ba4508ee0147833e0cb5be459c33dae6cb"
+}

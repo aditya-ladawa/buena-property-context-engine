@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04549",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250518_112600_EMAIL-04549.eml",
+  "rawSha256": "7bbfe65a45e1c894be7c13bcca30d99078c2c194a4fe318f471e17eb9b8bc213",
+  "metadata": {
+    "headers": {
+      "from": "Frau Dorothe Wulf <dorothe.wulf@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 46",
+      "date": "Sun, 18 May 2025 11:26:00 -0000",
+      "message-id": "<177702011370.22256.9045525866736324423@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 209
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04549.md"
+  ],
+  "normalizedSha256": "0dcbc2f44a2e8b9a14a39e0641472114504961c379b3d41ac5c4583b105d837b"
+}

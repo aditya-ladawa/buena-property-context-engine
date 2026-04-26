@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04554",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250518_202600_EMAIL-04554.eml",
+  "rawSha256": "564f8e072c8edecdaaadd7c70e023ce30454d4a8c16463e05e94cf7c53d1e512",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Dorothe Wulf <dorothe.wulf@icloud.com>",
+      "subject": "Re: Verkaufsabsicht WE 46",
+      "date": "Sun, 18 May 2025 20:26:00 -0000",
+      "message-id": "<177702011370.22256.585777068048372744@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.9045525866736324423@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.9045525866736324423@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 465
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04554.md"
+  ],
+  "normalizedSha256": "6c92d84e0a1ca5e2b317edc19f8311efe03cec7ab787553d0fa5c0b788ec6f8c"
+}

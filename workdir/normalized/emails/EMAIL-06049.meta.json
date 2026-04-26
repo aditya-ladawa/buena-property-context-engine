@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06049",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251105_113900_EMAIL-06049.eml",
+  "rawSha256": "44b6f8eb7ba652e23f24918f1528b1354f504579f4c0e15c886bbf98fc006c23",
+  "metadata": {
+    "headers": {
+      "from": "Kranz Vermoegensverwaltung <kranz.vermoegensverwaltung@capital-partners.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Wed, 05 Nov 2025 11:39:00 -0000",
+      "message-id": "<177702011370.22256.1556277645681067743@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 247
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06049.md"
+  ],
+  "normalizedSha256": "26494aa9348d559c521d1b82d81e670e1d5e8553f02a7834622519d8342da6cb"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02277",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240907_142400_EMAIL-02277.eml",
+  "rawSha256": "d69ad96a5d266e7d7d8017559ddc55e049396003697f6f44497318c136377b44",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Ronald Kelley <ronald.kelley@icloud.com>",
+      "subject": "Abstimmung zu Angebot",
+      "date": "Sat, 07 Sep 2024 14:24:00 -0000",
+      "message-id": "<177702011370.22256.12957476837675438785@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 130
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02277.md"
+  ],
+  "normalizedSha256": "cf27e2a9042e095200ac2c9445bba01af6446a60e8742468b522c44d72750503"
+}

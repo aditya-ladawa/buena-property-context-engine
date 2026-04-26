@@ -1,0 +1,14 @@
+{
+  "sourceId": "INCR-DAY-02-MANIFEST",
+  "propertyId": "LIE-001",
+  "kind": "incremental_manifest",
+  "rawPath": "data/incremental/day-02/incremental_manifest.json",
+  "rawSha256": "1675e213f0f2f3e90472d1890ccdc947f727e97cde9e589d78f755a3578ca175",
+  "normalizedPaths": [
+    "workdir/normalized/incremental/INCR-DAY-02-MANIFEST.json"
+  ],
+  "normalizedSha256": "1675e213f0f2f3e90472d1890ccdc947f727e97cde9e589d78f755a3578ca175",
+  "metadata": {
+    "format": "json"
+  }
+}

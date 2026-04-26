@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04404",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250501_024700_EMAIL-04404.eml",
+  "rawSha256": "bf8bc85fcf93046dc3232c2f75bc3d71d1d00ae3c9d8cc2c6edd2bb96fb215a3",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau =?utf-8?q?D=C3=B6rthe_H=C3=B6vel?= <doerthe.hoevel@t-online.de>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Thu, 01 May 2025 02:47:00 -0000",
+      "message-id": "<177702011370.22256.11505772185897044708@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.1155655968269228799@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.1155655968269228799@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 386
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04404.md"
+  ],
+  "normalizedSha256": "3f72bc4313ed7b88748e07e96d200af00ae55c55c90be5ef30a7185b0cd4a832"
+}

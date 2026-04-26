@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01338",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240529_045000_EMAIL-01338.eml",
+  "rawSha256": "c8792553ac05d4ba82567d5058290618d08ee0a5cc53e080c222d71cc9945289",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Slawomir =?utf-8?q?S=C3=B6lzer?= <slawomir.soelzer@hausmeister-mueller.de>",
+      "subject": "Re: Rechnung RE-2024-1222",
+      "date": "Wed, 29 May 2024 04:50:00 -0000",
+      "message-id": "<177702011370.22256.8826826764901761990@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15333621504034458929@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15333621504034458929@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 471
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01338.md"
+  ],
+  "normalizedSha256": "6fae6b45e70aed965aa6348c09ed3679966dd9c10b755fceac0f648bcdd09191"
+}

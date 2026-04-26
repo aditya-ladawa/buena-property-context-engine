@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03119",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241208_045500_EMAIL-03119.eml",
+  "rawSha256": "c6af2b6198f27e4ff162dfb4bd77e356595493810187e4a10be461e8999e12c8",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Horst Vollbrecht <horst.vollbrecht@gmx.de>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Sun, 08 Dec 2024 04:55:00 -0000",
+      "message-id": "<177702011370.22256.11365190150027959084@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.9226319500543443106@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.9226319500543443106@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 423
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03119.md"
+  ],
+  "normalizedSha256": "7783cb2d5ebf33ed1276bacbf8c8d6bcca0a2326cfbf3c68af72a38cf3a26571"
+}

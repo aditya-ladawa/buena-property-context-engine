@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00842",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240406_030400_EMAIL-00842.eml",
+  "rawSha256": "81fb68de7b0773d2e3d51036fe5d98ec0848a76bb4b5477ec3e447380f794e17",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "subject": "Re: Angebot: Schliessanlage",
+      "date": "Sat, 06 Apr 2024 03:04:00 -0000",
+      "message-id": "<177702011370.22256.10906728748614430519@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.5144536205232739278@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.5144536205232739278@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 514
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00842.md"
+  ],
+  "normalizedSha256": "e969d5410d56cfe33a67bc44c6b808048fcbec92c8c89e632883a0ddf0603eb7"
+}

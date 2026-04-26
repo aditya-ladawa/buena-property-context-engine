@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01581",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240624_135700_EMAIL-01581.eml",
+  "rawSha256": "35be24285883d82d1174d0870551ef17fda1465593635e4f6fee36bd1c124e85",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Julius Nette <julius.nette@outlook.com>",
+      "subject": "Re: Internet/TV-Anschluss",
+      "date": "Mon, 24 Jun 2024 13:57:00 -0000",
+      "message-id": "<177702011370.22256.4439958250012448461@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.2348878419674657381@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.2348878419674657381@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 370
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01581.md"
+  ],
+  "normalizedSha256": "7ab7993155202d2579f7f6d4d229c8f58f7af3827267be9d941769f2e2f5ed25"
+}

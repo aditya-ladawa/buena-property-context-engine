@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03352",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250102_081300_EMAIL-03352.eml",
+  "rawSha256": "c6d31a6cb4c5cf1e6d482aaff0e2dffaf54ff9baa2074ad24a8e0a40ec55fc72",
+  "metadata": {
+    "headers": {
+      "from": "Ferenc Stahr <ferenc.stahr@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Kuendigung Mietvertrag",
+      "date": "Thu, 02 Jan 2025 08:13:00 -0000",
+      "message-id": "<177702011370.22256.14850386615294153848@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 235
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03352.md"
+  ],
+  "normalizedSha256": "01f159b440a875f69f18ce791cf68ea6d329f1173d9e09f9870e6b21b38b6ba8"
+}

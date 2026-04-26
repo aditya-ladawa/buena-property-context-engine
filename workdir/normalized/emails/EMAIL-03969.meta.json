@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03969",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250310_003500_EMAIL-03969.eml",
+  "rawSha256": "12c3b094d2778ec0984471bf14ce57ceb11862f107498524f6623c0654647b00",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Frau Caroline Bohlander <caroline.bohlander@gmx.de>",
+      "subject": "Re: Mieterwechsel in WE 35",
+      "date": "Mon, 10 Mar 2025 00:35:00 -0000",
+      "message-id": "<177702011370.22256.16391711608997084044@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.336642125470189853@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.336642125470189853@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 451
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03969.md"
+  ],
+  "normalizedSha256": "0efe441e2a73c0e2954d726b13287f11eedcc7e6bc8431bee09f2df0af6baf47"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00234",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240129_113500_EMAIL-00234.eml",
+  "rawSha256": "6ccd0025005de31e197f6e9224aded4c3dd5539c37a9d7c91f3153ddda6c92d8",
+  "metadata": {
+    "headers": {
+      "from": "Allianz Versicherungs-AG <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Abschlagsanpassung",
+      "date": "Mon, 29 Jan 2024 11:35:00 -0000",
+      "message-id": "<177702011370.22256.7053420958530654219@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 145
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00234.md"
+  ],
+  "normalizedSha256": "f94bf6edbab94d8af1ba7221169829d35fb1879db30521ecee10538fdf4f5a3c"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03944",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250307_162300_EMAIL-03944.eml",
+  "rawSha256": "3a50cc980bf352beb2b55189d1d1a0bcdf2fd349ea76c0e40a64438f74739c5f",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "David Jenkins <david.jenkins@gmail.com>",
+      "subject": "Re: Water damage in bathroom",
+      "date": "Fri, 07 Mar 2025 16:23:00 -0000",
+      "message-id": "<177702011370.22256.1869518261482503665@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8714648949269170266@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8714648949269170266@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 372
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03944.md"
+  ],
+  "normalizedSha256": "a7592fb4d3f39a4f0df68e45e17c0f7976a2eacbdc41f130283f328b07e869c7"
+}

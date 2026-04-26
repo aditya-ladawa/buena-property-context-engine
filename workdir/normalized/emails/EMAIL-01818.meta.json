@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01818",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240720_221200_EMAIL-01818.eml",
+  "rawSha256": "7132714f938625283cd25367461f6d4e7473bdcc047e3ce3fba6f4411a075646",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "subject": "Re: Wartungsbericht",
+      "date": "Sat, 20 Jul 2024 22:12:00 -0000",
+      "message-id": "<177702011370.22256.8850896769802410748@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.2535287241790331376@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.2535287241790331376@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 468
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01818.md"
+  ],
+  "normalizedSha256": "db19d19322ad0a3f8f02bdb1fdf2e300fdc79064bcb78d152674c40f443b1a6e"
+}

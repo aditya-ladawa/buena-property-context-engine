@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05180",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250801_184500_EMAIL-05180.eml",
+  "rawSha256": "2e198deb933e038d1505a1f7bc99e7164fb3a487bb44cafd1efe2d430eba95fd",
+  "metadata": {
+    "headers": {
+      "from": "Galina Wohlgemut <galina.wohlgemut@outlook.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verstopfter Abfluss",
+      "date": "Fri, 01 Aug 2025 18:45:00 -0000",
+      "message-id": "<177702011370.22256.12923392017298488727@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 179
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05180.md"
+  ],
+  "normalizedSha256": "2fc1dc1e7a8dd69a9779b3c3c1735306b977ae3226b3221aba3c8cda04baccb1"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04824",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250620_072900_EMAIL-04824.eml",
+  "rawSha256": "5f007601a120e63359793d58b9d530baddfea86a4d652db8538138ef62b2a6fe",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Irmingard Margraf <irmingard.margraf@t-online.de>",
+      "subject": "Re: SEV - Monatsauszug",
+      "date": "Fri, 20 Jun 2025 07:29:00 -0000",
+      "message-id": "<177702011370.22256.13089181066239731973@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13613542547082720174@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13613542547082720174@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 436
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04824.md"
+  ],
+  "normalizedSha256": "f3c6c076b996cf9eae5ba3efa259d7018532be88731d02fa422eba301070db8f"
+}

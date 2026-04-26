@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04844",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250622_104200_EMAIL-04844.eml",
+  "rawSha256": "6fe82dd8043de12f35a045670c11225d9200052c8d1c0c64a872fb970cd14ac6",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Carola Buchholz <carola.buchholz@elektro-schmidt-e-k.de>",
+      "subject": "Re: Wartungsbericht",
+      "date": "Sun, 22 Jun 2025 10:42:00 -0000",
+      "message-id": "<177702011370.22256.2358915016535320632@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15221610434083686106@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15221610434083686106@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 464
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04844.md"
+  ],
+  "normalizedSha256": "f7f0ae1095cd6d9139723dc58579c5306e486e45dffd84100f61b3f0993bce9c"
+}

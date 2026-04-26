@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04007",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250313_215500_EMAIL-04007.eml",
+  "rawSha256": "710f1f4d9a7ed98a2377b198458cc9d121786573b3f9517a2fa711d0da1a9b2f",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Josefine Nohlmans <josefine.nohlmans@gmail.com>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Thu, 13 Mar 2025 21:55:00 -0000",
+      "message-id": "<177702011370.22256.1946012223508889843@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.7001442628813452072@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.7001442628813452072@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 499
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04007.md"
+  ],
+  "normalizedSha256": "b1c5c9b96823b9a1fe9357749845a6134b824e924d131a7addd04b78da624263"
+}

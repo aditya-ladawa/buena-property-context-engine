@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03348",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250101_175400_EMAIL-03348.eml",
+  "rawSha256": "efe626f50444c7d2e1429047e233ab4942e39c5bd68ebb812d53c3c652515a5f",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Julius Nette <julius.nette@outlook.com>",
+      "subject": "Re: Wohnung untervermieten",
+      "date": "Wed, 01 Jan 2025 17:54:00 -0000",
+      "message-id": "<177702011370.22256.10056325691463173918@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14653095948190293628@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14653095948190293628@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 413
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03348.md"
+  ],
+  "normalizedSha256": "fe36fd77eb26ebb15340df20d0db413b543bcf3dad26acd464f42dc51a208595"
+}

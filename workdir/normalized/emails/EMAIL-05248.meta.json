@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05248",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250810_174700_EMAIL-05248.eml",
+  "rawSha256": "c1f74b51e06240d67c3e97c6eaca88f3da31d782a5bf6cbcd865c52e57d1d17e",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Peggy Hein <peggy.hein@outlook.com>",
+      "subject": "Re: Ruhestoerung",
+      "date": "Sun, 10 Aug 2025 17:47:00 -0000",
+      "message-id": "<177702011370.22256.11186781099793484134@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.7354178501167311152@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.7354178501167311152@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 581
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05248.md"
+  ],
+  "normalizedSha256": "660e3386ce3ee87eac5a095014bf8ba85471bdccd64458a6ce7bb5e1feef05fe"
+}

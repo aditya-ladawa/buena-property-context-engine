@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05343",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250818_173500_EMAIL-05343.eml",
+  "rawSha256": "38e0af71c0996bfe2cd2c4beec65bd49f0b099a22613d09df1b231c29273cf42",
+  "metadata": {
+    "headers": {
+      "from": "Frau Anni Wagenknecht <anni.wagenknecht@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 48",
+      "date": "Mon, 18 Aug 2025 17:35:00 -0000",
+      "message-id": "<177702011370.22256.10752236078341784050@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 213
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05343.md"
+  ],
+  "normalizedSha256": "3556473cebf9b72bd658ac54da4fcc10bf0ed65a32f218bcff094ab566dd9050"
+}

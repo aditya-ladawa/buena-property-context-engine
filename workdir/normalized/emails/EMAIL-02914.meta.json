@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02914",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241115_060800_EMAIL-02914.eml",
+  "rawSha256": "48b5f39babc39ce82c6a993163cbea4cefad01843d0fd92892b33faaf73c8ddc",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "subject": "Re: Wartungsbericht",
+      "date": "Fri, 15 Nov 2024 06:08:00 -0000",
+      "message-id": "<177702011370.22256.12718966486730617723@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.198303628576730023@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.198303628576730023@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 439
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02914.md"
+  ],
+  "normalizedSha256": "c967043f3a14da85204eca385a8819983030587280026fd1f6212ea2bdd719d4"
+}

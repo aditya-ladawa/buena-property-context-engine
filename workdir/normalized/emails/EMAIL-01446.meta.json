@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01446",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240609_225700_EMAIL-01446.eml",
+  "rawSha256": "f6ff74e4d2933fb314ac024917bc4a6137976c3ab8be364655c5d1b5d8aa7300",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Julius Nette <julius.nette@outlook.com>",
+      "subject": "Re: Schimmel im Schlafzimmer",
+      "date": "Sun, 09 Jun 2024 22:57:00 -0000",
+      "message-id": "<177702011370.22256.398617833111481766@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.7104087299688389345@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.7104087299688389345@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 415
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01446.md"
+  ],
+  "normalizedSha256": "7188b97f658120365ab0e042997539c0759af0ccbed1756e78df70e8f5ea69c1"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01298",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240525_102700_EMAIL-01298.eml",
+  "rawSha256": "34c412bac3faf5895fd947bae62d6d6c3a3b584ba5a2a762eb4f4c6953c6639e",
+  "metadata": {
+    "headers": {
+      "from": "Catherine Heydrich <catherine.heydrich@dachdecker-richter.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Auftragsbestaetigung",
+      "date": "Sat, 25 May 2024 10:27:00 -0000",
+      "message-id": "<177702011370.22256.18445377900760702971@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 198
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01298.md"
+  ],
+  "normalizedSha256": "43e484706f1a7e40da06631d910b68281eaeaae7b2440e85e6017a87e74647ce"
+}

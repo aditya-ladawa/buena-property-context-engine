@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04139",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250328_031800_EMAIL-04139.eml",
+  "rawSha256": "7e5c6ac5514ae3da3673e451febca05d2cafd026a63b17b3736c0d977e652b6a",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Silja Henschel <silja.henschel@posteo.de>",
+      "subject": "Re: SEV - Monatsauszug",
+      "date": "Fri, 28 Mar 2025 03:18:00 -0000",
+      "message-id": "<177702011370.22256.4251591643887711565@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8698089670680568221@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8698089670680568221@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 440
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04139.md"
+  ],
+  "normalizedSha256": "af79ee2c621f008082d51c4ca1bb9180f309b3d2809bc8d0e4be5d027d1af36b"
+}

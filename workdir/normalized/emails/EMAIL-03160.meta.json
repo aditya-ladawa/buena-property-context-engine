@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03160",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241212_205800_EMAIL-03160.eml",
+  "rawSha256": "42fe316c3c11ee22a61741426be96f710b47778a3d2175fe1fb451709efc14e5",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Ingolf =?utf-8?q?R=C3=B6hricht?= <ingolf.roehricht@gmail.com>",
+      "subject": "Re: Verkaufsabsicht WE 14",
+      "date": "Thu, 12 Dec 2024 20:58:00 -0000",
+      "message-id": "<177702011370.22256.12729328866531001987@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.17856716132646746150@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.17856716132646746150@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 441
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03160.md"
+  ],
+  "normalizedSha256": "4170db1dfee32d2295b9399f36f53479accff63bcafb8fa0e0f0231cdcf57e5f"
+}

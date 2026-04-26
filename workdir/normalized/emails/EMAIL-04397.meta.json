@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04397",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250429_151800_EMAIL-04397.eml",
+  "rawSha256": "df3a968ac735fe4ed5e53f91e79ef508bfa9a07df932abbc619151eef41c95b1",
+  "metadata": {
+    "headers": {
+      "from": "GASAG Berliner Gaswerke AG <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Abschlagsanpassung",
+      "date": "Tue, 29 Apr 2025 15:18:00 -0000",
+      "message-id": "<177702011370.22256.14975161773498068150@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 147
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04397.md"
+  ],
+  "normalizedSha256": "54cc99ec7e754f33c36ba839248735fc6556bf3321b7dcd1d90470c081a050ad"
+}

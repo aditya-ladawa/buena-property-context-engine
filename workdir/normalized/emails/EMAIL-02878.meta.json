@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02878",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241111_225600_EMAIL-02878.eml",
+  "rawSha256": "cb15c196870871dc78ba03273200efffbfeda014d27b87127390904b8400a417",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Thomas Kennedy <thomas.kennedy@securelock-systems-ltd.com>",
+      "subject": "Re: Quote: Dachabdichtung Haus 12",
+      "date": "Mon, 11 Nov 2024 22:56:00 -0000",
+      "message-id": "<177702011370.22256.4977872453230049783@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.12878480158610625648@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.12878480158610625648@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 404
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02878.md"
+  ],
+  "normalizedSha256": "afef5f759e97977b0d706fe680b1c2381c569417241de8e3fd36c63ab7b1a162"
+}

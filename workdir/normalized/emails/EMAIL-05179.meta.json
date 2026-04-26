@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05179",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250801_171600_EMAIL-05179.eml",
+  "rawSha256": "063f986fe2eb7a982c9ca066790f1fe40b5540c483bbbbc30ed7367fad396098",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "subject": "Re: Angebot: Schliessanlage",
+      "date": "Fri, 01 Aug 2025 17:16:00 -0000",
+      "message-id": "<177702011370.22256.9023708473753826001@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.7339032258754959045@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.7339032258754959045@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 517
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05179.md"
+  ],
+  "normalizedSha256": "841ae71142afb80b6edf2ff47825c56761cbc365266dd0d86f59d60787b91f9e"
+}

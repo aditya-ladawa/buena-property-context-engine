@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05573",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250908_154600_EMAIL-05573.eml",
+  "rawSha256": "8fa4b5855c9d0a5a472f75e0ddd97035c86a4bad2dd9514408eb6ac45537f460",
+  "metadata": {
+    "headers": {
+      "from": "Herr Willfried Harloff <willfried.harloff@yahoo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Mon, 08 Sep 2025 15:46:00 -0000",
+      "message-id": "<177702011370.22256.13135831211987000365@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 243
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05573.md"
+  ],
+  "normalizedSha256": "b22a1022d4a0f13a0fafeee778c3d190ec0e7271127eeaf93e51aad124c95799"
+}

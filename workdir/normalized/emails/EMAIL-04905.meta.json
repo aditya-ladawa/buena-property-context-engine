@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04905",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250630_093400_EMAIL-04905.eml",
+  "rawSha256": "d5f58bdac4ef437ea2dfd672cad5f0c924bfc0633352e6c27f5a25486cc2a1d3",
+  "metadata": {
+    "headers": {
+      "from": "Irmengard Mentzel <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wartungsbericht",
+      "date": "Mon, 30 Jun 2025 09:34:00 -0000",
+      "message-id": "<177702011370.22256.14890965354604544348@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 212
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04905.md"
+  ],
+  "normalizedSha256": "a5cfceb2f606739ae3fdefa5195b39bd0618be9a74a798dc793646f4fc7a5011"
+}

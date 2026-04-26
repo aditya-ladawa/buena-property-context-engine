@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01525",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240618_122100_EMAIL-01525.eml",
+  "rawSha256": "e0c75cae69535400eae54c2eb0b1ecd2c5758c39b995ed6ddfb37e100f129f95",
+  "metadata": {
+    "headers": {
+      "from": "Herr Ronald Kelley <ronald.kelley@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Owners meeting - agenda item",
+      "date": "Tue, 18 Jun 2024 12:21:00 -0000",
+      "message-id": "<177702011370.22256.7044318373936569714@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 162
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01525.md"
+  ],
+  "normalizedSha256": "5fe8812c615fb8903badfba3b071f8758e0f36ac0b25e26171dd9e6499396ea9"
+}

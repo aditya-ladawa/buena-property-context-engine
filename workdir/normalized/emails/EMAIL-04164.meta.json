@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04164",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250331_075400_EMAIL-04164.eml",
+  "rawSha256": "f4f6a191f3787410b4ce380414c51be84de474103c13938192d80ee300ff3b01",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Markus Fliegner <markus.fliegner@gmx.de>",
+      "subject": "Re: SEV - Monatsauszug",
+      "date": "Mon, 31 Mar 2025 07:54:00 -0000",
+      "message-id": "<177702011370.22256.3915410279637465494@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13861688723283053217@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13861688723283053217@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 441
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04164.md"
+  ],
+  "normalizedSha256": "61803267d23a11f5193cb78469f4c5f1f420f154b8155b69906941f5b4ea0f84"
+}

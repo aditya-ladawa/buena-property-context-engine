@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03434",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250110_140700_EMAIL-03434.eml",
+  "rawSha256": "6c802dba6f84f41538f6c91b50ddf004120fbcb2705128d455e764c3497a4780",
+  "metadata": {
+    "headers": {
+      "from": "Louise Ladeck <louise.ladeck@outlook.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wohnungsuebergabe",
+      "date": "Fri, 10 Jan 2025 14:07:00 -0000",
+      "message-id": "<177702011370.22256.199577702035381221@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 158
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03434.md"
+  ],
+  "normalizedSha256": "5592790c5bba88f69efa77bc5d40990dfaa4b151bc6dcb7b1c8aa9134f1db706"
+}

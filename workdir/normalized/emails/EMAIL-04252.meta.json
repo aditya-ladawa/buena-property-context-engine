@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04252",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250410_113600_EMAIL-04252.eml",
+  "rawSha256": "9889aa47e7231abca20f93282c51ed35d9f099540c243ab4ea5ab58fa1b6db21",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "subject": "Re: Wartungsbericht",
+      "date": "Thu, 10 Apr 2025 11:36:00 -0000",
+      "message-id": "<177702011370.22256.7185439202730493228@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.2956407179453516997@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.2956407179453516997@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 437
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04252.md"
+  ],
+  "normalizedSha256": "f8da01e8d7e07a23737b53d091a90b8246af3ad11ff22f0856cc90b99cdc4a9e"
+}

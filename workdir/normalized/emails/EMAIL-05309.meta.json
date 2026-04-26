@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05309",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250815_224600_EMAIL-05309.eml",
+  "rawSha256": "99c313467736fe9de4fcc0f1b53d778434751f2192480e922a661a50fb9c6854",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Lisa Brown <lisa.brown@techclean-international.com>",
+      "subject": "Re: Maintenance report",
+      "date": "Fri, 15 Aug 2025 22:46:00 -0000",
+      "message-id": "<177702011370.22256.10543277087408611637@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.564978208442116857@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.564978208442116857@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 338
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05309.md"
+  ],
+  "normalizedSha256": "459a5c37b65bb8fae5e413416a1f75e9bc835eb79a46490973d88ba8389b3218"
+}

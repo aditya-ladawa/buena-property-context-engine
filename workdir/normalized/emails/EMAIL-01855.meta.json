@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01855",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240725_011300_EMAIL-01855.eml",
+  "rawSha256": "61ea2bf4c9cd36dcbba38d4dab4c6b162d7992e4f81d343ac9deb2cd2298e8f2",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "subject": "Re: Rechnung RE-2024-3709",
+      "date": "Thu, 25 Jul 2024 01:13:00 -0000",
+      "message-id": "<177702011370.22256.11861817385612015236@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10799852180139823903@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10799852180139823903@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 467
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01855.md"
+  ],
+  "normalizedSha256": "4a440f627cbc5c5dbbd1623393f697654030708f2b613fcdd0383c1d8cd32266"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02313",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240910_223600_EMAIL-02313.eml",
+  "rawSha256": "db1bd1c5bda99000eae6a6cde2b0480af59a891bb01d98cd42435078acf31894",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Irmengard Mentzel <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "subject": "Re: Wartungsbericht",
+      "date": "Tue, 10 Sep 2024 22:36:00 -0000",
+      "message-id": "<177702011370.22256.17625492877401351132@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8532771522473259653@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8532771522473259653@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 465
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02313.md"
+  ],
+  "normalizedSha256": "82c4511bd7528967900b0e56fd85baa8ea903e1ee90672eb0260c87f79ad0ee5"
+}

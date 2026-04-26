@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01794",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240717_162500_EMAIL-01794.eml",
+  "rawSha256": "87c6ea942e1ecb7dcd1259c02918d827efbb192acc0f8000b61c7c7d075078ae",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Frau Hulda Eckbauer <hulda.eckbauer@t-online.de>",
+      "subject": "Re: Verkaufsabsicht WE 09",
+      "date": "Wed, 17 Jul 2024 16:25:00 -0000",
+      "message-id": "<177702011370.22256.3794544921042788823@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3317979564268189890@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3317979564268189890@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 438
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01794.md"
+  ],
+  "normalizedSha256": "754d32d4fe6266f2c14ce90b79aafbc686b14d802df3bd331f31332cd5767e85"
+}

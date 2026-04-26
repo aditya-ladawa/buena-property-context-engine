@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00505",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240229_163400_EMAIL-00505.eml",
+  "rawSha256": "d495c446243031b80f4daa6d2607e5860aae88ad131a5896f58c8fc34d8c6c65",
+  "metadata": {
+    "headers": {
+      "from": "Herr Ingbert Nerger <ingbert.nerger@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Thu, 29 Feb 2024 16:34:00 -0000",
+      "message-id": "<177702011370.22256.992883747507217385@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 240
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00505.md"
+  ],
+  "normalizedSha256": "b16f7a0bf2ca4b1346c2fb4f4af68ffe4a9edae3c580fd815706e42a9732e18f"
+}

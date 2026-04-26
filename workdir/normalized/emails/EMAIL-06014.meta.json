@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06014",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251101_174000_EMAIL-06014.eml",
+  "rawSha256": "6d2eb8ec6fc74f493b25f68a6ea9e147f2ac1a9290a07c17472a4bbd289c1951",
+  "metadata": {
+    "headers": {
+      "from": "Herr Marcus Dowerg <marcus.dowerg@outlook.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 32",
+      "date": "Sat, 01 Nov 2025 17:40:00 -0000",
+      "message-id": "<177702011370.22256.2245591926321171537@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 187
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06014.md"
+  ],
+  "normalizedSha256": "41e48d9561aa1e2f4b63813b68530fb6b7bf38e7fcafa6ba3ad7254abddf24ea"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05798",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251006_152800_EMAIL-05798.eml",
+  "rawSha256": "520c850a813b60df801e6ffb3b02a4027d775e81e64c0c7d5ec9f599fbf03b54",
+  "metadata": {
+    "headers": {
+      "from": "Herr Marcus Dowerg <marcus.dowerg@outlook.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in GE 37",
+      "date": "Mon, 06 Oct 2025 15:28:00 -0000",
+      "message-id": "<177702011370.22256.8600422052379430499@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 187
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05798.md"
+  ],
+  "normalizedSha256": "3063505d07c2abaeb5529e2b9b0b2493e4bd2eaeb45cd1007b66901b788094e5"
+}

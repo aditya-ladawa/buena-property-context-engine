@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04941",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250704_135800_EMAIL-04941.eml",
+  "rawSha256": "c652adabec9303ed0dab8089c5d854ef35c5f3a22917d55c821157d42527a51b",
+  "metadata": {
+    "headers": {
+      "from": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Auftragsbestaetigung",
+      "date": "Fri, 04 Jul 2025 13:58:00 -0000",
+      "message-id": "<177702011370.22256.16504193905954125031@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 209
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04941.md"
+  ],
+  "normalizedSha256": "cba8e3c7b91923863ea26fad6d3f42966bc87f3c5c553d98b0969c7902232dd3"
+}

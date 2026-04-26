@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04293",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250414_204600_EMAIL-04293.eml",
+  "rawSha256": "a6d61ca94254a4005aba66a11a51341ec2fbf8b5ded95d11cccbd71400e0c08e",
+  "metadata": {
+    "headers": {
+      "from": "Kranz Vermoegensverwaltung <kranz.vermoegensverwaltung@capital-partners.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 17",
+      "date": "Mon, 14 Apr 2025 20:46:00 -0000",
+      "message-id": "<177702011370.22256.13654749486537937950@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 195
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04293.md"
+  ],
+  "normalizedSha256": "33bd17732f75b9863e418b258cbe6d9c9e1938a49b711ac0209957d3c4ddd5fd"
+}

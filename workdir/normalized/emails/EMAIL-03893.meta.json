@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03893",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250301_161200_EMAIL-03893.eml",
+  "rawSha256": "c97815e5348b4917bf74b761525fe5fb62919632dacc7964633ff50a0d2ec208",
+  "metadata": {
+    "headers": {
+      "from": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Treppenhausreinigung",
+      "date": "Sat, 01 Mar 2025 16:12:00 -0000",
+      "message-id": "<177702011370.22256.4456563578110342655@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 261
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03893.md"
+  ],
+  "normalizedSha256": "16832f3494961406d1046f6d4cc40f7115819c893e3484f3f7934371d6663c99"
+}

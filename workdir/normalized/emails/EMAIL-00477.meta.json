@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00477",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240226_153200_EMAIL-00477.eml",
+  "rawSha256": "ab176006c8ff90f33e37357e78d211620d29465b9024a92dfe4bab75219a02ef",
+  "metadata": {
+    "headers": {
+      "from": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeister-bauer.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Gartenpflege Sommer",
+      "date": "Mon, 26 Feb 2024 15:32:00 -0000",
+      "message-id": "<177702011370.22256.3294283237956796454@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 263
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00477.md"
+  ],
+  "normalizedSha256": "4d9fb93bf69f5ef201e5877a19e560f3ae83a233c99c959b6ffc6a969127e1d6"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01480",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240613_031100_EMAIL-01480.eml",
+  "rawSha256": "eac0c9039297067778a41a3ed01650d3595ccdb114b4636251574153e6fce962",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Marcus Dowerg <marcus.dowerg@outlook.com>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Thu, 13 Jun 2024 03:11:00 -0000",
+      "message-id": "<177702011370.22256.11858541043124691129@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.1301744170101239603@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.1301744170101239603@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 419
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01480.md"
+  ],
+  "normalizedSha256": "8ed847256e3934f6c1e659707c46c6becc69505cabe8705ba04bd2f076bfa4c0"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00654",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240315_171000_EMAIL-00654.eml",
+  "rawSha256": "13ac2a1e11618b43e6cdf86680fe27779f54e7e7f698cc73e328a8a372b8caea",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Jo Reuter <jo.reuter@icloud.com>",
+      "subject": "Re: SEV - Monatsauszug",
+      "date": "Fri, 15 Mar 2024 17:10:00 -0000",
+      "message-id": "<177702011370.22256.5139381399228008499@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13120123615455636180@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13120123615455636180@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 398
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00654.md"
+  ],
+  "normalizedSha256": "bb6a936f0f3d84ba3e849adb9a5f91ea9cfe067ab49d71e9d2917932222f1063"
+}

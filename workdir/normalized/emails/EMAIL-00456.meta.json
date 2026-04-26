@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00456",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240223_183600_EMAIL-00456.eml",
+  "rawSha256": "3ee90bc7aae4fedf98ebf67b107fbeb1957211491b5a5adb80ef193984d83a9b",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Olga Holsten <olga.holsten@heiztechnik-berlin.de>",
+      "subject": "Re: Nachtrag Reparatur",
+      "date": "Fri, 23 Feb 2024 18:36:00 -0000",
+      "message-id": "<177702011370.22256.13492314450273214335@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8122783121601115784@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8122783121601115784@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 434
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00456.md"
+  ],
+  "normalizedSha256": "ffa33f56294d3579345f345bf26f2a198a2c7febf789584b2ad320298fa2ea56"
+}

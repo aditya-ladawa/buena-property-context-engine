@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06183",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251121_211400_EMAIL-06183.eml",
+  "rawSha256": "3e911c734d207b33987c6009f42d5a6960832431891ff758669660a36b093a38",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "subject": "Re: Rechnung RE-2025-4846",
+      "date": "Fri, 21 Nov 2025 21:14:00 -0000",
+      "message-id": "<177702011370.22256.15411507163488462764@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15668093558830427838@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15668093558830427838@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 429
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06183.md"
+  ],
+  "normalizedSha256": "da1e5292308d68c01885fb1e70349acc6a42bc2279006ea85debc2e5621f5b82"
+}

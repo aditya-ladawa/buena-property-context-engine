@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01993",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240807_182000_EMAIL-01993.eml",
+  "rawSha256": "f29328f34794581bab0641def25fec1341a331d85f6f8ed8f3ab81747e8368f8",
+  "metadata": {
+    "headers": {
+      "from": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Rechnung RE-2024-9427",
+      "date": "Wed, 07 Aug 2024 18:20:00 -0000",
+      "message-id": "<177702011370.22256.5791009340694731636@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 206
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01993.md"
+  ],
+  "normalizedSha256": "f901633cdfea6287de7a015a45c917f4ac691b2c254d9e10aa03c5eb7b6a3c0b"
+}

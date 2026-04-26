@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03790",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250220_113700_EMAIL-03790.eml",
+  "rawSha256": "5f70753e603ad53ed39c7ab5b4431486df30bb82f7808e0890225398fec13c46",
+  "metadata": {
+    "headers": {
+      "from": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Sanitaer-Reparatur",
+      "date": "Thu, 20 Feb 2025 11:37:00 -0000",
+      "message-id": "<177702011370.22256.951949050884631961@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 258
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03790.md"
+  ],
+  "normalizedSha256": "6d951881ce038e1ba95f9f8ab83756f29543db7621be8e23e823be1045d35809"
+}

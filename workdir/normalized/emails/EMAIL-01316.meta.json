@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01316",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240527_123600_EMAIL-01316.eml",
+  "rawSha256": "85ff52fa2ad75d4cb0beabeb886b7f6a544f1eb407963f16e6bcf341b52e0400",
+  "metadata": {
+    "headers": {
+      "from": "Slawomir =?utf-8?q?S=C3=B6lzer?= <slawomir.soelzer@hausmeister-mueller.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Nachtrag Reparatur",
+      "date": "Mon, 27 May 2024 12:36:00 -0000",
+      "message-id": "<177702011370.22256.9069402693410746449@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 187
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01316.md"
+  ],
+  "normalizedSha256": "773ef946aaef2a72563a6df107fff8d4e0f470bf9f7d5a56b0fe4342e929022d"
+}

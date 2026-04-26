@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03759",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250217_045000_EMAIL-03759.eml",
+  "rawSha256": "3b025074ce8b652b82dbd2f683566456329fc4406943e31eee459be97ee13159",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Frau Gertraud Holsten <gertraud.holsten@gmail.com>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Mon, 17 Feb 2025 04:50:00 -0000",
+      "message-id": "<177702011370.22256.15801424821215909741@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.11500379477054086873@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.11500379477054086873@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 391
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03759.md"
+  ],
+  "normalizedSha256": "5e2fe9f4717870a1133a9d26aace9fbb8efef45b29ee3778edad2da5788dc746"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05893",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251016_154700_EMAIL-05893.eml",
+  "rawSha256": "ac84aa929c67b9f9a286c28b6c0047415ea3e6f8fc5aa9ef1d6b8156bbd2e773",
+  "metadata": {
+    "headers": {
+      "from": "Paul-Heinz =?utf-8?q?K=C3=B6hler?= <paul.heinz.koehler@aufzug-schindler-co.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Schliessanlage",
+      "date": "Thu, 16 Oct 2025 15:47:00 -0000",
+      "message-id": "<177702011370.22256.11073484532235552618@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 260
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05893.md"
+  ],
+  "normalizedSha256": "e1acff88c0171b008ac41c067d43d52102031a896c6e506f13587f6ab06e59cb"
+}

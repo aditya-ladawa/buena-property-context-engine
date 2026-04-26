@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04215",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250406_091300_EMAIL-04215.eml",
+  "rawSha256": "c2a478333ce49216996b313f49b6502a9b73279ca7dbc3162b84d3e2f0e23851",
+  "metadata": {
+    "headers": {
+      "from": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Treppenhausreinigung",
+      "date": "Sun, 06 Apr 2025 09:13:00 -0000",
+      "message-id": "<177702011370.22256.344295378931833037@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 259
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04215.md"
+  ],
+  "normalizedSha256": "60fb153c30e587add281ed582b37c2f26d4126bab719fc227ee3021d90dff493"
+}

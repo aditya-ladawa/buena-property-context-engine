@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04257",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250410_141500_EMAIL-04257.eml",
+  "rawSha256": "ec2fbc8b970faa5fe7df76dfd770b4cd3e5200b4ac00029b1aa067aea4662f08",
+  "metadata": {
+    "headers": {
+      "from": "Falk Trommler <falk.trommler@berliner-wasserbetriebe.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Reparatur Aufzug",
+      "date": "Thu, 10 Apr 2025 14:15:00 -0000",
+      "message-id": "<177702011370.22256.18174125354897607795@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 253
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04257.md"
+  ],
+  "normalizedSha256": "9cfc275b593fc31abd58013d1998f1fcc52ee029c49df8732f4dac61c406ab7a"
+}

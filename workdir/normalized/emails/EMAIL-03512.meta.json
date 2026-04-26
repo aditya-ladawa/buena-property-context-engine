@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03512",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250119_014600_EMAIL-03512.eml",
+  "rawSha256": "f756d3bf392d34c789348cc24f9a33833f3165126ab777550eebe7ea23b09f85",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Falk Trommler <falk.trommler@berliner-wasserbetriebe.de>",
+      "subject": "Re: Terminbestaetigung Wartung",
+      "date": "Sun, 19 Jan 2025 01:46:00 -0000",
+      "message-id": "<177702011370.22256.920565723084061435@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4596106561728481144@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4596106561728481144@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 366
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03512.md"
+  ],
+  "normalizedSha256": "5a876bd8d9cd68428fe17f1cbcf78b5d57a6197dcb88c6ab87fa087f786aea98"
+}

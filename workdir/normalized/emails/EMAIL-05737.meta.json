@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05737",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250928_175800_EMAIL-05737.eml",
+  "rawSha256": "874987a322d1f361387fc390f5903b5db74bb48fe7cfde2496131459b1005de6",
+  "metadata": {
+    "headers": {
+      "from": "Herr Arnulf Heintze <arnulf.heintze@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Sun, 28 Sep 2025 17:58:00 -0000",
+      "message-id": "<177702011370.22256.9936124865337158631@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 240
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05737.md"
+  ],
+  "normalizedSha256": "456d3c55a602b380f4152e75296eb7d2c4b7d1b38e97710918916444226c33fd"
+}

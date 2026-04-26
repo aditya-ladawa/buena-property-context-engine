@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01631",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240701_063300_EMAIL-01631.eml",
+  "rawSha256": "d5b815e69f2c53f972b3078ef88403f38c5b552f49f28bbe6afb1205649dab26",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Chantal =?utf-8?q?T=C3=A4sche?= <chantal.taesche@posteo.de>",
+      "subject": "Re: Parkplatz-Frage",
+      "date": "Mon, 01 Jul 2024 06:33:00 -0000",
+      "message-id": "<177702011370.22256.10865791063793349981@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.1826715727671594761@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.1826715727671594761@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 410
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01631.md"
+  ],
+  "normalizedSha256": "e4980c31936ae3697ad10e4a6ad84406ce7ab365fee3c10b8fcf5b2e31264099"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01180",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240511_104000_EMAIL-01180.eml",
+  "rawSha256": "a7142e9a4d6711de3c931ebb910daa5a0e15466dac8fcb000e6570203d4c374d",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Louise Ladeck <louise.ladeck@outlook.com>",
+      "subject": "Re: Mietminderung Ankuendigung",
+      "date": "Sat, 11 May 2024 10:40:00 -0000",
+      "message-id": "<177702011370.22256.1955766812827733388@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.16898191010339142492@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.16898191010339142492@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 504
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01180.md"
+  ],
+  "normalizedSha256": "15997ee8d6b6bc32b2e8fd2c578a6ad0f4b24bdd401e55c8de6371b598403006"
+}

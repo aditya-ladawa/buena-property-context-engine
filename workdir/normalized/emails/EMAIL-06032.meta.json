@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06032",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251103_115200_EMAIL-06032.eml",
+  "rawSha256": "34b54727058f5eef80d3dab4ccc3e5fd4ade503c5e5e94c69845e518bef7a7fe",
+  "metadata": {
+    "headers": {
+      "from": "Frau Anni Wagenknecht <anni.wagenknecht@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 44",
+      "date": "Mon, 03 Nov 2025 11:52:00 -0000",
+      "message-id": "<177702011370.22256.13024608652608845730@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 213
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06032.md"
+  ],
+  "normalizedSha256": "3f0e3763660a29405b4be57d0cf9d480dfe5b93e152704af9887d2c63042c35c"
+}

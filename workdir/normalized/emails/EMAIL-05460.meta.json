@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05460",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250831_001500_EMAIL-05460.eml",
+  "rawSha256": "b4f72308d5a1db1382c1c0892d23397d3318656f883b6522b60115d2019ed578",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Hanna Schweitzer <hanna.schweitzer@gmx.de>",
+      "subject": "Re: Wohnungsuebergabe",
+      "date": "Sun, 31 Aug 2025 00:15:00 -0000",
+      "message-id": "<177702011370.22256.4386493395103285350@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.9273533156579433792@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.9273533156579433792@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 427
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05460.md"
+  ],
+  "normalizedSha256": "92be0105ac4498585d4c9f624816b199e4e46233862c9bab4319979e58f76e23"
+}

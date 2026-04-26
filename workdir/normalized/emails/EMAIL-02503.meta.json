@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02503",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241003_141300_EMAIL-02503.eml",
+  "rawSha256": "b1020b45aabf23f827c28ae06d9a0fcaf59b9d73bbfe2299cbcf9e7725f04b78",
+  "metadata": {
+    "headers": {
+      "from": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Schliessanlage",
+      "date": "Thu, 03 Oct 2024 14:13:00 -0000",
+      "message-id": "<177702011370.22256.3033258817640386946@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 254
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02503.md"
+  ],
+  "normalizedSha256": "f5482e5725275ea4c43c316c1471896878a6dabc8686b14acc1d4529fa92c9d6"
+}

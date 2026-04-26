@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02560",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241008_155700_EMAIL-02560.eml",
+  "rawSha256": "dde916479e5a97ea5e2e8a137b13bfa311fc0f709201ce5d8098a852fac5f535",
+  "metadata": {
+    "headers": {
+      "from": "BSR Berliner Stadtreinigung <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Preisanpassung zum 08.10.2024",
+      "date": "Tue, 08 Oct 2024 15:57:00 -0000",
+      "message-id": "<177702011370.22256.18413990695959156448@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 159
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02560.md"
+  ],
+  "normalizedSha256": "f52d787a3bf83f13002cf689db2795fd1652049377cf14608343b175f6d53be7"
+}

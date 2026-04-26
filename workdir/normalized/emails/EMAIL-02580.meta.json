@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02580",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241010_151600_EMAIL-02580.eml",
+  "rawSha256": "12d3d11329b766e9b082b7265d083135c1755ef8ccd21acaa77573a2c0a33044",
+  "metadata": {
+    "headers": {
+      "from": "Frau Mina Textor <mina.textor@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Modernisierung - Zustimmung",
+      "date": "Thu, 10 Oct 2024 15:16:00 -0000",
+      "message-id": "<177702011370.22256.2059003577455964354@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 160
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02580.md"
+  ],
+  "normalizedSha256": "62fad4de974cd013fc5a0af7b1774f900a7ba214b0b42fc8995298c89baffc4e"
+}

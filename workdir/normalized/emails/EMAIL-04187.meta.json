@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04187",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250402_100500_EMAIL-04187.eml",
+  "rawSha256": "8d9bf6a7b98b9c136b01363e17670a0031f925b890ce1ffdc281c2be18b5c4cc",
+  "metadata": {
+    "headers": {
+      "from": "Frau Gertraud Holsten <gertraud.holsten@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 47",
+      "date": "Wed, 02 Apr 2025 10:05:00 -0000",
+      "message-id": "<177702011370.22256.11684659351304718415@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 190
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04187.md"
+  ],
+  "normalizedSha256": "5991f990f3792b9f5014e43877cdd4c74accd5bce998ab4c8543640f904cd3d8"
+}

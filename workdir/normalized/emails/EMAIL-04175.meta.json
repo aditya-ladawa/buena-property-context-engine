@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04175",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250401_061100_EMAIL-04175.eml",
+  "rawSha256": "b2bda392ee03e64f6dba9e73c408fb36d40862177d34c797bbdaf9b2893bb39f",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Markus Fliegner <markus.fliegner@gmx.de>",
+      "subject": "Re: Verkaufsabsicht WE 06",
+      "date": "Tue, 01 Apr 2025 06:11:00 -0000",
+      "message-id": "<177702011370.22256.10523296565071572323@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8876270455063175112@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8876270455063175112@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 472
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04175.md"
+  ],
+  "normalizedSha256": "281a4f0c980b14562ce2ad9ec3d1ae5233062921846a8e5842f93588e3696b20"
+}

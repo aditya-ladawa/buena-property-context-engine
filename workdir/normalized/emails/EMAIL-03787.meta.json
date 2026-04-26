@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03787",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250219_163000_EMAIL-03787.eml",
+  "rawSha256": "95520d2d36f3b191d57fe816d8d67348246db53379c7367941d9a19921b9ecab",
+  "metadata": {
+    "headers": {
+      "from": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Aktualisierung unserer Bankverbindung",
+      "date": "Wed, 19 Feb 2025 16:30:00 -0000",
+      "message-id": "<177702011370.22256.11863844499569582412@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 317
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03787.md"
+  ],
+  "normalizedSha256": "845705360851c7c80d1913c6cb629895e34145de6da75a79a37c058696b3e2e5"
+}

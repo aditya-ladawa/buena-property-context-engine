@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03305",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241229_131500_EMAIL-03305.eml",
+  "rawSha256": "65fe5ef79e95553b0b3405ba0e8995d9fcb0f37d738ea6d5e2bca1073e4e4fef",
+  "metadata": {
+    "headers": {
+      "from": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Nachtrag Reparatur",
+      "date": "Sun, 29 Dec 2024 13:15:00 -0000",
+      "message-id": "<177702011370.22256.10181065772313304490@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 182
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03305.md"
+  ],
+  "normalizedSha256": "16a10ddadd60ffceac703d1cf2e95f0e499790a5e7537a3aeb0f17f303948a93"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00416",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240219_123400_EMAIL-00416.eml",
+  "rawSha256": "3c538ce0f6667c1530fcdf0995f298d83617d2ca2c1224893af1abe03e6cf0e4",
+  "metadata": {
+    "headers": {
+      "from": "Frau Caroline Bohlander <caroline.bohlander@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "SEV - Monatsauszug",
+      "date": "Mon, 19 Feb 2024 12:34:00 -0000",
+      "message-id": "<177702011370.22256.11212073862426977218@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 184
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00416.md"
+  ],
+  "normalizedSha256": "792655517c31426d23354d28f1e0a673d36f3a69146b43a50f42c6a22d944e8f"
+}

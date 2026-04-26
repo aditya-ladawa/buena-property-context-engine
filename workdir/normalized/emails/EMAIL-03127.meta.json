@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03127",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241208_154200_EMAIL-03127.eml",
+  "rawSha256": "b0a48038fdeacf215c9006b19cf83875a9ba3645aa3b83121e1d705e179ee137",
+  "metadata": {
+    "headers": {
+      "from": "Carola Buchholz <carola.buchholz@elektro-schmidt-e-k.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Rechnung RE-2024-3482",
+      "date": "Sun, 08 Dec 2024 15:42:00 -0000",
+      "message-id": "<177702011370.22256.10013734712124512786@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 201
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03127.md"
+  ],
+  "normalizedSha256": "e41fe900de342158cb66d27883e16a17e1c53bfc31e2668f7d2c489d84e3211e"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01763",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240714_163100_EMAIL-01763.eml",
+  "rawSha256": "f98cc2aab46f842aaf1dbe6f75f1f032360be03d8bf81797012cf92b4ea17dc6",
+  "metadata": {
+    "headers": {
+      "from": "Herr Erdal Beckmann <erdal.beckmann@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 15",
+      "date": "Sun, 14 Jul 2024 16:31:00 -0000",
+      "message-id": "<177702011370.22256.5074392672812386036@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 188
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01763.md"
+  ],
+  "normalizedSha256": "cee4ec005dd26752f3ae294994f570104f9e588d56eabef0ec2bd2e514ea8e50"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02597",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241012_103400_EMAIL-02597.eml",
+  "rawSha256": "c76a685607bf446f0989fec6d52a2b80aaab7fc85195a35f887e2701aa9e3330",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Erdal Beckmann <erdal.beckmann@gmx.de>",
+      "subject": "Re: Mieterwechsel in WE 15",
+      "date": "Sat, 12 Oct 2024 10:34:00 -0000",
+      "message-id": "<177702011370.22256.15306623863212043544@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13142927016014484271@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13142927016014484271@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 443
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02597.md"
+  ],
+  "normalizedSha256": "becac56e786cb1bb1755c25ea65df17abee4c49165408064be68f1bdd2e4b50d"
+}

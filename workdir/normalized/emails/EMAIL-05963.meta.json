@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05963",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251025_112400_EMAIL-05963.eml",
+  "rawSha256": "135b45f23009153177fc7598af63d345d151b9bbc87e8d8955fcf97cf766aa49",
+  "metadata": {
+    "headers": {
+      "from": "Paul-Heinz =?utf-8?q?K=C3=B6hler?= <paul.heinz.koehler@aufzug-schindler-co.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mahnung Rechnung RE-2025-5706",
+      "date": "Sat, 25 Oct 2025 11:24:00 -0000",
+      "message-id": "<177702011370.22256.17172262061258331560@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 240
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05963.md"
+  ],
+  "normalizedSha256": "58c0724d6aa544f3ec9ea2626571f3ec47b04655a9fd344cd8ed6bdc5cde6c07"
+}

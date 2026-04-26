@@ -1,0 +1,14 @@
+{
+  "sourceId": "MASTER-STAMMDATEN",
+  "propertyId": "LIE-001",
+  "kind": "master_data",
+  "rawPath": "data/stammdaten/stammdaten.json",
+  "rawSha256": "082a74f0d912c0d0ad16113273cb0efa768f6128c875c1abba074ad931a1b133",
+  "normalizedPaths": [
+    "workdir/normalized/master-data/MASTER-STAMMDATEN.json"
+  ],
+  "normalizedSha256": "baeff871354cbe046dc7c0bc5e3074a0f75980d3a210ebaff09d0098369f399b",
+  "metadata": {
+    "format": "json"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02480",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240930_061900_EMAIL-02480.eml",
+  "rawSha256": "5eb7ff0394c96f1a7ebf2532b5f2d40e8ca8ed0b0309508cc5705dd99a0a655d",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Magrit Mitschke <magrit.mitschke@gmail.com>",
+      "subject": "Re: Frage zur Nebenkostenabrechnung",
+      "date": "Mon, 30 Sep 2024 06:19:00 -0000",
+      "message-id": "<177702011370.22256.3786831867626845077@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.2663805674772845910@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.2663805674772845910@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 571
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02480.md"
+  ],
+  "normalizedSha256": "039e8834d6a61726267ceb0a973a1575522d55b56a947e6d7c8225457fdcd495"
+}

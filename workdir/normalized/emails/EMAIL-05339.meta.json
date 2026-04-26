@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05339",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250818_122900_EMAIL-05339.eml",
+  "rawSha256": "dd1478173e473f45cb8ad81c1ec2abdba2c8be6b612a590d159bd542fba99233",
+  "metadata": {
+    "headers": {
+      "from": "Steffi Riehl <steffi.riehl@posteo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Schimmel im Schlafzimmer",
+      "date": "Mon, 18 Aug 2025 12:29:00 -0000",
+      "message-id": "<177702011370.22256.8390919324884350677@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 189
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05339.md"
+  ],
+  "normalizedSha256": "713bef62f59fa443b065141a4fd59bd2c5a2723a502e24adc84c8ae1ae0e9067"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01660",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240705_003200_EMAIL-01660.eml",
+  "rawSha256": "e5cfa9d74fd82a6310fe2f6c6f6b939347eb93e840aa12bc43b0ccc49633b433",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Oswald =?utf-8?q?Gr=C3=B6ttner?= <oswald.groettner@t-online.de>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Fri, 05 Jul 2024 00:32:00 -0000",
+      "message-id": "<177702011370.22256.6959531045761343037@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13227086504094629114@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13227086504094629114@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 469
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01660.md"
+  ],
+  "normalizedSha256": "35cfa0db900a96360f758ca5b24a571ce2afd48e747a3d7066d459a1eacb60c1"
+}

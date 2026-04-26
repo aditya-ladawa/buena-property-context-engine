@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00947",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240415_143700_EMAIL-00947.eml",
+  "rawSha256": "1676a9c5ecbd0e57cfbb230cae0cbd05f68c52584f874379315e5a14b5191014",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Erdal Beckmann <erdal.beckmann@gmx.de>",
+      "subject": "Abstimmung zu Angebot",
+      "date": "Mon, 15 Apr 2024 14:37:00 -0000",
+      "message-id": "<177702011370.22256.15060638315709224428@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 127
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00947.md"
+  ],
+  "normalizedSha256": "1bb8266adf5209ec1bc97daf4bf9f390a9710e3b79694bd1fffe17350a1f60e5"
+}

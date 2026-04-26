@@ -1,0 +1,32 @@
+{
+  "sourceId": "INV-00005",
+  "propertyId": "LIE-001",
+  "kind": "invoice_pdf",
+  "rawPath": "data/rechnungen/2024-01/20240124_DL-011_INV-00005.pdf",
+  "rawSha256": "e2fc6c1c4d1d271cfd227a3b81bbbc51d95ea05b6f1d72a22985f444a9a69349",
+  "metadata": {
+    "filename": "20240124_DL-011_INV-00005.pdf",
+    "date": "2024-01-24",
+    "contractorId": "DL-011",
+    "invoiceId": "INV-00005",
+    "flags": {
+      "duplicateMarker": false,
+      "fakeMarker": false
+    },
+    "invoiceNumber": "2024/00099",
+    "customerNumber": "KN-45103 Rechnungsnr.: 2024/00099 Datum: 24.01.2024",
+    "invoiceDate": "24.01.2024",
+    "netAmount": "1416.00",
+    "vatAmount": "269.04",
+    "grossAmount": "1685.04",
+    "iban": "DE49 1203 0000 1774 4905 81",
+    "title": "Kundennr.: KN-45103 Rechnungsnr.: 2024/00099 Datum: 24.01.2024",
+    "pageCount": 1,
+    "textLength": 656,
+    "normalizerVersion": 4
+  },
+  "normalizedPaths": [
+    "workdir/normalized/invoices/INV-00005.md"
+  ],
+  "normalizedSha256": "c37296329d9df190d7a950e328a9d4e8fadef430cc855a2ef1314342a2c07cd5"
+}

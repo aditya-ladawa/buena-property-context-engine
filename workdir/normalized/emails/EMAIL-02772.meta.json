@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02772",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241031_121400_EMAIL-02772.eml",
+  "rawSha256": "30e71419e99db238fcff4c233d719c4d89e68b648e8288a12f42f7afa41f8659",
+  "metadata": {
+    "headers": {
+      "from": "Catherine Heydrich <catherine.heydrich@dachdecker-richter.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wartungsbericht",
+      "date": "Thu, 31 Oct 2024 12:14:00 -0000",
+      "message-id": "<177702011370.22256.3329853417959294149@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 213
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02772.md"
+  ],
+  "normalizedSha256": "c0f45f41b503aedbeda5211d90941f08c746e796776337c4a7c60c44d095df07"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03758",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250216_212200_EMAIL-03758.eml",
+  "rawSha256": "415e96251abd2c652a9ccad400eed30d0ac0a624f3ce97611e009c7e0bbd4494",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Thomas Kennedy <thomas.kennedy@securelock-systems-ltd.com>",
+      "subject": "Re: Invoice RE-2025-4971",
+      "date": "Sun, 16 Feb 2025 21:22:00 -0000",
+      "message-id": "<177702011370.22256.8539007773224115425@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.145366183628920428@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.145366183628920428@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 378
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03758.md"
+  ],
+  "normalizedSha256": "6032c149313fc6a27701ef590e5af921fa411e2ee900c236f2eb68e5f773a310"
+}

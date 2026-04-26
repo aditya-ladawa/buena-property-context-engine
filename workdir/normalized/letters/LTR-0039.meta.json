@@ -1,0 +1,24 @@
+{
+  "sourceId": "LTR-0039",
+  "propertyId": "LIE-001",
+  "kind": "letter_pdf",
+  "rawPath": "data/briefe/2024-06/20240627_mahnung_LTR-0039.pdf",
+  "rawSha256": "656004cd76b905d26e879617d98cf58b8567a827f3e3750031801765716feb8c",
+  "metadata": {
+    "filename": "20240627_mahnung_LTR-0039.pdf",
+    "date": "2024-06-27",
+    "letterType": "mahnung",
+    "letterId": "LTR-0039",
+    "subject": "Zahlungserinnerung (2. Mahnung)",
+    "amount": "1914.00",
+    "decisions": [],
+    "hasMeetingDecisions": false,
+    "pageCount": 1,
+    "textLength": 888,
+    "normalizerVersion": 4
+  },
+  "normalizedPaths": [
+    "workdir/normalized/letters/LTR-0039.md"
+  ],
+  "normalizedSha256": "7a05714da271d9de790447ab5ef48de84bba2eacecfa466ed600aef2d4ea7679"
+}

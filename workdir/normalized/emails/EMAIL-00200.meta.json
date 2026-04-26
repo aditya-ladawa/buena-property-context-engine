@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00200",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240125_165000_EMAIL-00200.eml",
+  "rawSha256": "4dc43d4cf541a64ecafcbe665e2aeb8059177854f29f2d4ac0667cdc88cfd805",
+  "metadata": {
+    "headers": {
+      "from": "GASAG Berliner Gaswerke AG <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Preisanpassung zum 25.01.2024",
+      "date": "Thu, 25 Jan 2024 16:50:00 -0000",
+      "message-id": "<177702011370.22256.7085861805870662932@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 158
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00200.md"
+  ],
+  "normalizedSha256": "d51d9e84b1c758bc069fc4bb20ca884394c64a7f197eae0b35a0b8f9f74fb377"
+}

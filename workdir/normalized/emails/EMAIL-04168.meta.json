@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04168",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250331_155600_EMAIL-04168.eml",
+  "rawSha256": "6ac4c49ee19eb2a452ebd04bde6e65ec1876491752cb41f18ceac6c5a4c1a1a3",
+  "metadata": {
+    "headers": {
+      "from": "Catherine Heydrich <catherine.heydrich@dachdecker-richter.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Schliessanlage",
+      "date": "Mon, 31 Mar 2025 15:56:00 -0000",
+      "message-id": "<177702011370.22256.17847687120837498288@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 250
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04168.md"
+  ],
+  "normalizedSha256": "125dd055ed98fc64824c682d4beb6827473ffed69f215fe2634f345a0943c79f"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06093",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251110_142300_EMAIL-06093.eml",
+  "rawSha256": "d72a9570b6e1ffa41edde3547e8ae5461b04161c65914eb7694d1d847edb7f87",
+  "metadata": {
+    "headers": {
+      "from": "Herr Markus Fliegner <markus.fliegner@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Modernisierung - Zustimmung",
+      "date": "Mon, 10 Nov 2025 14:23:00 -0000",
+      "message-id": "<177702011370.22256.18345556750059571606@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 164
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06093.md"
+  ],
+  "normalizedSha256": "ea46ee9dd8358b4bb516c07e66c385ec60174983e104bed3445f5c6a93e31b10"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03284",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241226_225600_EMAIL-03284.eml",
+  "rawSha256": "e02b276af95617b7c2a9210c10fabbdecb874061c95a0268ed666cbc2c75f5a8",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Wolfgang Hettner <wolfgang.hettner@web.de>",
+      "subject": "Re: SEV - Monatsauszug",
+      "date": "Thu, 26 Dec 2024 22:56:00 -0000",
+      "message-id": "<177702011370.22256.10069417447564512325@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.6956598884919067237@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.6956598884919067237@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 408
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03284.md"
+  ],
+  "normalizedSha256": "c6e1a2bf5e812c9cc8f922e3eb7d9793c9e4ce6f598a94e6740e580da2e56298"
+}

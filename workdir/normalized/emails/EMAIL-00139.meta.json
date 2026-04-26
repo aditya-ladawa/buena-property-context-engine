@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00139",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240117_185400_EMAIL-00139.eml",
+  "rawSha256": "da449960b4777d79e355eb04e6d85e692c4d31e258da3d71a3e9c825b3099540",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Osman Jacob <osman.jacob@yahoo.de>",
+      "subject": "Re: Verkaufsabsicht WE 01",
+      "date": "Wed, 17 Jan 2024 18:54:00 -0000",
+      "message-id": "<177702011370.22256.2057247720846236353@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4912264462462005583@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4912264462462005583@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 461
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00139.md"
+  ],
+  "normalizedSha256": "aab068bfef59a13c3b855c9d66b532755985fa0bad1cef399845e57ea639cc7e"
+}

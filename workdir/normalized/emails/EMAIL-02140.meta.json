@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02140",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240824_144100_EMAIL-02140.eml",
+  "rawSha256": "2386e8d944c00bd8df7d15920d9f88991fce00e08340f4569d6360c1d78ee9e6",
+  "metadata": {
+    "headers": {
+      "from": "Herr Osman Jacob <osman.jacob@yahoo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 01",
+      "date": "Sat, 24 Aug 2024 14:41:00 -0000",
+      "message-id": "<177702011370.22256.3367828686111884998@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 208
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02140.md"
+  ],
+  "normalizedSha256": "998d3d3feebaee9ef48caa0c162bf14ce7fd4a24b0c32575f12caeca295474fd"
+}

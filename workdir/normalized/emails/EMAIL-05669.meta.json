@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05669",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250920_145000_EMAIL-05669.eml",
+  "rawSha256": "63ed3852e6b4f9eaa7e2f307542284b9ee25e208bf91ad318ea8777d2b37f291",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Oswald =?utf-8?q?Gr=C3=B6ttner?= <oswald.groettner@t-online.de>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Sat, 20 Sep 2025 14:50:00 -0000",
+      "message-id": "<177702011370.22256.12867826755943236099@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.7634554557232993361@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.7634554557232993361@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 393
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05669.md"
+  ],
+  "normalizedSha256": "8bfa92888a9ea3a5ef340aeae969133004803e11104e9c073fc0e9a29d33c48e"
+}

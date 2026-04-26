@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04414",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250502_114300_EMAIL-04414.eml",
+  "rawSha256": "52123f681568f57648aa4b6a8f2f865ebb835efd5db649fa317a4955f703677f",
+  "metadata": {
+    "headers": {
+      "from": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeister-bauer.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Auftragsbestaetigung",
+      "date": "Fri, 02 May 2025 11:43:00 -0000",
+      "message-id": "<177702011370.22256.5587465240547388179@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 204
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04414.md"
+  ],
+  "normalizedSha256": "338dd43855fdbf61f82f6fd5469e1513d269388ee688ddfb39b19f14a8dd1a1a"
+}

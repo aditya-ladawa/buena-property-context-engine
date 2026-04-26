@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00315",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240206_123700_EMAIL-00315.eml",
+  "rawSha256": "be581120e511f20b7070d471700d200a5b8cef016709a38172ad946951e23898",
+  "metadata": {
+    "headers": {
+      "from": "=?utf-8?q?J=C3=B6rgen?= Seidel <joergen.seidel@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Key replacement",
+      "date": "Tue, 06 Feb 2024 12:37:00 -0000",
+      "message-id": "<177702011370.22256.2714403509435076326@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "8bit",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 102
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00315.md"
+  ],
+  "normalizedSha256": "37ae39bb0122982b6cb998dc0e333680df57d335a9eaf429d734641338c0af73"
+}

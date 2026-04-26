@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03889",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250301_122700_EMAIL-03889.eml",
+  "rawSha256": "b6093e586d86cc7d71787a92940bb945e20fdefb4d80cd42af7b9ba127fcc997",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Ingbert Nerger <ingbert.nerger@gmx.de>",
+      "subject": "Monatsbericht",
+      "date": "Sat, 01 Mar 2025 12:27:00 -0000",
+      "message-id": "<177702011370.22256.10234769514142887818@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 129
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03889.md"
+  ],
+  "normalizedSha256": "6f2c52605ee693db23e78ff837a8f7e3e5e36f35b637eed585d1bf9ce77d46ca"
+}

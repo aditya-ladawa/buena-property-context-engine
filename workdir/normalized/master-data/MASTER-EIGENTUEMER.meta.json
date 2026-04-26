@@ -1,0 +1,15 @@
+{
+  "sourceId": "MASTER-EIGENTUEMER",
+  "propertyId": "LIE-001",
+  "kind": "master_data",
+  "rawPath": "data/stammdaten/eigentuemer.csv",
+  "rawSha256": "418a40d3b5fca88e9987be4fb0ec4b04606b319708b7b361ad09eb9a84493175",
+  "normalizedPaths": [
+    "workdir/normalized/master-data/MASTER-EIGENTUEMER.json"
+  ],
+  "normalizedSha256": "99f940528fc52f3482ef21fa91820cd06075486ccbdb2c5f5036be039e559bfc",
+  "metadata": {
+    "rowCount": 35,
+    "format": "csv"
+  }
+}

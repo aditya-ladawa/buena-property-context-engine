@@ -1,0 +1,39 @@
+# Invoice PDF INV-DUP-00192
+
+- Source: data/rechnungen/2025-11/20251118_DL-012_INV-DUP-00192.pdf
+- Date: 2025-11-18
+- Contractor ID: DL-012
+- Invoice ID: INV-DUP-00192
+- Extracted invoice number: R76250191
+- Extracted gross amount: 569.42
+- Extracted net amount: 478.50
+- Extracted VAT amount: 90.92
+- PDF pages: 1
+- Duplicate marker: true
+- Fake marker: false
+
+## Extracted Text
+
+Elektro Schmidt e.K.
+Gotthilf-Girschner-Allee 770 . 37947 Pfaffenhofen an der Ilm
+Tel: +49(0)1888 05929 . Carola Buchholz
+Absender: Elektro Schmidt e.K., 37947 Pfaffenhofen an der Ilm
+z.H. Huber & Partner Verwaltung i.A. Herr Markus Fliegner
+Friedrichstrasse 112
+10117 Berlin
+Rechnungsnr.: R76250191
+Datum: 18.11.2025
+Rechnung
+Leistungszeitraum: 27.09.2025 - 28.10.2025
+Pos. Beschreibung Menge Einzelpreis Gesamt
+1 Austausch FI-Schutzschalter 1 Stueck 180,00 EUR 180,00 EUR
+2 Pruefung ortsveraenderliche Geraete 1 pauschal 250,00 EUR 250,00 EUR
+3 Kleinmaterial 1 pauschal 48,50 EUR 48,50 EUR
+Summe netto: 478,50 EUR
+zzgl. 19% MwSt: 90,92 EUR
+Rechnungsbetrag: 569,42 EUR
+Zahlbar innerhalb 14 Tagen.
+IBAN: DE83 1001 0010 1998 6798 07 BIC: BELADEBEXXX
+Steuernr.: 51/719/72341 Ust-ID: DE302120588
+
+-- 1 of 1 --

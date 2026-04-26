@@ -1,0 +1,522 @@
+[
+  {
+    "id": "EH-001",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 01",
+    "lage": "1. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "103.0",
+    "zimmer": "4.0",
+    "miteigentumsanteil": "241"
+  },
+  {
+    "id": "EH-002",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 02",
+    "lage": "1. OG mitte",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "49.0",
+    "zimmer": "1.5",
+    "miteigentumsanteil": "114"
+  },
+  {
+    "id": "EH-003",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 03",
+    "lage": "1. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "62.0",
+    "zimmer": "2.0",
+    "miteigentumsanteil": "144"
+  },
+  {
+    "id": "EH-004",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 04",
+    "lage": "2. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "60.0",
+    "zimmer": "2.0",
+    "miteigentumsanteil": "139"
+  },
+  {
+    "id": "EH-005",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 05",
+    "lage": "2. OG mitte",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "110.0",
+    "zimmer": "4.0",
+    "miteigentumsanteil": "255"
+  },
+  {
+    "id": "EH-006",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 06",
+    "lage": "2. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "51.0",
+    "zimmer": "1.5",
+    "miteigentumsanteil": "118"
+  },
+  {
+    "id": "EH-007",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 07",
+    "lage": "3. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "45.0",
+    "zimmer": "1.5",
+    "miteigentumsanteil": "104"
+  },
+  {
+    "id": "EH-008",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 08",
+    "lage": "3. OG mitte",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "48.0",
+    "zimmer": "1.5",
+    "miteigentumsanteil": "111"
+  },
+  {
+    "id": "EH-009",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 09",
+    "lage": "3. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "67.0",
+    "zimmer": "2.0",
+    "miteigentumsanteil": "156"
+  },
+  {
+    "id": "EH-010",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 10",
+    "lage": "4. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "92.0",
+    "zimmer": "3.5",
+    "miteigentumsanteil": "214"
+  },
+  {
+    "id": "EH-011",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 11",
+    "lage": "4. OG mitte",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "95.0",
+    "zimmer": "3.5",
+    "miteigentumsanteil": "221"
+  },
+  {
+    "id": "EH-012",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 12",
+    "lage": "4. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "110.0",
+    "zimmer": "4.0",
+    "miteigentumsanteil": "255"
+  },
+  {
+    "id": "EH-013",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 13",
+    "lage": "5. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "84.0",
+    "zimmer": "3.0",
+    "miteigentumsanteil": "195"
+  },
+  {
+    "id": "EH-014",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 14",
+    "lage": "5. OG mitte",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "85.0",
+    "zimmer": "3.0",
+    "miteigentumsanteil": "197"
+  },
+  {
+    "id": "EH-015",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 15",
+    "lage": "5. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "115.0",
+    "zimmer": "4.5",
+    "miteigentumsanteil": "267"
+  },
+  {
+    "id": "EH-016",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 16",
+    "lage": "5. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "108.0",
+    "zimmer": "4.0",
+    "miteigentumsanteil": "251"
+  },
+  {
+    "id": "EH-017",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "WE 17",
+    "lage": "5. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "72.0",
+    "zimmer": "2.5",
+    "miteigentumsanteil": "167"
+  },
+  {
+    "id": "EH-018",
+    "haus_id": "HAUS-12",
+    "einheit_nr": "TG 18",
+    "lage": "Tiefgarage",
+    "typ": "Tiefgarage",
+    "wohnflaeche_qm": "12.5",
+    "zimmer": "0.0",
+    "miteigentumsanteil": "23"
+  },
+  {
+    "id": "EH-019",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 19",
+    "lage": "1. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "64.0",
+    "zimmer": "2.0",
+    "miteigentumsanteil": "149"
+  },
+  {
+    "id": "EH-020",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 20",
+    "lage": "1. OG mitte",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "46.0",
+    "zimmer": "1.5",
+    "miteigentumsanteil": "107"
+  },
+  {
+    "id": "EH-021",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 21",
+    "lage": "1. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "82.0",
+    "zimmer": "3.0",
+    "miteigentumsanteil": "190"
+  },
+  {
+    "id": "EH-022",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 22",
+    "lage": "2. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "75.0",
+    "zimmer": "2.5",
+    "miteigentumsanteil": "174"
+  },
+  {
+    "id": "EH-023",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 23",
+    "lage": "2. OG mitte",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "96.0",
+    "zimmer": "3.5",
+    "miteigentumsanteil": "223"
+  },
+  {
+    "id": "EH-024",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 24",
+    "lage": "2. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "115.0",
+    "zimmer": "4.5",
+    "miteigentumsanteil": "267"
+  },
+  {
+    "id": "EH-025",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 25",
+    "lage": "3. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "109.0",
+    "zimmer": "4.0",
+    "miteigentumsanteil": "253"
+  },
+  {
+    "id": "EH-026",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 26",
+    "lage": "3. OG mitte",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "93.0",
+    "zimmer": "3.5",
+    "miteigentumsanteil": "216"
+  },
+  {
+    "id": "EH-027",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 27",
+    "lage": "3. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "82.0",
+    "zimmer": "3.0",
+    "miteigentumsanteil": "190"
+  },
+  {
+    "id": "EH-028",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 28",
+    "lage": "4. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "96.0",
+    "zimmer": "3.5",
+    "miteigentumsanteil": "223"
+  },
+  {
+    "id": "EH-029",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 29",
+    "lage": "4. OG mitte",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "120.0",
+    "zimmer": "4.5",
+    "miteigentumsanteil": "279"
+  },
+  {
+    "id": "EH-030",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 30",
+    "lage": "4. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "95.0",
+    "zimmer": "3.5",
+    "miteigentumsanteil": "221"
+  },
+  {
+    "id": "EH-031",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 31",
+    "lage": "5. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "103.0",
+    "zimmer": "4.0",
+    "miteigentumsanteil": "239"
+  },
+  {
+    "id": "EH-032",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 32",
+    "lage": "5. OG mitte",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "48.0",
+    "zimmer": "1.5",
+    "miteigentumsanteil": "111"
+  },
+  {
+    "id": "EH-033",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 33",
+    "lage": "5. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "119.0",
+    "zimmer": "4.5",
+    "miteigentumsanteil": "276"
+  },
+  {
+    "id": "EH-034",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 34",
+    "lage": "5. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "118.0",
+    "zimmer": "4.5",
+    "miteigentumsanteil": "274"
+  },
+  {
+    "id": "EH-035",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 35",
+    "lage": "5. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "85.0",
+    "zimmer": "3.0",
+    "miteigentumsanteil": "197"
+  },
+  {
+    "id": "EH-036",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "WE 36",
+    "lage": "5. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "107.0",
+    "zimmer": "4.0",
+    "miteigentumsanteil": "248"
+  },
+  {
+    "id": "EH-037",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "GE 37",
+    "lage": "EG Ladenlokal",
+    "typ": "Gewerbe",
+    "wohnflaeche_qm": "142.0",
+    "zimmer": "0.0",
+    "miteigentumsanteil": "348"
+  },
+  {
+    "id": "EH-038",
+    "haus_id": "HAUS-14",
+    "einheit_nr": "TG 38",
+    "lage": "Tiefgarage",
+    "typ": "Tiefgarage",
+    "wohnflaeche_qm": "12.5",
+    "zimmer": "0.0",
+    "miteigentumsanteil": "23"
+  },
+  {
+    "id": "EH-039",
+    "haus_id": "HAUS-16",
+    "einheit_nr": "WE 39",
+    "lage": "1. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "64.0",
+    "zimmer": "2.0",
+    "miteigentumsanteil": "149"
+  },
+  {
+    "id": "EH-040",
+    "haus_id": "HAUS-16",
+    "einheit_nr": "WE 40",
+    "lage": "1. OG mitte",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "73.0",
+    "zimmer": "2.5",
+    "miteigentumsanteil": "169"
+  },
+  {
+    "id": "EH-041",
+    "haus_id": "HAUS-16",
+    "einheit_nr": "WE 41",
+    "lage": "1. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "106.0",
+    "zimmer": "4.0",
+    "miteigentumsanteil": "246"
+  },
+  {
+    "id": "EH-042",
+    "haus_id": "HAUS-16",
+    "einheit_nr": "WE 42",
+    "lage": "2. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "103.0",
+    "zimmer": "4.0",
+    "miteigentumsanteil": "239"
+  },
+  {
+    "id": "EH-043",
+    "haus_id": "HAUS-16",
+    "einheit_nr": "WE 43",
+    "lage": "2. OG mitte",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "94.0",
+    "zimmer": "3.5",
+    "miteigentumsanteil": "218"
+  },
+  {
+    "id": "EH-044",
+    "haus_id": "HAUS-16",
+    "einheit_nr": "WE 44",
+    "lage": "2. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "95.0",
+    "zimmer": "3.5",
+    "miteigentumsanteil": "221"
+  },
+  {
+    "id": "EH-045",
+    "haus_id": "HAUS-16",
+    "einheit_nr": "WE 45",
+    "lage": "3. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "66.0",
+    "zimmer": "2.0",
+    "miteigentumsanteil": "153"
+  },
+  {
+    "id": "EH-046",
+    "haus_id": "HAUS-16",
+    "einheit_nr": "WE 46",
+    "lage": "3. OG mitte",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "85.0",
+    "zimmer": "3.0",
+    "miteigentumsanteil": "197"
+  },
+  {
+    "id": "EH-047",
+    "haus_id": "HAUS-16",
+    "einheit_nr": "WE 47",
+    "lage": "3. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "110.0",
+    "zimmer": "4.0",
+    "miteigentumsanteil": "255"
+  },
+  {
+    "id": "EH-048",
+    "haus_id": "HAUS-16",
+    "einheit_nr": "WE 48",
+    "lage": "4. OG links",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "64.0",
+    "zimmer": "2.0",
+    "miteigentumsanteil": "149"
+  },
+  {
+    "id": "EH-049",
+    "haus_id": "HAUS-16",
+    "einheit_nr": "WE 49",
+    "lage": "4. OG mitte",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "115.0",
+    "zimmer": "4.5",
+    "miteigentumsanteil": "267"
+  },
+  {
+    "id": "EH-050",
+    "haus_id": "HAUS-16",
+    "einheit_nr": "WE 50",
+    "lage": "4. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "59.0",
+    "zimmer": "2.0",
+    "miteigentumsanteil": "137"
+  },
+  {
+    "id": "EH-051",
+    "haus_id": "HAUS-16",
+    "einheit_nr": "WE 51",
+    "lage": "4. OG rechts",
+    "typ": "Wohnung",
+    "wohnflaeche_qm": "85.0",
+    "zimmer": "3.0",
+    "miteigentumsanteil": "197"
+  },
+  {
+    "id": "EH-052",
+    "haus_id": "HAUS-16",
+    "einheit_nr": "TG 52",
+    "lage": "Tiefgarage",
+    "typ": "Tiefgarage",
+    "wohnflaeche_qm": "12.5",
+    "zimmer": "0.0",
+    "miteigentumsanteil": "23"
+  }
+]

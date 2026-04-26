@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01022",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240423_114800_EMAIL-01022.eml",
+  "rawSha256": "e6d7a1a8277b976447e6a8ad3751ba8734dab4c9a7a4b4da0cdfc61ecebbe37b",
+  "metadata": {
+    "headers": {
+      "from": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mahnung Rechnung RE-2024-6302",
+      "date": "Tue, 23 Apr 2024 11:48:00 -0000",
+      "message-id": "<177702011370.22256.5367676621601618703@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 233
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01022.md"
+  ],
+  "normalizedSha256": "57db1bf3ef983ec4998df2f793237bb954d30130892db215230a065c774af46b"
+}

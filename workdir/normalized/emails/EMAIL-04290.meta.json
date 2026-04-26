@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04290",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250414_181400_EMAIL-04290.eml",
+  "rawSha256": "7bd0a38b52e4bb60607dafb9779003318de20933aeb835cfc0adfb5727abe693",
+  "metadata": {
+    "headers": {
+      "from": "Frau Irmingard Margraf <irmingard.margraf@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "SEV - Monatsauszug",
+      "date": "Mon, 14 Apr 2025 18:14:00 -0000",
+      "message-id": "<177702011370.22256.16504825774407046253@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 183
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04290.md"
+  ],
+  "normalizedSha256": "2505638b74fd66a525c1c26f8882d85d30d8de7d14742fa86272981c62bc9c3a"
+}

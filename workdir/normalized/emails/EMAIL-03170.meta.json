@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03170",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241214_090500_EMAIL-03170.eml",
+  "rawSha256": "90e22b8689d5035f7b1994b06f43389aaefc26e571ababdbdfbe3bbc96e2c76e",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Wilma Roht <wilma.roht@gmail.com>",
+      "subject": "Re: Kuendigung Mietvertrag",
+      "date": "Sat, 14 Dec 2024 09:05:00 -0000",
+      "message-id": "<177702011370.22256.2893045595541507907@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.5582409069853309629@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.5582409069853309629@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 484
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03170.md"
+  ],
+  "normalizedSha256": "479e86881ef316b6fa4c364c0543c4daebc93f374f201d505d64270547041347"
+}

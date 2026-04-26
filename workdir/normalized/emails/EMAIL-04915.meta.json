@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04915",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250630_185600_EMAIL-04915.eml",
+  "rawSha256": "f891568e411ab1c821731710e3df0babe5351936402b8f0b0ac4475062545745",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Osman Jacob <osman.jacob@yahoo.de>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Mon, 30 Jun 2025 18:56:00 -0000",
+      "message-id": "<177702011370.22256.12838116761813267462@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.12875055418217220407@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.12875055418217220407@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 381
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04915.md"
+  ],
+  "normalizedSha256": "9c7b5c73b9a97fa966da7940f610fdbdd91ddf114000d98b1dfc8c68fb11fba5"
+}

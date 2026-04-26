@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06082",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251109_110500_EMAIL-06082.eml",
+  "rawSha256": "3a0c410bfe57c9bbf7ef7db61a8afcaccd5548f395ee6d777ed5631945852e88",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Frau Xenia Conradi <xenia.conradi@outlook.com>",
+      "subject": "Re: Frage zur Hausgeldabrechnung",
+      "date": "Sun, 09 Nov 2025 11:05:00 -0000",
+      "message-id": "<177702011370.22256.17785309192749586995@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.16426402999958652892@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.16426402999958652892@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 506
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06082.md"
+  ],
+  "normalizedSha256": "a30ea319c5e982a249f021cd6f61427a40ceb1e593dcf3a3ee37f20812a99e29"
+}

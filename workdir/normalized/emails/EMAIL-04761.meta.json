@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04761",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250612_184800_EMAIL-04761.eml",
+  "rawSha256": "db4569679813c7fa4037a7f39662655c4261fee3c50c285ecbcfac43e8b770f9",
+  "metadata": {
+    "headers": {
+      "from": "Herr Arnulf Heintze <arnulf.heintze@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 49",
+      "date": "Thu, 12 Jun 2025 18:48:00 -0000",
+      "message-id": "<177702011370.22256.883099683543508269@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 211
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04761.md"
+  ],
+  "normalizedSha256": "7551b5dbd01ea71c2ba21f8cf47daa106f4af994e0129925a9b604f8fc023c8e"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00341",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240209_130200_EMAIL-00341.eml",
+  "rawSha256": "7a8f6b82642a5335087a15b1d85f999d3117d4486ad9fc7c3f19c294f47e6720",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Frau Silja Henschel <silja.henschel@posteo.de>",
+      "subject": "Re: SEV - Monatsauszug",
+      "date": "Fri, 09 Feb 2024 13:02:00 -0000",
+      "message-id": "<177702011370.22256.10382372481117235889@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.12780224173148227684@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.12780224173148227684@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 436
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00341.md"
+  ],
+  "normalizedSha256": "15a38686723fc96ff654d2a4039225196ac0e920e1f22d13860532118e7ad969"
+}

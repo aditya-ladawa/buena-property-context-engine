@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06499",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251227_095500_EMAIL-06499.eml",
+  "rawSha256": "5db42e9fa5e5e5a10c0c3fb027c9d1aa75f7452aab55fe6788b7a5148280d506",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Gottlob Hahn <gottlob.hahn@gmail.com>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Sat, 27 Dec 2025 09:55:00 -0000",
+      "message-id": "<177702011370.22256.2088489363921886142@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.11291002129234060677@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.11291002129234060677@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 417
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06499.md"
+  ],
+  "normalizedSha256": "01ac9ad758bd8edb233b8357cdf339748eb0b138eb662798e289da9a226beba6"
+}

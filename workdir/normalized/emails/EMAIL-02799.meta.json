@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02799",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241102_161700_EMAIL-02799.eml",
+  "rawSha256": "56e2b21aff943f3a410a1ff6a116e34b8131eed697033ffc1f5254f49b6d281f",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kennedy <thomas.kennedy@securelock-systems-ltd.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Invoice RE-2024-5354",
+      "date": "Sat, 02 Nov 2024 16:17:00 -0000",
+      "message-id": "<177702011370.22256.15617814787543504813@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 179
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02799.md"
+  ],
+  "normalizedSha256": "b8612cb3b07a61da6a7df3d2ad8782e49adbd6e0d8b91f58313d4eb81c8e53c3"
+}

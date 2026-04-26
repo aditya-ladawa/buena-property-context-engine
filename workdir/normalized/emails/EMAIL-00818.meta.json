@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00818",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240403_142800_EMAIL-00818.eml",
+  "rawSha256": "86c89e8661b8f5314ac73da6d85489485473eb8c2c52ee578262c9fa64fc743f",
+  "metadata": {
+    "headers": {
+      "from": "Berliner Wasserbetriebe <falk.trommler@berliner-wasserbetriebe.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Preisanpassung zum 03.04.2024",
+      "date": "Wed, 03 Apr 2024 14:28:00 -0000",
+      "message-id": "<177702011370.22256.6715301735304950045@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 155
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00818.md"
+  ],
+  "normalizedSha256": "942c9f406b2351381fa2cfc33c2f9c0ed4ee957e73837757727ca140aa0dada4"
+}

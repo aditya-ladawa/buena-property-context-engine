@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02976",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241122_131800_EMAIL-02976.eml",
+  "rawSha256": "08d76442e467e006747289967d2f7f66331817e1b1659be4824b351f2ee69577",
+  "metadata": {
+    "headers": {
+      "from": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Reparatur Aufzug",
+      "date": "Fri, 22 Nov 2024 13:18:00 -0000",
+      "message-id": "<177702011370.22256.16887145839611031797@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 256
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02976.md"
+  ],
+  "normalizedSha256": "506a981647887a6a2b51ddd21009f4c0eed169e2e4baf992e8168deb6a3d7233"
+}

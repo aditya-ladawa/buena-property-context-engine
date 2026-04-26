@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01755",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240714_070700_EMAIL-01755.eml",
+  "rawSha256": "f1755a6854baed2cfd6bd2bec2af36d7d2efd052b3209f66e62db182bac34033",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Tom Hartmann <tom.hartmann@icloud.com>",
+      "subject": "Re: Verkaufsabsicht WE 29",
+      "date": "Sun, 14 Jul 2024 07:07:00 -0000",
+      "message-id": "<177702011370.22256.10828738017642449242@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.1988841472923666704@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.1988841472923666704@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 468
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01755.md"
+  ],
+  "normalizedSha256": "13b73dc67b4fe5ae17353649b0e862cb161b126515dd563d9324c8d16c94e933"
+}

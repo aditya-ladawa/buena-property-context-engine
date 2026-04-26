@@ -1,0 +1,15 @@
+{
+  "sourceId": "MASTER-DIENSTLEISTER",
+  "propertyId": "LIE-001",
+  "kind": "master_data",
+  "rawPath": "data/stammdaten/dienstleister.csv",
+  "rawSha256": "f5746434f548f68f8aa2185782fafc0ebdd6e899074dff5fbe7b0b3a9943f6b7",
+  "normalizedPaths": [
+    "workdir/normalized/master-data/MASTER-DIENSTLEISTER.json"
+  ],
+  "normalizedSha256": "7792998a5e35536a6181669b6b1d947add6fc5343df3bc3179776fbe58520770",
+  "metadata": {
+    "rowCount": 16,
+    "format": "csv"
+  }
+}

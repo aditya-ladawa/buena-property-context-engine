@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06205",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251123_134500_EMAIL-06205.eml",
+  "rawSha256": "e506c81cc28d544b614f8503861abba8934d55e39ae4e92f25677fccd6281af8",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Ronald Kelley <ronald.kelley@icloud.com>",
+      "subject": "Re: Question about annual statement",
+      "date": "Sun, 23 Nov 2025 13:45:00 -0000",
+      "message-id": "<177702011370.22256.3937940637417983532@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.11092045566123970536@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.11092045566123970536@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 361
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06205.md"
+  ],
+  "normalizedSha256": "479ef61f370f278ec0dd6e4f4516eee55ca4dd314c2058f42fcaa9fc46ce4bf2"
+}

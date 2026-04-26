@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05786",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251005_151200_EMAIL-05786.eml",
+  "rawSha256": "1d0560f2760e205fa99d6503f562db08eb23cc99e25175950363d3da4340c612",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Edeltraud Renner <edeltraud.renner@gmx.de>",
+      "subject": "Re: Defektes Fenster",
+      "date": "Sun, 05 Oct 2025 15:12:00 -0000",
+      "message-id": "<177702011370.22256.1150317714718209234@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13939482709448824228@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13939482709448824228@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 397
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05786.md"
+  ],
+  "normalizedSha256": "bb19568f6080bb5db2b7094585c8537f8a7d40a9b6ccf291f55eb44919f6746a"
+}

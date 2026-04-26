@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00292",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240204_015800_EMAIL-00292.eml",
+  "rawSha256": "30b7cd0ee02e80bb7d41f9cc676126fbb82965a119d25e7ba553b39d15ddbf03",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Kiara Mcintyre <kiara.mcintyre@icloud.com>",
+      "subject": "Re: Noise complaint",
+      "date": "Sun, 04 Feb 2024 01:58:00 -0000",
+      "message-id": "<177702011370.22256.10402607320029802727@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.1519320171134036340@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.1519320171134036340@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 349
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00292.md"
+  ],
+  "normalizedSha256": "dc9fb44ca9437e9c5b04ee3c4137c12e0d8a5a057c9e8be758100e69c8307ff3"
+}

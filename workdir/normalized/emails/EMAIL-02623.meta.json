@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02623",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241016_043900_EMAIL-02623.eml",
+  "rawSha256": "a7e1ca93d3087829dfb105e7c8c4b9573436a6618de90c1b235e9a19116955ab",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "subject": "Re: Mahnung Rechnung RE-2024-4267",
+      "date": "Wed, 16 Oct 2024 04:39:00 -0000",
+      "message-id": "<177702011370.22256.9557645274198801437@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14079242533836449371@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14079242533836449371@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 494
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02623.md"
+  ],
+  "normalizedSha256": "7459d1f41053fe00c7bd88fb641a45bca704eb81334799dc3fed41a64bd5c2b3"
+}

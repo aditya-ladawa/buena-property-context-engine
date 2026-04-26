@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03769",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250217_150600_EMAIL-03769.eml",
+  "rawSha256": "3f74feac134c633012154548f13bbbb26089da80e0378e2b5a33609b6ab72454",
+  "metadata": {
+    "headers": {
+      "from": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Terminbestaetigung Wartung",
+      "date": "Mon, 17 Feb 2025 15:06:00 -0000",
+      "message-id": "<177702011370.22256.6505239175152180879@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 145
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03769.md"
+  ],
+  "normalizedSha256": "f889b013d44095063d60af72d2864a3ed552c98bfcfdb885531a71a42e70c103"
+}

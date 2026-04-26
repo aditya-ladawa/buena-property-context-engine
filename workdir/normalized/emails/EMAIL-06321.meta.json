@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06321",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251207_170400_EMAIL-06321.eml",
+  "rawSha256": "f89b4805b9ad55837f796e7355362ee9c4fe9937554dbcc63a842bce523e9f74",
+  "metadata": {
+    "headers": {
+      "from": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Gartenpflege Sommer",
+      "date": "Sun, 07 Dec 2025 17:04:00 -0000",
+      "message-id": "<177702011370.22256.10868665890769624450@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 258
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06321.md"
+  ],
+  "normalizedSha256": "9887845077d4279f82b6867edc7fd5e1117c810bc4b4215ee982538a02e66de4"
+}

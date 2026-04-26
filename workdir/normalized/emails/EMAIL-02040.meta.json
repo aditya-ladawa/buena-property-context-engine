@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02040",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240814_154700_EMAIL-02040.eml",
+  "rawSha256": "f408cee43e5ac5f39e0d78b7af264eec20b8744e31680b7748d14d6a50bcba7c",
+  "metadata": {
+    "headers": {
+      "from": "Slawomir =?utf-8?q?S=C3=B6lzer?= <slawomir.soelzer@hausmeister-mueller.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Schliessanlage",
+      "date": "Wed, 14 Aug 2024 15:47:00 -0000",
+      "message-id": "<177702011370.22256.9782637077592054326@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 255
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02040.md"
+  ],
+  "normalizedSha256": "fcb335610fbf6d2d0e9fcc6bcfd5f536dea723bd991299c366d7103c7d379b8c"
+}

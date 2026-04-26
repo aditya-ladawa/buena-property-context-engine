@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00629",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240313_060300_EMAIL-00629.eml",
+  "rawSha256": "a9bf347c01a07c01280623df586b45b1f88e4298096d2b916027aeaf3511e1f5",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Catherine Heydrich <catherine.heydrich@dachdecker-richter.de>",
+      "subject": "Re: Nachtrag Reparatur",
+      "date": "Wed, 13 Mar 2024 06:03:00 -0000",
+      "message-id": "<177702011370.22256.12956945618380014351@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.18034597599789500852@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.18034597599789500852@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 449
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00629.md"
+  ],
+  "normalizedSha256": "d03b23dabfd1f27c2c10d1d86b1d1dda4e3b18583273cede13b057fd0e50e723"
+}

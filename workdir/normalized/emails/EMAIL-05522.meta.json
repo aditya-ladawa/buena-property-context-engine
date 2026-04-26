@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05522",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250905_051300_EMAIL-05522.eml",
+  "rawSha256": "58b09c5dc2bfcf0599cc6a95f0eb7ede60132a65a0c80967306d674bcb5de945",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Irmingard Margraf <irmingard.margraf@t-online.de>",
+      "subject": "Re: Sonderumlage - Einspruch",
+      "date": "Fri, 05 Sep 2025 05:13:00 -0000",
+      "message-id": "<177702011370.22256.9415390438954072024@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.16876704735224013099@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.16876704735224013099@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 491
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05522.md"
+  ],
+  "normalizedSha256": "745c3b77719dfc42762afbf9dc09df3c4786c5e387213f85e38d985d65c0d449"
+}

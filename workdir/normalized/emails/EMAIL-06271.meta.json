@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06271",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251130_214300_EMAIL-06271.eml",
+  "rawSha256": "5c06278a103511114afc1da199f8f25109116ac3a5265c18bdb1ec9a8fdd214d",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Erdal Beckmann <erdal.beckmann@gmx.de>",
+      "subject": "Re: Mieterwechsel in WE 43",
+      "date": "Sun, 30 Nov 2025 21:43:00 -0000",
+      "message-id": "<177702011370.22256.4401226808631404757@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14683301504663520534@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14683301504663520534@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 446
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06271.md"
+  ],
+  "normalizedSha256": "49042864a74d6b7ddbf7f13a57252505f6833cee53b73af2aefc9cdb98451b51"
+}

@@ -1,0 +1,15 @@
+{
+  "sourceId": "INDEX-DAY-01-BANK-INDEX",
+  "propertyId": "LIE-001",
+  "kind": "index_csv",
+  "rawPath": "data/incremental/day-01/bank/bank_index.csv",
+  "rawSha256": "60ca9d60fd2da6ef3a76098aabf31239db6c85f97f6f8101789c2c358d2ebea3",
+  "normalizedPaths": [
+    "workdir/normalized/indexes/INDEX-DAY-01-BANK-INDEX.jsonl"
+  ],
+  "normalizedSha256": "52aa3c2dc5f6d87919bc3f041836900a2d14da02ebc3ee5d790837c0eb8f7de7",
+  "metadata": {
+    "rowCount": 1,
+    "format": "csv"
+  }
+}

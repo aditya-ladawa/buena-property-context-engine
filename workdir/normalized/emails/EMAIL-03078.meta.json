@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03078",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241204_103600_EMAIL-03078.eml",
+  "rawSha256": "2378a92ecf3519d978a656e8d2920a65fa678a4ffcd9cdba9d1d0981c894f62b",
+  "metadata": {
+    "headers": {
+      "from": "Frau Silja Henschel <silja.henschel@posteo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Question about annual statement",
+      "date": "Wed, 04 Dec 2024 10:36:00 -0000",
+      "message-id": "<177702011370.22256.9889249089857201291@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 166
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03078.md"
+  ],
+  "normalizedSha256": "22bc2736289b78703ecb0dca66ec7cd0cc7309f5d7465e2fcc5acb7cad79acfd"
+}

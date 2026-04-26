@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04527",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250515_211200_EMAIL-04527.eml",
+  "rawSha256": "0f8a5a0dc163009fb83c8f665fc672d9bcc624f02300684ed381ad9554c42c75",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "subject": "Re: Angebot: Treppenhausreinigung",
+      "date": "Thu, 15 May 2025 21:12:00 -0000",
+      "message-id": "<177702011370.22256.10707620154160266709@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.6377514047446211335@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.6377514047446211335@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 523
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04527.md"
+  ],
+  "normalizedSha256": "bd6451ba2ef8b5ba69f0b3ee07762dfba79119281a0fc7f5d18cf36080a48bfd"
+}

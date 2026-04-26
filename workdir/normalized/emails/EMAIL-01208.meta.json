@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01208",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240513_205400_EMAIL-01208.eml",
+  "rawSha256": "ef633adfed53f6c595b2bc154daf97bb4861b804f4c2669d55f619d668fc1b16",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Paul-Heinz =?utf-8?q?K=C3=B6hler?= <paul.heinz.koehler@aufzug-schindler-co.de>",
+      "subject": "Re: Auftragsbestaetigung",
+      "date": "Mon, 13 May 2024 20:54:00 -0000",
+      "message-id": "<177702011370.22256.3380128078188462098@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3481021232682337145@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3481021232682337145@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 467
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01208.md"
+  ],
+  "normalizedSha256": "5770bd8c9a4e6870fd6ce1c03dea9e48ec81448aea38188cdf8e179bf17fd7c1"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04294",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250415_052700_EMAIL-04294.eml",
+  "rawSha256": "d86011bf16047b188be81c0ab0371faa69a519520dd91efc58438dac2a514f0e",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Slawomir =?utf-8?q?S=C3=B6lzer?= <slawomir.soelzer@hausmeister-mueller.de>",
+      "subject": "Re: Angebot: Reparatur Aufzug",
+      "date": "Tue, 15 Apr 2025 05:27:00 -0000",
+      "message-id": "<177702011370.22256.6349122825119540748@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.12480070613071840173@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.12480070613071840173@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 515
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04294.md"
+  ],
+  "normalizedSha256": "53dd450f3f92a942cfa44d70a423f42857b3dee6c2b97e4b5501da1f3ad96f6f"
+}

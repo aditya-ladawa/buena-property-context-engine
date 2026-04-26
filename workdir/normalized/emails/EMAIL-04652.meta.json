@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04652",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250529_093100_EMAIL-04652.eml",
+  "rawSha256": "102c11b623a90edd0b1e7182fd77eb6849d323a305f4159fa94ebad754e6e1ca",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Slawomir =?utf-8?q?S=C3=B6lzer?= <slawomir.soelzer@hausmeister-mueller.de>",
+      "subject": "Re: Auftragsbestaetigung",
+      "date": "Thu, 29 May 2025 09:31:00 -0000",
+      "message-id": "<177702011370.22256.3258924184778639303@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.12257353123095348082@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.12257353123095348082@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 463
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04652.md"
+  ],
+  "normalizedSha256": "0167ed03e24dcd902f9a96829600a457ec9803c67690cb0e710a572526787ba3"
+}

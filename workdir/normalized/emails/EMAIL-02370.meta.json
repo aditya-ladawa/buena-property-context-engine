@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02370",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240917_173900_EMAIL-02370.eml",
+  "rawSha256": "61bedf0e550e165f822913856aa38cbe9cb4389195f73b339e388f485fec482c",
+  "metadata": {
+    "headers": {
+      "from": "Carola Buchholz <carola.buchholz@elektro-schmidt-e-k.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wartungsbericht",
+      "date": "Tue, 17 Sep 2024 17:39:00 -0000",
+      "message-id": "<177702011370.22256.13420049606750684806@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 210
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02370.md"
+  ],
+  "normalizedSha256": "9d4eca4f1ae53ff4a78b72952c65e1073862ab51b1393ac97954cfb3cc130c48"
+}

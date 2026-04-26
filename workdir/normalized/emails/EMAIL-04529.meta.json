@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04529",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250515_225800_EMAIL-04529.eml",
+  "rawSha256": "0c597d1d2c4e19ff940b2363d33aed001060923c2f4b4503910f7db3676abfe4",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Hiltrud Speer <hiltrud.speer@t-online.de>",
+      "subject": "Re: Sonderumlage - Einspruch",
+      "date": "Thu, 15 May 2025 22:58:00 -0000",
+      "message-id": "<177702011370.22256.5723440859823882631@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.16529642806438325444@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.16529642806438325444@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 448
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04529.md"
+  ],
+  "normalizedSha256": "d7ea5e06550961525e33d229e9182b9f4e048285b13c49b443e56425ca597e8c"
+}

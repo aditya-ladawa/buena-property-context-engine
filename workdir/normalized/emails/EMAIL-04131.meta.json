@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04131",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250326_234800_EMAIL-04131.eml",
+  "rawSha256": "422b59182feb244d7b56f1439fb213325d38a839022fe5979b5dddefe55d01ce",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Falk Trommler <falk.trommler@berliner-wasserbetriebe.de>",
+      "subject": "Re: Auftragsbestaetigung",
+      "date": "Wed, 26 Mar 2025 23:48:00 -0000",
+      "message-id": "<177702011370.22256.6762169270714602623@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3470205661310619831@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3470205661310619831@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 426
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04131.md"
+  ],
+  "normalizedSha256": "b49404a71dff63dc6859e30568d8700eb915f89569a0b9e365c983c51a3a71d0"
+}

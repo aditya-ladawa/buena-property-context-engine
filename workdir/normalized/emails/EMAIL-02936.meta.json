@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02936",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241117_025100_EMAIL-02936.eml",
+  "rawSha256": "cfa9924dea2b4a45bb986da8b839df5c1faceda11673c906a71efb91e1716dfe",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "subject": "Re: Nachtrag Reparatur",
+      "date": "Sun, 17 Nov 2024 02:51:00 -0000",
+      "message-id": "<177702011370.22256.17709206574129708037@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14767868315006338243@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14767868315006338243@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 408
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02936.md"
+  ],
+  "normalizedSha256": "3f0263eaf662aa0d7b61b77e5671c2fda779b606895a1a56d67aa2bbc7127915"
+}

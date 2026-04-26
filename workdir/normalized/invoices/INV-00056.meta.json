@@ -1,0 +1,30 @@
+{
+  "sourceId": "INV-00056",
+  "propertyId": "LIE-001",
+  "kind": "invoice_pdf",
+  "rawPath": "data/rechnungen/2024-08/20240823_DL-014_INV-00056.pdf",
+  "rawSha256": "e0e95ba5661abff61c4e915f45b675fdd120b3d8d7afd9f77a553e6d63a9aa14",
+  "metadata": {
+    "filename": "20240823_DL-014_INV-00056.pdf",
+    "date": "2024-08-23",
+    "contractorId": "DL-014",
+    "invoiceId": "INV-00056",
+    "flags": {
+      "duplicateMarker": false,
+      "fakeMarker": false
+    },
+    "invoiceNumber": "R20240136",
+    "invoiceDate": "23.08.2024",
+    "netAmount": "185.00",
+    "vatAmount": "35.15",
+    "grossAmount": "220.15",
+    "title": "Rechnungsnr.: R20240136",
+    "pageCount": 1,
+    "textLength": 626,
+    "normalizerVersion": 4
+  },
+  "normalizedPaths": [
+    "workdir/normalized/invoices/INV-00056.md"
+  ],
+  "normalizedSha256": "77fa76228598fdd9bc1fc03ad915a210e16d3c287245a2dfb7cf502c2c1ac02e"
+}

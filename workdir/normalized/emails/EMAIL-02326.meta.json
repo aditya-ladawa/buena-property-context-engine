@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02326",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240912_123900_EMAIL-02326.eml",
+  "rawSha256": "4aae5531fa6d6d8563f3bb4396a90db0870735eba1018e8bcecf3c262279c955",
+  "metadata": {
+    "headers": {
+      "from": "Frau Hiltrud Speer <hiltrud.speer@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Thu, 12 Sep 2024 12:39:00 -0000",
+      "message-id": "<177702011370.22256.17159965897607751479@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 239
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02326.md"
+  ],
+  "normalizedSha256": "ec2e6e80580738dfff58c639abd28d6a2633f62b3d37dda6687161a23e2a646b"
+}

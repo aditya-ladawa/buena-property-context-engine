@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05346",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250819_080500_EMAIL-05346.eml",
+  "rawSha256": "b7391303418b945fd05b8ce83283689424535621c643c8f893147b3ac1ec4adc",
+  "metadata": {
+    "headers": {
+      "from": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeister-bauer.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Sanitaer-Reparatur",
+      "date": "Tue, 19 Aug 2025 08:05:00 -0000",
+      "message-id": "<177702011370.22256.15328860372512062977@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 261
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05346.md"
+  ],
+  "normalizedSha256": "9a6344435e8893913cfb88de0c11f156cc68a79ca97e8847782cf6e9fd3e811b"
+}

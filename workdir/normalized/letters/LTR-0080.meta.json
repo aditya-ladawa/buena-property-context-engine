@@ -1,0 +1,24 @@
+{
+  "sourceId": "LTR-0080",
+  "propertyId": "LIE-001",
+  "kind": "letter_pdf",
+  "rawPath": "data/briefe/2025-04/20250416_hausgeld_LTR-0080.pdf",
+  "rawSha256": "7085659221bcb07074cc674c31054af275e935a325cdb246db9d9bf948718d51",
+  "metadata": {
+    "filename": "20250416_hausgeld_LTR-0080.pdf",
+    "date": "2025-04-16",
+    "letterType": "hausgeld",
+    "letterId": "LTR-0080",
+    "subject": "Hausgeldabrechnung Wirtschaftsjahr 2024",
+    "amount": "1768.18",
+    "decisions": [],
+    "hasMeetingDecisions": false,
+    "pageCount": 1,
+    "textLength": 1010,
+    "normalizerVersion": 4
+  },
+  "normalizedPaths": [
+    "workdir/normalized/letters/LTR-0080.md"
+  ],
+  "normalizedSha256": "0cc3a5681264b8deeead04546dcd8abcc336e76ca142e49e7260bf17c33cc9d0"
+}

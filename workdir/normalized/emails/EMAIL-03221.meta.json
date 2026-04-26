@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03221",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241220_154900_EMAIL-03221.eml",
+  "rawSha256": "eff61f74df38c2358fa8fb70b269b6674260c593cfe3547da9e823791c85a847",
+  "metadata": {
+    "headers": {
+      "from": "Slawomir =?utf-8?q?S=C3=B6lzer?= <slawomir.soelzer@hausmeister-mueller.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wartungsbericht",
+      "date": "Fri, 20 Dec 2024 15:49:00 -0000",
+      "message-id": "<177702011370.22256.11307275090187586798@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 211
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03221.md"
+  ],
+  "normalizedSha256": "f87493c96cc43b9146a9e33c438edbb2aa69722a59e4135317566e7c3182d58a"
+}

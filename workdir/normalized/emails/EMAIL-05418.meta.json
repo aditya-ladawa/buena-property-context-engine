@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05418",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250827_120300_EMAIL-05418.eml",
+  "rawSha256": "52f353d315797e806a728f1f9eca33674ae75d69b69057e199acc6606aecf02f",
+  "metadata": {
+    "headers": {
+      "from": "Berliner Wasserbetriebe <falk.trommler@berliner-wasserbetriebe.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Jahresabrechnung 2024",
+      "date": "Wed, 27 Aug 2025 12:03:00 -0000",
+      "message-id": "<177702011370.22256.10653053324995895554@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 205
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05418.md"
+  ],
+  "normalizedSha256": "180503ed5c0b8689576b6b1ebb353ba5f697ba66c7d9e09764acbe6db1a0c4c2"
+}

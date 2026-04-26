@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03140",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241210_123100_EMAIL-03140.eml",
+  "rawSha256": "e69213830f134452f5764d0074fb862600f4b29dc8445d9d6564b16bfe4da4b3",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Kiara Mcintyre <kiara.mcintyre@icloud.com>",
+      "subject": "Re: Question about utility bill",
+      "date": "Tue, 10 Dec 2024 12:31:00 -0000",
+      "message-id": "<177702011370.22256.6493798257405199011@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.9472929300241718717@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.9472929300241718717@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 407
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03140.md"
+  ],
+  "normalizedSha256": "7c0f3cbd9f1ea41e8279be63ffb629f53b0afbf114159a53f56f4c1220c5a5fa"
+}

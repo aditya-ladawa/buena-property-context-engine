@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04141",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250328_105500_EMAIL-04141.eml",
+  "rawSha256": "6fa7920a6b13ed7029959846074185711f707836b8a87aaacb8a818a33e9b5cd",
+  "metadata": {
+    "headers": {
+      "from": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeister-bauer.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Terminbestaetigung Wartung",
+      "date": "Fri, 28 Mar 2025 10:55:00 -0000",
+      "message-id": "<177702011370.22256.1057747261280274518@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 140
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04141.md"
+  ],
+  "normalizedSha256": "73615863a0067e02258c3d369d2b9ab2cb37e6a133c8d68c5629e9d28ea28c91"
+}

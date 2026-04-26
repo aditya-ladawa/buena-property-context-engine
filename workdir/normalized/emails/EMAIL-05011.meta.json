@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05011",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250712_082200_EMAIL-05011.eml",
+  "rawSha256": "42eedfa56d11a482b4dcccf3dbac92e13b39aaf88db5baad59067d0bc62978d6",
+  "metadata": {
+    "headers": {
+      "from": "Catherine Heydrich <catherine.heydrich@dachdecker-richter.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Gartenpflege Sommer",
+      "date": "Sat, 12 Jul 2025 08:22:00 -0000",
+      "message-id": "<177702011370.22256.1176224323257798206@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 256
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05011.md"
+  ],
+  "normalizedSha256": "c34412939899d7268854b54ec68bcd1c7c171fcf51c78d799657dc1168ecd1f1"
+}

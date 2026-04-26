@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01743",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240712_111700_EMAIL-01743.eml",
+  "rawSha256": "113d32785d1c189da41e9a81b4368f5fbd2fcd7ae741e4c341e7c87493ca6e88",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "subject": "Re: Mahnung Rechnung RE-2024-9914",
+      "date": "Fri, 12 Jul 2024 11:17:00 -0000",
+      "message-id": "<177702011370.22256.2301041661699588257@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.7722213049225965165@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.7722213049225965165@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 459
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01743.md"
+  ],
+  "normalizedSha256": "d2aa45dc68aa5dc2b6c024b1dc91c46e6e5b7c6ff5d866f1145436da5c565423"
+}

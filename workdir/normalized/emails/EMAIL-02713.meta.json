@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02713",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241025_085500_EMAIL-02713.eml",
+  "rawSha256": "50b7ecdfbc3c8f50a2ad2f64b251e2e1014362340382c03e97a7205c4c46f7b6",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Carola Buchholz <carola.buchholz@elektro-schmidt-e-k.de>",
+      "subject": "Re: Angebot: Reparatur Aufzug",
+      "date": "Fri, 25 Oct 2024 08:55:00 -0000",
+      "message-id": "<177702011370.22256.6847736468164234456@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3687435685946743913@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3687435685946743913@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 480
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02713.md"
+  ],
+  "normalizedSha256": "13c660a0afeaf195cd0a4b32caac388f7ef96bad79b8770ac69c744c8d412641"
+}

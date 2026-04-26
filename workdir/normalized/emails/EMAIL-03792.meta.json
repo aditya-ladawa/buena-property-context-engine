@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03792",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250220_134400_EMAIL-03792.eml",
+  "rawSha256": "38e31897cd94147e21b3a916478f51c8f1dcc50b5fcead4907b2d2e3445f7a9b",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "David Jenkins <david.jenkins@gmail.com>",
+      "subject": "Re: Question about utility bill",
+      "date": "Thu, 20 Feb 2025 13:44:00 -0000",
+      "message-id": "<177702011370.22256.12342340797934689799@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4095437842110498561@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4095437842110498561@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 364
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03792.md"
+  ],
+  "normalizedSha256": "452766318e5e6fc3a09bd5131afd33eca983050fa8f2fbdb969c6d59596578d4"
+}

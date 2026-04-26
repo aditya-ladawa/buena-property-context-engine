@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01039",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240424_195400_EMAIL-01039.eml",
+  "rawSha256": "83a6fe94d79e6e7b38c2e04dcffb62d16aec75f4497e28f0c54804a23c601bd7",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Carsten =?utf-8?q?Austerm=C3=BChle?= <carsten.austermuehle@web.de>",
+      "subject": "Re: Haustuer schliesst nicht",
+      "date": "Wed, 24 Apr 2024 19:54:00 -0000",
+      "message-id": "<177702011370.22256.12291767529584097691@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.18241722541438044392@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.18241722541438044392@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 422
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01039.md"
+  ],
+  "normalizedSha256": "7c4e101e5c24018857b019682a78698bee37aff5535fea3c14d6ba2de8ffe060"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02284",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240908_094800_EMAIL-02284.eml",
+  "rawSha256": "265f692c8920f28ad55e5538b13b1adef889076909d655fee68afebd0dd4d717",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "subject": "Re: Auftragsbestaetigung",
+      "date": "Sun, 08 Sep 2024 09:48:00 -0000",
+      "message-id": "<177702011370.22256.6864910288598971860@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.597553751828730109@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.597553751828730109@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 458
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02284.md"
+  ],
+  "normalizedSha256": "e25806ad1801b4a2b669c5be2f12cbceac1a4e9b527d037c70675285baf8f804"
+}

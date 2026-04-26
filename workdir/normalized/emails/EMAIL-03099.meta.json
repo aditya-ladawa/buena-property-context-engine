@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03099",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241206_084400_EMAIL-03099.eml",
+  "rawSha256": "d2a29d0c75290671a1f7d57ec276b0e6b1fa368a922b0ce5dacc4d8f8a88c1b1",
+  "metadata": {
+    "headers": {
+      "from": "Frau Dorothe Wulf <dorothe.wulf@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Sonderumlage - Einspruch",
+      "date": "Fri, 06 Dec 2024 08:44:00 -0000",
+      "message-id": "<177702011370.22256.9268460335342916158@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 225
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03099.md"
+  ],
+  "normalizedSha256": "1e7e9fde7e63a15b1b04d25860e7eba402fe82bca9e52a020549208cbbfd4deb"
+}

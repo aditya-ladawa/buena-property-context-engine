@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04841",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250622_053100_EMAIL-04841.eml",
+  "rawSha256": "f75d81f2178195b79404b7535e6ac1626be1c9e4408c6e9e578b4aaff6440583",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Carola Buchholz <carola.buchholz@elektro-schmidt-e-k.de>",
+      "subject": "Re: Rechnung RE-2025-9530",
+      "date": "Sun, 22 Jun 2025 05:31:00 -0000",
+      "message-id": "<177702011370.22256.3596391437191887439@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10578922320595781985@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10578922320595781985@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 459
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04841.md"
+  ],
+  "normalizedSha256": "e99befee3d2c1728ddda95c75331ea6ce1b100d91b324f0a0964dac9b2b2fb60"
+}

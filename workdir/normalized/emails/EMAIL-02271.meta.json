@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02271",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240907_095600_EMAIL-02271.eml",
+  "rawSha256": "97db2696ce9fa2d44640b000e6d8df439f8c7cecd275aa5f93d84339d0523374",
+  "metadata": {
+    "headers": {
+      "from": "Frau Hiltrud Speer <hiltrud.speer@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 03",
+      "date": "Sat, 07 Sep 2024 09:56:00 -0000",
+      "message-id": "<177702011370.22256.8024179009443181508@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 210
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02271.md"
+  ],
+  "normalizedSha256": "354ed171459e6ba006e14e7ce9c2f49246b29632834d431880ae939cb16a9850"
+}

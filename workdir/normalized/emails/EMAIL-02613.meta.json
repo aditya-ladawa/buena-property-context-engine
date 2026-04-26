@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02613",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241015_012400_EMAIL-02613.eml",
+  "rawSha256": "8932c8e8d2e733699ccdbc77ff2e2535c5203fd078bb8b9d00a9a45353ff23a6",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Frau Caroline Bohlander <caroline.bohlander@gmx.de>",
+      "subject": "Re: Mieterwechsel in WE 31",
+      "date": "Tue, 15 Oct 2024 01:24:00 -0000",
+      "message-id": "<177702011370.22256.16123529715316767526@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13214089415886292298@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13214089415886292298@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 419
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02613.md"
+  ],
+  "normalizedSha256": "67ef7001e4884745b60c4882fe18e055f4a1d6fa34be68bf606becbc34e489ec"
+}

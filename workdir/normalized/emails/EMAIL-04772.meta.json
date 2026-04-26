@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04772",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250614_102300_EMAIL-04772.eml",
+  "rawSha256": "21eb079a3c8f027303227e1f58067f390c1c09003364e8624bf52af51da00aae",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Ronald Kelley <ronald.kelley@icloud.com>",
+      "subject": "Protokoll-Entwurf ETV",
+      "date": "Sat, 14 Jun 2025 10:23:00 -0000",
+      "message-id": "<177702011370.22256.1875736570697684896@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 127
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04772.md"
+  ],
+  "normalizedSha256": "85f6e66dbb90011cb5a09533855b6aa7d1c9a5235a9d8eb423222417a0ebcf50"
+}

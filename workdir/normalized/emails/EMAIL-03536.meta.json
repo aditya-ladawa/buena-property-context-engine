@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03536",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250121_164700_EMAIL-03536.eml",
+  "rawSha256": "b93e24f2ba0ec0029cafbff10b853e956c3c169b2c75914b84332e9d3f8dd6ad",
+  "metadata": {
+    "headers": {
+      "from": "Carola Buchholz <carola.buchholz@elektro-schmidt-e-k.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Gartenpflege Sommer",
+      "date": "Tue, 21 Jan 2025 16:47:00 -0000",
+      "message-id": "<177702011370.22256.211590138403217478@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 255
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03536.md"
+  ],
+  "normalizedSha256": "e0a5cb644761766f9d2b71a8a54015423f1efd13307368c43a819a944753f878"
+}

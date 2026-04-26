@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00587",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240308_150100_EMAIL-00587.eml",
+  "rawSha256": "192a92624165ed40134ebd37488781e942bf5c859cf338ec2e2fba08631ae836",
+  "metadata": {
+    "headers": {
+      "from": "Catherine Heydrich <catherine.heydrich@dachdecker-richter.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Rechnung RE-2024-7757",
+      "date": "Fri, 08 Mar 2024 15:01:00 -0000",
+      "message-id": "<177702011370.22256.10401111861620543167@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 202
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00587.md"
+  ],
+  "normalizedSha256": "e8c394bf19c5864732ab417c7d7488ca59de8282f059970ad11c03638eac9200"
+}

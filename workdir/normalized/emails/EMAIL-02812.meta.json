@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02812",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241104_102400_EMAIL-02812.eml",
+  "rawSha256": "9f373e1fc35a6050d8781d330722e206564e8212f3d7cdb8f161dff370e5f0c7",
+  "metadata": {
+    "headers": {
+      "from": "Irmengard Mentzel <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Rechnung RE-2024-3874",
+      "date": "Mon, 04 Nov 2024 10:24:00 -0000",
+      "message-id": "<177702011370.22256.14171407110496017148@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 209
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02812.md"
+  ],
+  "normalizedSha256": "8204cc2ea6d9ccbe741e5baa702ecf56126525fa7ddb90a7d71702a7d058c780"
+}

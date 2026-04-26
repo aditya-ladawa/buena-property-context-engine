@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03737",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250214_181500_EMAIL-03737.eml",
+  "rawSha256": "841d52b8dae31f0cbed8f49cd3c152532beb345496883153596c23e8da9b95f9",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeister-bauer.de>",
+      "subject": "Re: Terminbestaetigung Wartung",
+      "date": "Fri, 14 Feb 2025 18:15:00 -0000",
+      "message-id": "<177702011370.22256.6237792643840971116@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8594986905370644205@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8594986905370644205@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 398
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03737.md"
+  ],
+  "normalizedSha256": "41a2646b7b4989c9166c1fcf4ec072fb57825280f74b32a5b80cc18e82aad82d"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04001",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250313_105600_EMAIL-04001.eml",
+  "rawSha256": "29d29faf1cbab5c052f365f195dfa82b69517b07c12282f638ba0422953c5155",
+  "metadata": {
+    "headers": {
+      "from": "Lisa Brown <lisa.brown@techclean-international.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Quote: Elektro-Pruefung",
+      "date": "Thu, 13 Mar 2025 10:56:00 -0000",
+      "message-id": "<177702011370.22256.13645621662254317455@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 195
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04001.md"
+  ],
+  "normalizedSha256": "a10488783414394fbc056b52a8da412ff461a83c436d848d89009fe77287367e"
+}

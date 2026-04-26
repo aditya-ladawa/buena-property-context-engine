@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00320",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240206_223700_EMAIL-00320.eml",
+  "rawSha256": "2756f1acbe9451c51ce9a0019a8a899f09f89ba36dc117a9c2c23dc0f405568f",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "=?utf-8?q?J=C3=B6rgen?= Seidel <joergen.seidel@gmx.de>",
+      "subject": "Re: Key replacement",
+      "date": "Tue, 06 Feb 2024 22:37:00 -0000",
+      "message-id": "<177702011370.22256.8778062304125182691@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.2714403509435076326@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.2714403509435076326@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 256
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00320.md"
+  ],
+  "normalizedSha256": "70e4f865bad78ab9690b69e69e83e3f5c05758848f436a8889cabb65bc9c1dd6"
+}

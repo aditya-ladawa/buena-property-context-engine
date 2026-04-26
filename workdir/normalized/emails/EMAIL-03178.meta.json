@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03178",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241215_053900_EMAIL-03178.eml",
+  "rawSha256": "10b134a423e8153bb58d01e84d9c840660fc01b913b335249f5e558a4ef33099",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Ingbert Nerger <ingbert.nerger@gmx.de>",
+      "subject": "Re: Mieterwechsel in WE 50",
+      "date": "Sun, 15 Dec 2024 05:39:00 -0000",
+      "message-id": "<177702011370.22256.11469632370709869853@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4242626141387289325@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4242626141387289325@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 447
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03178.md"
+  ],
+  "normalizedSha256": "724564542d8c972c04d8791e5fb3f4e9269a29d4f0d19c99b44cf0c6bd1b07fc"
+}

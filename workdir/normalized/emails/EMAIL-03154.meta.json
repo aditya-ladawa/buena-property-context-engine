@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03154",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241212_122300_EMAIL-03154.eml",
+  "rawSha256": "677eb2d8a77a4968d996fb688d97b65198770a6cb4663bf00d12837c1ecdc6ee",
+  "metadata": {
+    "headers": {
+      "from": "Joanna =?utf-8?q?Sch=C3=A4fer?= <joanna.schaefer@outlook.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Frage zur Nebenkostenabrechnung",
+      "date": "Thu, 12 Dec 2024 12:23:00 -0000",
+      "message-id": "<177702011370.22256.11443756358034601946@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 305
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03154.md"
+  ],
+  "normalizedSha256": "f3edc533d897a5cedee79d6c30525f5bbafea854792a2f1b5e5b3ef429543cf8"
+}

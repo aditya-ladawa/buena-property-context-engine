@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02634",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241017_151400_EMAIL-02634.eml",
+  "rawSha256": "ac7a554ecb1c0e85da07b074d0a67ababce1e6fee0656ecde3a4324d9f783c2c",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Tom Hartmann <tom.hartmann@icloud.com>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Thu, 17 Oct 2024 15:14:00 -0000",
+      "message-id": "<177702011370.22256.12665434597878773432@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.1042690928755130278@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.1042690928755130278@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 493
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02634.md"
+  ],
+  "normalizedSha256": "73e20ea3e5e699cfd9f75ce8adae856f349dd78e06c8ab1d54f4beefdd293d40"
+}

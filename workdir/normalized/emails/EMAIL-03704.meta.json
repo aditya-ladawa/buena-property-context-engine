@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03704",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250212_102700_EMAIL-03704.eml",
+  "rawSha256": "50ed09ec34179da75c4a739ea3ebcf05a66dc929309b85ad168bec2322af7931",
+  "metadata": {
+    "headers": {
+      "from": "Slawomir =?utf-8?q?S=C3=B6lzer?= <slawomir.soelzer@hausmeister-mueller.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mahnung Rechnung RE-2025-7742",
+      "date": "Wed, 12 Feb 2025 10:27:00 -0000",
+      "message-id": "<177702011370.22256.16085472032674605905@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 235
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03704.md"
+  ],
+  "normalizedSha256": "7f51e0b8d6015358f8db0ca99f1dafe28749113d735e4d8b8786c4c7ab21c30c"
+}

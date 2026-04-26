@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06007",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251031_120700_EMAIL-06007.eml",
+  "rawSha256": "a5cae734cc181ac41af936267a274bfd8642f8a22498f38d244814f2991380d1",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Erdal Beckmann <erdal.beckmann@gmx.de>",
+      "subject": "Protokoll-Entwurf ETV",
+      "date": "Fri, 31 Oct 2025 12:07:00 -0000",
+      "message-id": "<177702011370.22256.12918760656516161749@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 126
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06007.md"
+  ],
+  "normalizedSha256": "8e2f98ad1f69a0c11955c6cc406adbd1cd9f7110e6255479b308016e3b416ef1"
+}

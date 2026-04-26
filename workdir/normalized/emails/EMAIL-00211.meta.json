@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00211",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240127_085800_EMAIL-00211.eml",
+  "rawSha256": "636a5b0d6e1bc474ca8f7cd77f2ef7e84c16eb0bb3781e2813ef98f783689f12",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "=?utf-8?q?Bj=C3=B6rn?= Weinhage <bjoern.weinhage@gmx.de>",
+      "subject": "Re: Frage zu Kaution",
+      "date": "Sat, 27 Jan 2024 08:58:00 -0000",
+      "message-id": "<177702011370.22256.937980819732724045@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.2184022791083176717@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.2184022791083176717@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 465
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00211.md"
+  ],
+  "normalizedSha256": "166ae63760a3470498ec5877c367e5b8b690044336240c48b173801830cca686"
+}

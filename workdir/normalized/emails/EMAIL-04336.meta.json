@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04336",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250419_203300_EMAIL-04336.eml",
+  "rawSha256": "a2a86afaa9c1c6ca03288e8d9cf9008eb65bc06f3a4c8c77a04fa39e4520dd07",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "=?utf-8?q?Bj=C3=B6rn?= Weinhage <bjoern.weinhage@gmx.de>",
+      "subject": "Re: Heizung faellt aus",
+      "date": "Sat, 19 Apr 2025 20:33:00 -0000",
+      "message-id": "<177702011370.22256.1305731844491969349@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13257182240779057206@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13257182240779057206@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 465
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04336.md"
+  ],
+  "normalizedSha256": "57038b5a0be8eb24608b6017db0c54cd704b8eb6f43e922d2b750f754840bfce"
+}

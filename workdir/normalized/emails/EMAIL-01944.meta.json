@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01944",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240803_102000_EMAIL-01944.eml",
+  "rawSha256": "853a01fceded5d321d52e47be32fc27dee339d643067ca2486678a6517b65e93",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Ronald Kelley <ronald.kelley@icloud.com>",
+      "subject": "Monatsbericht",
+      "date": "Sat, 03 Aug 2024 10:20:00 -0000",
+      "message-id": "<177702011370.22256.9879344548289034109@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 130
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01944.md"
+  ],
+  "normalizedSha256": "db20b89ff800741c9d20ce12571edf7729939ae4bd38d99bd6552f6df3bccecf"
+}

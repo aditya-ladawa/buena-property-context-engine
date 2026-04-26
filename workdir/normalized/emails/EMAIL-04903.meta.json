@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04903",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250629_164500_EMAIL-04903.eml",
+  "rawSha256": "86d3abf12c73a0376c6a6be325b1733ef453eb3bb2770e6286ad4b271cc5cf55",
+  "metadata": {
+    "headers": {
+      "from": "Kranz Vermoegensverwaltung <kranz.vermoegensverwaltung@capital-partners.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Frage zur Hausgeldabrechnung",
+      "date": "Sun, 29 Jun 2025 16:45:00 -0000",
+      "message-id": "<177702011370.22256.9020285177515114148@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 260
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04903.md"
+  ],
+  "normalizedSha256": "d50b7ba256846586894d02d3c2b0156962ec0b48c05d58769837544261fed40d"
+}

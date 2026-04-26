@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00090",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240111_164400_EMAIL-00090.eml",
+  "rawSha256": "52584f2cbec80018e0e95ca1ef4206e400623dc1545ea111990066f6a2d7a130",
+  "metadata": {
+    "headers": {
+      "from": "Frau Irmingard Margraf <irmingard.margraf@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht TG 18",
+      "date": "Thu, 11 Jan 2024 16:44:00 -0000",
+      "message-id": "<177702011370.22256.6632238960052721917@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 214
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00090.md"
+  ],
+  "normalizedSha256": "6a40625e8fc2f594156e3079120f466c4a15314d37da32bed0511fadc02def74"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04827",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250620_141300_EMAIL-04827.eml",
+  "rawSha256": "0f0cde9df9b50a709610ab2fd7966ad1d8b212955c9fbec5c1c195e1de8db1a4",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "subject": "Re: Auftragsbestaetigung",
+      "date": "Fri, 20 Jun 2025 14:13:00 -0000",
+      "message-id": "<177702011370.22256.3007378386311744991@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14502245921791735602@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14502245921791735602@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 465
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04827.md"
+  ],
+  "normalizedSha256": "07119748db954b69143b74fcf55ad044d77fcae56e832d0e1c8522f9cf1a7b5c"
+}

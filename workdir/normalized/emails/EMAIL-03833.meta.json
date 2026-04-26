@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03833",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250224_115100_EMAIL-03833.eml",
+  "rawSha256": "1447c96646f44e3e571c95d002f1dafe24d793b2a8c80b9aa979a7ce5c549e24",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Jo Reuter <jo.reuter@icloud.com>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Mon, 24 Feb 2025 11:51:00 -0000",
+      "message-id": "<177702011370.22256.10603550322568832063@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14711281263079723476@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14711281263079723476@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 460
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03833.md"
+  ],
+  "normalizedSha256": "688ea8b547019ba97593a3e78a9a802e0264fee7d5ac17b44530dbf65919cd8e"
+}

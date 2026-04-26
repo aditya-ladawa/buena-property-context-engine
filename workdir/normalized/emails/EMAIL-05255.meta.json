@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05255",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250811_113600_EMAIL-05255.eml",
+  "rawSha256": "cfaf2dc0006f59797ab36b2b69d6de68066c1590557bcfde1b189dea0da107f1",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "subject": "Re: Nachtrag Reparatur",
+      "date": "Mon, 11 Aug 2025 11:36:00 -0000",
+      "message-id": "<177702011370.22256.1085733554580099603@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.5651999758525851189@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.5651999758525851189@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 441
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05255.md"
+  ],
+  "normalizedSha256": "971b959cb3f6bed957f5c184bdc3626b4a86e0d2e4617893a179312779a0527a"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00987",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240419_121900_EMAIL-00987.eml",
+  "rawSha256": "c3793a4f8f7d53f44eff6b9ac9031a2e1d90047018852ca8845c7322f7461f6a",
+  "metadata": {
+    "headers": {
+      "from": "Anika Zimmer <anika.zimmer@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mietminderung Ankuendigung",
+      "date": "Fri, 19 Apr 2024 12:19:00 -0000",
+      "message-id": "<177702011370.22256.7240359716293203053@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 252
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00987.md"
+  ],
+  "normalizedSha256": "d81b93640f32b621133bfa79cf93e0ba47de506be125bece9b815d16bc97ee58"
+}

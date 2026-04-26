@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05975",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251026_154200_EMAIL-05975.eml",
+  "rawSha256": "eade0727d86e41cdf54b5cb9269dd08190f14608fdeaf3c4fbdff3bf2f683bfe",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kennedy <thomas.kennedy@securelock-systems-ltd.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Quote: Schliessanlage",
+      "date": "Sun, 26 Oct 2025 15:42:00 -0000",
+      "message-id": "<177702011370.22256.10022353911722024809@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 196
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05975.md"
+  ],
+  "normalizedSha256": "9decf0de8f1fe669392d4a33a21c91006e95cc9308e8bee4644424c1132c3484"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06521",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251229_233900_EMAIL-06521.eml",
+  "rawSha256": "34825f98b61b312d48ae1dc94321777329720fafdd3a19a167fb16df00833b55",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Carsten =?utf-8?q?Austerm=C3=BChle?= <carsten.austermuehle@web.de>",
+      "subject": "Re: Schluesselverlust",
+      "date": "Mon, 29 Dec 2025 23:39:00 -0000",
+      "message-id": "<177702011370.22256.2592953825505796182@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15952639053844738796@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15952639053844738796@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 416
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06521.md"
+  ],
+  "normalizedSha256": "0a94017b531da02f87db06806c1c6a29e33f46fe6770f5c744b1ae3c9f9e8e56"
+}

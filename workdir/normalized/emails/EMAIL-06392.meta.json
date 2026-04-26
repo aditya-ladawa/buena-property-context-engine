@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06392",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251214_151100_EMAIL-06392.eml",
+  "rawSha256": "7cb79e3f8eae96b336ed78483dd0685f0de15d39f719e0b80899da4fd5478402",
+  "metadata": {
+    "headers": {
+      "from": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mahnung Rechnung RE-2025-9791",
+      "date": "Sun, 14 Dec 2025 15:11:00 -0000",
+      "message-id": "<177702011370.22256.14305498292426408117@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 242
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06392.md"
+  ],
+  "normalizedSha256": "8537c0f4ca7e8bad3587f5510c074cc1afd85b6db411b5bb121ca6ecd6172856"
+}

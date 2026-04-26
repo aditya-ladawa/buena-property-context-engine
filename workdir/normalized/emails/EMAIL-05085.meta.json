@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05085",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250719_155800_EMAIL-05085.eml",
+  "rawSha256": "67e539ef24679efa994505cd1edc45549097c025835c15fc92e385cb16d0dab2",
+  "metadata": {
+    "headers": {
+      "from": "Kiara Mcintyre <kiara.mcintyre@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Question about utility bill",
+      "date": "Sat, 19 Jul 2025 15:58:00 -0000",
+      "message-id": "<177702011370.22256.10455028200943760557@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 207
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05085.md"
+  ],
+  "normalizedSha256": "cb301f150452a396f2e7b137f09cf734c4b8f2275a0cf02e2dc0e3b0e369bbdb"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02525",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241005_072700_EMAIL-02525.eml",
+  "rawSha256": "eaa13dd10452438b888f91508e64731394e6803917868dc7d24efdaa5332df85",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Kamil Trub <kamil.trub@gmx.de>",
+      "subject": "Re: Verstopfter Abfluss",
+      "date": "Sat, 05 Oct 2024 07:27:00 -0000",
+      "message-id": "<177702011370.22256.7177755162565142343@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.17194244363818268703@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.17194244363818268703@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 431
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02525.md"
+  ],
+  "normalizedSha256": "85a7fc3ec2b9864af11384ad8269f4999ecda8cdd364f49b8fa6cadab19015d0"
+}

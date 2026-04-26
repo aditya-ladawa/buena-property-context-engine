@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06047",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251105_090000_EMAIL-06047.eml",
+  "rawSha256": "22c11ee954e07a41a9f173759daebeae18af2d287ed7dfdcd9285380ffc6e623",
+  "metadata": {
+    "headers": {
+      "from": "Irmengard Mentzel <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Sanitaer-Reparatur",
+      "date": "Wed, 05 Nov 2025 09:00:00 -0000",
+      "message-id": "<177702011370.22256.5908614352434663164@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 262
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06047.md"
+  ],
+  "normalizedSha256": "4df3747a7d97c1bd6b42e3e9824e5822c6eb0648356a6375dd3894d191978a5f"
+}

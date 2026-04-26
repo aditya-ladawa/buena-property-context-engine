@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02332",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240912_152600_EMAIL-02332.eml",
+  "rawSha256": "a528a31e31a39261997d4be2ea03f3167e062475e87f83bb3f33629e0f1ecfbf",
+  "metadata": {
+    "headers": {
+      "from": "Markus Kant <markus.kant@web.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Bewerbung Wohnung",
+      "date": "Thu, 12 Sep 2024 15:26:00 -0000",
+      "message-id": "<177702011370.22256.2637017515782112486@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 159
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02332.md"
+  ],
+  "normalizedSha256": "4eb191239d5cf0b774c99d48784616cfd7f417fba09ffff27b4f08daa70e661f"
+}

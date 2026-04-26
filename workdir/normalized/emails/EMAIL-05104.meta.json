@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05104",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250721_112000_EMAIL-05104.eml",
+  "rawSha256": "3c25316194636c2a12b3118b896f06c148c10bbab24933bc5cd8eafc54dccc7f",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Frau Mina Textor <mina.textor@icloud.com>",
+      "subject": "Re: Sonderumlage - Einspruch",
+      "date": "Mon, 21 Jul 2025 11:20:00 -0000",
+      "message-id": "<177702011370.22256.9790556364663164783@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.2183646194253522251@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.2183646194253522251@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 483
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05104.md"
+  ],
+  "normalizedSha256": "b6ff0c44c330108f050e7427a429a859aea8343fbf90a0dddc7e314a58c08d7d"
+}

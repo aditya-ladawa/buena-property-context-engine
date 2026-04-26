@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00555",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240305_121600_EMAIL-00555.eml",
+  "rawSha256": "a4ab22384e33faa9cda2fecc2dd4a3bed11a00017bc796820e448633e14d919b",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Dunja Schacht <dunja.schacht@gmx.de>",
+      "subject": "Re: Frage zur Hausgeldabrechnung",
+      "date": "Tue, 05 Mar 2024 12:16:00 -0000",
+      "message-id": "<177702011370.22256.5935061523969495463@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.2313951603041363275@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.2313951603041363275@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 513
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00555.md"
+  ],
+  "normalizedSha256": "b0bde3f19fc3350471252f0d5b18c033dbf2a516659f97bd95fd7f2256f961ad"
+}

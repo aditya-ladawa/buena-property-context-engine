@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03498",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250117_171200_EMAIL-03498.eml",
+  "rawSha256": "76afad83d67a92b48b5cc1be9b364d93390c72c17c3b5f1e542e3fbd20b37723",
+  "metadata": {
+    "headers": {
+      "from": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mahnung Rechnung RE-2025-3875",
+      "date": "Fri, 17 Jan 2025 17:12:00 -0000",
+      "message-id": "<177702011370.22256.11198727518610107840@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 232
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03498.md"
+  ],
+  "normalizedSha256": "17e149405a84e01c2343483a354529457b9428edb12751bb6734fb5b607a22be"
+}

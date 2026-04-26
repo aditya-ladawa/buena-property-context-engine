@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05302",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250815_100300_EMAIL-05302.eml",
+  "rawSha256": "d58c8080b34b9871b5286969a714c8f3977241b837da36156d76a1caf4e1070c",
+  "metadata": {
+    "headers": {
+      "from": "Bauamt Berlin-Mitte <bauamt@ba-mitte.berlin.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Anfrage Bauamt Berlin-Mitte",
+      "date": "Fri, 15 Aug 2025 10:03:00 -0000",
+      "message-id": "<177702011370.22256.15781889923404081770@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 187
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05302.md"
+  ],
+  "normalizedSha256": "7affb730abd6dec2424297aa43a5265873e94d9fa9df860be0eebc527f0f9626"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03686",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250210_105700_EMAIL-03686.eml",
+  "rawSha256": "4d033f3150c4415e3e2af656e4c5516b8acf283e9478c8987083893695b7cf16",
+  "metadata": {
+    "headers": {
+      "from": "Herr Ingbert Nerger <ingbert.nerger@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 50",
+      "date": "Mon, 10 Feb 2025 10:57:00 -0000",
+      "message-id": "<177702011370.22256.11464505118057409471@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 211
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03686.md"
+  ],
+  "normalizedSha256": "a6832cd3c2759ba985b0ef144047a1ede4f48ab20d225cd2bfa3c9c5f6e6fc04"
+}

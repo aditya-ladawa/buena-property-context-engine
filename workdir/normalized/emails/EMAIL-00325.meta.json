@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00325",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240207_201400_EMAIL-00325.eml",
+  "rawSha256": "3e97fc5959fc2a7df4bcb31ec5c4f6fdea9d890edc363b7e028a0d6699daa70f",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Frau =?utf-8?q?D=C3=B6rte?= Kraus <doerte.kraus@gmx.de>",
+      "subject": "Re: Verkaufsabsicht WE 39",
+      "date": "Wed, 07 Feb 2024 20:14:00 -0000",
+      "message-id": "<177702011370.22256.7651395780539978489@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.11947865673557471653@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.11947865673557471653@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 468
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00325.md"
+  ],
+  "normalizedSha256": "fcf1793ac434f01198b555e46579a0c421528d46be91f0a997f35e634755b260"
+}

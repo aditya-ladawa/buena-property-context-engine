@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03633",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250202_224000_EMAIL-03633.eml",
+  "rawSha256": "a8a38262d3fbc3c0e06be021745f1fb3e821277242f60eb45f76d3beff41f4c6",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "subject": "Re: Rechnung RE-2025-2223",
+      "date": "Sun, 02 Feb 2025 22:40:00 -0000",
+      "message-id": "<177702011370.22256.277268674697546822@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.11052685381695547840@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.11052685381695547840@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 468
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03633.md"
+  ],
+  "normalizedSha256": "cb641d8a9b3fd5460c264813f3b88a550fb69bdcf64dabc49259d4bdb79c6d0d"
+}

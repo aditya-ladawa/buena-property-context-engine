@@ -1,0 +1,15 @@
+{
+  "sourceId": "INDEX-BASE-BANK-INDEX",
+  "propertyId": "LIE-001",
+  "kind": "index_csv",
+  "rawPath": "data/bank/bank_index.csv",
+  "rawSha256": "adda0ae6e89ef56e5413add3b90be2b6d0c0106246385775e6fc999fa9c0adde",
+  "normalizedPaths": [
+    "workdir/normalized/indexes/INDEX-BASE-BANK-INDEX.jsonl"
+  ],
+  "normalizedSha256": "94235f5aeefef6810998ef4240f9e23509ba55571f2e2044945e2e097f76c1c2",
+  "metadata": {
+    "rowCount": 1619,
+    "format": "csv"
+  }
+}

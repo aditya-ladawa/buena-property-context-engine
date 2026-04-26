@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04170",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250331_172800_EMAIL-04170.eml",
+  "rawSha256": "ecee08fed5372c680f96d36df7ffb60c65403811a10239fcec2e3f2e9f3401aa",
+  "metadata": {
+    "headers": {
+      "from": "=?utf-8?q?Bj=C3=B6rn?= Weinhage <bjoern.weinhage@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Schluesselverlust",
+      "date": "Mon, 31 Mar 2025 17:28:00 -0000",
+      "message-id": "<177702011370.22256.3833272654692560395@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 178
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04170.md"
+  ],
+  "normalizedSha256": "690e00c974736388dcbd60a9d47fcd394cba60505427159056cde21d6a881d20"
+}

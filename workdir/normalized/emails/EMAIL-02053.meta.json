@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02053",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240815_180000_EMAIL-02053.eml",
+  "rawSha256": "864ccb2a8d69eb6351c9955b93abc9fea16f330d66ec57b7c4799f12c301de89",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Kunigunda Ditschlerin <kunigunda.ditschlerin@icloud.com>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Thu, 15 Aug 2024 18:00:00 -0000",
+      "message-id": "<177702011370.22256.9946444525841738817@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3554316211718789289@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3554316211718789289@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 477
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02053.md"
+  ],
+  "normalizedSha256": "1033d1d06ee4dd722d462c4a02e489c08682c23ca7c7d1888aa8137755c68003"
+}

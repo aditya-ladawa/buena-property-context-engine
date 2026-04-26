@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01541",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240619_211700_EMAIL-01541.eml",
+  "rawSha256": "fff2829d6c0f21564e940d94448746aa8a90b0bffd123e2f061735ebf2c9a36b",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Irmengard Mentzel <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "subject": "Re: Rechnung RE-2024-1945",
+      "date": "Wed, 19 Jun 2024 21:17:00 -0000",
+      "message-id": "<177702011370.22256.11166533977402592817@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10784736188363830581@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10784736188363830581@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 439
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01541.md"
+  ],
+  "normalizedSha256": "7a64acdf996f44d6f528894032bcb6b374822c7035dd1a924446e1523703eada"
+}

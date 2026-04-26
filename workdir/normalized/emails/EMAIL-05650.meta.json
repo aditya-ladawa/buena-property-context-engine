@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05650",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250918_114500_EMAIL-05650.eml",
+  "rawSha256": "b8afa675578ad248f4226c74722e6062355a75e41413d898f2142341b9c2baa8",
+  "metadata": {
+    "headers": {
+      "from": "Herr Markus Fliegner <markus.fliegner@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Question about annual statement",
+      "date": "Thu, 18 Sep 2025 11:45:00 -0000",
+      "message-id": "<177702011370.22256.4618285170959695445@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 167
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05650.md"
+  ],
+  "normalizedSha256": "9c7e526568a648ac1b9b7af211553d56f98a299b7d20073d379e81574918bd74"
+}

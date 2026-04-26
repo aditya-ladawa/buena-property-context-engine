@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05319",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250816_154000_EMAIL-05319.eml",
+  "rawSha256": "0203493adebc984a3c149d05f7603a1e100860c833a9ddcab62c07cebebed16d",
+  "metadata": {
+    "headers": {
+      "from": "Frau Gertraud Holsten <gertraud.holsten@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Sat, 16 Aug 2025 15:40:00 -0000",
+      "message-id": "<177702011370.22256.11519926268621715927@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 242
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05319.md"
+  ],
+  "normalizedSha256": "7fe2a1cbd1f70185ffeac801dadf37759637dbff44188547019d24e94bebf039"
+}

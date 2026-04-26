@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02527",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241005_115800_EMAIL-02527.eml",
+  "rawSha256": "3567e1c342c2fa969b59f2b9ae483aef94bd7399a23c4b255f5e1dfd4acd18d0",
+  "metadata": {
+    "headers": {
+      "from": "Falk Trommler <falk.trommler@berliner-wasserbetriebe.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Nachtrag Reparatur",
+      "date": "Sat, 05 Oct 2024 11:58:00 -0000",
+      "message-id": "<177702011370.22256.7220362548099949291@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 183
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02527.md"
+  ],
+  "normalizedSha256": "f3e3888d5d1561132445dd9f9c8b2dad76230771111095b3b0b28b1cf52016ca"
+}

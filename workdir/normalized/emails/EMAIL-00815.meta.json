@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00815",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240403_115700_EMAIL-00815.eml",
+  "rawSha256": "6c26a9269abaf113cb6b8680970a356005ca1eab51d44681344104f6c931e701",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Carsten =?utf-8?q?Austerm=C3=BChle?= <carsten.austermuehle@web.de>",
+      "subject": "Re: Ruhestoerung",
+      "date": "Wed, 03 Apr 2024 11:57:00 -0000",
+      "message-id": "<177702011370.22256.626554488394590396@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.2875178998210279743@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.2875178998210279743@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 564
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00815.md"
+  ],
+  "normalizedSha256": "6998cfb0a99997535dd2156619374ffd85dbe54b85a4c505b11097bd905e96f6"
+}

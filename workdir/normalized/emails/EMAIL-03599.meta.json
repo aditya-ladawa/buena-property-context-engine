@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03599",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250129_182200_EMAIL-03599.eml",
+  "rawSha256": "ec42bea00d9edede125c953a14ecb21b69ba7f587bc95503f584a394519e5dc8",
+  "metadata": {
+    "headers": {
+      "from": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Terminbestaetigung Wartung",
+      "date": "Wed, 29 Jan 2025 18:22:00 -0000",
+      "message-id": "<177702011370.22256.18342570878888434630@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 140
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03599.md"
+  ],
+  "normalizedSha256": "8d97a03e90e1533231622e0fe16455136dec1a59eead24de8d36fbfea4cebd6b"
+}

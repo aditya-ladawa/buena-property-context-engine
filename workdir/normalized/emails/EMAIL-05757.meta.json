@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05757",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251002_111500_EMAIL-05757.eml",
+  "rawSha256": "35920f0e0d9c44e320f00e0c0b49a9365f65282bc84b05797e09bc6a5d0a88f9",
+  "metadata": {
+    "headers": {
+      "from": "Frau Kunigunda Ditschlerin <kunigunda.ditschlerin@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Modernisierung - Zustimmung",
+      "date": "Thu, 02 Oct 2025 11:15:00 -0000",
+      "message-id": "<177702011370.22256.17221791952833226290@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 170
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05757.md"
+  ],
+  "normalizedSha256": "a5624e4b5f305bb6d546ce5dfde1b118a6404534f46ff5f1246dd2b196eff45c"
+}

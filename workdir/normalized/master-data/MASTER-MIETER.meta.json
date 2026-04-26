@@ -1,0 +1,15 @@
+{
+  "sourceId": "MASTER-MIETER",
+  "propertyId": "LIE-001",
+  "kind": "master_data",
+  "rawPath": "data/stammdaten/mieter.csv",
+  "rawSha256": "d054e87b461f0517312d697d5c51a430aa4b91004272090eeaff30a345046a9f",
+  "normalizedPaths": [
+    "workdir/normalized/master-data/MASTER-MIETER.json"
+  ],
+  "normalizedSha256": "72fb45b454adb8bc814586be3cec6dfd1b43beea0dc48c1d36baf09aaef054ac",
+  "metadata": {
+    "rowCount": 26,
+    "format": "csv"
+  }
+}

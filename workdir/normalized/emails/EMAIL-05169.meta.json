@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05169",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250731_001100_EMAIL-05169.eml",
+  "rawSha256": "9bd23bb31564abef1faf2524748e465ef86621211e13f7c914f071445fb1cfe9",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "=?utf-8?q?Bj=C3=B6rn?= Weinhage <bjoern.weinhage@gmx.de>",
+      "subject": "Re: Mietminderung Ankuendigung",
+      "date": "Thu, 31 Jul 2025 00:11:00 -0000",
+      "message-id": "<177702011370.22256.7512520403429129943@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.6465408248713485467@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.6465408248713485467@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 480
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05169.md"
+  ],
+  "normalizedSha256": "4d5fce43e4820fa308edaa6922a4cc5f163d297d96b74f2269d864e9ef39004c"
+}

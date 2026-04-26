@@ -1,0 +1,32 @@
+{
+  "sourceId": "INV-FAKE-00193",
+  "propertyId": "LIE-001",
+  "kind": "invoice_pdf",
+  "rawPath": "data/rechnungen/2024-05/20240516_DL-FAKE-188_INV-FAKE-00193.pdf",
+  "rawSha256": "7ceb87a97029603437ac4255b95a9423a9c05db2ef35a10b8c3a126ace457015",
+  "metadata": {
+    "filename": "20240516_DL-FAKE-188_INV-FAKE-00193.pdf",
+    "date": "2024-05-16",
+    "contractorId": "DL-FAKE-188",
+    "invoiceId": "INV-FAKE-00193",
+    "flags": {
+      "duplicateMarker": false,
+      "fakeMarker": true
+    },
+    "invoiceNumber": "RE-2024-0192",
+    "customerNumber": "KN-45103 Rechnungsnr.: RE-2024-0192 Datum: 16.05.2024",
+    "invoiceDate": "16.05.2024",
+    "netAmount": "480.00",
+    "vatAmount": "91.20",
+    "grossAmount": "571.20",
+    "iban": "DE81 7981 1499 5692 2483 37",
+    "title": "Kundennr.: KN-45103 Rechnungsnr.: RE-2024-0192 Datum: 16.05.2024",
+    "pageCount": 1,
+    "textLength": 566,
+    "normalizerVersion": 4
+  },
+  "normalizedPaths": [
+    "workdir/normalized/invoices/INV-FAKE-00193.md"
+  ],
+  "normalizedSha256": "8e08ecbfd6e4939b97e55bee6fff416a8777bf1b4961a1aca2f543778d78dde2"
+}

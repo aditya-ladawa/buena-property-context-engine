@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05604",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250912_101100_EMAIL-05604.eml",
+  "rawSha256": "faa5e9533d26d4fc3163e537852fffdc391d81f6a35533db0be1c537e589b376",
+  "metadata": {
+    "headers": {
+      "from": "Frau Kunigunda Ditschlerin <kunigunda.ditschlerin@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 05",
+      "date": "Fri, 12 Sep 2025 10:11:00 -0000",
+      "message-id": "<177702011370.22256.2139018242835871428@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 218
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05604.md"
+  ],
+  "normalizedSha256": "46e3bb6e0a6d6064b90be3df236e8ea23557a7449adb3af0a2edb820a51abfd7"
+}

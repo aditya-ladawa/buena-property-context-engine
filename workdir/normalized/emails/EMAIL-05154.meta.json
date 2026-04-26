@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05154",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250729_112800_EMAIL-05154.eml",
+  "rawSha256": "4decaebf68103700673e9d18e0af3545fe9672a62663f06804aab2ae072e2daf",
+  "metadata": {
+    "headers": {
+      "from": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Jahreswartung Heizungsanlage",
+      "date": "Tue, 29 Jul 2025 11:28:00 -0000",
+      "message-id": "<177702011370.22256.14162202767774884765@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 268
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05154.md"
+  ],
+  "normalizedSha256": "4ab56ae3b4c4914271ed344db8712d955a5edc126eb3a5f740ec890de99ef990"
+}

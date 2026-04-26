@@ -1,0 +1,24 @@
+{
+  "sourceId": "LTR-0043",
+  "propertyId": "LIE-001",
+  "kind": "letter_pdf",
+  "rawPath": "data/briefe/2024-11/20241116_mahnung_LTR-0043.pdf",
+  "rawSha256": "cf231cd98c1a61dd15e95e5497f82d875a72217db0c316931d7a099c188cf127",
+  "metadata": {
+    "filename": "20241116_mahnung_LTR-0043.pdf",
+    "date": "2024-11-16",
+    "letterType": "mahnung",
+    "letterId": "LTR-0043",
+    "subject": "Zahlungserinnerung (1. Mahnung)",
+    "amount": "1206.00",
+    "decisions": [],
+    "hasMeetingDecisions": false,
+    "pageCount": 1,
+    "textLength": 854,
+    "normalizerVersion": 4
+  },
+  "normalizedPaths": [
+    "workdir/normalized/letters/LTR-0043.md"
+  ],
+  "normalizedSha256": "5cc875afd221289b48df905270f4eb997fa27bdabb157d47faa025c6dd6c8d6f"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06323",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251208_091300_EMAIL-06323.eml",
+  "rawSha256": "20297cb29e35937836c7a01cbbc432ac49f19a15ec12514b6870f6bacf697448",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Chantal =?utf-8?q?T=C3=A4sche?= <chantal.taesche@posteo.de>",
+      "subject": "Re: Internet/TV-Anschluss",
+      "date": "Mon, 08 Dec 2025 09:13:00 -0000",
+      "message-id": "<177702011370.22256.13595772085684969656@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.7437235274307024334@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.7437235274307024334@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 411
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06323.md"
+  ],
+  "normalizedSha256": "7a494101055f22325d1fdc96dc3ec0c54896015f63af3835512793fabb2c57be"
+}

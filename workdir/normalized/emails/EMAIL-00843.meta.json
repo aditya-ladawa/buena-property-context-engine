@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00843",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240406_072700_EMAIL-00843.eml",
+  "rawSha256": "d120087ca273b72b32dd9737a432981d188c42d39b2fbeac4aebe2e3bcf4dc12",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Ferenc Stahr <ferenc.stahr@gmx.de>",
+      "subject": "Re: Frage zu Kaution",
+      "date": "Sat, 06 Apr 2024 07:27:00 -0000",
+      "message-id": "<177702011370.22256.15738033402863131189@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.5122161423467119317@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.5122161423467119317@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 424
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00843.md"
+  ],
+  "normalizedSha256": "2d53e034e78ae249e2313860dee68976ba2ae4db34670485649a4be2a32a4bbc"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02307",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240909_233100_EMAIL-02307.eml",
+  "rawSha256": "6744f9209a3d91bc6a8106e268b3793771aa42fba9ce68921c8c7c5baa3980b8",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Joanna =?utf-8?q?Sch=C3=A4fer?= <joanna.schaefer@outlook.com>",
+      "subject": "Re: Mietminderung Ankuendigung",
+      "date": "Mon, 09 Sep 2024 23:31:00 -0000",
+      "message-id": "<177702011370.22256.4487273940322098803@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4054752976814646185@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4054752976814646185@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 517
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02307.md"
+  ],
+  "normalizedSha256": "770159760ec1d74daf1448e62a3558182c8a796c3a4f15d6bb028ef10dfdb53d"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04286",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250414_112700_EMAIL-04286.eml",
+  "rawSha256": "916c7b7e27ab9bb06e1aa2edbf8afe4f92d2b1841e587e447bcaccd1734357e9",
+  "metadata": {
+    "headers": {
+      "from": "Slawomir =?utf-8?q?S=C3=B6lzer?= <slawomir.soelzer@hausmeister-mueller.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Reparatur Aufzug",
+      "date": "Mon, 14 Apr 2025 11:27:00 -0000",
+      "message-id": "<177702011370.22256.12480070613071840173@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 256
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04286.md"
+  ],
+  "normalizedSha256": "a171101fd4acfeb981c0a25f0cb4825634f23c40c2c43292797354dc6e7f1452"
+}

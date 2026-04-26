@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04724",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250608_183200_EMAIL-04724.eml",
+  "rawSha256": "f5fd1f68294662d0aacb20767f07dae9e16ba96d9553d23f16af4095ad900832",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kennedy <thomas.kennedy@securelock-systems-ltd.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Aktualisierung unserer Bankverbindung",
+      "date": "Sun, 08 Jun 2025 18:32:00 -0000",
+      "message-id": "<177702011370.22256.7048797663500587258@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 319
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04724.md"
+  ],
+  "normalizedSha256": "863d9642efb33cc6d372abda24d4d969670c7b7e8239ad92bc4bb65b8b2ddb04"
+}

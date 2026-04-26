@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01956",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240804_105400_EMAIL-01956.eml",
+  "rawSha256": "2170ebf1c2dee77a0abfb0dfb59f4d6fce3e91277fb6a298603b8c5106d54310",
+  "metadata": {
+    "headers": {
+      "from": "Kranz Vermoegensverwaltung <kranz.vermoegensverwaltung@capital-partners.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "SEV - Monatsauszug",
+      "date": "Sun, 04 Aug 2024 10:54:00 -0000",
+      "message-id": "<177702011370.22256.10717225584301103891@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 187
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01956.md"
+  ],
+  "normalizedSha256": "d1273b0a9c7dc393308cb1dc2699fd0770f97d7bdf18252cdae0c827598db293"
+}

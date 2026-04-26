@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00044",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240106_175100_EMAIL-00044.eml",
+  "rawSha256": "8d13d5b2064bd3c0af6dc1e1ed340c765891b49a7d3b34a00ba2d7f01b21f901",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Irmingard Margraf <irmingard.margraf@t-online.de>",
+      "subject": "Re: Mieterwechsel in TG 18",
+      "date": "Sat, 06 Jan 2024 17:51:00 -0000",
+      "message-id": "<177702011370.22256.15301529110529730001@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15493052898878077612@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15493052898878077612@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 446
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00044.md"
+  ],
+  "normalizedSha256": "8a4f9dca48272cab9d3adcd9f96d6e4e48a6dda5f1fcd0bd3f5c779db90b367f"
+}

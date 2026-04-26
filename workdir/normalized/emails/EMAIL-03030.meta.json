@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03030",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241128_133000_EMAIL-03030.eml",
+  "rawSha256": "57399f6aaa99bc409acda1c6ff4b0cad92944bb90ab5caaabd9407760326c907",
+  "metadata": {
+    "headers": {
+      "from": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mahnung Rechnung RE-2024-5166",
+      "date": "Thu, 28 Nov 2024 13:30:00 -0000",
+      "message-id": "<177702011370.22256.605466581656860908@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 235
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03030.md"
+  ],
+  "normalizedSha256": "9278392382b81695ddc83297e85370a1978bf889a0b435ce8b13b2cf59690630"
+}

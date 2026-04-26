@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06325",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251208_113000_EMAIL-06325.eml",
+  "rawSha256": "4d9e94a288338b840d4b6b015faa1be884406dcf898c5cc4132c4e236bfeea41",
+  "metadata": {
+    "headers": {
+      "from": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Dachabdichtung Haus 12",
+      "date": "Mon, 08 Dec 2025 11:30:00 -0000",
+      "message-id": "<177702011370.22256.13095579099209147011@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 262
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06325.md"
+  ],
+  "normalizedSha256": "78831db99bf0997ee1a0f5ea2cfb191e59ddf4c884a7e56519b5ec769a7bdc43"
+}

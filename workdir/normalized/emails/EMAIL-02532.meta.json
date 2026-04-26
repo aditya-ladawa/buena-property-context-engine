@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02532",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241006_002400_EMAIL-02532.eml",
+  "rawSha256": "e764d34fb9c1a3e115f7ed9379365aa281aff528fac73c02e6a754c1e9b955e9",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "=?utf-8?q?J=C3=B6rgen?= Seidel <joergen.seidel@gmx.de>",
+      "subject": "Re: Verstopfter Abfluss",
+      "date": "Sun, 06 Oct 2024 00:24:00 -0000",
+      "message-id": "<177702011370.22256.10264812222946797191@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3349357509721838608@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3349357509721838608@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 400
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02532.md"
+  ],
+  "normalizedSha256": "77f8b0350533955925899492c7fa580779c586e0cb13c84009d77d55cbe35f22"
+}

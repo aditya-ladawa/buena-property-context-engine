@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04297",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250415_105100_EMAIL-04297.eml",
+  "rawSha256": "af083200039c44612ba3a9657d5004be7855f11043b16e02cafa6e35ac00f785",
+  "metadata": {
+    "headers": {
+      "from": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Reparatur Aufzug",
+      "date": "Tue, 15 Apr 2025 10:51:00 -0000",
+      "message-id": "<177702011370.22256.5878372978671658502@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 256
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04297.md"
+  ],
+  "normalizedSha256": "a70d818de7a7e479de636949872a16d71a664ff36a54bc9ab1b1b8f34520e2f8"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02609",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241014_112800_EMAIL-02609.eml",
+  "rawSha256": "287348862c9e9dea746141c17d31b65531c44bab313bf14f23ce7f22d3bd6406",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Edelgard Wulf <edelgard.wulf@gmx.de>",
+      "subject": "Re: Haustuer schliesst nicht",
+      "date": "Mon, 14 Oct 2024 11:28:00 -0000",
+      "message-id": "<177702011370.22256.10449423487367958221@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.17480081430642221864@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.17480081430642221864@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 407
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02609.md"
+  ],
+  "normalizedSha256": "549dc8a1ed603ebbac94036379bb5037df2254162b788b328b3e4356ee3e9fd2"
+}

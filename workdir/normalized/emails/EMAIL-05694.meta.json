@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05694",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250923_031000_EMAIL-05694.eml",
+  "rawSha256": "bebb907268153b84fe0a8cf77a57bb76120978ae482b55c26fb7f4822dadbc86",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Carola Buchholz <carola.buchholz@elektro-schmidt-e-k.de>",
+      "subject": "Re: Rechnung RE-2025-7204",
+      "date": "Tue, 23 Sep 2025 03:10:00 -0000",
+      "message-id": "<177702011370.22256.18280899323026130108@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.18319603546397562635@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.18319603546397562635@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 432
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05694.md"
+  ],
+  "normalizedSha256": "5d0f4de64412d8cf4e1a0233c8895efe23d28e3ab34a0614f05df76b9428d335"
+}

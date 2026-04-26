@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00387",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240215_093400_EMAIL-00387.eml",
+  "rawSha256": "162118bb07ff74f9d36f8875c7b8e9f4463da714f049005bfc8b7da463022a61",
+  "metadata": {
+    "headers": {
+      "from": "Slawomir =?utf-8?q?S=C3=B6lzer?= <slawomir.soelzer@hausmeister-mueller.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Auftragsbestaetigung",
+      "date": "Thu, 15 Feb 2024 09:34:00 -0000",
+      "message-id": "<177702011370.22256.13953079806319096302@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 202
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00387.md"
+  ],
+  "normalizedSha256": "cbd3215422a8f4616d1d9a0512e8a51d529d4842160de474aac16902840f0c00"
+}

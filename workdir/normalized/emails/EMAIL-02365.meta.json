@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02365",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240916_105200_EMAIL-02365.eml",
+  "rawSha256": "3a52d8e83ed61e74ab4e9eeeb16d0ccd6372c2f4049bc2565a7060afd6f39469",
+  "metadata": {
+    "headers": {
+      "from": "Olga Holsten <olga.holsten@heiztechnik-berlin.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Rechnung RE-2024-9483",
+      "date": "Mon, 16 Sep 2024 10:52:00 -0000",
+      "message-id": "<177702011370.22256.11064342188296374663@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 201
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02365.md"
+  ],
+  "normalizedSha256": "234713752e2a39dc851359c5467b43332e54a5f2e14b71db12c6c3978471af5d"
+}

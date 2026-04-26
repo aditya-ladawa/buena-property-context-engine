@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05452",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250830_080800_EMAIL-05452.eml",
+  "rawSha256": "eb0f3c031a8593ebc0bd7a41b99b55f62eab9eba91c0d132d365a69b83e85814",
+  "metadata": {
+    "headers": {
+      "from": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wartungsbericht",
+      "date": "Sat, 30 Aug 2025 08:08:00 -0000",
+      "message-id": "<177702011370.22256.12235168182343542839@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 206
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05452.md"
+  ],
+  "normalizedSha256": "c929c55733d28e8620c7099e4d3715225269f691eb969826ce4f7ad0759032f8"
+}

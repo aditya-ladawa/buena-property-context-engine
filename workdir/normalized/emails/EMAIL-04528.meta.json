@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04528",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250515_224500_EMAIL-04528.eml",
+  "rawSha256": "27bf7a839677b3915bc4b79c82045092eae15910e39dc350c27ff8d6059b4d11",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Edelgard Wulf <edelgard.wulf@gmx.de>",
+      "subject": "Re: Internet/TV-Anschluss",
+      "date": "Thu, 15 May 2025 22:45:00 -0000",
+      "message-id": "<177702011370.22256.10018067113800218301@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10083615909080050142@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10083615909080050142@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 373
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04528.md"
+  ],
+  "normalizedSha256": "f9e55dd7d5e74c512d24cef62fa896214c4d687b2ea022e0e1f341b158f32bc3"
+}

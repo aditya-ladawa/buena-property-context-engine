@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00147",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240118_153900_EMAIL-00147.eml",
+  "rawSha256": "57dec2d52f02caaaee964fc21487e974cd9a6b456e15e18ed6beb9fe8c1cd86b",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Oswald =?utf-8?q?Gr=C3=B6ttner?= <oswald.groettner@t-online.de>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Thu, 18 Jan 2024 15:39:00 -0000",
+      "message-id": "<177702011370.22256.5610099663861204397@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10474416307705868386@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10474416307705868386@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 426
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00147.md"
+  ],
+  "normalizedSha256": "2c0e26252793e5d34461a0ec0174366b7e0ab1e973eb91c5a4925e0d35e4709b"
+}

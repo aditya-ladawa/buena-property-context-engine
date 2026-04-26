@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05351",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250819_173200_EMAIL-05351.eml",
+  "rawSha256": "b67e4d503b26ff42c8889deb32e8a2bc8a657022aab8641019d40d9ba607c365",
+  "metadata": {
+    "headers": {
+      "from": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeister-bauer.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Dachabdichtung Haus 12",
+      "date": "Tue, 19 Aug 2025 17:32:00 -0000",
+      "message-id": "<177702011370.22256.8155135820855011758@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 265
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05351.md"
+  ],
+  "normalizedSha256": "83a87a43f3d46aa1731edeb26aebfe0c5419135f889d8ec61a4af4f6fc62cc5b"
+}

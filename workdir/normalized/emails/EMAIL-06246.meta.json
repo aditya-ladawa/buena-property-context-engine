@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06246",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251127_173700_EMAIL-06246.eml",
+  "rawSha256": "2ff20f4817b58ae3bf0509786500b2cf2b8cabd4d0e9d7d70e9a19c343d95b9c",
+  "metadata": {
+    "headers": {
+      "from": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeister-bauer.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Aktualisierung unserer Bankverbindung",
+      "date": "Thu, 27 Nov 2025 17:37:00 -0000",
+      "message-id": "<177702011370.22256.2610592909216864555@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 325
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06246.md"
+  ],
+  "normalizedSha256": "69c57e44601f944dfe6468e0818fb69e9a528e08ad0c9ac934fe9fa1858ae772"
+}

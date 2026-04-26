@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05763",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251003_101500_EMAIL-05763.eml",
+  "rawSha256": "18994285a25b3a06f488efb2cccd1a2df2fbfedabe6ce50927be3c4570ad01f6",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Frau Kunigunda Ditschlerin <kunigunda.ditschlerin@icloud.com>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Fri, 03 Oct 2025 10:15:00 -0000",
+      "message-id": "<177702011370.22256.8559226516875736760@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.17221791952833226290@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.17221791952833226290@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 429
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05763.md"
+  ],
+  "normalizedSha256": "c0cdd6284a443749ea82e7aa545607e3b3c3e5e2496c98d7fb2cec612b30c272"
+}

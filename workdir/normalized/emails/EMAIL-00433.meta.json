@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00433",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240221_112700_EMAIL-00433.eml",
+  "rawSha256": "92983ff1c71ce6fc62deb076c47225647644d09dc041ea782ebd0eec62e783d8",
+  "metadata": {
+    "headers": {
+      "from": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Dachabdichtung Haus 12",
+      "date": "Wed, 21 Feb 2024 11:27:00 -0000",
+      "message-id": "<177702011370.22256.9854952898329723480@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 270
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00433.md"
+  ],
+  "normalizedSha256": "d6788f2920f6a41ee992973ff76fe6a82d75f84e517a5cfcd9a0b8b8fded2dfe"
+}

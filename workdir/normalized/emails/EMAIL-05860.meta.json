@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05860",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251013_140100_EMAIL-05860.eml",
+  "rawSha256": "7b5c4c34be5c48cb41f8032645d1147f884a582a6b0c832f36f3b55dd9a705c5",
+  "metadata": {
+    "headers": {
+      "from": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Aktualisierung unserer Bankverbindung",
+      "date": "Mon, 13 Oct 2025 14:01:00 -0000",
+      "message-id": "<177702011370.22256.9510561017127148486@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 321
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05860.md"
+  ],
+  "normalizedSha256": "17e71dc6c83c23271d7d35751ef45ebea1e4b496e825c07b5dfd6ad55d6c90d1"
+}

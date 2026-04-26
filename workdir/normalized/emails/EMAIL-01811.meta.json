@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01811",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240719_171200_EMAIL-01811.eml",
+  "rawSha256": "093a855460d5db0b878624a91cb0082195fe488e317c04fd24c41a6881089ac2",
+  "metadata": {
+    "headers": {
+      "from": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wartungsbericht",
+      "date": "Fri, 19 Jul 2024 17:12:00 -0000",
+      "message-id": "<177702011370.22256.2535287241790331376@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 209
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01811.md"
+  ],
+  "normalizedSha256": "3cf9ee5dad57fc71e6e5fbd37a946b1eb889da45c1f2c06cc4e22d8a76dd8ffc"
+}

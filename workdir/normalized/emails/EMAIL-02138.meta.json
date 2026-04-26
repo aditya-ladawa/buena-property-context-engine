@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02138",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240824_140300_EMAIL-02138.eml",
+  "rawSha256": "f9483e2da3e491f6a17a9dada96c89e2a6ab20ab35babc8b6a592c92687d27a3",
+  "metadata": {
+    "headers": {
+      "from": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Auftragsbestaetigung",
+      "date": "Sat, 24 Aug 2024 14:03:00 -0000",
+      "message-id": "<177702011370.22256.5524156068013149720@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 200
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02138.md"
+  ],
+  "normalizedSha256": "12a152d4ebf4f1303e6e663ed02b69b93c13a2a9ae01c43f7cefd5aab1e2be5f"
+}

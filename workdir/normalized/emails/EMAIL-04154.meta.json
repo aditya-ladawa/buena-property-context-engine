@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04154",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250330_005700_EMAIL-04154.eml",
+  "rawSha256": "55abad83e54ac854e8183e302747279e896f4667c76c85e0c88cfe3e6ca712c1",
+  "metadata": {
+    "headers": {
+      "from": "Alwine Sager <alwine.sager.privat@web.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Re: Ruhestoerung",
+      "date": "Sun, 30 Mar 2025 00:57:00 -0000",
+      "message-id": "<177702011370.22256.9054045773437485904@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.976899081430808465@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.976899081430808465@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 235
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04154.md"
+  ],
+  "normalizedSha256": "ec1e765c95b53dc2327629e190df0030cd35787c0c0406d072638d62493a358d"
+}

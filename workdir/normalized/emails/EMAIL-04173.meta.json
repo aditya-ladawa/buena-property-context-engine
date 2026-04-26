@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04173",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250331_221400_EMAIL-04173.eml",
+  "rawSha256": "eba30ebc8aaba43385eecdb303d45fba11713c883fce0ffb0b10690d86a43bf9",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Kiara Mcintyre <kiara.mcintyre@icloud.com>",
+      "subject": "Re: Water damage in bathroom",
+      "date": "Mon, 31 Mar 2025 22:14:00 -0000",
+      "message-id": "<177702011370.22256.12642667676670302620@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.9910396445785518065@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.9910396445785518065@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 372
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04173.md"
+  ],
+  "normalizedSha256": "2cc89563039960b04fa88494f0315db2158ec05b30fa05901beb31631129d60f"
+}

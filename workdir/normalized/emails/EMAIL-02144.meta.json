@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02144",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240824_184100_EMAIL-02144.eml",
+  "rawSha256": "1c57233e255d3b26eb9882cfbd8e3f0f8c01f9caa29c7636db5b086965cdb4ff",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Osman Jacob <osman.jacob@yahoo.de>",
+      "subject": "Re: Verkaufsabsicht WE 01",
+      "date": "Sat, 24 Aug 2024 18:41:00 -0000",
+      "message-id": "<177702011370.22256.5261271071503476022@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3367828686111884998@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3367828686111884998@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 459
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02144.md"
+  ],
+  "normalizedSha256": "c5f20af9ac074ead6745f7c1223f49873ecff470b737c1d094099577ca42c70c"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04791",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250616_112800_EMAIL-04791.eml",
+  "rawSha256": "10c5e98ec246a4413047a168cf97b2270f191f41523df2f059026ebc8dbde96f",
+  "metadata": {
+    "headers": {
+      "from": "Herr Harro Bloch <harro.bloch@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 04",
+      "date": "Mon, 16 Jun 2025 11:28:00 -0000",
+      "message-id": "<177702011370.22256.1369981958313397247@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 208
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04791.md"
+  ],
+  "normalizedSha256": "179027ee34dff6139db391ddad0babc88bbbe26951b4546ee30b2df737bc90c5"
+}

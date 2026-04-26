@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00951",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240416_020700_EMAIL-00951.eml",
+  "rawSha256": "dc02065aa517412b679fc7a1d9e87a71dc19268d75756afa9f9562a7ffe24b81",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Magrit Mitschke <magrit.mitschke@gmail.com>",
+      "subject": "Re: Ruhestoerung",
+      "date": "Tue, 16 Apr 2024 02:07:00 -0000",
+      "message-id": "<177702011370.22256.11372610302585850070@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.17989369487323580056@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.17989369487323580056@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 593
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00951.md"
+  ],
+  "normalizedSha256": "251bb8fe12957ba9b329a5d644e2fa3507bfe30620e8c571573aea32697c6104"
+}

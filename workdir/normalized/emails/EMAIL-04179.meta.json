@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04179",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250401_141300_EMAIL-04179.eml",
+  "rawSha256": "6bbcf317fdb0ebfa9121ffeccbc05cd257f00f987a607470c2f9ef053253b7cf",
+  "metadata": {
+    "headers": {
+      "from": "Frau Xenia Conradi <xenia.conradi@outlook.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 08",
+      "date": "Tue, 01 Apr 2025 14:13:00 -0000",
+      "message-id": "<177702011370.22256.661466823490856669@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 210
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04179.md"
+  ],
+  "normalizedSha256": "10112f5eb34b9f5fe803f79bb22e43637dce3911ede4d7aa4e42e381c101c78e"
+}

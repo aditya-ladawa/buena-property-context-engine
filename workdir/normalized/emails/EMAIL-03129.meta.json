@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03129",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241209_051900_EMAIL-03129.eml",
+  "rawSha256": "7133122839e9dedc6e859e3e5825d9065dca991599e8f19a58e205e04bb7ae5d",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Paul-Heinz =?utf-8?q?K=C3=B6hler?= <paul.heinz.koehler@aufzug-schindler-co.de>",
+      "subject": "Re: Rechnung RE-2024-7710",
+      "date": "Mon, 09 Dec 2024 05:19:00 -0000",
+      "message-id": "<177702011370.22256.3769741445584207605@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.1038120438520880641@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.1038120438520880641@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 467
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03129.md"
+  ],
+  "normalizedSha256": "eb61677365fc37b9de705a67ccd80aaff5f45d67ed5275841ec52dca37840fce"
+}

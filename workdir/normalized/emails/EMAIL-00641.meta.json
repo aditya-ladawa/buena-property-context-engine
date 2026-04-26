@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00641",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240314_112400_EMAIL-00641.eml",
+  "rawSha256": "e791332f08b1d05ad7a9dc7201887c14bd1077adb2e9e022b0ffed8acf60cb23",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Erdal Beckmann <erdal.beckmann@gmx.de>",
+      "subject": "Monatsbericht",
+      "date": "Thu, 14 Mar 2024 11:24:00 -0000",
+      "message-id": "<177702011370.22256.10931978637992302427@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 126
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00641.md"
+  ],
+  "normalizedSha256": "8dc8726c81115ba966610828592e9b101eb7d37c8e696dfa87c4bec2b33ac91b"
+}

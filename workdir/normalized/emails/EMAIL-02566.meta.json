@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02566",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241009_013900_EMAIL-02566.eml",
+  "rawSha256": "73405656643c1a6a04e16779432eae7fef43869c1bf831454907ea95738eebb8",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Edelgard Wulf <edelgard.wulf@gmx.de>",
+      "subject": "Re: Mietminderung Ankuendigung",
+      "date": "Wed, 09 Oct 2024 01:39:00 -0000",
+      "message-id": "<177702011370.22256.7268069573003172136@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4855545953633547797@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4855545953633547797@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 476
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02566.md"
+  ],
+  "normalizedSha256": "ed8049cb10dd6a794cf7effd546ce596ba1af13180f898126c17627f4267fa9c"
+}

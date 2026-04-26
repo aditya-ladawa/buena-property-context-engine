@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02723",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241025_233100_EMAIL-02723.eml",
+  "rawSha256": "f1dbeb660a7c98cf50121bebec11ec5c3451fbde97900bdad7fa5e70935cb961",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Anika Zimmer <anika.zimmer@gmx.de>",
+      "subject": "Re: Key replacement",
+      "date": "Fri, 25 Oct 2024 23:31:00 -0000",
+      "message-id": "<177702011370.22256.11687870637457855461@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.17849809684334241404@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.17849809684334241404@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 253
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02723.md"
+  ],
+  "normalizedSha256": "4661781f24ca408e063f682ededb3be472e29bb80bf8f36c833b1680dac0ff3a"
+}

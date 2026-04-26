@@ -1,0 +1,24 @@
+{
+  "sourceId": "LTR-0055",
+  "propertyId": "LIE-001",
+  "kind": "letter_pdf",
+  "rawPath": "data/briefe/2025-03/20250316_bka_LTR-0055.pdf",
+  "rawSha256": "5628d2c15d0e8d71962540a1480d66ff59cdf4b3a5be5acd8b88053c0168aec2",
+  "metadata": {
+    "filename": "20250316_bka_LTR-0055.pdf",
+    "date": "2025-03-16",
+    "letterType": "bka",
+    "letterId": "LTR-0055",
+    "subject": "Summe Betriebskosten (Ihr Anteil): 3.173,96 EUR",
+    "amount": "1357.79",
+    "decisions": [],
+    "hasMeetingDecisions": false,
+    "pageCount": 1,
+    "textLength": 1057,
+    "normalizerVersion": 4
+  },
+  "normalizedPaths": [
+    "workdir/normalized/letters/LTR-0055.md"
+  ],
+  "normalizedSha256": "2de8d6c7c7c25d6747470cd8b5d06857eaf5bdd41830a196cc2cb3157a82ce3d"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06296",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251204_150600_EMAIL-06296.eml",
+  "rawSha256": "f858aef046c7c8704987b39068e45b5e33e3d5daa183e170f38e31c9b2e2449e",
+  "metadata": {
+    "headers": {
+      "from": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Elektro-Pruefung",
+      "date": "Thu, 04 Dec 2025 15:06:00 -0000",
+      "message-id": "<177702011370.22256.16975893685362457149@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 264
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06296.md"
+  ],
+  "normalizedSha256": "752f4617d5292c472d4a078f08693c5c88b72bd90bb45b884735e5b4c1a6af22"
+}

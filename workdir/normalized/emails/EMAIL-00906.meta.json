@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00906",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240411_225600_EMAIL-00906.eml",
+  "rawSha256": "190295fd2e70f7d9a8d673713d1586fd908b4cc83d7109eeb2b9316a2016539b",
+  "metadata": {
+    "headers": {
+      "from": "Frau Hulda Eckbauer <hulda.eckbauer@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 19",
+      "date": "Thu, 11 Apr 2024 22:56:00 -0000",
+      "message-id": "<177702011370.22256.7084437829123330318@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 211
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00906.md"
+  ],
+  "normalizedSha256": "45456e6b5453a4c13031f8003c8049e54eba5dab97d430280fe3e4fc6a378916"
+}

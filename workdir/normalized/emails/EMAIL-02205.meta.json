@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02205",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240831_150600_EMAIL-02205.eml",
+  "rawSha256": "597dbe58ef8818348a6d9e9e9f8bfd51f3acd17f8df23851ab310765f1805982",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kennedy <thomas.kennedy@securelock-systems-ltd.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Quote: Gartenpflege Sommer",
+      "date": "Sat, 31 Aug 2024 15:06:00 -0000",
+      "message-id": "<177702011370.22256.4633644659619092659@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 201
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02205.md"
+  ],
+  "normalizedSha256": "8abd0c1cf9f26bc15a3918d9baed7074ea07f19ece8240c466caceeae3ee1693"
+}

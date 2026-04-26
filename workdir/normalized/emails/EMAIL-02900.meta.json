@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02900",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241114_112400_EMAIL-02900.eml",
+  "rawSha256": "60b2124ac7ba3635432d678a8ba93e21111bde64c61fbe1a0897a9d8176215b7",
+  "metadata": {
+    "headers": {
+      "from": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Nachtrag Reparatur",
+      "date": "Thu, 14 Nov 2024 11:24:00 -0000",
+      "message-id": "<177702011370.22256.17250594377905540623@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 186
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02900.md"
+  ],
+  "normalizedSha256": "07c77c9bb051a460780c37a7e69d1e329f14324c650e43aa2b4e3e5939e455d0"
+}

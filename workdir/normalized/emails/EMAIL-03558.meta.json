@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03558",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250125_133600_EMAIL-03558.eml",
+  "rawSha256": "c1e922790603fb0cd587df1dd6225dfc3ce34ae2d038676adb64fb8d93d822fc",
+  "metadata": {
+    "headers": {
+      "from": "Patrick Berg <p.berg@berg-immobilien.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mietanfrage Wohnung",
+      "date": "Sat, 25 Jan 2025 13:36:00 -0000",
+      "message-id": "<177702011370.22256.7215556552667764784@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 187
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03558.md"
+  ],
+  "normalizedSha256": "a252cb6d531becebf5c85a28bd7518295ddcafe1996e37b551d803cd36d15165"
+}

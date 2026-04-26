@@ -1,0 +1,24 @@
+{
+  "sourceId": "INV-00020",
+  "propertyId": "LIE-001",
+  "kind": "invoice_pdf",
+  "rawPath": "data/rechnungen/2024-03/20240318_DL-016_INV-00020.pdf",
+  "rawSha256": "e98a808ae4e88510f837cc9a1e8792c92995c5de2aff60cc30648142596e2bda",
+  "metadata": {
+    "filename": "20240318_DL-016_INV-00020.pdf",
+    "date": "2024-03-18",
+    "contractorId": "DL-016",
+    "invoiceId": "INV-00020",
+    "flags": {
+      "duplicateMarker": false,
+      "fakeMarker": false
+    },
+    "pageCount": 1,
+    "textLength": 490,
+    "normalizerVersion": 4
+  },
+  "normalizedPaths": [
+    "workdir/normalized/invoices/INV-00020.md"
+  ],
+  "normalizedSha256": "24b06ddae21931872f74b3ea91fb859e961f8c9bb102cbef2f9eaac515dd1aa8"
+}

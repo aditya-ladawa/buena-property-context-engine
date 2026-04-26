@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00293",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240204_093900_EMAIL-00293.eml",
+  "rawSha256": "c0def1852ab081ee5a0e10c962ed77bf33ae7d43c838236df48272ea787b7724",
+  "metadata": {
+    "headers": {
+      "from": "Anika Zimmer <anika.zimmer@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wohnungsuebergabe",
+      "date": "Sun, 04 Feb 2024 09:39:00 -0000",
+      "message-id": "<177702011370.22256.17044045164302837416@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 157
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00293.md"
+  ],
+  "normalizedSha256": "56597f23d5538042ea2c87a0ba10bbaf04987ccaed5e39268676ff7ffb62bfe8"
+}

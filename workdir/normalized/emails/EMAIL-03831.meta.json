@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03831",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250224_104100_EMAIL-03831.eml",
+  "rawSha256": "9d8017060edbaf8112de88ead54559d5ce0600f4737f83e99af72157c3de7b40",
+  "metadata": {
+    "headers": {
+      "from": "Herr Willfried Harloff <willfried.harloff@yahoo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 13",
+      "date": "Mon, 24 Feb 2025 10:41:00 -0000",
+      "message-id": "<177702011370.22256.3731357328469266921@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 214
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03831.md"
+  ],
+  "normalizedSha256": "c0bc3847c53f7a8c7058f65ff8800189a94c000b386675257fd515a85637c161"
+}

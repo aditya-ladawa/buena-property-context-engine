@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00928",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240413_144500_EMAIL-00928.eml",
+  "rawSha256": "7a72559a95d2dda9c8b9931d966899ffd124c13be7d5234f7d601765721b5cea",
+  "metadata": {
+    "headers": {
+      "from": "Frau Josefine Nohlmans <josefine.nohlmans@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 24",
+      "date": "Sat, 13 Apr 2024 14:45:00 -0000",
+      "message-id": "<177702011370.22256.3752132941714890811@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 191
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00928.md"
+  ],
+  "normalizedSha256": "87e9de896b4bab868462239efa785daf4c41528825d8c9e6d573d9377d3bfa84"
+}

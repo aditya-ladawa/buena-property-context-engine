@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04093",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250322_144000_EMAIL-04093.eml",
+  "rawSha256": "d7f2826966794f3c6e2f8587c1f182412644936b102bc59f78f3dc6d92d773d0",
+  "metadata": {
+    "headers": {
+      "from": "BSR Berliner Stadtreinigung <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Abschlagsanpassung",
+      "date": "Sat, 22 Mar 2025 14:40:00 -0000",
+      "message-id": "<177702011370.22256.16353364006318050860@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 148
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04093.md"
+  ],
+  "normalizedSha256": "bf9cf8fe692a458b0c6b0618b041d8106470600ae864f2bb04d3fb539013b707"
+}

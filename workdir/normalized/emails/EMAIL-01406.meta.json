@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01406",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240605_072800_EMAIL-01406.eml",
+  "rawSha256": "5ec61eddf2e2abd397cce2a7428d8a58ca2752daa54c5e9e6272f8ee90d85b9e",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Slawomir =?utf-8?q?S=C3=B6lzer?= <slawomir.soelzer@hausmeister-mueller.de>",
+      "subject": "Re: Mahnung Rechnung RE-2024-2510",
+      "date": "Wed, 05 Jun 2024 07:28:00 -0000",
+      "message-id": "<177702011370.22256.9500768656634622564@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.11154850975415441004@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.11154850975415441004@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 490
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01406.md"
+  ],
+  "normalizedSha256": "547a5d59373de6acaf0acb5c9766010fc5244f2761e903b6101fc6af79c828c7"
+}

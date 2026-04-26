@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05245",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250810_125300_EMAIL-05245.eml",
+  "rawSha256": "1b36b960422a07f8f1eb2ded475d077d2450a8ced3adbbfe6e73e33bf9d251c3",
+  "metadata": {
+    "headers": {
+      "from": "Frau Silja Henschel <silja.henschel@posteo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 20",
+      "date": "Sun, 10 Aug 2025 12:53:00 -0000",
+      "message-id": "<177702011370.22256.12443519920187312654@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 188
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05245.md"
+  ],
+  "normalizedSha256": "f2829154fed4aedfca0be0355bcf5e0297d23134e244ab61832740f01e4fe200"
+}

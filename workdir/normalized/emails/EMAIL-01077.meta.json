@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01077",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240430_091000_EMAIL-01077.eml",
+  "rawSha256": "ed617b12f3be193423f820dff1ca2b42977c056bba53ba8bf7492d56ab09471a",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Falk Trommler <falk.trommler@berliner-wasserbetriebe.de>",
+      "subject": "Re: Mahnung Rechnung RE-2024-2572",
+      "date": "Tue, 30 Apr 2024 09:10:00 -0000",
+      "message-id": "<177702011370.22256.11903286011081990801@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10420660187875370768@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10420660187875370768@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 489
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01077.md"
+  ],
+  "normalizedSha256": "b88ac03184f53a5e185a9ae051c74b3475ecd4399329fed5a98341662c875821"
+}

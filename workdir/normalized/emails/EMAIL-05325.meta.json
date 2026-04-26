@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05325",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250817_113300_EMAIL-05325.eml",
+  "rawSha256": "2f7fb41cd09f54ad29513ff729ab20f56434d0df9c23e910cbd4eb08e8385f69",
+  "metadata": {
+    "headers": {
+      "from": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Auftragsbestaetigung",
+      "date": "Sun, 17 Aug 2025 11:33:00 -0000",
+      "message-id": "<177702011370.22256.2377266664437959012@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 201
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05325.md"
+  ],
+  "normalizedSha256": "281c85c37edc0cf6cb7288d167cf9702e988903752414556a9892d901ee3c7c8"
+}

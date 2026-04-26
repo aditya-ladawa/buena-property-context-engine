@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02377",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240918_133300_EMAIL-02377.eml",
+  "rawSha256": "c48b656f72c9674822819976f14b008365079fca36bd5a3d2efaaf2474279aea",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kennedy <thomas.kennedy@securelock-systems-ltd.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Quote: Elektro-Pruefung",
+      "date": "Wed, 18 Sep 2024 13:33:00 -0000",
+      "message-id": "<177702011370.22256.4081479459024948731@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 199
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02377.md"
+  ],
+  "normalizedSha256": "338925533a0c510abac3a8edb143ae409f97a0d6161612b86aed424f7189bb04"
+}

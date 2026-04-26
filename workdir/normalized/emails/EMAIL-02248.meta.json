@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02248",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240904_234000_EMAIL-02248.eml",
+  "rawSha256": "348ec8876838f99ca476388559a04c273c73687a1c9baad5b38bb08e0b11d786",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Carsten =?utf-8?q?Austerm=C3=BChle?= <carsten.austermuehle@web.de>",
+      "subject": "Re: Wohnung untervermieten",
+      "date": "Wed, 04 Sep 2024 23:40:00 -0000",
+      "message-id": "<177702011370.22256.17576659151859421137@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3859671318786433582@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3859671318786433582@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 427
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02248.md"
+  ],
+  "normalizedSha256": "6daa377d4cde89d789e413d9b844224e87b490efc393fa9aa9195f4892ec62c7"
+}

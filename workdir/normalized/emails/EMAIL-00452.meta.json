@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00452",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240223_122900_EMAIL-00452.eml",
+  "rawSha256": "4e1f4aa4fc8254647afb816945956184a5752703868072da448ed95830c6028a",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Edeltraud Renner <edeltraud.renner@gmx.de>",
+      "subject": "Re: Schimmel im Schlafzimmer",
+      "date": "Fri, 23 Feb 2024 12:29:00 -0000",
+      "message-id": "<177702011370.22256.16607908693274620929@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4382808825884182658@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4382808825884182658@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 446
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00452.md"
+  ],
+  "normalizedSha256": "64f31b45d24323b6ace9bcd3d5d3f29f66c2ea32b3ce62ed35fbf3a00c699c09"
+}

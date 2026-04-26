@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01667",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240705_172300_EMAIL-01667.eml",
+  "rawSha256": "713d6c8cf36d0404f2de9ebab39a54eb16cbcdcf99c9348d08ca37de1331fc0f",
+  "metadata": {
+    "headers": {
+      "from": "Herr Winfried Ullmann <winfried.ullmann@yahoo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Fri, 05 Jul 2024 17:23:00 -0000",
+      "message-id": "<177702011370.22256.11903243920495338829@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 242
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01667.md"
+  ],
+  "normalizedSha256": "cb6b5d25c0a5cf03ce5aad49d47dc6f5dde97f1a9e6e6699e80763dba3959cf1"
+}

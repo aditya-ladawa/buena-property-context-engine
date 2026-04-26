@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06333",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251208_185800_EMAIL-06333.eml",
+  "rawSha256": "c3cc3813c761fed39df70aee72cadee02fbe3ad32c13121f71548bc02e284de5",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Magrit Mitschke <magrit.mitschke@gmail.com>",
+      "subject": "Re: Defektes Fenster",
+      "date": "Mon, 08 Dec 2025 18:58:00 -0000",
+      "message-id": "<177702011370.22256.8572973636646007337@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.17518977166303365904@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.17518977166303365904@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 397
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06333.md"
+  ],
+  "normalizedSha256": "e62b02a7ee5a9556457b9a5c199453937d1e4db0c595a89bddfd98339c5347fc"
+}

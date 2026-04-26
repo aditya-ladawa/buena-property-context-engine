@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05663",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250919_184000_EMAIL-05663.eml",
+  "rawSha256": "08549fa963c2f89fe5c0fdd6d97e4eac8fcd6a277b70ddbad76627f1a117e898",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Ingbert Nerger <ingbert.nerger@gmx.de>",
+      "subject": "Monatsbericht",
+      "date": "Fri, 19 Sep 2025 18:40:00 -0000",
+      "message-id": "<177702011370.22256.15074078890261966143@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 128
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05663.md"
+  ],
+  "normalizedSha256": "31ab743ef46c6612d5df06d002d36319f9865dfeceadb7eae48bcc88cfbc7518"
+}

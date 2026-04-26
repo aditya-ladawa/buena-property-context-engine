@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01921",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240801_111900_EMAIL-01921.eml",
+  "rawSha256": "e3ce73ed5d301216d22ef9e27371d9f7fa504a4cb00b9b10d59c9c3f0a1ec8f5",
+  "metadata": {
+    "headers": {
+      "from": "Herr Markus Fliegner <markus.fliegner@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 06",
+      "date": "Thu, 01 Aug 2024 11:19:00 -0000",
+      "message-id": "<177702011370.22256.1840004169305968379@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 212
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01921.md"
+  ],
+  "normalizedSha256": "b2690427062d6b0c1cb5c5b569fd188170f1df104943a04fc8d63a023cd3576d"
+}

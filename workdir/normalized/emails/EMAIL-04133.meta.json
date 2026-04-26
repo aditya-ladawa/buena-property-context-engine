@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04133",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250327_085900_EMAIL-04133.eml",
+  "rawSha256": "7184f303da558896351ff965ad1794272932484d7ecad73473e22df0ad0644af",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Falk Trommler <falk.trommler@berliner-wasserbetriebe.de>",
+      "subject": "Re: Mahnung Rechnung RE-2025-1268",
+      "date": "Thu, 27 Mar 2025 08:59:00 -0000",
+      "message-id": "<177702011370.22256.4369976337960730686@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3343996588662375852@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3343996588662375852@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 488
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04133.md"
+  ],
+  "normalizedSha256": "f861a37be177d5b064f406f731d1882702bee7855ee226d85d15bd8aa4d18d50"
+}

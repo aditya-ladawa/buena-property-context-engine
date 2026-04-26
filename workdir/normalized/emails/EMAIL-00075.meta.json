@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00075",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240109_201100_EMAIL-00075.eml",
+  "rawSha256": "c45c46f67d3bd4a61c3851f1b15a027255bf6fa504a8c24f47d91d41f64b839f",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "subject": "Re: Terminbestaetigung Wartung",
+      "date": "Tue, 09 Jan 2024 20:11:00 -0000",
+      "message-id": "<177702011370.22256.855075389058359932@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.9169754275210203885@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.9169754275210203885@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 399
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00075.md"
+  ],
+  "normalizedSha256": "60a3083f11285128b72022298957f63042ab4fc38f9102453deaf468a4418819"
+}

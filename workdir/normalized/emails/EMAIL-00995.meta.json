@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00995",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240419_230300_EMAIL-00995.eml",
+  "rawSha256": "8602a60ea4c6fdb6d9ff1689229765350d231cc5f05477a63508d7d1d73ea6e5",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Frau Silja Henschel <silja.henschel@posteo.de>",
+      "subject": "Re: Verkaufsabsicht WE 20",
+      "date": "Fri, 19 Apr 2024 23:03:00 -0000",
+      "message-id": "<177702011370.22256.11992491654821544730@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4118789452668751881@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4118789452668751881@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 470
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00995.md"
+  ],
+  "normalizedSha256": "153254f06a5ea9686ad9010cb34896e596e88971c46a9e853ba3e63244867285"
+}

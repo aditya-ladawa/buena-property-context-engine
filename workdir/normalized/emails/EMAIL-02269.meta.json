@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02269",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240907_003200_EMAIL-02269.eml",
+  "rawSha256": "f8df1efce9d31c82d36acfc05cbf411c2a774dfa23c8c668f956b78a2b8c195c",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Jasmin Trub <jasmin.trub@outlook.com>",
+      "subject": "Re: Schluesselverlust",
+      "date": "Sat, 07 Sep 2024 00:32:00 -0000",
+      "message-id": "<177702011370.22256.7055145367309143740@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.17559803512967622190@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.17559803512967622190@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 436
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02269.md"
+  ],
+  "normalizedSha256": "a5802abeaf1639880f16604832e1bdc5f7783526205e79709764392930757ba8"
+}

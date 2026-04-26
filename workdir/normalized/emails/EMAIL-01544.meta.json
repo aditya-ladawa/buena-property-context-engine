@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01544",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240620_103000_EMAIL-01544.eml",
+  "rawSha256": "6f4ecd110b3ab5a3cf78205fdeb3803eb109fbbd34753835161c7fef7c85d5be",
+  "metadata": {
+    "headers": {
+      "from": "Frau Josefine Nohlmans <josefine.nohlmans@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Thu, 20 Jun 2024 10:30:00 -0000",
+      "message-id": "<177702011370.22256.3709151784971715371@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 243
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01544.md"
+  ],
+  "normalizedSha256": "038a95d578e1fa2712ae14f394832f2b843ef82da8923f3c6cfb248eb20b8fec"
+}

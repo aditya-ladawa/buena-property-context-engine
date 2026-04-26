@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00931",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240413_172400_EMAIL-00931.eml",
+  "rawSha256": "b831bb1aa664b58d478965c07e76a935029e6660bb54e692e14eabcc9a9839be",
+  "metadata": {
+    "headers": {
+      "from": "GASAG Berliner Gaswerke AG <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Jahresabrechnung 2023",
+      "date": "Sat, 13 Apr 2024 17:24:00 -0000",
+      "message-id": "<177702011370.22256.8458483455186419048@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 209
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00931.md"
+  ],
+  "normalizedSha256": "b465727d5dbba10db0f59da81de2966ee7d3537b0ef158a10ff25ea5806a148a"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00329",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240208_105900_EMAIL-00329.eml",
+  "rawSha256": "3f539cf8bcb5cc7fc3156ebb7751aaf0db990da1c7d3eb9e9df6c4875d1efe86",
+  "metadata": {
+    "headers": {
+      "from": "Frau Caroline Bohlander <caroline.bohlander@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Thu, 08 Feb 2024 10:59:00 -0000",
+      "message-id": "<177702011370.22256.14395901378525354410@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 244
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00329.md"
+  ],
+  "normalizedSha256": "856a20d5cb22e153aac41243fffe370b71411e98e3bf9c240b86b0446bffc2c3"
+}

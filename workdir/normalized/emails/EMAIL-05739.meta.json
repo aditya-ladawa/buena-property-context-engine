@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05739",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250929_020700_EMAIL-05739.eml",
+  "rawSha256": "304a897bd91acf54ed8ba4624d0d8fe0bc8ec8614f0e8a7e5c4e3fea0d0c3fc9",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Marcus Dowerg <marcus.dowerg@outlook.com>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Mon, 29 Sep 2025 02:07:00 -0000",
+      "message-id": "<177702011370.22256.17323672872674311604@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15876795041956795425@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15876795041956795425@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 463
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05739.md"
+  ],
+  "normalizedSha256": "56595e97268091bc327fbce57f882f4c8a6e9b4a2d1b743efd64d96960a7246e"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06335",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251209_100400_EMAIL-06335.eml",
+  "rawSha256": "7ef4d0e6426028a0340a18b46dcb9b937f4eaffe079f96b7e8e41476d7663b0d",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "subject": "Re: Angebot: Gartenpflege Sommer",
+      "date": "Tue, 09 Dec 2025 10:04:00 -0000",
+      "message-id": "<177702011370.22256.2729091939948826089@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10868665890769624450@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10868665890769624450@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 484
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06335.md"
+  ],
+  "normalizedSha256": "127c6fdfb3e77068d7bc0a39d394a0dcdbdefa68e5c9584ab6c4ff2fd8286d0f"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00256",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240131_183900_EMAIL-00256.eml",
+  "rawSha256": "bc02ba069848e2aebe6ae34af6b620441a06a363f2b79926607db12b1f5c4503",
+  "metadata": {
+    "headers": {
+      "from": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mahnung Rechnung RE-2024-2160",
+      "date": "Wed, 31 Jan 2024 18:39:00 -0000",
+      "message-id": "<177702011370.22256.17282049592319563179@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 233
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00256.md"
+  ],
+  "normalizedSha256": "1c67b840fe65e29fa68e87081cdb199b8c20c5bbaaea8a001ee9a8d192047ea4"
+}

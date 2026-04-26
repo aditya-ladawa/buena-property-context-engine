@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00645",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240314_220600_EMAIL-00645.eml",
+  "rawSha256": "382f0022f7a010cb1909e5abec1e2f2f7e37d3645609b8ca4c407e4966c47b37",
+  "metadata": {
+    "headers": {
+      "from": "Herr Oswald =?utf-8?q?Gr=C3=B6ttner?= <oswald.groettner@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Thu, 14 Mar 2024 22:06:00 -0000",
+      "message-id": "<177702011370.22256.16302812175128511552@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 242
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00645.md"
+  ],
+  "normalizedSha256": "01770e4f7a6582591a640e3ebf3f6872e4a775fc9e3d14100c658d5eb26ba1d5"
+}

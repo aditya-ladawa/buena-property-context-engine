@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04522",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250515_101200_EMAIL-04522.eml",
+  "rawSha256": "d42fc7c1456966900374cb31ed85a74c8ca7ed5d271c8827716041da25718d45",
+  "metadata": {
+    "headers": {
+      "from": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Treppenhausreinigung",
+      "date": "Thu, 15 May 2025 10:12:00 -0000",
+      "message-id": "<177702011370.22256.6377514047446211335@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 259
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04522.md"
+  ],
+  "normalizedSha256": "1273230943806c0aeb8793071a67936e7b26232b937b343ebe7032027a264997"
+}

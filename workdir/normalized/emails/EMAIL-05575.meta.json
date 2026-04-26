@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05575",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250908_170300_EMAIL-05575.eml",
+  "rawSha256": "e1972ce4c337382db82e8f3e3f30a7c641334de8793459727c78f43439475e0e",
+  "metadata": {
+    "headers": {
+      "from": "Frau Caroline Bohlander <caroline.bohlander@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 31",
+      "date": "Mon, 08 Sep 2025 17:03:00 -0000",
+      "message-id": "<177702011370.22256.15202829687712833277@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 215
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05575.md"
+  ],
+  "normalizedSha256": "0abe7b28a6ab0c572277e1b052bd2c5034de7382ff193ba9a22115f13174e45a"
+}

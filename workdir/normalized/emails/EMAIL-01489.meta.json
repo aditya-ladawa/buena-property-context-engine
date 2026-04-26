@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01489",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240614_023700_EMAIL-01489.eml",
+  "rawSha256": "e1f1715b7ef0fe6a683ddb03b2bb44528425fb6a56588645f0466c1407e36d6f",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr =?utf-8?q?S=C3=BCkr=C3=BC?= Aumann <suekrue.aumann@posteo.de>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Fri, 14 Jun 2024 02:37:00 -0000",
+      "message-id": "<177702011370.22256.6916718715892678294@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14615008146703941331@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14615008146703941331@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 417
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01489.md"
+  ],
+  "normalizedSha256": "c35b1c112f3060ff518a1e209924adf41482f2d7f82b8baaea0e9ca3787b7869"
+}

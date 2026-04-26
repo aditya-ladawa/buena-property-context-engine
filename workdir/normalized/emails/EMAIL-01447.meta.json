@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01447",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240610_033700_EMAIL-01447.eml",
+  "rawSha256": "269b9118ed920fe601750ce324850efa560fb2fa736ace7ff1cd5ae5f0ce6b97",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Falk Trommler <falk.trommler@berliner-wasserbetriebe.de>",
+      "subject": "Re: Wartungsbericht",
+      "date": "Mon, 10 Jun 2024 03:37:00 -0000",
+      "message-id": "<177702011370.22256.14720482754806967957@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.1603305904751043740@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.1603305904751043740@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 467
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01447.md"
+  ],
+  "normalizedSha256": "b603b167064456116911763ec8d4045b74db2550e48e36f6ca3fa4226529430d"
+}

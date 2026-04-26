@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02593",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241011_141600_EMAIL-02593.eml",
+  "rawSha256": "1d92dffc4c86723464f356c928e39d573a22989a4cc8a1cd00c60e94702bc4a4",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Frau Mina Textor <mina.textor@icloud.com>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Fri, 11 Oct 2024 14:16:00 -0000",
+      "message-id": "<177702011370.22256.14292260406115680669@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.2059003577455964354@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.2059003577455964354@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 414
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02593.md"
+  ],
+  "normalizedSha256": "a4d79d44bb285abe5fd35c4fe757e482e4146d30565b8fbb37db729ea2135a09"
+}

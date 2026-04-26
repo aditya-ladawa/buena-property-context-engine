@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00308",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240205_144600_EMAIL-00308.eml",
+  "rawSha256": "74087be2fa75499e2818320ba91068ec6d39bdcdf65d449bdbf53e4c0ee3a904",
+  "metadata": {
+    "headers": {
+      "from": "Lisa Brown <lisa.brown@techclean-international.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Maintenance report",
+      "date": "Mon, 05 Feb 2024 14:46:00 -0000",
+      "message-id": "<177702011370.22256.1231630538712886020@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 189
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00308.md"
+  ],
+  "normalizedSha256": "e60ae892c48bfec2baeaac2b0570f4ccbd33602321c2c20ba64564af9a2b0d78"
+}

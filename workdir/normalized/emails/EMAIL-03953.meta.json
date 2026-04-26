@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03953",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250308_115700_EMAIL-03953.eml",
+  "rawSha256": "b94fd0b5c77a11d7d0239978e462549b0973d253a37610198bb84f503480d38e",
+  "metadata": {
+    "headers": {
+      "from": "Carsten =?utf-8?q?Austerm=C3=BChle?= <carsten.austermuehle@web.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Re: Haustuer schliesst nicht",
+      "date": "Sat, 08 Mar 2025 11:57:00 -0000",
+      "message-id": "<177702011370.22256.7257393956138317178@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13096770293391299277@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13096770293391299277@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 159
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03953.md"
+  ],
+  "normalizedSha256": "e90fc5e61b8c24e3faad744268bf7bc4338135d64bb87bbd14bd353a67ea8690"
+}

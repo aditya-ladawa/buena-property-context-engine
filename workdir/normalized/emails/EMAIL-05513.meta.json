@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05513",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250903_223000_EMAIL-05513.eml",
+  "rawSha256": "ab91f34a0ce0e394ae921bcd6416e70132e85b69dffb6677c5f8abf4583934f8",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Hanna Schweitzer <hanna.schweitzer@gmx.de>",
+      "subject": "Re: Schluesselverlust",
+      "date": "Wed, 03 Sep 2025 22:30:00 -0000",
+      "message-id": "<177702011370.22256.17875360414313583953@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.17160227483419655050@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.17160227483419655050@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 438
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05513.md"
+  ],
+  "normalizedSha256": "bd5d3f2ba8808e16ce14b51cf83f9f87663e1e39ca9a809364b88f8b05f676f1"
+}

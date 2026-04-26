@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01387",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240602_153800_EMAIL-01387.eml",
+  "rawSha256": "8626f8ebcc0116ba910e740acc790fcc58776ef34cf0fbebcdce2e1b5504034a",
+  "metadata": {
+    "headers": {
+      "from": "Slawomir =?utf-8?q?S=C3=B6lzer?= <slawomir.soelzer@hausmeister-mueller.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Aktualisierung unserer Bankverbindung",
+      "date": "Sun, 02 Jun 2024 15:38:00 -0000",
+      "message-id": "<177702011370.22256.17052975796975802617@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 320
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01387.md"
+  ],
+  "normalizedSha256": "bd364b97e279e8f5adf205a08ba67fa5abec43c5b6408597e542c2721c78e845"
+}

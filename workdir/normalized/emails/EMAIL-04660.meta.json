@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04660",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250530_101200_EMAIL-04660.eml",
+  "rawSha256": "0df13bcd0135aa69c548b88e07fa5e1a1279ce3213018a4812fa42eb55e597cb",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Ingbert Nerger <ingbert.nerger@gmx.de>",
+      "subject": "Abstimmung zu Angebot",
+      "date": "Fri, 30 May 2025 10:12:00 -0000",
+      "message-id": "<177702011370.22256.14714845123819266211@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 129
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04660.md"
+  ],
+  "normalizedSha256": "3a9711b9526eeb6fc8e99a274d352964950e9b5964697dd34081b8b293d20e52"
+}

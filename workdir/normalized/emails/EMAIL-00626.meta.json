@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00626",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240312_165800_EMAIL-00626.eml",
+  "rawSha256": "a2c1a43080498955e2d34f25ca420cdaa593a7b4a68ecd9c3f801ab368aa34a7",
+  "metadata": {
+    "headers": {
+      "from": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Rechnung RE-2024-9338",
+      "date": "Tue, 12 Mar 2024 16:58:00 -0000",
+      "message-id": "<177702011370.22256.13799596568405461086@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 204
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00626.md"
+  ],
+  "normalizedSha256": "cd9f5c551974e5e7d2070db483161b11645da0c036fdec4774fa0fd358e3fec3"
+}

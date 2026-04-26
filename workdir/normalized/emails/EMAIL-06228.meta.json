@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06228",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251126_121200_EMAIL-06228.eml",
+  "rawSha256": "6802bd0fd53f147c3fec9629cea6ee2fa577d0a8d1ca180885cdc4dfc0d2908c",
+  "metadata": {
+    "headers": {
+      "from": "Paul-Heinz =?utf-8?q?K=C3=B6hler?= <paul.heinz.koehler@aufzug-schindler-co.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Terminbestaetigung Wartung",
+      "date": "Wed, 26 Nov 2025 12:12:00 -0000",
+      "message-id": "<177702011370.22256.10660939938726256629@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 144
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06228.md"
+  ],
+  "normalizedSha256": "842a2866de639a7d78da1ffa2aa02de5d43e906ec162cce859013971f5c54bd9"
+}

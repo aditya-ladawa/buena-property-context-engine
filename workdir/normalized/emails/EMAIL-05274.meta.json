@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05274",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250812_201300_EMAIL-05274.eml",
+  "rawSha256": "c4cb80105879bac72db895193ae9a72b840b4c88f9ce6d6c331c8b34d489851d",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Anika Zimmer <anika.zimmer@gmx.de>",
+      "subject": "Re: Question about utility bill",
+      "date": "Tue, 12 Aug 2025 20:13:00 -0000",
+      "message-id": "<177702011370.22256.1476524133289081223@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8574985227053410241@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8574985227053410241@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 360
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05274.md"
+  ],
+  "normalizedSha256": "f045f6d5b70ca7deed2ed73544a21f80924c6f5914cd689ed2cc41352f7c3577"
+}

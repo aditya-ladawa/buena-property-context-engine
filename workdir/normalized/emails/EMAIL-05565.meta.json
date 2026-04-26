@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05565",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250907_234500_EMAIL-05565.eml",
+  "rawSha256": "a38cdcd48c8c50984ba6d87ef0ae96cc392d6b634e2b486e2d8ded62309d4b45",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Edeltraud Renner <edeltraud.renner@gmx.de>",
+      "subject": "Re: Wohnungsuebergabe",
+      "date": "Sun, 07 Sep 2025 23:45:00 -0000",
+      "message-id": "<177702011370.22256.14522271783362053902@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10952105546789897799@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10952105546789897799@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 388
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05565.md"
+  ],
+  "normalizedSha256": "ef7dcd30bdaf9dde042421397e5c41a41e7baaeb47bf7750ebf7451c1f9c9b7a"
+}

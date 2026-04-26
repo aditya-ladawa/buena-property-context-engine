@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06538",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251230_203400_EMAIL-06538.eml",
+  "rawSha256": "434e23e45d1e4e3a1af3ad6e9895c16b775b8a638918f30ee4661253ee96721a",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Carola Buchholz <carola.buchholz@elektro-schmidt-e-k.de>",
+      "subject": "Re: Angebot: Dachabdichtung Haus 12",
+      "date": "Tue, 30 Dec 2025 20:34:00 -0000",
+      "message-id": "<177702011370.22256.5481883334963311286@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.580155529545178344@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.580155529545178344@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 520
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06538.md"
+  ],
+  "normalizedSha256": "91cdc40c2ce1772fef5ded4125ed86b35008d5aa4b00b25aa1dbc5d7ba024f2e"
+}

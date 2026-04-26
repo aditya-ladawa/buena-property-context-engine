@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06531",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251230_143400_EMAIL-06531.eml",
+  "rawSha256": "9b1227710a178efb555bf8a074045965243c3b270533f59a95278da0c811021b",
+  "metadata": {
+    "headers": {
+      "from": "Carola Buchholz <carola.buchholz@elektro-schmidt-e-k.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Dachabdichtung Haus 12",
+      "date": "Tue, 30 Dec 2025 14:34:00 -0000",
+      "message-id": "<177702011370.22256.580155529545178344@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 257
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06531.md"
+  ],
+  "normalizedSha256": "82b03e24bc9c8660c90a9c61a506547d69cdcc48aac0376796c378b2acbf28d4"
+}

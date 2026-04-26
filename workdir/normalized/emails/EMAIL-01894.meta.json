@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01894",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240728_165200_EMAIL-01894.eml",
+  "rawSha256": "a74a219fd558c64f24a37c4185ae969ef4d2e784b24d99f324466381815f7f55",
+  "metadata": {
+    "headers": {
+      "from": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Elektro-Pruefung",
+      "date": "Sun, 28 Jul 2024 16:52:00 -0000",
+      "message-id": "<177702011370.22256.11273516366557583721@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 256
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01894.md"
+  ],
+  "normalizedSha256": "7c2dff00e707d6dcf6ad1a985b0570ffa2dc3cd04fb95d483e732fa40f2758d4"
+}

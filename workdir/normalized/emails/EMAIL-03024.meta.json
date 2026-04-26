@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03024",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241127_183700_EMAIL-03024.eml",
+  "rawSha256": "7c98bb1ba05426ee933753d8a8ac7b03dd494dd1edb9cd54544399cfa42131d0",
+  "metadata": {
+    "headers": {
+      "from": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Sanitaer-Reparatur",
+      "date": "Wed, 27 Nov 2024 18:37:00 -0000",
+      "message-id": "<177702011370.22256.15909984377880145351@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 258
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03024.md"
+  ],
+  "normalizedSha256": "27d78ee1a12daa042c0208da93a585ecc1c0d2ad52c99c75b30e9af1a7b86214"
+}

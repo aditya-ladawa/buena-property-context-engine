@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04785",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250615_184800_EMAIL-04785.eml",
+  "rawSha256": "7af968e037c8bb31f7c5ac02081235fdb0077bf6c95811926f1686e1d67d7a0f",
+  "metadata": {
+    "headers": {
+      "from": "Paul-Heinz =?utf-8?q?K=C3=B6hler?= <paul.heinz.koehler@aufzug-schindler-co.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wartungsbericht",
+      "date": "Sun, 15 Jun 2025 18:48:00 -0000",
+      "message-id": "<177702011370.22256.17280948566029127902@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 213
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04785.md"
+  ],
+  "normalizedSha256": "f7c5168f0db744f0899312d10f09c614bc2df9e7f4f0b63a437701efb5c6cded"
+}

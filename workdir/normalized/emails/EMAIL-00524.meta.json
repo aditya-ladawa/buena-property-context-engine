@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00524",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240302_035800_EMAIL-00524.eml",
+  "rawSha256": "af89ae0e99da80f1db3c42ead34fe8d02dd93a31629b20af2c2489f18f137ded",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Markus Fliegner <markus.fliegner@gmx.de>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Sat, 02 Mar 2024 03:58:00 -0000",
+      "message-id": "<177702011370.22256.9705180338212543205@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.2244337066574049934@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.2244337066574049934@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 470
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00524.md"
+  ],
+  "normalizedSha256": "1e5794fb0b033f64f9eb935b41abcefb8bd3e9a604b13064bdf381545e0d2f21"
+}

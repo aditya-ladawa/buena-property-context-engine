@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06020",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251102_133200_EMAIL-06020.eml",
+  "rawSha256": "942da050fe92ddd22d881e79188341e5e858f5ecd2ea4fd41991f095a2580ac0",
+  "metadata": {
+    "headers": {
+      "from": "Frau Kunigunda Ditschlerin <kunigunda.ditschlerin@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 36",
+      "date": "Sun, 02 Nov 2025 13:32:00 -0000",
+      "message-id": "<177702011370.22256.11111021221948829322@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 195
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06020.md"
+  ],
+  "normalizedSha256": "a53db80e41bedf73696c87ec5d1626b21f5fa68aad696212f7b552dfa3eb90c3"
+}

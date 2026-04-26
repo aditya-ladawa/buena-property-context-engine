@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03318",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241230_150600_EMAIL-03318.eml",
+  "rawSha256": "3c6e4b4fa42c13f3a59a99f87104fb40057511c4476ba42f89a0e50ec788fa8f",
+  "metadata": {
+    "headers": {
+      "from": "Frau Kunigunda Ditschlerin <kunigunda.ditschlerin@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "SEV - Monatsauszug",
+      "date": "Mon, 30 Dec 2024 15:06:00 -0000",
+      "message-id": "<177702011370.22256.6139014472581222447@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 187
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03318.md"
+  ],
+  "normalizedSha256": "918ada775611f1b3d2cad8d1a541ebe4af95d16595b38400e098de14b80c47b8"
+}

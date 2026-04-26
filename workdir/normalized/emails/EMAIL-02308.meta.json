@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02308",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240910_084500_EMAIL-02308.eml",
+  "rawSha256": "88de535d7fbc08c93dfd8eaa1968edbb3145bf1321a84f1fce7969ca4357a357",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Magrit Mitschke <magrit.mitschke@gmail.com>",
+      "subject": "Re: Schluesselverlust",
+      "date": "Tue, 10 Sep 2024 08:45:00 -0000",
+      "message-id": "<177702011370.22256.6388072150377411309@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3644929660292561018@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3644929660292561018@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 438
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02308.md"
+  ],
+  "normalizedSha256": "3746268dc718e8be1b15d6badd80b784796a855fc0467553e9e1a97ccb240173"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01095",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240502_081600_EMAIL-01095.eml",
+  "rawSha256": "9b23b4bd68599598a7df99c8ecae4259815d5a76f07803e2503d7aea4f504c7e",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Arnulf Heintze <arnulf.heintze@gmail.com>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Thu, 02 May 2024 08:16:00 -0000",
+      "message-id": "<177702011370.22256.17954801980994729161@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10029807013552867255@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10029807013552867255@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 503
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01095.md"
+  ],
+  "normalizedSha256": "99e5b170dcb6b834e9e3d8bf841875fd53246ce4c37d57837672a8bdf3792607"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05345",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250819_014400_EMAIL-05345.eml",
+  "rawSha256": "ac0a1b7f33f304b23b14b4e4e6ee159f895f8fea24eab1babaebe512ef37a29c",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Alwine Sager <alwine.sager@web.de>",
+      "subject": "Re: Ruhestoerung",
+      "date": "Tue, 19 Aug 2025 01:44:00 -0000",
+      "message-id": "<177702011370.22256.10718077262716123421@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4291913050307868179@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4291913050307868179@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 587
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05345.md"
+  ],
+  "normalizedSha256": "6ac67018e090aa54a753b6a4e599b7295ce5787ad99d7070d4c49c857a82486b"
+}

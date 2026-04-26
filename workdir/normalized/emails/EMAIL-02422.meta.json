@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02422",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240923_133700_EMAIL-02422.eml",
+  "rawSha256": "5304a9ecedd7fd17836af78b33e793f3304667a7595b35ce68d7cd26326bd0c1",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Ingbert Nerger <ingbert.nerger@gmx.de>",
+      "subject": "Kurze Rueckmeldung bitte",
+      "date": "Mon, 23 Sep 2024 13:37:00 -0000",
+      "message-id": "<177702011370.22256.11007009499335442686@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 128
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02422.md"
+  ],
+  "normalizedSha256": "e166fc1364e6522b549530d14ebed66b50953a4cc61519424ae90daae5d0cdc3"
+}

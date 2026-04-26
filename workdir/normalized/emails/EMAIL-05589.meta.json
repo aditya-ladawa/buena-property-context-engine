@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05589",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250910_152200_EMAIL-05589.eml",
+  "rawSha256": "ba995bd7674acb6e1e197983cb0cfab58f989beba8b44d05869741b533d7a5e3",
+  "metadata": {
+    "headers": {
+      "from": "Frau =?utf-8?q?D=C3=B6rthe_H=C3=B6vel?= <doerthe.hoevel@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 21",
+      "date": "Wed, 10 Sep 2025 15:22:00 -0000",
+      "message-id": "<177702011370.22256.4942547878378400063@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 188
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05589.md"
+  ],
+  "normalizedSha256": "de0eac74a1c5e35c6dcb0e77258f2018a5cdf154263e8510de955283540ce5d8"
+}

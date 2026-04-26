@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02049",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240815_120000_EMAIL-02049.eml",
+  "rawSha256": "f47ec8a6ceab678ce6c5d8f4e58ed715de5c158ead0491029f26ef869f63a965",
+  "metadata": {
+    "headers": {
+      "from": "Frau Kunigunda Ditschlerin <kunigunda.ditschlerin@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Thu, 15 Aug 2024 12:00:00 -0000",
+      "message-id": "<177702011370.22256.3554316211718789289@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 247
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02049.md"
+  ],
+  "normalizedSha256": "22f3a531b1ef07dfbcc11416ceaea62166141b55e906dfc86cc7f4f95dacc197"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00841",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240405_175800_EMAIL-00841.eml",
+  "rawSha256": "560ffadcf15206c7eb69ae2a16c00e31f7e0bbdf723e31d82de35492afa7b568",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Olga Holsten <olga.holsten@heiztechnik-berlin.de>",
+      "subject": "Re: Rechnung RE-2024-4629",
+      "date": "Fri, 05 Apr 2024 17:58:00 -0000",
+      "message-id": "<177702011370.22256.9012197809686634662@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.7292467609862227115@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.7292467609862227115@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 457
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00841.md"
+  ],
+  "normalizedSha256": "c8c631ab3ebcc36498b3be3443136a561e461cbe7534c5fc35a55e059e19b956"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06330",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251208_173300_EMAIL-06330.eml",
+  "rawSha256": "836263ce3af8e89b3054eb0256cbff5827e4e04b9dd459e3a7c9de760929928e",
+  "metadata": {
+    "headers": {
+      "from": "Carola Buchholz <carola.buchholz@elektro-schmidt-e-k.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Nachtrag Reparatur",
+      "date": "Mon, 08 Dec 2025 17:33:00 -0000",
+      "message-id": "<177702011370.22256.11078360578121667206@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 186
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06330.md"
+  ],
+  "normalizedSha256": "94562aeaa85b5c46d397b125f3eb15078d96588961ccb6295f55705cac0560cf"
+}

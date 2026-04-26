@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02819",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241105_053900_EMAIL-02819.eml",
+  "rawSha256": "91a29b3ea4de61fd10d89dee83506bb5fe95eddc60e1f4c1d4d3a28236b05fb5",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Josefine Nohlmans <josefine.nohlmans@gmail.com>",
+      "subject": "Re: Verkaufsabsicht WE 07",
+      "date": "Tue, 05 Nov 2024 05:39:00 -0000",
+      "message-id": "<177702011370.22256.12830499714569086699@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.9449010644371676461@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.9449010644371676461@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 474
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02819.md"
+  ],
+  "normalizedSha256": "6f9e34f3f91bdd19f1eb9393c70e468f92d3b50e450ba6802e72cb985333891b"
+}

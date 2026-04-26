@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03719",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250213_142400_EMAIL-03719.eml",
+  "rawSha256": "dcc3240f2ca04c40b7f71a818061172c44cbd2a4b8e3883437b45dcdc16a0c02",
+  "metadata": {
+    "headers": {
+      "from": "Frau =?utf-8?q?D=C3=B6rthe_H=C3=B6vel?= <doerthe.hoevel@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Modernisierung - Zustimmung",
+      "date": "Thu, 13 Feb 2025 14:24:00 -0000",
+      "message-id": "<177702011370.22256.15314216068797466391@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 163
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03719.md"
+  ],
+  "normalizedSha256": "8229a30acf307e9f10de2a8f602f9de784cd7355512b1d2f4d85f561d0ba965c"
+}

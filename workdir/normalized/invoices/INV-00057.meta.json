@@ -1,0 +1,30 @@
+{
+  "sourceId": "INV-00057",
+  "propertyId": "LIE-001",
+  "kind": "invoice_pdf",
+  "rawPath": "data/rechnungen/2024-08/20240824_DL-012_INV-00057.pdf",
+  "rawSha256": "60b2eb324c101310c0a20bb99871ce283b1ae1b9b3d9e5990cc76b572d92a00e",
+  "metadata": {
+    "filename": "20240824_DL-012_INV-00057.pdf",
+    "date": "2024-08-24",
+    "contractorId": "DL-012",
+    "invoiceId": "INV-00057",
+    "flags": {
+      "duplicateMarker": false,
+      "fakeMarker": false
+    },
+    "invoiceNumber": "R20240171",
+    "invoiceDate": "24.08.2024",
+    "netAmount": "250.00",
+    "vatAmount": "47.50",
+    "grossAmount": "297.50",
+    "title": "Rechnungsnr.: R20240171",
+    "pageCount": 1,
+    "textLength": 697,
+    "normalizerVersion": 4
+  },
+  "normalizedPaths": [
+    "workdir/normalized/invoices/INV-00057.md"
+  ],
+  "normalizedSha256": "052771f5799c9ff7f04d0062840411c5a83ddc0cb9011d55403bd2e8cae30721"
+}

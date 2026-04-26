@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02052",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240815_163500_EMAIL-02052.eml",
+  "rawSha256": "5d089f1ba334ae6410057f6e1462c0289b9b1a473bd2a0cff73d392d83a1861a",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Frau =?utf-8?q?D=C3=B6rthe_H=C3=B6vel?= <doerthe.hoevel@t-online.de>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Thu, 15 Aug 2024 16:35:00 -0000",
+      "message-id": "<177702011370.22256.3125338812004288494@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.16828866655678098301@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.16828866655678098301@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 499
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02052.md"
+  ],
+  "normalizedSha256": "fe7b1377f218c6fc42e5afaee6a48206284911a296d975e2503c2130e3086d8d"
+}

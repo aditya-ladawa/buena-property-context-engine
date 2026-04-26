@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05405",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250825_204600_EMAIL-05405.eml",
+  "rawSha256": "e0e315a9d717ab79af42fb57a36dedb4d2ccede2e3dbe99f999312af01e24338",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Edelgard Wulf <edelgard.wulf@gmx.de>",
+      "subject": "Re: Heizung faellt aus",
+      "date": "Mon, 25 Aug 2025 20:46:00 -0000",
+      "message-id": "<177702011370.22256.13443135358330029300@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3756742419041986196@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3756742419041986196@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 491
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05405.md"
+  ],
+  "normalizedSha256": "b24aaa8914bc9151f720b2f58064f89aa5e10a2ca08307b4bf924ed390d9a1be"
+}

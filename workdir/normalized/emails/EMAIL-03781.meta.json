@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03781",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250219_105900_EMAIL-03781.eml",
+  "rawSha256": "3deae2c1aab8c581b4c1fc790621186ef8e3499fd0a7ad7f80b0497c2c798f10",
+  "metadata": {
+    "headers": {
+      "from": "Herr Ronald Kelley <ronald.kelley@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Question about annual statement",
+      "date": "Wed, 19 Feb 2025 10:59:00 -0000",
+      "message-id": "<177702011370.22256.13249428945006734926@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 165
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03781.md"
+  ],
+  "normalizedSha256": "43a509d0bc185ed141c4688e9ae80bb39a1a15cf280d44c1d81a2e22ef3aefce"
+}

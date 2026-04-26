@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04289",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250414_161200_EMAIL-04289.eml",
+  "rawSha256": "a6959ff00621374a75bba940635d229d62bc3ea0a23341dcb2df1f10a3e3e8f4",
+  "metadata": {
+    "headers": {
+      "from": "Lisa Brown <lisa.brown@techclean-international.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Quote: Sanitaer-Reparatur",
+      "date": "Mon, 14 Apr 2025 16:12:00 -0000",
+      "message-id": "<177702011370.22256.2397123202334051223@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 196
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04289.md"
+  ],
+  "normalizedSha256": "a1e6bbda1062eecd5a5c4c5099fc599c4fbcc6b409ac2dd3cfa77f5f4f5e6bf9"
+}

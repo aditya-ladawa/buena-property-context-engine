@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00620",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240311_165800_EMAIL-00620.eml",
+  "rawSha256": "186f9303e91802feabf0a4743395129a2b6d236c7ebe242b7659950d1dbebd04",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Markus Fliegner <markus.fliegner@gmx.de>",
+      "subject": "Re: Verkaufsabsicht WE 06",
+      "date": "Mon, 11 Mar 2024 16:58:00 -0000",
+      "message-id": "<177702011370.22256.14178975496683520344@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8420472238600145340@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8420472238600145340@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 474
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00620.md"
+  ],
+  "normalizedSha256": "5164b66a96e38c5ea0a1995dd024c5c7ffc104f259d550716bcfb82e06aeea98"
+}

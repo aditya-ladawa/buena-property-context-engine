@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05685",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250921_204500_EMAIL-05685.eml",
+  "rawSha256": "4d3e0800eb843de2dbc0758800480a1a8805ee3937bdb3240b407d5f1612308e",
+  "metadata": {
+    "headers": {
+      "from": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Rechnung RE-2025-7384",
+      "date": "Sun, 21 Sep 2025 20:45:00 -0000",
+      "message-id": "<177702011370.22256.13494341352301556437@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 205
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05685.md"
+  ],
+  "normalizedSha256": "872493583a98632a953876dd52826f7fb55d3e373e1199aca27d95c00899f838"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05170",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250731_102700_EMAIL-05170.eml",
+  "rawSha256": "b04cf7d72b3cfc16d34b5179d757d1ebe4a0ff860a6723804237a4931e0518e3",
+  "metadata": {
+    "headers": {
+      "from": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumens.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Rechnung RE-2025-2026",
+      "date": "Thu, 31 Jul 2025 10:27:00 -0000",
+      "message-id": "<177702011370.22256.1977513008794893102@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 212
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05170.md"
+  ],
+  "normalizedSha256": "ec19e8af1e1a5007b5162eaec4eb581e28ef2d21662a2bf64b170b7f7cd93e03"
+}

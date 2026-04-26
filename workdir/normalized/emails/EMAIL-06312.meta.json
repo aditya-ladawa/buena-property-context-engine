@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06312",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251206_083200_EMAIL-06312.eml",
+  "rawSha256": "7a8624d0ccc844b3a83b6294b9346ac6458881b5b4858915808a8c33b57e11a5",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Dominic Jacobs <dominic.jacobs@t-online.de>",
+      "subject": "Re: Owners meeting - agenda item",
+      "date": "Sat, 06 Dec 2025 08:32:00 -0000",
+      "message-id": "<177702011370.22256.11738766460941406265@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14438212049819593224@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14438212049819593224@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 362
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06312.md"
+  ],
+  "normalizedSha256": "0ee9bded223d49aa0c7bd647b874694701be72182821d13372b968ab81e49d4e"
+}

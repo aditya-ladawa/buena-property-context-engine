@@ -1,0 +1,24 @@
+{
+  "sourceId": "LTR-0044",
+  "propertyId": "LIE-001",
+  "kind": "letter_pdf",
+  "rawPath": "data/briefe/2024-11/20241125_mieterhoehung_LTR-0044.pdf",
+  "rawSha256": "05951fb5a4ea4005e7a40f3ffafc40c17f82caba2d31351679d560c2e62624ba",
+  "metadata": {
+    "filename": "20241125_mieterhoehung_LTR-0044.pdf",
+    "date": "2024-11-25",
+    "letterType": "mieterhoehung",
+    "letterId": "LTR-0044",
+    "subject": "Mieterhoehung nach §558 BGB - Wohnung WE 35",
+    "amount": "1224.00",
+    "decisions": [],
+    "hasMeetingDecisions": false,
+    "pageCount": 1,
+    "textLength": 883,
+    "normalizerVersion": 4
+  },
+  "normalizedPaths": [
+    "workdir/normalized/letters/LTR-0044.md"
+  ],
+  "normalizedSha256": "f4d8fb025f70aef3f3b30c7038d384a03f50a3de1b3a48670004d19333625ba6"
+}

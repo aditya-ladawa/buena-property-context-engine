@@ -1,0 +1,24 @@
+{
+  "sourceId": "LTR-0040",
+  "propertyId": "LIE-001",
+  "kind": "letter_pdf",
+  "rawPath": "data/briefe/2024-10/20241018_mieterhoehung_LTR-0040.pdf",
+  "rawSha256": "1a2280a04bd8c3615e8569c34b88e030b5aaf0d0a2d925872ea3f203a2b35619",
+  "metadata": {
+    "filename": "20241018_mieterhoehung_LTR-0040.pdf",
+    "date": "2024-10-18",
+    "letterType": "mieterhoehung",
+    "letterId": "LTR-0040",
+    "subject": "Mieterhoehung nach §558 BGB - Wohnung WE 23",
+    "amount": "1511.00",
+    "decisions": [],
+    "hasMeetingDecisions": false,
+    "pageCount": 1,
+    "textLength": 884,
+    "normalizerVersion": 4
+  },
+  "normalizedPaths": [
+    "workdir/normalized/letters/LTR-0040.md"
+  ],
+  "normalizedSha256": "099114846777d8b1446c0ceb965785208bb8ce4062adaa0c93f06d34ff90a68d"
+}

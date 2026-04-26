@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00851",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240407_034600_EMAIL-00851.eml",
+  "rawSha256": "b5550436152f06b2343bc72b73957fd1871337459ad7ada30fc0eeb23bd711d5",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Kranz Vermoegensverwaltung <kranz.vermoegensverwaltung@capital-partners.com>",
+      "subject": "Re: Owners meeting - agenda item",
+      "date": "Sun, 07 Apr 2024 03:46:00 -0000",
+      "message-id": "<177702011370.22256.10048553817303703533@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.248656827045966970@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.248656827045966970@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 337
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00851.md"
+  ],
+  "normalizedSha256": "77f491945a2900f7578e9e69f5dca3751b7bd4eaa6abd0797059c15fecacec39"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06533",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251230_150100_EMAIL-06533.eml",
+  "rawSha256": "64eab817ef90de2742b83c2c8ab12937a2bb21043ce73a23f15ad732d6dfeec8",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Gertraud Holsten <gertraud.holsten@gmail.com>",
+      "subject": "Re: Sonderumlage - Einspruch",
+      "date": "Tue, 30 Dec 2025 15:01:00 -0000",
+      "message-id": "<177702011370.22256.12816620363341787642@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.16942370322746577288@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.16942370322746577288@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 490
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06533.md"
+  ],
+  "normalizedSha256": "5fea5ecb332b1d641902c058236fd26ad56d19e56ea1441a062b4ab2105a811f"
+}

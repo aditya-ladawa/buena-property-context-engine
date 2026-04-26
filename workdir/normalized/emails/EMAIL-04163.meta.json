@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04163",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250330_161300_EMAIL-04163.eml",
+  "rawSha256": "cdffaaedfdea69d379997eb07e129ddb2179d461c63a5e074821b77298bcbb7a",
+  "metadata": {
+    "headers": {
+      "from": "Lisa Brown <lisa.brown@techclean-international.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Quote: Schliessanlage",
+      "date": "Sun, 30 Mar 2025 16:13:00 -0000",
+      "message-id": "<177702011370.22256.1656667912960855030@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 192
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04163.md"
+  ],
+  "normalizedSha256": "84fbc6a01787e9a3c8dbf7e30e0a59eb15d9a11e78570dc848fc8c24d8e60e49"
+}

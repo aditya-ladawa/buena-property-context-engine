@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04511",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250514_094500_EMAIL-04511.eml",
+  "rawSha256": "d15f2225909652544b4d6ef039a05a94cc218f809af6673376e80e9ededeb27c",
+  "metadata": {
+    "headers": {
+      "from": "Edelgard Wulf <edelgard.wulf@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Internet/TV-Anschluss",
+      "date": "Wed, 14 May 2025 09:45:00 -0000",
+      "message-id": "<177702011370.22256.10083615909080050142@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 150
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04511.md"
+  ],
+  "normalizedSha256": "d7d9ee712c9960e46b21ca7b0b7c8f0b68126d101a29315a4788da36cc2cdc0a"
+}

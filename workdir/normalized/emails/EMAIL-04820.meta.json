@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04820",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250619_153700_EMAIL-04820.eml",
+  "rawSha256": "fa34b93ac51376bf929b2b31962ebd968cebb25bd65966334e7e0ce837b3cf02",
+  "metadata": {
+    "headers": {
+      "from": "Frau Mina Textor <mina.textor@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 42",
+      "date": "Thu, 19 Jun 2025 15:37:00 -0000",
+      "message-id": "<177702011370.22256.6021033296962257538@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 208
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04820.md"
+  ],
+  "normalizedSha256": "a2b380c45cc2036d42f08e88c20c4dab09f8d8b2ea344e56a951659b3c7a8dfc"
+}

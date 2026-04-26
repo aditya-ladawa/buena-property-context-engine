@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06087",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251109_132700_EMAIL-06087.eml",
+  "rawSha256": "cf9c01d3b8650f37e288383fa12c2b7bc33d3300c9496a441421f46c2720e0a5",
+  "metadata": {
+    "headers": {
+      "from": "Herr Winfried Ullmann <winfried.ullmann@yahoo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 26",
+      "date": "Sun, 09 Nov 2025 13:27:00 -0000",
+      "message-id": "<177702011370.22256.15894267963619973524@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 190
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06087.md"
+  ],
+  "normalizedSha256": "64bafe5de7895b628005575cb33b9d7167dc66e22a5bfbba8117a4deb4330cbf"
+}

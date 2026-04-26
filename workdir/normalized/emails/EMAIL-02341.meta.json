@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02341",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240913_104700_EMAIL-02341.eml",
+  "rawSha256": "287af3740574fd2244027b4c40910656634b5a0b2d4dded5e8387d3765014523",
+  "metadata": {
+    "headers": {
+      "from": "Lisa Brown <lisa.brown@techclean-international.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Quote: Jahreswartung Heizungsanlage",
+      "date": "Fri, 13 Sep 2024 10:47:00 -0000",
+      "message-id": "<177702011370.22256.8542391698673985277@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 207
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02341.md"
+  ],
+  "normalizedSha256": "d3f384266c7dffdda687cbb5ba9c052bb3839d1f7f8f693ddde8fc8337fd3b0d"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02986",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241123_100300_EMAIL-02986.eml",
+  "rawSha256": "ebfecf33412c5caeffa19a5bf260f3675879228198ef7a27e872d7eeaf213c18",
+  "metadata": {
+    "headers": {
+      "from": "Herr Tom Hartmann <tom.hartmann@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 29",
+      "date": "Sat, 23 Nov 2024 10:03:00 -0000",
+      "message-id": "<177702011370.22256.15910587837911117403@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 209
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02986.md"
+  ],
+  "normalizedSha256": "ba162c5d19b96b929f2ca9b9e2ee1abd5e6a99e62155b5e37134de4e55c766fa"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06500",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251227_105000_EMAIL-06500.eml",
+  "rawSha256": "8b89c4ad7ae2ec4775ba012790db81f61aa0fa371984a8c02838b8f87b090250",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Ronald Kelley <ronald.kelley@icloud.com>",
+      "subject": "Re: Owners meeting - agenda item",
+      "date": "Sat, 27 Dec 2025 10:50:00 -0000",
+      "message-id": "<177702011370.22256.17704116896837831941@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14414911290911073198@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14414911290911073198@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 317
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06500.md"
+  ],
+  "normalizedSha256": "d4946ffc7fd57ef83887ec5d1833562dc02a9ba772651b8956ab04bb9f563b64"
+}

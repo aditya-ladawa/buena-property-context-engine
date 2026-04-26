@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03259",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241224_101800_EMAIL-03259.eml",
+  "rawSha256": "926035be0610cad855d0451288bef99b37245049a8ad0824c77570f33d2025d5",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Ferenc Stahr <ferenc.stahr@gmx.de>",
+      "subject": "Re: Wohnungsuebergabe",
+      "date": "Tue, 24 Dec 2024 10:18:00 -0000",
+      "message-id": "<177702011370.22256.14414632034477152757@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.12006623458982133758@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.12006623458982133758@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 381
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03259.md"
+  ],
+  "normalizedSha256": "ef0c17f51c22c7f3b4afac3d36760dd830f7e304bfd6532088abff301cbfe056"
+}

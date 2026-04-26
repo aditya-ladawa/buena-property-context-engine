@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02384",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240919_142900_EMAIL-02384.eml",
+  "rawSha256": "293ffc43f90b1a6ce9d52340618db7594a12f9a668b283201ba941cfbf2700a6",
+  "metadata": {
+    "headers": {
+      "from": "Olga Holsten <olga.holsten@heiztechnik-berlin.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Aktualisierung unserer Bankverbindung",
+      "date": "Thu, 19 Sep 2024 14:29:00 -0000",
+      "message-id": "<177702011370.22256.13457977494275865177@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 319
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02384.md"
+  ],
+  "normalizedSha256": "f834cda912432cee20baecc23c6917d86b6199ba7657227f4d9aa4774d480640"
+}

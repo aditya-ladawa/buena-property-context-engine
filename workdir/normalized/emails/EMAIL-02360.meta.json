@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02360",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240915_112200_EMAIL-02360.eml",
+  "rawSha256": "3200543b8beeca6388265fd56b076f30c1413947b88ebc07e9dff6d907765195",
+  "metadata": {
+    "headers": {
+      "from": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Dachabdichtung Haus 12",
+      "date": "Sun, 15 Sep 2024 11:22:00 -0000",
+      "message-id": "<177702011370.22256.8641853622956798309@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 263
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02360.md"
+  ],
+  "normalizedSha256": "e5abc219131cf78e2a70bc15a1b4f43ba95e5714e18983bda7164b2cc4ce490d"
+}

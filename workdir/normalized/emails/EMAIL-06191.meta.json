@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06191",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251122_141500_EMAIL-06191.eml",
+  "rawSha256": "f1c3bddc2f26eb7c3686cb4667c0a7609522f5039080fe0d955fce32f18ba742",
+  "metadata": {
+    "headers": {
+      "from": "David Jenkins <david.jenkins@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Noise complaint",
+      "date": "Sat, 22 Nov 2025 14:15:00 -0000",
+      "message-id": "<177702011370.22256.4925973178734507703@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 191
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06191.md"
+  ],
+  "normalizedSha256": "226d4523ea5a2b3bdbfbd7e003a5a99f424e415fa515fe36dd7eca2f5a0a4057"
+}

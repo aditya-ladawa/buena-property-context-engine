@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04301",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250415_202400_EMAIL-04301.eml",
+  "rawSha256": "0fd08114de562b9554c5fdb3bc2740173e14547e4811dcd273018b299379aca8",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Thomas Kennedy <thomas.kennedy@securelock-systems-ltd.com>",
+      "subject": "Re: Quote: Reparatur Aufzug",
+      "date": "Tue, 15 Apr 2025 20:24:00 -0000",
+      "message-id": "<177702011370.22256.3315750465636107729@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.2389387744030016824@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.2389387744030016824@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 398
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04301.md"
+  ],
+  "normalizedSha256": "a03283cd08a8dab4763bc269c72168a86004aa3aa1530ed1e51d5e6fe53756de"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03310",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241230_101900_EMAIL-03310.eml",
+  "rawSha256": "5878da9eefa408c8af07b52e6d339c9406e17913de4954739cd65de1b15d1dd2",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Ronald Kelley <ronald.kelley@icloud.com>",
+      "subject": "Protokoll-Entwurf ETV",
+      "date": "Mon, 30 Dec 2024 10:19:00 -0000",
+      "message-id": "<177702011370.22256.10529239099280268649@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 128
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03310.md"
+  ],
+  "normalizedSha256": "6d65e0b413117a86ea1a9acc34129532a4616999090ea0f2cd4523422401a6cb"
+}

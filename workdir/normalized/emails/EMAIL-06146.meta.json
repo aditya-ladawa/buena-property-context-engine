@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06146",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251117_112700_EMAIL-06146.eml",
+  "rawSha256": "cac50fcd1334a77b2ea7fe97892c20a63257b7e6aba318fbc463560f6d0842e3",
+  "metadata": {
+    "headers": {
+      "from": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wartungsbericht",
+      "date": "Mon, 17 Nov 2025 11:27:00 -0000",
+      "message-id": "<177702011370.22256.16082504421635779466@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 214
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06146.md"
+  ],
+  "normalizedSha256": "61286f15d6d0cf0c41a350b1445cc544ecbade182781bdae2f6a9dd095bcbe56"
+}

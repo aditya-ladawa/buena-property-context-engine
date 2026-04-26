@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00698",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240321_151700_EMAIL-00698.eml",
+  "rawSha256": "638266511e35a3454c955a6e0d79a44affe00d87f7d318de3baa9fc6b74db142",
+  "metadata": {
+    "headers": {
+      "from": "Olga Holsten <olga.holsten@heiztechnik-berlin.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mahnung Rechnung RE-2024-5688",
+      "date": "Thu, 21 Mar 2024 15:17:00 -0000",
+      "message-id": "<177702011370.22256.18118009721962615459@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 230
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00698.md"
+  ],
+  "normalizedSha256": "c6a692f0ec92245453dd820102342055e3cede27e085d56fbf1a0c4f304215ba"
+}

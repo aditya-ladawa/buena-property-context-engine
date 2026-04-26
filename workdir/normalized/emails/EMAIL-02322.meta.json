@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02322",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240911_233700_EMAIL-02322.eml",
+  "rawSha256": "9d628f52ebe84854a55f938d6314d3bb8605a6bfb9c07a1509dba85041d7e2ac",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Olga Holsten <olga.holsten@heiztechnik-berlin.de>",
+      "subject": "Re: Auftragsbestaetigung",
+      "date": "Wed, 11 Sep 2024 23:37:00 -0000",
+      "message-id": "<177702011370.22256.18381438902654018347@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.11257376779344683892@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.11257376779344683892@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 452
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02322.md"
+  ],
+  "normalizedSha256": "1c711b98cc5b1a3e8ff4b75c4125469e2c9b234b29a010c8dfb23422f7665b67"
+}

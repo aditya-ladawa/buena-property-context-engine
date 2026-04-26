@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03748",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250215_225400_EMAIL-03748.eml",
+  "rawSha256": "926f7e46485b666ea45d91e2a50f3708411c1f9ceb40dc232608a03677824c4c",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "subject": "Re: Nachtrag Reparatur",
+      "date": "Sat, 15 Feb 2025 22:54:00 -0000",
+      "message-id": "<177702011370.22256.9693752414145499003@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4006116555634126239@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4006116555634126239@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 405
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03748.md"
+  ],
+  "normalizedSha256": "2f49c5125cc9f44365a36e65e06d7c8aff4b0bb9bbc9bffbdefa17d412dc8c6a"
+}

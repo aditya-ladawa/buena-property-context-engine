@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01336",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240528_223600_EMAIL-01336.eml",
+  "rawSha256": "7774b251b85abb14468fb2c9f9f49098650bf43fa81eb56569ba1105a2254a7f",
+  "metadata": {
+    "headers": {
+      "from": "Frau Jo Reuter <jo.reuter@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 51",
+      "date": "Tue, 28 May 2024 22:36:00 -0000",
+      "message-id": "<177702011370.22256.1254486370979965995@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 183
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01336.md"
+  ],
+  "normalizedSha256": "c88fc7ccd25b04e9460d9fa5d5c3e5cbb3a7e4b407e9dd34c18c6094a4314e88"
+}

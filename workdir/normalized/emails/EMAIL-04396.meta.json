@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04396",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250429_141400_EMAIL-04396.eml",
+  "rawSha256": "11e9275476a5dc04f0e31989e0557154bc980751966ad1b64bd9b5dab9ed79f2",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Catherine Heydrich <catherine.heydrich@dachdecker-richter.de>",
+      "subject": "Re: Auftragsbestaetigung",
+      "date": "Tue, 29 Apr 2025 14:14:00 -0000",
+      "message-id": "<177702011370.22256.6248466323106611631@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.12558161441203363358@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.12558161441203363358@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 459
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04396.md"
+  ],
+  "normalizedSha256": "ef3f67f5ea3d1a315733ecd4950f9614f00f16c4f38296da3bf3e6852098185c"
+}

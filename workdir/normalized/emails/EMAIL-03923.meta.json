@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03923",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250305_125600_EMAIL-03923.eml",
+  "rawSha256": "ba213740c35d8d42a45dd0ef137c70135e1b55974bf5fb0ae2ce8caff099806c",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kennedy <thomas.kennedy@securelock-systems-ltd.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Quote: Sanitaer-Reparatur",
+      "date": "Wed, 05 Mar 2025 12:56:00 -0000",
+      "message-id": "<177702011370.22256.15868563680806724851@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 201
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03923.md"
+  ],
+  "normalizedSha256": "09f71a117d397a0bcd90ca352022368cbea0e29a75e5e1d312cdeb6c44ec3408"
+}

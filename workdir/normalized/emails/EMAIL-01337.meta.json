@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01337",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240529_030800_EMAIL-01337.eml",
+  "rawSha256": "3820a15ca55c8ec7b82a124fedaba610e6a20d92da3800cde7f6b10c80645458",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "subject": "Re: Mahnung Rechnung RE-2024-8044",
+      "date": "Wed, 29 May 2024 03:08:00 -0000",
+      "message-id": "<177702011370.22256.965601976041585654@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4025267458029566195@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4025267458029566195@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 497
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01337.md"
+  ],
+  "normalizedSha256": "a317ea2871f8fcff66a2e796206ca2d93c371603130a898b6b955c51cedb119d"
+}

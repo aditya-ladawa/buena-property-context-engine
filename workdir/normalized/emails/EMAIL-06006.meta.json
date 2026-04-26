@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06006",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251031_103800_EMAIL-06006.eml",
+  "rawSha256": "98dcfbe28a2cc414d58c971381d4cfb073152fc3a641ce18ed81879db73c49a8",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Markus Fliegner <markus.fliegner@gmx.de>",
+      "subject": "Re: Sonderumlage - Einspruch",
+      "date": "Fri, 31 Oct 2025 10:38:00 -0000",
+      "message-id": "<177702011370.22256.9723835462645590133@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3318767853620126207@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3318767853620126207@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 457
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06006.md"
+  ],
+  "normalizedSha256": "aef9a4a5bc678858f9b88119488f47f9c6c8d445f28f6f620bc9bf65bd99931b"
+}

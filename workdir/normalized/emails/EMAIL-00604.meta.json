@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00604",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240310_130500_EMAIL-00604.eml",
+  "rawSha256": "822955158e7384fcd471db47c1538618585533013138d174519232cb3544f0e8",
+  "metadata": {
+    "headers": {
+      "from": "Lisa Brown <lisa.brown@techclean-international.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Invoice RE-2024-1954",
+      "date": "Sun, 10 Mar 2024 13:05:00 -0000",
+      "message-id": "<177702011370.22256.1919808893766403228@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 175
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00604.md"
+  ],
+  "normalizedSha256": "c086edf22b6713a5acc208e1949097215eac3762caac361740ab876c77518bfb"
+}

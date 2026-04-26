@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05176",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250801_105600_EMAIL-05176.eml",
+  "rawSha256": "2f074e9aa90c06107c7f679fe4e0b0ceabfd0ebf0c8ea34b0cc36166ab7ed1d6",
+  "metadata": {
+    "headers": {
+      "from": "Olga Holsten <olga.holsten@heiztechnik-berlin.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Reparatur Aufzug",
+      "date": "Fri, 01 Aug 2025 10:56:00 -0000",
+      "message-id": "<177702011370.22256.4813447036721181847@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 252
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05176.md"
+  ],
+  "normalizedSha256": "2ead004aeacde7c819110e01122827e01ca08ee20f43f13ff7fa64da5fb95c01"
+}

@@ -1,0 +1,15 @@
+{
+  "sourceId": "BANK-DAY-02-KONTOAUSZUG-DELTA",
+  "propertyId": "LIE-001",
+  "kind": "bank_csv",
+  "rawPath": "data/incremental/day-02/bank/kontoauszug_delta.csv",
+  "rawSha256": "52066874bcdd94971c47a366eeeddae5d61b788752ecd6c8d343ee792e5f98b4",
+  "normalizedPaths": [
+    "workdir/normalized/bank/BANK-DAY-02-KONTOAUSZUG-DELTA.jsonl"
+  ],
+  "normalizedSha256": "b9d18a60a2b33ece1b61053b5f7a5c20f28146079c25b40ea19197b563efab35",
+  "metadata": {
+    "rowCount": 1,
+    "format": "csv"
+  }
+}

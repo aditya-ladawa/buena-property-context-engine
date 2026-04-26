@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06387",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251214_094700_EMAIL-06387.eml",
+  "rawSha256": "47b04b401d57a595bef30a296adc60a5332287ff54d60d70f257cabc494fdeb5",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Frau Hiltrud Speer <hiltrud.speer@t-online.de>",
+      "subject": "Re: Owners meeting - agenda item",
+      "date": "Sun, 14 Dec 2025 09:47:00 -0000",
+      "message-id": "<177702011370.22256.4845235692978624009@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.2486842291763896451@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.2486842291763896451@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 313
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06387.md"
+  ],
+  "normalizedSha256": "bc1945f51e977968a6397e23da2e309f8c3c19f8e53009c0c11e01d54298ab7c"
+}

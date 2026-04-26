@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04598",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250523_110600_EMAIL-04598.eml",
+  "rawSha256": "f51cc802a3fe323a32e642ecfac24f68b8fab0a49c77bb9a39227a675bffe7c2",
+  "metadata": {
+    "headers": {
+      "from": "Herr Gottlob Hahn <gottlob.hahn@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 40",
+      "date": "Fri, 23 May 2025 11:06:00 -0000",
+      "message-id": "<177702011370.22256.17214160594625352749@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 186
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04598.md"
+  ],
+  "normalizedSha256": "6b7d50d1940902385f5272c9d0c18c367ddad741b7448172cc4bca2b0561fce3"
+}

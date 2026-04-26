@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03853",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250225_161800_EMAIL-03853.eml",
+  "rawSha256": "0968f01fbcf3d7728a85967e5d20ac9c81cbfb3f962554fa8120022df125a35e",
+  "metadata": {
+    "headers": {
+      "from": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wartungsbericht",
+      "date": "Tue, 25 Feb 2025 16:18:00 -0000",
+      "message-id": "<177702011370.22256.16367235127565762477@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 210
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03853.md"
+  ],
+  "normalizedSha256": "f0d716e6aebd781f7bf47f71ce6eb8cd70a74dc756e2ea145112207a8fcdbed7"
+}

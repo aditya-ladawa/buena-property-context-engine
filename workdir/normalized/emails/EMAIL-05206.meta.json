@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05206",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-08/20250806_080700_EMAIL-05206.eml",
+  "rawSha256": "d7005c0f4d641d3b4d47ea4e41eaa49484bc0974f4aadc1cc0b802ad5936a86b",
+  "metadata": {
+    "headers": {
+      "from": "Frau Xenia Conradi <xenia.conradi@outlook.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 08",
+      "date": "Wed, 06 Aug 2025 08:07:00 -0000",
+      "message-id": "<177702011370.22256.8828696691766177927@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 187
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05206.md"
+  ],
+  "normalizedSha256": "493529a0742ffa155d60d863076753ad8cf67c80b3ebe09412e018d203d83ff7"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00922",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240413_012800_EMAIL-00922.eml",
+  "rawSha256": "38713a39ca62e8bd55cfb57ae0169a425e44f0c63e47b213e81e345213908e54",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Olga Holsten <olga.holsten@heiztechnik-berlin.de>",
+      "subject": "Re: Mahnung Rechnung RE-2024-7750",
+      "date": "Sat, 13 Apr 2024 01:28:00 -0000",
+      "message-id": "<177702011370.22256.15035502184789860343@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.18075753772304867951@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.18075753772304867951@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 459
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00922.md"
+  ],
+  "normalizedSha256": "b26b644907236039457a2224163e3a2c0b13007f156333cff2490d1562644ed5"
+}

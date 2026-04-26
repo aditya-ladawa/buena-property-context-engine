@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03844",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250225_091400_EMAIL-03844.eml",
+  "rawSha256": "1af85042dee4988927870b1246075f99354f7e095c726e067c0b0932a3a294bc",
+  "metadata": {
+    "headers": {
+      "from": "Magrit Mitschke <magrit.mitschke@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Heizung faellt aus",
+      "date": "Tue, 25 Feb 2025 09:14:00 -0000",
+      "message-id": "<177702011370.22256.11455622829395405487@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 236
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03844.md"
+  ],
+  "normalizedSha256": "9e45525f685d1b9f712c762a452819acb618dbf7776c7643737b21d19c94c780"
+}

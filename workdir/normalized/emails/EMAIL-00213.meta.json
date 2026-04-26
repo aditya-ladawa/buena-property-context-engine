@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00213",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240127_115900_EMAIL-00213.eml",
+  "rawSha256": "f45178436bea0b8aa7dbef73134861035c5c3e8f4efae2dfd43af7670aa8722b",
+  "metadata": {
+    "headers": {
+      "from": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeister-bauer.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Reparatur Aufzug",
+      "date": "Sat, 27 Jan 2024 11:59:00 -0000",
+      "message-id": "<177702011370.22256.45669284662639079@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 260
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00213.md"
+  ],
+  "normalizedSha256": "6c431bf6f6841ab9782a349754ef8410ac2b3a3f7f9a794502b178f48bd843ba"
+}

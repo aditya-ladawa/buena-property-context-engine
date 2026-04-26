@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00483",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240227_001100_EMAIL-00483.eml",
+  "rawSha256": "54663a57532dc5ec89fc22883ae2e4ee97c45ee047eca2972dbf2e3b55b57c3f",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Frau Hiltrud Speer <hiltrud.speer@t-online.de>",
+      "subject": "Re: SEV - Monatsauszug",
+      "date": "Tue, 27 Feb 2024 00:11:00 -0000",
+      "message-id": "<177702011370.22256.2138050921547842521@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14047925451082424597@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14047925451082424597@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 400
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00483.md"
+  ],
+  "normalizedSha256": "e8f625dd4678f74a308367d3e5e862a5e1b45792ba37893febeb588e4d0f88b0"
+}

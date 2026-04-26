@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05635",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250916_100700_EMAIL-05635.eml",
+  "rawSha256": "e18641b2f1ced2837a6d6d7e751cfba558cf54a8460ac5d14b7e0a73e8b03700",
+  "metadata": {
+    "headers": {
+      "from": "Herr Ingbert Nerger <ingbert.nerger@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in TG 52",
+      "date": "Tue, 16 Sep 2025 10:07:00 -0000",
+      "message-id": "<177702011370.22256.1191499150456979192@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 188
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05635.md"
+  ],
+  "normalizedSha256": "875f5d24e73589ccda9898ee0dce36b6eae9a8f1c4f682ddf49f6c6693de4a21"
+}

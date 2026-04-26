@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05673",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250920_173600_EMAIL-05673.eml",
+  "rawSha256": "8d47986f708ef5fd3bf41fe1671850da4dfe98a8066b29a9792d5b825264e63f",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Erdal Beckmann <erdal.beckmann@gmx.de>",
+      "subject": "Abstimmung zu Angebot",
+      "date": "Sat, 20 Sep 2025 17:36:00 -0000",
+      "message-id": "<177702011370.22256.10865618889762071456@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 126
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05673.md"
+  ],
+  "normalizedSha256": "e57b96e1dd4ee791ec74a8a0f9ce16565bcda7430a10f16be5bd97566bc14844"
+}

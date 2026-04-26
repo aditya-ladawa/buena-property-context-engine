@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01461",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240611_003600_EMAIL-01461.eml",
+  "rawSha256": "1dc065ae57e4014e57cfd6d13c7a2fd0d51eaa60888a68fae5767eb764587ba3",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Ekkehart Wende <ekkehart.wende@gaertnerei-gruener-daumen.de>",
+      "subject": "Re: Rechnung RE-2024-4350",
+      "date": "Tue, 11 Jun 2024 00:36:00 -0000",
+      "message-id": "<177702011370.22256.7021731388740056970@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4106807870945946125@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4106807870945946125@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 465
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01461.md"
+  ],
+  "normalizedSha256": "870545d0782dca349577996ec6c6a3240c3715dd3bd106dfe53195528abceead"
+}

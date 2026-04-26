@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03976",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250310_120600_EMAIL-03976.eml",
+  "rawSha256": "69e9385385a7b68a28424948e534ec1fda6d08bc4dc37fc423b2c9de3429a6a3",
+  "metadata": {
+    "headers": {
+      "from": "Jacek Weinhold <jacek.weinhold@schornsteinfegermeisterbauer.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Rechnung RE-2025-4870",
+      "date": "Mon, 10 Mar 2025 12:06:00 -0000",
+      "message-id": "<177702011370.22256.13054325235919196935@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 216
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03976.md"
+  ],
+  "normalizedSha256": "6ecbdc0d399584912bafaa0cf3032b0e4261310fd2e9c61ad69dee263eae308d"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00414",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240219_113400_EMAIL-00414.eml",
+  "rawSha256": "800262e4bf37a5188413e1f9622aa99128cf27eff45445643f90612446100a5d",
+  "metadata": {
+    "headers": {
+      "from": "Herr =?utf-8?q?S=C3=BCkr=C3=BC?= Aumann <suekrue.aumann@posteo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 41",
+      "date": "Mon, 19 Feb 2024 11:34:00 -0000",
+      "message-id": "<177702011370.22256.5979167519116865554@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 211
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00414.md"
+  ],
+  "normalizedSha256": "2a0c2934fdb79f70bde960bd6cb5b62032e497690e4ec413a391476cd4e42137"
+}

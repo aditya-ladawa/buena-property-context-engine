@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00639",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240314_105100_EMAIL-00639.eml",
+  "rawSha256": "2b8bee5000c0fb88958ceaa0a24eb554d4fbf789ceb8fdcf1d2f03be38a0b2ee",
+  "metadata": {
+    "headers": {
+      "from": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Auftragsbestaetigung",
+      "date": "Thu, 14 Mar 2024 10:51:00 -0000",
+      "message-id": "<177702011370.22256.4249275798170003100@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 200
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00639.md"
+  ],
+  "normalizedSha256": "d17308b9d97e2ab7b149a4d0b33362dbf8eaba71414bb44753efddd78444de49"
+}

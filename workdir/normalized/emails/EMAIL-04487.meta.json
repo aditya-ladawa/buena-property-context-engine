@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04487",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250511_131700_EMAIL-04487.eml",
+  "rawSha256": "af4909fff35e406d4eb0900a4f932fb2d81abe56bb83eeeed068f7b613d56b55",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "=?utf-8?q?J=C3=B6rgen?= Seidel <joergen.seidel@gmx.de>",
+      "subject": "Re: Kuendigung Mietvertrag",
+      "date": "Sun, 11 May 2025 13:17:00 -0000",
+      "message-id": "<177702011370.22256.3283036103390845128@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.9059127722694596791@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.9059127722694596791@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 499
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04487.md"
+  ],
+  "normalizedSha256": "dddf43d28a360f0a0a9167d5f135f98aa66910370d8665f502f69b946ad348c8"
+}

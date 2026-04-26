@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04560",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250519_115500_EMAIL-04560.eml",
+  "rawSha256": "ec53b5b154706fce63cb224c76edc659e3d2eb4f3377e37c5e6d88efe93bc9ef",
+  "metadata": {
+    "headers": {
+      "from": "Irmengard Mentzel <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Treppenhausreinigung",
+      "date": "Mon, 19 May 2025 11:55:00 -0000",
+      "message-id": "<177702011370.22256.7971579672759158327@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 264
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04560.md"
+  ],
+  "normalizedSha256": "27eb4ab8d8184c67a787709a5562196699bc305c3c773fd6d5d8a1ec710c6545"
+}

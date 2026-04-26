@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01563",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240621_214500_EMAIL-01563.eml",
+  "rawSha256": "842d44e5a61853e3b9dd554052a9ffd661019b9c628ca4c7748822d7faedc673",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Gottlob Hahn <gottlob.hahn@gmail.com>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Fri, 21 Jun 2024 21:45:00 -0000",
+      "message-id": "<177702011370.22256.3499318819724029579@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.15226987788711507652@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.15226987788711507652@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 460
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01563.md"
+  ],
+  "normalizedSha256": "888104ae27e48987eaa018dbd15f8d6e20fafb6c51240cf2acb37e0fbc9e52c0"
+}

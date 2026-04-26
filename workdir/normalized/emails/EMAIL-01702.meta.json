@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01702",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240709_032200_EMAIL-01702.eml",
+  "rawSha256": "eab141238a7a63a501e2e6fe8befb0d8301781d68e8fa5d27b35e8a4e17c3900",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Irmengard Mentzel <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "subject": "Re: Mahnung Rechnung RE-2024-1333",
+      "date": "Tue, 09 Jul 2024 03:22:00 -0000",
+      "message-id": "<177702011370.22256.14520023516617592026@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8083663185900608364@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8083663185900608364@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 497
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01702.md"
+  ],
+  "normalizedSha256": "80ccd06fcba4847c2f75f4ad1db56a7ac5db2fc27f153252b7d18bd95e06c04a"
+}

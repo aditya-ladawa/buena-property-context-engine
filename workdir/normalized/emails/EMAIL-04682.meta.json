@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04682",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250601_155100_EMAIL-04682.eml",
+  "rawSha256": "2a6673de32620adad2573a58366cd5013c7c874ea90330d1073da30eb4f151c4",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kennedy <thomas.kennedy@securelock-systems-ltd.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Maintenance report",
+      "date": "Sun, 01 Jun 2025 15:51:00 -0000",
+      "message-id": "<177702011370.22256.17706310598181445281@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 193
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04682.md"
+  ],
+  "normalizedSha256": "35812bb0ea2f838926c1f9c901ddb54df5480a3a75033750b888649ad315f344"
+}

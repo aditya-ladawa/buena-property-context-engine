@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03811",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250222_113000_EMAIL-03811.eml",
+  "rawSha256": "716c9289491ee39f1f023b8165a7263ea084691528999cfb34b0b1fe6f215e8e",
+  "metadata": {
+    "headers": {
+      "from": "Frau Irmingard Margraf <irmingard.margraf@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Frage zur Hausgeldabrechnung",
+      "date": "Sat, 22 Feb 2025 11:30:00 -0000",
+      "message-id": "<177702011370.22256.11632480241531861491@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 256
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03811.md"
+  ],
+  "normalizedSha256": "387dbaf8521808a9b7722ff1a1086944006b4518126d9e15828d91cd935457d9"
+}

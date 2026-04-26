@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04311",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250417_022500_EMAIL-04311.eml",
+  "rawSha256": "85a9c24bfeede4b2d5ed095d58b1877c7b0c5f31bade68ee013c2d79a70f26d9",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr =?utf-8?q?S=C3=BCkr=C3=BC?= Aumann <suekrue.aumann@posteo.de>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Thu, 17 Apr 2025 02:25:00 -0000",
+      "message-id": "<177702011370.22256.15949651404576255962@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10051009462169207123@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10051009462169207123@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 499
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04311.md"
+  ],
+  "normalizedSha256": "4b1755d694fa08479c96f276e562faa413f250fba9cb92a5a9877e44578d03b3"
+}

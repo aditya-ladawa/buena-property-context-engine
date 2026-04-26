@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02475",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240928_162800_EMAIL-02475.eml",
+  "rawSha256": "8afff894c0c46990312f2c0f55c4d05a64bec8ec64070fe48c4e1a628c130dc9",
+  "metadata": {
+    "headers": {
+      "from": "Falk Trommler <falk.trommler@berliner-wasserbetriebe.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mahnung Rechnung RE-2024-6287",
+      "date": "Sat, 28 Sep 2024 16:28:00 -0000",
+      "message-id": "<177702011370.22256.7961813769904868638@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 231
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02475.md"
+  ],
+  "normalizedSha256": "db16fb1aa6fea185014e261a4acd8558a7827fe263ea8c60d5371ebd37e41594"
+}

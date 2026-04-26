@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06182",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251121_163500_EMAIL-06182.eml",
+  "rawSha256": "3ca41e38134d98ef3f0f989866a58351c846515ce89adcaf8e973bc0eb24916f",
+  "metadata": {
+    "headers": {
+      "from": "Olga Holsten <olga.holsten@heiztechnik-berlin.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wartungsbericht",
+      "date": "Fri, 21 Nov 2025 16:35:00 -0000",
+      "message-id": "<177702011370.22256.4115089288466860953@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 207
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06182.md"
+  ],
+  "normalizedSha256": "08f77447b2a03379ae203a50708ce92ad82a71cfd3e35ab6684a4ed9e56efd02"
+}

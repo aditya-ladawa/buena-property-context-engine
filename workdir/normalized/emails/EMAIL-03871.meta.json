@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03871",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250227_141600_EMAIL-03871.eml",
+  "rawSha256": "529acd0c11d75add59bddb766bb275d7b744dd13a66631864cda2dc492fca878",
+  "metadata": {
+    "headers": {
+      "from": "Herr Oswald =?utf-8?q?Gr=C3=B6ttner?= <oswald.groettner@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 22",
+      "date": "Thu, 27 Feb 2025 14:16:00 -0000",
+      "message-id": "<177702011370.22256.17341011603285523589@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 213
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03871.md"
+  ],
+  "normalizedSha256": "b7454678b18db1be45d5c0ecad2503afaee3dbc462460f1026cfe2e12f00b517"
+}

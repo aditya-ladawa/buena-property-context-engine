@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05730",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250927_223700_EMAIL-05730.eml",
+  "rawSha256": "94247f11878fe8ce12bb6a9115e3f6e1c62f2e86ce68978e211767d2d798bd3e",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Ingbert Nerger <ingbert.nerger@gmx.de>",
+      "subject": "Re: Verkaufsabsicht TG 52",
+      "date": "Sat, 27 Sep 2025 22:37:00 -0000",
+      "message-id": "<177702011370.22256.5960822995999242285@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.17805039453508523154@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.17805039453508523154@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 465
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05730.md"
+  ],
+  "normalizedSha256": "0f19b314c494d5770b71682b74ac506354c1ac4619a607ff02c3d7c3f32a55ea"
+}

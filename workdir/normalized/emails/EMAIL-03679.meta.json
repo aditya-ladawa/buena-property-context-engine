@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03679",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250209_124900_EMAIL-03679.eml",
+  "rawSha256": "d2e9116005a217dd2c1dcb71c93bf7df57c17cfc6e0f9c55d5d59d2b30cbf1c6",
+  "metadata": {
+    "headers": {
+      "from": "BSR Berliner Stadtreinigung <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Jahresabrechnung 2024",
+      "date": "Sun, 09 Feb 2025 12:49:00 -0000",
+      "message-id": "<177702011370.22256.14725767516007712663@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 212
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03679.md"
+  ],
+  "normalizedSha256": "0019a8f07c2675d0ad8bb72d4707c6560f515dfa3cf57b5a4644f4e770080a5a"
+}

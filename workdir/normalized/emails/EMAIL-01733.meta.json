@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01733",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240711_155900_EMAIL-01733.eml",
+  "rawSha256": "745b29975fedc36dfc9b648bab5dbb4248f56c514ce608a541434b51f0d90186",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Julius Nette <julius.nette@outlook.com>",
+      "subject": "Re: Water damage in bathroom",
+      "date": "Thu, 11 Jul 2024 15:59:00 -0000",
+      "message-id": "<177702011370.22256.1639849560031082166@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.16446029880923442119@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.16446029880923442119@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 411
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01733.md"
+  ],
+  "normalizedSha256": "2b154a784237499eb8aa7d8419585f8798ff0d8b14c96e40270fb042a98e6483"
+}

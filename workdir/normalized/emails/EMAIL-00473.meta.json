@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00473",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240226_133500_EMAIL-00473.eml",
+  "rawSha256": "f0b786e92ebbb18879006055cd06885d731eca69291a6939d01a3aced2c2dc16",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "=?utf-8?q?Bj=C3=B6rn?= Weinhage <bjoern.weinhage@gmx.de>",
+      "subject": "Re: Haustuer schliesst nicht",
+      "date": "Mon, 26 Feb 2024 13:35:00 -0000",
+      "message-id": "<177702011370.22256.8553489187039140785@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.4745055006136300098@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.4745055006136300098@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 407
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00473.md"
+  ],
+  "normalizedSha256": "1ef7f58ddd2af8dce53907a681a5600128cf862cbf0614d03d84a6c67377b02f"
+}

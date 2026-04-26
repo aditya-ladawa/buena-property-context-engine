@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02644",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241018_095900_EMAIL-02644.eml",
+  "rawSha256": "dcab24b06f7a3ca6c7e3ca65b002e52fb592a56cbd517c2edbac179f2457b757",
+  "metadata": {
+    "headers": {
+      "from": "Carola Buchholz <carola.buchholz@elektro-schmidt-e-k.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Auftragsbestaetigung",
+      "date": "Fri, 18 Oct 2024 09:59:00 -0000",
+      "message-id": "<177702011370.22256.3250970431810032621@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 196
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02644.md"
+  ],
+  "normalizedSha256": "5b336e68a2f17832ce4de393e1f34a22454d495e2c746bfdd0bd2241111e06dd"
+}

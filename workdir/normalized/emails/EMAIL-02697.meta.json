@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02697",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241023_115500_EMAIL-02697.eml",
+  "rawSha256": "0d0e0d1375ccda922a905e31b55450d7307901eda0e49211b9c5b0b6b40f6a6e",
+  "metadata": {
+    "headers": {
+      "from": "Carola Buchholz <carola.buchholz@elektro-schmidt-e-k.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Reparatur Aufzug",
+      "date": "Wed, 23 Oct 2024 11:55:00 -0000",
+      "message-id": "<177702011370.22256.3687435685946743913@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 251
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02697.md"
+  ],
+  "normalizedSha256": "40833f3e9e429d4f4bbe306a1589accef7ad290d0f92a5b621542023889b2051"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04358",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250423_150100_EMAIL-04358.eml",
+  "rawSha256": "a0371001e39a7151b4da4a71013d752cc17f4166977bc60653b9d83f78cb628a",
+  "metadata": {
+    "headers": {
+      "from": "Slawomir =?utf-8?q?S=C3=B6lzer?= <slawomir.soelzer@hausmeister-mueller.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Terminbestaetigung Wartung",
+      "date": "Wed, 23 Apr 2025 15:01:00 -0000",
+      "message-id": "<177702011370.22256.16550045408471055711@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 142
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04358.md"
+  ],
+  "normalizedSha256": "4f93f1b7c66a450da271835397f9bbbcc29f5c0c250deeb8fd0639f412ed448d"
+}

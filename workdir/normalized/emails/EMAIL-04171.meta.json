@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04171",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250331_201400_EMAIL-04171.eml",
+  "rawSha256": "9bb5a86dcd5bf898fa315b4fcc84bc2a987f59629f2859685b919f9ee65af67e",
+  "metadata": {
+    "headers": {
+      "from": "Kiara Mcintyre <kiara.mcintyre@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Water damage in bathroom",
+      "date": "Mon, 31 Mar 2025 20:14:00 -0000",
+      "message-id": "<177702011370.22256.9910396445785518065@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 217
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04171.md"
+  ],
+  "normalizedSha256": "1a1a9841fc8943fcde7e9e3adcb6435fdad7061e729e431031b3917c0d5876e1"
+}

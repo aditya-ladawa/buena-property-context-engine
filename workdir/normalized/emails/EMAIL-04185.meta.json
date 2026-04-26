@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04185",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250402_000800_EMAIL-04185.eml",
+  "rawSha256": "84115251817b5e7ba4acbddfc00b133f30d420bf3a0c15f01cb2a3b547ed0b7c",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Tom Hartmann <tom.hartmann@icloud.com>",
+      "subject": "Re: Frage zur Hausgeldabrechnung",
+      "date": "Wed, 02 Apr 2025 00:08:00 -0000",
+      "message-id": "<177702011370.22256.9599918906034749406@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.6261672714256208589@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.6261672714256208589@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 515
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04185.md"
+  ],
+  "normalizedSha256": "e58009c56fdbaa611187bd09abd754e6796487126c21b59e2b49c8113c599939"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05774",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-10/20251003_184000_EMAIL-05774.eml",
+  "rawSha256": "077327f89d4e41d69e53203d65bdf70726902f54465e32a1c2c901424d8d0783",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Herr Erdal Beckmann <erdal.beckmann@gmx.de>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Fri, 03 Oct 2025 18:40:00 -0000",
+      "message-id": "<177702011370.22256.13577477270228143771@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13950333125600310008@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13950333125600310008@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 469
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05774.md"
+  ],
+  "normalizedSha256": "15bbadf77637f8b9f1b3ed7396228a6ee522c3446a07a619ee0a745426a1aa43"
+}

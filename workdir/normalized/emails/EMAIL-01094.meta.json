@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01094",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240501_211900_EMAIL-01094.eml",
+  "rawSha256": "28217789f8fdc29a5a0bb3c75eea17059613f6a6dc95adf4fb7ad452e20eb73d",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Ingolf =?utf-8?q?R=C3=B6hricht?= <ingolf.roehricht@gmail.com>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Wed, 01 May 2024 21:19:00 -0000",
+      "message-id": "<177702011370.22256.10755866719697409806@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8214264862691843880@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8214264862691843880@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 470
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01094.md"
+  ],
+  "normalizedSha256": "67284db4789ffa293e5bd9803bcf003868099427eef8d7c9e8d89ad8b9699be1"
+}

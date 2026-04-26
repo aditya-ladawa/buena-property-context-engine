@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00345",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240209_155000_EMAIL-00345.eml",
+  "rawSha256": "c8135575c736b240a4149497dc3fa358052693903e1d52b0f16412a4add32759",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Kamil Trub <kamil.trub@gmx.de>",
+      "subject": "Re: Mietminderung Ankuendigung",
+      "date": "Fri, 09 Feb 2024 15:50:00 -0000",
+      "message-id": "<177702011370.22256.2871873397029235955@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.2234048436228390756@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.2234048436228390756@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 499
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00345.md"
+  ],
+  "normalizedSha256": "ae892f4c844d19ab95c6d37a2c46f31f93901871227c3efcc79dcc39f8fcd72c"
+}

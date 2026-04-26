@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02604",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241013_090900_EMAIL-02604.eml",
+  "rawSha256": "47c42295a027e481aee2c3c0f863fecddb658a9976c06fa9ae501fca0f4b7759",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Ingbert Nerger <ingbert.nerger@gmx.de>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Sun, 13 Oct 2024 09:09:00 -0000",
+      "message-id": "<177702011370.22256.6865658923757766700@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.10338911237637384268@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.10338911237637384268@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 385
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02604.md"
+  ],
+  "normalizedSha256": "0da82387d1fabc1003c72c111f50fbfb8aef15a121e093e422442d568d31f0f4"
+}

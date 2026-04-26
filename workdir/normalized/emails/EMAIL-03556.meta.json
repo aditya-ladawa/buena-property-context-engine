@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03556",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250125_005800_EMAIL-03556.eml",
+  "rawSha256": "14a554afced7dbc1033b093f4933fd1201893e4838f339720222c914809252d3",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Wilma Roht <wilma.roht@gmail.com>",
+      "subject": "Re: Wohnungsuebergabe",
+      "date": "Sat, 25 Jan 2025 00:58:00 -0000",
+      "message-id": "<177702011370.22256.3242530316653333861@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.18246643478154929607@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.18246643478154929607@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 377
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03556.md"
+  ],
+  "normalizedSha256": "37baf689403ab486ad428840b2ba26b1be87e18f581cee7724b3106fe7e3f3ad"
+}

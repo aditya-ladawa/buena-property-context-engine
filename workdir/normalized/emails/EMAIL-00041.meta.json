@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00041",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240106_135100_EMAIL-00041.eml",
+  "rawSha256": "5dfa2f197b0793dc2dda9ffb1dbb4d94c63e56cce4ad7b20a497d78aef2e5d2c",
+  "metadata": {
+    "headers": {
+      "from": "Frau Irmingard Margraf <irmingard.margraf@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in TG 18",
+      "date": "Sat, 06 Jan 2024 13:51:00 -0000",
+      "message-id": "<177702011370.22256.15493052898878077612@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 191
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00041.md"
+  ],
+  "normalizedSha256": "d093df74e18556258d2604ba488a2f99d14530bd5c77a1a3ae6c25c9b93123f7"
+}

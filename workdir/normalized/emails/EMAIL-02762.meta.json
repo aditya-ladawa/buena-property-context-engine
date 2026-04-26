@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02762",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241030_125400_EMAIL-02762.eml",
+  "rawSha256": "f80d3307d532132e18071f9c95c5d7d3ffad16416ff49ca0c6594f3e7b7b48a8",
+  "metadata": {
+    "headers": {
+      "from": "Frau Josefine Nohlmans <josefine.nohlmans@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 07",
+      "date": "Wed, 30 Oct 2024 12:54:00 -0000",
+      "message-id": "<177702011370.22256.10018147009849127467@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 214
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02762.md"
+  ],
+  "normalizedSha256": "b0cb9ad72de39cd49bb6cf9664f66b156d4f57d3d8b633da3c83d5de24d59b8b"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02292",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240908_155600_EMAIL-02292.eml",
+  "rawSha256": "18d29f5c57b90215b57bdb91f7bdd24039c7753fa42954d00da6359974774d3b",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Frau Hiltrud Speer <hiltrud.speer@t-online.de>",
+      "subject": "Re: Verkaufsabsicht WE 03",
+      "date": "Sun, 08 Sep 2024 15:56:00 -0000",
+      "message-id": "<177702011370.22256.6281126698918372945@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8024179009443181508@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8024179009443181508@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 434
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02292.md"
+  ],
+  "normalizedSha256": "d58822ecb190045fec87e7115aa002b5dd9e92e4ff39130a30614475b9ca717b"
+}

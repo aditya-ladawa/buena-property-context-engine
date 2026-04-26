@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04480",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250510_185800_EMAIL-04480.eml",
+  "rawSha256": "8d09c2ee13aa55a4a2b600ffea4401a68f1aee0d4dad2ea1d4021e2b9ea00ff7",
+  "metadata": {
+    "headers": {
+      "from": "Frau Dunja Schacht <dunja.schacht@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Question about annual statement",
+      "date": "Sat, 10 May 2025 18:58:00 -0000",
+      "message-id": "<177702011370.22256.12383822473493553949@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 165
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04480.md"
+  ],
+  "normalizedSha256": "e51fee2fc44a430999493b927f1a616c6b6c7807c209cee8def09bc0a50fac11"
+}

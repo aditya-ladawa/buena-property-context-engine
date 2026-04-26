@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06107",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251112_155500_EMAIL-06107.eml",
+  "rawSha256": "cf419f48715a5551edefbc9f63b5d0ca77d80f5f1be0caaf590ef869b519d69c",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "subject": "Re: Rechnung RE-2025-4465",
+      "date": "Wed, 12 Nov 2025 15:55:00 -0000",
+      "message-id": "<177702011370.22256.13176253660976366874@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13897745860385135018@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13897745860385135018@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 470
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06107.md"
+  ],
+  "normalizedSha256": "c26a331bc987184ee4365d2160f9817ccb70049b858b60d5a2228a3793e1be04"
+}

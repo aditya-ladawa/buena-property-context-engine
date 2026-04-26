@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01836",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240722_231100_EMAIL-01836.eml",
+  "rawSha256": "9073f5c6d2abfc22251bcba05769b5bdb3b7f7466e4641d988b302e7b08e7a49",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Hulda Eckbauer <hulda.eckbauer@t-online.de>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Mon, 22 Jul 2024 23:11:00 -0000",
+      "message-id": "<177702011370.22256.6413632116187056374@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14525567791713624614@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14525567791713624614@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 423
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01836.md"
+  ],
+  "normalizedSha256": "74f112317aaaa207cd1c1ba7976f9aaad532980d3671883b44a01f4c80078ce8"
+}

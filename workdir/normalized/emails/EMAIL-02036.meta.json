@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02036",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240814_122400_EMAIL-02036.eml",
+  "rawSha256": "39e70bcf7a8818b9a9a9477c5e5915f8d86187f3ac10fa1a682d41cbd117cb2c",
+  "metadata": {
+    "headers": {
+      "from": "Malte Becker <malte.becker@reinigungsservice-kowalski.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Aktualisierung unserer Bankverbindung",
+      "date": "Wed, 14 Aug 2024 12:24:00 -0000",
+      "message-id": "<177702011370.22256.15744865700363636623@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 322
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02036.md"
+  ],
+  "normalizedSha256": "45dd07691188c7f5abdc9ebcb7e6d1599a7f1f009aafe9d4d3fbca14a28633fc"
+}

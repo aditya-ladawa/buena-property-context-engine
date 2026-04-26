@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00482",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240226_205100_EMAIL-00482.eml",
+  "rawSha256": "c90104ce08d8f82b52302b5aea1d084db0d2cc9b0456f55e91f224a9155f8f16",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Carsten =?utf-8?q?Austerm=C3=BChle?= <carsten.austermuehle@web.de>",
+      "subject": "Re: Wasserschaden Bad",
+      "date": "Mon, 26 Feb 2024 20:51:00 -0000",
+      "message-id": "<177702011370.22256.10493086758902403827@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.7574145212587383095@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.7574145212587383095@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 462
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00482.md"
+  ],
+  "normalizedSha256": "4e22a9a484067875434dfc65341f2c27f00bbf9ed3f265d44a8d89da875b28b3"
+}

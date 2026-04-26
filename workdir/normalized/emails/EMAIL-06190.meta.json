@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06190",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251122_121200_EMAIL-06190.eml",
+  "rawSha256": "72b8d730c25644f129d911045097ca4236d9bf276d9c04b6f41ecc85d1ac4afc",
+  "metadata": {
+    "headers": {
+      "from": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mahnung Rechnung RE-2025-8763",
+      "date": "Sat, 22 Nov 2025 12:12:00 -0000",
+      "message-id": "<177702011370.22256.4596139150613307318@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 233
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06190.md"
+  ],
+  "normalizedSha256": "5f036cf08c4f1f08362d8d8139d1defb45ff9e2e2cfb6cf2ee8264b424a0c91b"
+}

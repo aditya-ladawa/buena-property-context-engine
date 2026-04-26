@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00872",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240408_162500_EMAIL-00872.eml",
+  "rawSha256": "fbf29eefa3d6cecb488063ac4658a2fb63a0e8942d42e916fffd541a4aad6315",
+  "metadata": {
+    "headers": {
+      "from": "Vattenfall Europe Sales GmbH <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Preisanpassung zum 08.04.2024",
+      "date": "Mon, 08 Apr 2024 16:25:00 -0000",
+      "message-id": "<177702011370.22256.13769395700698804001@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 160
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00872.md"
+  ],
+  "normalizedSha256": "a7ab5cb5baebe9be30a2ef525b3ff15783e8bb77020a9843a360873a479c3948"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01460",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240610_201900_EMAIL-01460.eml",
+  "rawSha256": "5746179ffef65c8a114c02738f86447b6852e9a62fe4b9107153015c55749322",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Herr Wolfgang Hettner <wolfgang.hettner@web.de>",
+      "subject": "Re: SEV - Monatsauszug",
+      "date": "Mon, 10 Jun 2024 20:19:00 -0000",
+      "message-id": "<177702011370.22256.1530291364220250167@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.2667042956534087632@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.2667042956534087632@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 405
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01460.md"
+  ],
+  "normalizedSha256": "07d872320181cb6ef1f4f15dd01f68a903e4fa71d52601abad9038749342e319"
+}

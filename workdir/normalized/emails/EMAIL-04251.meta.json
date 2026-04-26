@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04251",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-04/20250409_174200_EMAIL-04251.eml",
+  "rawSha256": "472a8df9cfccb54815bc4db4680231ac90fa778be1fd5a8f6a83ffac3b0e7bf2",
+  "metadata": {
+    "headers": {
+      "from": "Carola Buchholz <carola.buchholz@elektro-schmidt-e-k.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Terminbestaetigung Wartung",
+      "date": "Wed, 09 Apr 2025 17:42:00 -0000",
+      "message-id": "<177702011370.22256.4716600169482462022@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 141
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04251.md"
+  ],
+  "normalizedSha256": "a103541c1d78c70e56fef6390f6e2f6577419f42ccb0605cd9233ac2bc95229c"
+}

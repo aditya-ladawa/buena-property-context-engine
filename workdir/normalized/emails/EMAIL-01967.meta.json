@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01967",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240805_062600_EMAIL-01967.eml",
+  "rawSha256": "6a6106c41fd154c1864b4e364024d836dc26eca348ddc2d1087c7a619fb5dcce",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Frau Xenia Conradi <xenia.conradi@outlook.com>",
+      "subject": "Re: SEV - Monatsauszug",
+      "date": "Mon, 05 Aug 2024 06:26:00 -0000",
+      "message-id": "<177702011370.22256.4387818453996675520@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.1759676297024195319@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.1759676297024195319@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 405
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01967.md"
+  ],
+  "normalizedSha256": "f4ed0cad040d739381fdaf5bc043af20c7fe7a0855e36b714def218901e15874"
+}

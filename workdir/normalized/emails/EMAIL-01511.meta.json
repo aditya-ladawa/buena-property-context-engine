@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01511",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240616_204900_EMAIL-01511.eml",
+  "rawSha256": "1da8962f0b9d0566824c92e6cd46d7956b95b965cc6f3181f976b1cd45dc699e",
+  "metadata": {
+    "headers": {
+      "from": "Herr Dominic Jacobs <dominic.jacobs@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Owners meeting - agenda item",
+      "date": "Sun, 16 Jun 2024 20:49:00 -0000",
+      "message-id": "<177702011370.22256.15386279617075573208@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 163
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01511.md"
+  ],
+  "normalizedSha256": "73ae3cc43f707865f61f6616ff1b2b1330d2c8ffec820766643389c94ace5094"
+}

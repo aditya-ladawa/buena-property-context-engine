@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00523",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240302_032600_EMAIL-00523.eml",
+  "rawSha256": "cf3d9a3f5d32c04084e47ba4623206a6815e5439e295b11bfe8ec5599482e58c",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Frau Hiltrud Speer <hiltrud.speer@t-online.de>",
+      "subject": "Re: Sonderumlage - Einspruch",
+      "date": "Sat, 02 Mar 2024 03:26:00 -0000",
+      "message-id": "<177702011370.22256.4224416551056664307@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.14158551312945701207@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.14158551312945701207@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 484
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00523.md"
+  ],
+  "normalizedSha256": "d875cc53d7741f766ebab0f49608ddb4ebd09466a163e355bd3c96f1cfe15546"
+}

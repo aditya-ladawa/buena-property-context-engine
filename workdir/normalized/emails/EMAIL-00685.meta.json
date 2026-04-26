@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00685",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240319_131000_EMAIL-00685.eml",
+  "rawSha256": "005c74215b8c8394cae31feb5d87127180524d0e5e15542c9f43f112690742f3",
+  "metadata": {
+    "headers": {
+      "from": "Paul-Heinz =?utf-8?q?K=C3=B6hler?= <paul.heinz.koehler@aufzug-schindler-co.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Nachtrag Reparatur",
+      "date": "Tue, 19 Mar 2024 13:10:00 -0000",
+      "message-id": "<177702011370.22256.3834047695009738949@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 189
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00685.md"
+  ],
+  "normalizedSha256": "743850111a6a1dc4ef5f81bfe8e06377e9ab08c3cae237ff67a5e4eab3a8877c"
+}

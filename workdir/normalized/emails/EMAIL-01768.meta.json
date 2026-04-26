@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01768",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240715_091400_EMAIL-01768.eml",
+  "rawSha256": "4daac7fcb764f103a1bbe8a58b2f869d0fe14ac1fb1e6cbda7ebe081b509f654",
+  "metadata": {
+    "headers": {
+      "from": "Galina Wohlgemut <galina.wohlgemut@outlook.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Parkplatz-Frage",
+      "date": "Mon, 15 Jul 2024 09:14:00 -0000",
+      "message-id": "<177702011370.22256.173190159543485723@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 183
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01768.md"
+  ],
+  "normalizedSha256": "74f005d34ac28c96f23c06044e0d66fe565dcb2db32badeac41efc857083deff"
+}

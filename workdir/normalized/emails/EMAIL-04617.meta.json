@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04617",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250525_150500_EMAIL-04617.eml",
+  "rawSha256": "638f596c1747214fa67c12e00e81c783650ea45d337d7f65deaebf9d7994f563",
+  "metadata": {
+    "headers": {
+      "from": "Paul-Heinz =?utf-8?q?K=C3=B6hler?= <paul.heinz.koehler@aufzug-schindler-co.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Auftragsbestaetigung",
+      "date": "Sun, 25 May 2025 15:05:00 -0000",
+      "message-id": "<177702011370.22256.17095372001282897388@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 207
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04617.md"
+  ],
+  "normalizedSha256": "af23db9cd4ebacac3f79c19722c555a04004be3b5accc423a47981b6fe102e43"
+}

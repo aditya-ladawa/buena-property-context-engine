@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02361",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240915_152500_EMAIL-02361.eml",
+  "rawSha256": "c9ab6027c0ea587d7d960760cbddfeaf9054d38a273f19f451f3ef572100465d",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "subject": "Re: Mahnung Rechnung RE-2024-8659",
+      "date": "Sun, 15 Sep 2024 15:25:00 -0000",
+      "message-id": "<177702011370.22256.13041560644477037930@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.135215319338686003@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.135215319338686003@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 468
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02361.md"
+  ],
+  "normalizedSha256": "3d61e7b753c31c12f6fc6ab162970d1a3e2c15f042bebcf2c3f977ea98e41caa"
+}

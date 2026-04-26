@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03565",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250126_095800_EMAIL-03565.eml",
+  "rawSha256": "14391c8fa19cbfd6e7c12e4c1346eafd6366f83321b5dcdeee1fd8425d3a6ba9",
+  "metadata": {
+    "headers": {
+      "from": "Herr Winfried Ullmann <winfried.ullmann@yahoo.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 27",
+      "date": "Sun, 26 Jan 2025 09:58:00 -0000",
+      "message-id": "<177702011370.22256.1420846009291551988@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 213
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03565.md"
+  ],
+  "normalizedSha256": "35977501cbd9c9a146fc5ddbecbb1fa1de9a023755bd1c7471847a44ec3e59a9"
+}

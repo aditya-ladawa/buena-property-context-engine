@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02175",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240828_124100_EMAIL-02175.eml",
+  "rawSha256": "0e05b6d6b29383eac3ff275c6d83e5c24f94942ca9fae73302eed07b1e9eac1b",
+  "metadata": {
+    "headers": {
+      "from": "Rolf =?utf-8?q?Sch=C3=B6nland?= <rolf.schoenland@allianz-versicherungs-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Auftragsbestaetigung",
+      "date": "Wed, 28 Aug 2024 12:41:00 -0000",
+      "message-id": "<177702011370.22256.116639047068600665@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 201
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02175.md"
+  ],
+  "normalizedSha256": "0b841258aec860c125101f819c10622c75edc4acbb0d2cc574796c6dc3ecdc84"
+}

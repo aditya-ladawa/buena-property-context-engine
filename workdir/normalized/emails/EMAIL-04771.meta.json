@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04771",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250614_095700_EMAIL-04771.eml",
+  "rawSha256": "4614c243af38d5b9b3c873bfba9d7845e062fd45b51cef5e7aa59c702d6dde55",
+  "metadata": {
+    "headers": {
+      "from": "Herr Ingolf =?utf-8?q?R=C3=B6hricht?= <ingolf.roehricht@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 14",
+      "date": "Sat, 14 Jun 2025 09:57:00 -0000",
+      "message-id": "<177702011370.22256.7465337825528903246@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 213
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04771.md"
+  ],
+  "normalizedSha256": "4c1a152ffc0e981a16a9ee0f9a33be0bf28eda78000f612bcb8289122f66d9bc"
+}

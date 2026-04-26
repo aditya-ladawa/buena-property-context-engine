@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02508",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241003_173500_EMAIL-02508.eml",
+  "rawSha256": "e38f837a0c3b5726bb2d81fec5e6fc9755a085526741c504205d1371e6a2f089",
+  "metadata": {
+    "headers": {
+      "from": "Kranz Vermoegensverwaltung <kranz.vermoegensverwaltung@capital-partners.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Sonderumlage - Einspruch",
+      "date": "Thu, 03 Oct 2024 17:35:00 -0000",
+      "message-id": "<177702011370.22256.3256600354418448850@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 234
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02508.md"
+  ],
+  "normalizedSha256": "235f43bd624b466cf76f6926e4fa31d32ff627d80a56e21e0d22c2710ba13f7c"
+}

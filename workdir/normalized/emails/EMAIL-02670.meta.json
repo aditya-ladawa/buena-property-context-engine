@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02670",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-10/20241020_181700_EMAIL-02670.eml",
+  "rawSha256": "fbee2c7c3fffc1caa211861e9804eb73f0d2dc83166906a65c7de774cfceb9e4",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Slawomir =?utf-8?q?S=C3=B6lzer?= <slawomir.soelzer@hausmeister-mueller.de>",
+      "subject": "Re: Terminbestaetigung Wartung",
+      "date": "Sun, 20 Oct 2024 18:17:00 -0000",
+      "message-id": "<177702011370.22256.3149466341981102552@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8989861340196016656@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8989861340196016656@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 368
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02670.md"
+  ],
+  "normalizedSha256": "d5b3cf5c12b7893d6d64f23c9a054fec03421df16af7e9165933d6a6976c64c7"
+}

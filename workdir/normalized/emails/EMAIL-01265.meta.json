@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01265",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240521_011000_EMAIL-01265.eml",
+  "rawSha256": "d9d72dadad9f7223d23d254c197bb21bb556668c2e4ef3be4c6f80fc49bfa759",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Kamil Trub <kamil.trub@gmx.de>",
+      "subject": "Re: Wasserschaden Bad",
+      "date": "Tue, 21 May 2024 01:10:00 -0000",
+      "message-id": "<177702011370.22256.6122669446442164492@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8096241520878103893@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8096241520878103893@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 481
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01265.md"
+  ],
+  "normalizedSha256": "e6978011a1a43680f1e1891e4f6a4aa42d3b5a3106b301d08c0a920917fda2d5"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03739",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250215_062300_EMAIL-03739.eml",
+  "rawSha256": "3371d09efe2a5b223aa23ca3a7b295c141265ec9f2db7529daf3348dd73cfbfa",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "subject": "Re: Auftragsbestaetigung",
+      "date": "Sat, 15 Feb 2025 06:23:00 -0000",
+      "message-id": "<177702011370.22256.11451385631721384888@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8780096711600962444@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8780096711600962444@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 461
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03739.md"
+  ],
+  "normalizedSha256": "8b96a8c22cfd71f84b845079c81d7112c8c676002abc739ad37c0f49e5e2a168"
+}

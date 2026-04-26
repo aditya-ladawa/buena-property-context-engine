@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01513",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240617_101100_EMAIL-01513.eml",
+  "rawSha256": "21815558d803d61a8168855ef12c9a09a8dcb13dc649ca9b52e1699dbc12f29e",
+  "metadata": {
+    "headers": {
+      "from": "Frau Hiltrud Speer <hiltrud.speer@t-online.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Question about annual statement",
+      "date": "Mon, 17 Jun 2024 10:11:00 -0000",
+      "message-id": "<177702011370.22256.1979605817696757694@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 165
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01513.md"
+  ],
+  "normalizedSha256": "c553f3c54d54cc6cee16c2532a43647c73da5cad7d644d0d64345922907da095"
+}

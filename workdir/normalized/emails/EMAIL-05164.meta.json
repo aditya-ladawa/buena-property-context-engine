@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05164",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250730_140900_EMAIL-05164.eml",
+  "rawSha256": "005fe5f171eba33d81c1e13945ebd3365a5f221b85a2bf2e50fbbd81b0264985",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Ronald Kelley <ronald.kelley@icloud.com>",
+      "subject": "Monatsbericht",
+      "date": "Wed, 30 Jul 2025 14:09:00 -0000",
+      "message-id": "<177702011370.22256.1717035406232906287@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 128
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05164.md"
+  ],
+  "normalizedSha256": "c8ce7f36fd8e6a4d8148febc6d82c56980f7346180f93abf1ea9b5ccb0bc24a4"
+}

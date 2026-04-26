@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00632",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240313_140400_EMAIL-00632.eml",
+  "rawSha256": "8f939e996f6834407f0211529736cd9313e3a06dd1a32481ce6201cdad7b55c4",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Ewa Thies <ewa.thies@gmail.com>",
+      "subject": "Re: Defektes Fenster",
+      "date": "Wed, 13 Mar 2024 14:04:00 -0000",
+      "message-id": "<177702011370.22256.15852676725901307790@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.11137572489146203681@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.11137572489146203681@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 391
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00632.md"
+  ],
+  "normalizedSha256": "27ec4ef0f63b5d2ab7cba510effc49f9b5d5e6adff3cdcd47a9f46b82b39d15f"
+}

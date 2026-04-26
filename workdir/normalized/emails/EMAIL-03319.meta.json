@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03319",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241230_160300_EMAIL-03319.eml",
+  "rawSha256": "f4d0ba67f4697eba4d38d5a7b0d8dddf430a41e2811cc332339a68de60f14311",
+  "metadata": {
+    "headers": {
+      "from": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Gartenpflege Sommer",
+      "date": "Mon, 30 Dec 2024 16:03:00 -0000",
+      "message-id": "<177702011370.22256.13256125226276147427@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 258
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03319.md"
+  ],
+  "normalizedSha256": "365a236cf5dc5c28024619325548f6202be0ee036204fd3fdc1688ad691f16ea"
+}

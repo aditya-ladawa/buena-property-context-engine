@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00411",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240219_082400_EMAIL-00411.eml",
+  "rawSha256": "bf4978537da47ad720f47b1d2a4515199d0f204230caf72a416521f9ffef8949",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Erdal Beckmann <erdal.beckmann@gmx.de>",
+      "subject": "Monatsbericht",
+      "date": "Mon, 19 Feb 2024 08:24:00 -0000",
+      "message-id": "<177702011370.22256.16148251388025566800@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 127
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00411.md"
+  ],
+  "normalizedSha256": "a6977f6a4adbbc3a1376234829740be107742843849ed63bfb8b7892db176a2d"
+}

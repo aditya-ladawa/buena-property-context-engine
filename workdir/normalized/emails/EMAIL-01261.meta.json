@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01261",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240520_131200_EMAIL-01261.eml",
+  "rawSha256": "679712f1ccf394482ff9954d398feb3aed6c8d43fcd2a0dbf2dc44b01ffb1e8b",
+  "metadata": {
+    "headers": {
+      "from": "Herr Markus Fliegner <markus.fliegner@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Mon, 20 May 2024 13:12:00 -0000",
+      "message-id": "<177702011370.22256.3152008617818799524@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 241
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01261.md"
+  ],
+  "normalizedSha256": "211b274cfe98ba6b318dcbe7a89e518bd7b51a9bf939d82208f5c1ff5db308f0"
+}

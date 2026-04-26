@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03842",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-02/20250225_034400_EMAIL-03842.eml",
+  "rawSha256": "4c2328e079211414a094c6ee2da3075bd9e80b761043e7c7af9e0051549c94d9",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Dominic Jacobs <dominic.jacobs@t-online.de>",
+      "subject": "Re: Owners meeting - agenda item",
+      "date": "Tue, 25 Feb 2025 03:44:00 -0000",
+      "message-id": "<177702011370.22256.2529552139064495501@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.9470153809596125324@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.9470153809596125324@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 316
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03842.md"
+  ],
+  "normalizedSha256": "9b2b97fa1a0ca395a379a5a01946d3fe2054026bb0f7197cacfa5ca82248b8b0"
+}

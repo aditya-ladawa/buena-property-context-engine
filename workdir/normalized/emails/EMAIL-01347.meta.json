@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01347",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-05/20240530_052100_EMAIL-01347.eml",
+  "rawSha256": "888e28262c49f0bc4e228e6e852735f6ca2dfac7f4a3ccba53f49b0e22b65b1d",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "subject": "Re: Rechnung RE-2024-8858",
+      "date": "Thu, 30 May 2024 05:21:00 -0000",
+      "message-id": "<177702011370.22256.12542385100862117812@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3297037657047134126@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3297037657047134126@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 435
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01347.md"
+  ],
+  "normalizedSha256": "08a10e3023aa1c9c19cf99e7190ab733c147e9299924188a2e7da924270b2a6f"
+}

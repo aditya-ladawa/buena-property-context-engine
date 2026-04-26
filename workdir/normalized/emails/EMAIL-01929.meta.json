@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-01929",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240802_060400_EMAIL-01929.eml",
+  "rawSha256": "ab843b1738a74030a0cd3d5ef6bd504fa0501555c11e43af804ae5dd6024fb5d",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Chantal =?utf-8?q?T=C3=A4sche?= <chantal.taesche@posteo.de>",
+      "subject": "Re: Schluesselverlust",
+      "date": "Fri, 02 Aug 2024 06:04:00 -0000",
+      "message-id": "<177702011370.22256.3029748567470974458@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3391115286433665165@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3391115286433665165@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 434
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01929.md"
+  ],
+  "normalizedSha256": "724b3fab07f590faa9870a765e10531f305c95a3bb618edda808c3688415c72c"
+}

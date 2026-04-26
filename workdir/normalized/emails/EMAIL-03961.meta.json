@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03961",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250309_103700_EMAIL-03961.eml",
+  "rawSha256": "87b7a31d92e107926253c13658c49fb37f6b3e159847565b5bd0d74079d2263e",
+  "metadata": {
+    "headers": {
+      "from": "Ernst-August Jessel <ernst.august.jessel@sanitaer-schulze.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Nachtrag Reparatur",
+      "date": "Sun, 09 Mar 2025 10:37:00 -0000",
+      "message-id": "<177702011370.22256.9118742198204630596@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 190
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03961.md"
+  ],
+  "normalizedSha256": "1c41b9f2eab021a5a809fa22a487a4edf2417c29e9a4a6cd898390e49b3e5b00"
+}

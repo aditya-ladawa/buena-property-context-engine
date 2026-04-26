@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01725",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-07/20240710_153700_EMAIL-01725.eml",
+  "rawSha256": "a5865903ad32a799dffc7acf031260756a7ec300b7a127ccbc89759b2d00df16",
+  "metadata": {
+    "headers": {
+      "from": "=?utf-8?q?Bj=C3=B6rn?= Weinhage <bjoern.weinhage@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Wohnung untervermieten",
+      "date": "Wed, 10 Jul 2024 15:37:00 -0000",
+      "message-id": "<177702011370.22256.3045608772193218199@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 192
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01725.md"
+  ],
+  "normalizedSha256": "c5d1b0022cc2e9f534956f78fb041a502063afb1a404a2b7c9f10b0129e9d476"
+}

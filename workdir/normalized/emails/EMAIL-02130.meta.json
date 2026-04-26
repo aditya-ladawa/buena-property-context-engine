@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02130",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240823_110700_EMAIL-02130.eml",
+  "rawSha256": "817d914d365254b5528138766d99e8535ce7c729442ef4a076db9c9f1ccabcb9",
+  "metadata": {
+    "headers": {
+      "from": "Irmengard Mentzel <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Dachabdichtung Haus 12",
+      "date": "Fri, 23 Aug 2024 11:07:00 -0000",
+      "message-id": "<177702011370.22256.8378357451026209587@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 266
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02130.md"
+  ],
+  "normalizedSha256": "d76c42b05b8c3a7b178f72cb2256d080a4d00afa7f39aca85edcd455ff13d852"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03272",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241225_150500_EMAIL-03272.eml",
+  "rawSha256": "1ab3cb90aaee388ddb1cf0fee44b7adbfccff7c331ed6d87f404047683b41f4c",
+  "metadata": {
+    "headers": {
+      "from": "Olga Holsten <olga.holsten@heiztechnik-berlin.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Elektro-Pruefung",
+      "date": "Wed, 25 Dec 2024 15:05:00 -0000",
+      "message-id": "<177702011370.22256.1389098067145264446@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 251
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03272.md"
+  ],
+  "normalizedSha256": "9fa5a4f28e840d300049477b5331c5cbba84a5247f842710647ced44dba47c6a"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00429",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-02/20240220_171000_EMAIL-00429.eml",
+  "rawSha256": "3ddd945d8c730c88505549c0c47df6923f7ccaf3a76640d66f306ba15491b848",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "=?utf-8?q?J=C3=B6rgen?= Seidel <joergen.seidel@gmx.de>",
+      "subject": "Re: Schimmel im Schlafzimmer",
+      "date": "Tue, 20 Feb 2024 17:10:00 -0000",
+      "message-id": "<177702011370.22256.6261922201313648296@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.11413745450498981696@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.11413745450498981696@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 453
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00429.md"
+  ],
+  "normalizedSha256": "d0da2294b0563a65d9c5ce74994eeb19302f2aaa4d7ccd9c0bcb1fe07b2d032f"
+}

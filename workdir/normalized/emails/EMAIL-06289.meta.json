@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06289",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251204_073600_EMAIL-06289.eml",
+  "rawSha256": "d24741315f4c98597676a6bf25cf4380c76a8a319462956f7c923554bbabe5fd",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Carola Buchholz <carola.buchholz@elektro-schmidt-e-k.de>",
+      "subject": "Re: Terminbestaetigung Wartung",
+      "date": "Thu, 04 Dec 2025 07:36:00 -0000",
+      "message-id": "<177702011370.22256.15598199499082464547@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.12091283034157436006@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.12091283034157436006@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 370
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06289.md"
+  ],
+  "normalizedSha256": "ed5103383fac6668ae05a74d4ffbf6cdbbfe38050872e8c0e69f057cdb68b670"
+}

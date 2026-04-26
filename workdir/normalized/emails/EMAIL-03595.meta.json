@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03595",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250129_140000_EMAIL-03595.eml",
+  "rawSha256": "66a2b564203dabcb7013ae370b76fa91dd6ca7bbb746ea089c66c2571972f1ef",
+  "metadata": {
+    "headers": {
+      "from": "Magrit Mitschke <magrit.mitschke@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Frage zu Kaution",
+      "date": "Wed, 29 Jan 2025 14:00:00 -0000",
+      "message-id": "<177702011370.22256.15988291775207865085@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 206
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03595.md"
+  ],
+  "normalizedSha256": "c42e3d9d307dcce3564242ada2e1d9e9f53cda75582e613af9cad1f5dc036097"
+}

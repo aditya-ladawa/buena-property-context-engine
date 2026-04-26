@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-01379",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-06/20240602_080200_EMAIL-01379.eml",
+  "rawSha256": "aecd2b7d2389abb8217eeb0229a46b4a9fc5fd00c7aa31be89db287c3b268bd9",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kennedy <thomas.kennedy@securelock-systems-ltd.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Quote: Reparatur Aufzug",
+      "date": "Sun, 02 Jun 2024 08:02:00 -0000",
+      "message-id": "<177702011370.22256.6238421613700390354@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 198
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-01379.md"
+  ],
+  "normalizedSha256": "20cdd2960e3707767e34c1a00ae317111850a899187e98c7c5ba2f49dfd8297c"
+}

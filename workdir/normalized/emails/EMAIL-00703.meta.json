@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00703",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240322_054900_EMAIL-00703.eml",
+  "rawSha256": "0506cab988ed78a8ca2ce9dfc69d511f50f5da6c41ad9b9db88fe791f968661d",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Anette Vogt <anette.vogt@gmx.de>",
+      "subject": "Re: Wohnungsuebergabe",
+      "date": "Fri, 22 Mar 2024 05:49:00 -0000",
+      "message-id": "<177702011370.22256.14359566801999452239@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.12110992446653111579@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.12110992446653111579@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 410
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00703.md"
+  ],
+  "normalizedSha256": "71a1d2046ab2660f338a733712d8f4682b37ee690492492fc451f3534b1075e1"
+}

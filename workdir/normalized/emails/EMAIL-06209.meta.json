@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06209",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251124_051100_EMAIL-06209.eml",
+  "rawSha256": "a709660e6b570cf09ad6a1ff9629b2cec59b61240c89e5120faaddd488a64890",
+  "metadata": {
+    "headers": {
+      "from": "Thomas Kreuzer <t.kreuzer@huber-partner-verwaltung.de>",
+      "to": "Paul-Heinz =?utf-8?q?K=C3=B6hler?= <paul.heinz.koehler@aufzug-schindler-co.de>",
+      "subject": "Re: Mahnung Rechnung RE-2025-6382",
+      "date": "Mon, 24 Nov 2025 05:11:00 -0000",
+      "message-id": "<177702011370.22256.3171577088891891517@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.7961440402680421778@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.7961440402680421778@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 505
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06209.md"
+  ],
+  "normalizedSha256": "360f332b8b7a0b56b6a1e17a03239f8cc79f7b557c192f266a51d0a541f2066f"
+}

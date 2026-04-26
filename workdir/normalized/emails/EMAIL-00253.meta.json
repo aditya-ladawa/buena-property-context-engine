@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00253",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240131_173300_EMAIL-00253.eml",
+  "rawSha256": "a16b3e78f6698b9813bfbc0432eebb55d0ec8cac46c5c75dabe49e192eabdb4b",
+  "metadata": {
+    "headers": {
+      "from": "Catherine Heydrich <catherine.heydrich@dachdecker-richter.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Terminbestaetigung Wartung",
+      "date": "Wed, 31 Jan 2024 17:33:00 -0000",
+      "message-id": "<177702011370.22256.6257787378067008492@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 144
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00253.md"
+  ],
+  "normalizedSha256": "cdc04620f2292a8895a2e7b61e9edbc3dc9be6afccdceb4f39b42c8a03bf9e06"
+}

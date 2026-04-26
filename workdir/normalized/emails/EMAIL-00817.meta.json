@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-00817",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-04/20240403_124600_EMAIL-00817.eml",
+  "rawSha256": "5e4b2f350556c0b41fdf33becd19e1bc3b828fec4387124149300e620fe68c3a",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Frau Gertraud Holsten <gertraud.holsten@gmail.com>",
+      "subject": "Re: Eigentuemerversammlung - TOP-Vorschlag",
+      "date": "Wed, 03 Apr 2024 12:46:00 -0000",
+      "message-id": "<177702011370.22256.2532921516272290643@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.18232939885989011631@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.18232939885989011631@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 467
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00817.md"
+  ],
+  "normalizedSha256": "ff5ef441e02e3e55071801a006d665d209720e93cad4d5ad272f7038dab77945"
+}

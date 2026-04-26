@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-05490",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-09/20250901_232000_EMAIL-05490.eml",
+  "rawSha256": "cc9213fe5b304a8e301e33e815827cae9a451296f3153575a6391a76074a6610",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Magrit Mitschke <magrit.mitschke@gmail.com>",
+      "subject": "Re: Schluesselverlust",
+      "date": "Mon, 01 Sep 2025 23:20:00 -0000",
+      "message-id": "<177702011370.22256.13599639601183305751@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.11853227456504177406@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.11853227456504177406@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 442
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05490.md"
+  ],
+  "normalizedSha256": "1fdf3a235272644d44aa9e043aceb2619fcf476acb2d7348b49cb5283124cc57"
+}

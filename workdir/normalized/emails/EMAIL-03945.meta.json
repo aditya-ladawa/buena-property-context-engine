@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03945",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-03/20250307_162700_EMAIL-03945.eml",
+  "rawSha256": "dc97607fbe7c2262ff1d30763d5538a2c29acb82b0f2e7858d1d5e57a928d9d7",
+  "metadata": {
+    "headers": {
+      "from": "Bernd-Dieter Fiebig <bernd.dieter.fiebig@vattenfall-europe-sales.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Sanitaer-Reparatur",
+      "date": "Fri, 07 Mar 2025 16:27:00 -0000",
+      "message-id": "<177702011370.22256.1224420426260923264@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 266
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03945.md"
+  ],
+  "normalizedSha256": "522fe52795d5139e8767c5387ec6e1c959190bb4f22f1beac4a9c2fd743e1df8"
+}

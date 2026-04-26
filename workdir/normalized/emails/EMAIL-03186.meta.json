@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-03186",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241216_123600_EMAIL-03186.eml",
+  "rawSha256": "f0fdf27c16da16fc0fb0933c15c693702ad92a5fcad2a8f12bcfaae6874c34a2",
+  "metadata": {
+    "headers": {
+      "from": "Herr Marcus Dowerg <marcus.dowerg@outlook.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Modernisierung - Zustimmung",
+      "date": "Mon, 16 Dec 2024 12:36:00 -0000",
+      "message-id": "<177702011370.22256.4176627340033667189@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 162
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03186.md"
+  ],
+  "normalizedSha256": "15df19a6ea787730582c3182636ebd615eb085021e1f5ad77736e9d1f7390726"
+}

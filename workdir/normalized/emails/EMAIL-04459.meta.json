@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-04459",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-05/20250508_155500_EMAIL-04459.eml",
+  "rawSha256": "2d9f2e3136e500bea6adc489fd02d5ce50ab903ec21396c29a0f08831ad70b97",
+  "metadata": {
+    "headers": {
+      "from": "Frau Mina Textor <mina.textor@icloud.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 42",
+      "date": "Thu, 08 May 2025 15:55:00 -0000",
+      "message-id": "<177702011370.22256.8334208865398300224@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 185
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04459.md"
+  ],
+  "normalizedSha256": "e47b8baa6a4d24b3180d3be78fb0173e535eee2c1d0a8b28b2410ea05b7944ea"
+}

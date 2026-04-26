@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02199",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-08/20240831_011600_EMAIL-02199.eml",
+  "rawSha256": "47a2ebebf76610698957095011e43720cc592e81eca063816ccd9cfa1191c358",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Julius Nette <julius.nette@outlook.com>",
+      "subject": "Re: Verstopfter Abfluss",
+      "date": "Sat, 31 Aug 2024 01:16:00 -0000",
+      "message-id": "<177702011370.22256.9461322702299489974@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13649792792754696488@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13649792792754696488@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 431
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02199.md"
+  ],
+  "normalizedSha256": "9fefb6d8e85c6c6a7a043ccf6bcf0d5b2cc9058cfdd2a7794744ed3db8ac313f"
+}

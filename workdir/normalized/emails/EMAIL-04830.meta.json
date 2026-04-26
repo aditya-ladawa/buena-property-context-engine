@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-04830",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-06/20250620_200600_EMAIL-04830.eml",
+  "rawSha256": "a774686f059267d2d7534d47f1359cc71f7f4816084dc633988dbfd4c0266d00",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Herr Dominic Jacobs <dominic.jacobs@t-online.de>",
+      "subject": "Re: Question about annual statement",
+      "date": "Fri, 20 Jun 2025 20:06:00 -0000",
+      "message-id": "<177702011370.22256.10353168629026531723@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.12129816356127502061@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.12129816356127502061@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 363
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-04830.md"
+  ],
+  "normalizedSha256": "48b3a4491d97829967300345e42ef0ec0489f88cbbcd412675682bd49213a4bb"
+}

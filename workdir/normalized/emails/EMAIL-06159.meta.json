@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-06159",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-11/20251119_101200_EMAIL-06159.eml",
+  "rawSha256": "63ac85f9ffe15f5b0d98318969c02edf2d255dcd97c9d8daa7cd6921270d8805",
+  "metadata": {
+    "headers": {
+      "from": "David Jenkins <david.jenkins@gmail.com>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Key replacement",
+      "date": "Wed, 19 Nov 2025 10:12:00 -0000",
+      "message-id": "<177702011370.22256.1640228231217098128@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "7bit",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 102
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06159.md"
+  ],
+  "normalizedSha256": "3314c3f6d085b35c31634fb776523109858316fec4bd395297fe621604311971"
+}

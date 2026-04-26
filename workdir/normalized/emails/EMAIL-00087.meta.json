@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00087",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-01/20240111_144500_EMAIL-00087.eml",
+  "rawSha256": "53db4631e035ef3b99f08ae06b198e8a189babb2b3b5ba5cb314ef1c1a22ccfb",
+  "metadata": {
+    "headers": {
+      "from": "Olga Holsten <olga.holsten@heiztechnik-berlin.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Terminbestaetigung Wartung",
+      "date": "Thu, 11 Jan 2024 14:45:00 -0000",
+      "message-id": "<177702011370.22256.1556459396559900877@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 138
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00087.md"
+  ],
+  "normalizedSha256": "b9cb8ec2ae215fcae609f00380bd18c0d95d4c6940d1c7b5ca59e013638f6f48"
+}

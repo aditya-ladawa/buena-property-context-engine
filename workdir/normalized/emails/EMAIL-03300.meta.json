@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03300",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-12/20241228_144400_EMAIL-03300.eml",
+  "rawSha256": "16e33d53985239275cb258891cb6c3d91c6e67439585df69eead77ffe4355dd0",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Anika Zimmer <anika.zimmer@gmx.de>",
+      "subject": "Re: Parkplatz-Frage",
+      "date": "Sat, 28 Dec 2024 14:44:00 -0000",
+      "message-id": "<177702011370.22256.11886464555724430393@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.8254168622276728586@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.8254168622276728586@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 438
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03300.md"
+  ],
+  "normalizedSha256": "fc98da9d753969ae7fddcfd65fa20c5a96ec6a435597b2323fabc3051e3a4dff"
+}

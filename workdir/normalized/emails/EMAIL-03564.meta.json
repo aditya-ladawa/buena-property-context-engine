@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-03564",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-01/20250125_205800_EMAIL-03564.eml",
+  "rawSha256": "3e1ecc482e3c7dd4754dda683ec16bc5559dd6172ebf6cf9b0b268391f592c56",
+  "metadata": {
+    "headers": {
+      "from": "Sabine Huber <sabine.huber@huber-partner-verwaltung.de>",
+      "to": "Frau Irmingard Margraf <irmingard.margraf@t-online.de>",
+      "subject": "Re: Question about annual statement",
+      "date": "Sat, 25 Jan 2025 20:58:00 -0000",
+      "message-id": "<177702011370.22256.10767426472992747507@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.3058793780054086314@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.3058793780054086314@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 367
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-03564.md"
+  ],
+  "normalizedSha256": "ac1f7ccc09bda429fe44e5bdfea2783123e231bcbe2423aa308834da2999460c"
+}

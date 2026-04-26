@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02861",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241110_091100_EMAIL-02861.eml",
+  "rawSha256": "f4439744a31e631d4e6061b34b793b47b490f8d165a9f3fbd9da6ac57b21395b",
+  "metadata": {
+    "headers": {
+      "from": "Mehdi Faust <mehdi.faust@bsr-berliner-stadtreinigung.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Terminbestaetigung Wartung",
+      "date": "Sun, 10 Nov 2024 09:11:00 -0000",
+      "message-id": "<177702011370.22256.16525189225357625681@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 137
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02861.md"
+  ],
+  "normalizedSha256": "b55fe691c460ba3c779d87693b97b35ade033b977fa98d40df8cb5c2d2a1bb4b"
+}

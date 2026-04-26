@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-06344",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-12/20251210_085300_EMAIL-06344.eml",
+  "rawSha256": "beff89e9c69e617e63f040f203d9ff61168b422c9f47ec7b598e51acfc1b1fef",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Frau Kunigunda Ditschlerin <kunigunda.ditschlerin@icloud.com>",
+      "subject": "Re: Modernisierung - Zustimmung",
+      "date": "Wed, 10 Dec 2025 08:53:00 -0000",
+      "message-id": "<177702011370.22256.10021382550752662781@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.13475348692174011105@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.13475348692174011105@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 426
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-06344.md"
+  ],
+  "normalizedSha256": "6276a05abad85ec57bc47332e0b14288826e243834ad3e44605fc853fea172af"
+}

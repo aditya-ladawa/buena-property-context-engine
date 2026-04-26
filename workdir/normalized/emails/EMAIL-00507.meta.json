@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-00507",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-03/20240301_092900_EMAIL-00507.eml",
+  "rawSha256": "3aabb8aebf4b419ed0ad635ca159811ca7abe4e01660ca8de75acaf3c788a6ba",
+  "metadata": {
+    "headers": {
+      "from": "Irmengard Mentzel <irmengard.mentzel@gasag-berliner-gaswerke-ag.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Angebot: Reparatur Aufzug",
+      "date": "Fri, 01 Mar 2024 09:29:00 -0000",
+      "message-id": "<177702011370.22256.7897072288146445311@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 260
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-00507.md"
+  ],
+  "normalizedSha256": "3747f02bfce1fe40335928d2e655f1fcd4b02883bd4f026d4f468a072e037b04"
+}

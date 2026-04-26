@@ -1,0 +1,26 @@
+{
+  "sourceId": "EMAIL-02860",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-11/20241110_080000_EMAIL-02860.eml",
+  "rawSha256": "806d6db10d08aa2d1c65bc454c1f0a0a473ce20ede9daf3fdc4a759f78fb512c",
+  "metadata": {
+    "headers": {
+      "from": "Anna Berger <a.berger@huber-partner-verwaltung.de>",
+      "to": "Anette Vogt <anette.vogt@gmx.de>",
+      "subject": "Re: Parkplatz-Frage",
+      "date": "Sun, 10 Nov 2024 08:00:00 -0000",
+      "message-id": "<177702011370.22256.18347851306525048970@huber-partner-verwaltung.de>",
+      "in-reply-to": "<177702011370.22256.18341349647663845237@huber-partner-verwaltung.de>",
+      "references": "<177702011370.22256.18341349647663845237@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 435
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02860.md"
+  ],
+  "normalizedSha256": "8b11b425e179b7596fca4c33198278aca27d1bac7d734e92686061f9fd289286"
+}

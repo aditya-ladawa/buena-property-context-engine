@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-02440",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2024-09/20240925_155000_EMAIL-02440.eml",
+  "rawSha256": "468a4fbd0fd9c8f5d9f39bc4aa6a358af87487fe18e8a56ffc2bd6446ef310f4",
+  "metadata": {
+    "headers": {
+      "from": "Herr Erdal Beckmann <erdal.beckmann@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Verkaufsabsicht WE 15",
+      "date": "Wed, 25 Sep 2024 15:50:00 -0000",
+      "message-id": "<177702011370.22256.11369170348901347658@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 211
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-02440.md"
+  ],
+  "normalizedSha256": "3246d6a1de0a5df1686d79d5894fa50cae38d8ec19ca851ef46da2a79571d2d6"
+}

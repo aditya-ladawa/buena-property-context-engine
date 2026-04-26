@@ -1,0 +1,24 @@
+{
+  "sourceId": "EMAIL-05028",
+  "propertyId": "LIE-001",
+  "kind": "email",
+  "rawPath": "data/emails/2025-07/20250714_115100_EMAIL-05028.eml",
+  "rawSha256": "0feb8e0cf5f86178f7630326e25624c654d21a69ba65d84c2eb2032e8e18f33b",
+  "metadata": {
+    "headers": {
+      "from": "Frau =?utf-8?q?D=C3=B6rte?= Kraus <doerte.kraus@gmx.de>",
+      "to": "Huber & Partner Immobilienverwaltung GmbH <info@huber-partner-verwaltung.de>",
+      "subject": "Mieterwechsel in WE 39",
+      "date": "Mon, 14 Jul 2025 11:51:00 -0000",
+      "message-id": "<177702011370.22256.17817666131816834434@huber-partner-verwaltung.de>",
+      "content-type": "text/plain; charset=\"utf-8\"",
+      "content-transfer-encoding": "quoted-printable",
+      "mime-version": "1.0"
+    },
+    "bodyLength": 186
+  },
+  "normalizedPaths": [
+    "workdir/normalized/emails/EMAIL-05028.md"
+  ],
+  "normalizedSha256": "e46b379aa3c7cdce3bb8664bffe77f91b8b312b45d03d8f7c31a980791f370db"
+}
