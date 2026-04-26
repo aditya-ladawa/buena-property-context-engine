@@ -14,18 +14,18 @@ export function TerminalWindow({
 }) {
   return (
     <div className={cn("terminal-window flex flex-col", className)}>
-      <div className="flex items-center justify-between px-3 py-2 border-b border-border">
-        <div className="flex gap-1.5">
+      <div className="flex items-center gap-3 px-3 py-2 border-b border-border">
+        <div className="flex shrink-0 gap-1.5">
           <span className="w-2 h-2 rounded-full bg-muted-foreground/40" />
           <span className="w-2 h-2 rounded-full bg-muted-foreground/40" />
           <span className="w-2 h-2 rounded-full bg-muted-foreground/40" />
         </div>
         {title && (
-          <span className="text-mono-xs text-muted-foreground absolute left-1/2 -translate-x-1/2">
+          <span className="min-w-0 flex-1 truncate text-center text-mono-xs text-muted-foreground">
             {title}
           </span>
         )}
-        <div className="w-2 h-2 rounded-full bg-muted-foreground/40" />
+        <div className="h-2 w-2 shrink-0 rounded-full bg-muted-foreground/40" />
       </div>
       <div className={cn("flex-1 min-h-0", bodyClassName)}>{children}</div>
     </div>

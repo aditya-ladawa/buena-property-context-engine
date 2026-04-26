@@ -15,6 +15,15 @@ dist-ssr
 .tanstack/**
 .nitro
 *.local
+.env
+.env.*
+!.env.example
+
+# Internal assistant/project memory
+codex_mem/
+
+# Local agent runtime state
+.agent-data/
 
 # Wrangler / Cloudflare
 .wrangler/
@@ -30,3 +39,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+#  Environment variables
+.env
+
+# 

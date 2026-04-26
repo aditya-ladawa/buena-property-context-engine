@@ -65,11 +65,11 @@
   --radius: 0.125rem;
   /* Buena dark terminal aesthetic — near-black bg, warm off-white text, visible grid */
   --background: oklch(0.19 0.003 80);
-  --foreground: oklch(0.88 0.012 85);
-  --grid-line: oklch(0.32 0.004 80 / 0.7);
-  --terminal-border: oklch(0.36 0.005 80);
+  --foreground: oklch(0.93 0.01 85);
+  --grid-line: oklch(0.39 0.005 80 / 0.78);
+  --terminal-border: oklch(0.43 0.006 80);
   --terminal-bg: oklch(0.205 0.003 80);
-  --terminal-muted: oklch(0.55 0.008 80);
+  --terminal-muted: oklch(0.68 0.008 80);
   --accent-pink: oklch(0.55 0.07 20);
   --card: var(--terminal-bg);
   --card-foreground: var(--foreground);
