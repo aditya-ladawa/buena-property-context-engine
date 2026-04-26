@@ -12,6 +12,12 @@ export const SOURCE_REGISTRY_PATH = path.join(PROPERTY_CONTEXT_ROOT, "source-reg
 export const ENTITY_INDEX_PATH = path.join(PROPERTY_CONTEXT_ROOT, "entity-index.json");
 export const NORMALIZED_ROOT = path.join(WORKDIR_ROOT, "normalized");
 export const WORK_QUEUE_PATH = path.join(WORKDIR_ROOT, "work-queue.jsonl");
+export const OBSERVATIONS_ROOT = path.join(WORKDIR_ROOT, "observations");
+export const OBSERVATIONS_PATH = path.join(OBSERVATIONS_ROOT, "observations.jsonl");
+export const IGNORE_DECISIONS_PATH = path.join(OBSERVATIONS_ROOT, "ignore-decisions.jsonl");
+export const DUPLICATE_DECISIONS_PATH = path.join(OBSERVATIONS_ROOT, "duplicate-decisions.jsonl");
+export const ERROR_RECORDS_PATH = path.join(OBSERVATIONS_ROOT, "error-records.jsonl");
+export const EXTRACTION_SUMMARY_PATH = path.join(OBSERVATIONS_ROOT, "summary.json");
 export const COVERAGE_REPORT_PATH = path.join(PROPERTY_CONTEXT_ROOT, "coverage-report.md");
 
 export const SCHEMA_VERSION = 1;

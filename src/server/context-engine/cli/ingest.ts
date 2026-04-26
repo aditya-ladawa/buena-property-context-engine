@@ -6,8 +6,9 @@ import type { ScanInventoryOptions } from "../inventory/scan";
 import { scanInventory, writeManifest } from "../inventory/scan";
 import { buildWorkQueue, writeWorkQueue } from "../work-queue/build-work-queue";
 import { validateCoverage, writeCoverageReport } from "../coverage/coverage-validator";
+import { runDeterministicExtraction } from "../extract/deterministic-extractor";
 import { SOURCE_REGISTRY_PATH } from "../config";
-import type { SourceRegistry } from "../types";
+import type { ExtractionSummary, SourceRegistry } from "../types";
 import { readJsonIfExists } from "../utils/fs";
 
 export type IngestResult = {
@@ -20,6 +21,7 @@ export type IngestResult = {
   entities: number;
   entityStats: Record<string, number>;
   workItems: number;
+  extraction: ExtractionSummary;
   coverage: {
     eligibleSources: number;
     assignedSources: number;
@@ -45,13 +47,14 @@ export async function runIngest(options: ScanInventoryOptions = {}): Promise<Ing
   const normalizedRegistry = await normalizeSources(registry);
   const entityIndex = await buildEntityIndex(normalizedRegistry, startedAt);
   const workQueue = await buildWorkQueue(normalizedRegistry);
-  const coverage = validateCoverage(normalizedRegistry, workQueue, startedAt);
+  const extraction = await runDeterministicExtraction(workQueue, normalizedRegistry, entityIndex, startedAt);
+  const coverage = validateCoverage(normalizedRegistry, extraction.workItems, startedAt);
   const finalManifest = syncManifestStatuses(manifest, normalizedRegistry);
 
   await writeManifest(finalManifest);
   await writeSourceRegistry(normalizedRegistry);
   await writeEntityIndex(entityIndex);
-  await writeWorkQueue(workQueue);
+  await writeWorkQueue(extraction.workItems);
   await writeCoverageReport(coverage);
 
   const normalizedCount = normalizedRegistry.sources.filter((source) => source.status === "normalized").length;
@@ -67,7 +70,8 @@ export async function runIngest(options: ScanInventoryOptions = {}): Promise<Ing
     ignored: ignoredCount,
     entities: Object.keys(entityIndex.entities).length,
     entityStats: entityIndex.stats,
-    workItems: workQueue.length,
+    workItems: extraction.workItems.length,
+    extraction: extraction.summary,
     coverage: {
       eligibleSources: coverage.eligibleSourceCount,
       assignedSources: coverage.assignedSourceCount,

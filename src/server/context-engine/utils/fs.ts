@@ -18,6 +18,18 @@ export async function readJsonIfExists<T>(filePath: string): Promise<T | undefin
   }
 }
 
+export async function readJsonLinesIfExists<T>(filePath: string): Promise<T[]> {
+  try {
+    const text = await readFile(filePath, "utf8");
+    return text
+      .split(/\r?\n/)
+      .filter((line) => line.trim().length > 0)
+      .map((line) => JSON.parse(line) as T);
+  } catch {
+    return [];
+  }
+}
+
 export async function writeJson(filePath: string, value: unknown) {
   await ensureDir(path.dirname(filePath));
   await writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");

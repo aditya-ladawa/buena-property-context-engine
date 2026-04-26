@@ -135,6 +135,18 @@ export type WorkItemProcessor =
 
 export type WorkItemStatus = "pending" | "processing" | "processed" | "ignored" | "error";
 
+export type WorkItemGlimpse = {
+  summary: string;
+  sourceCount: number;
+  normalizedArtifactCount: number;
+  sourceKinds: Partial<Record<SourceKind, number>>;
+  dateRange?: [string, string];
+  entityHints: string[];
+  labels: string[];
+  metrics: Record<string, number>;
+  preview: Record<string, unknown>;
+};
+
 export type WorkItem = {
   workItemId: string;
   propertyId: string;
@@ -146,6 +158,101 @@ export type WorkItem = {
   status: WorkItemStatus;
   groupKey: string;
   incrementalDay?: string;
+  glimpse: WorkItemGlimpse;
+};
+
+export type ObservationKind =
+  | "entity_profile"
+  | "maintenance_issue"
+  | "meeting_decision"
+  | "payment"
+  | "invoice"
+  | "document_metadata"
+  | "communication_metadata"
+  | "source_bundle"
+  | "legal_dispute"
+  | "rent_change"
+  | "termination"
+  | "communication_preference"
+  | "noise";
+
+export type ObservationDecision = "keep" | "ignore" | "duplicate" | "needs_review";
+
+export type EntityResolution = {
+  entityId: string;
+  matchType: "declared_id" | "field_reference" | "candidate";
+  reason: string;
+};
+
+export type EvidenceRef = {
+  sourceId: string;
+  normalizedPath?: string;
+  quote?: string;
+  page?: number;
+  field?: string;
+  lineStart?: number;
+  lineEnd?: number;
+};
+
+export type Observation = {
+  observationId: string;
+  workItemId: string;
+  inputHash: string;
+  sourceIds: string[];
+  propertyId: string;
+  kind: ObservationKind;
+  statement: string;
+  mentions: string[];
+  entityLinks: EntityResolution[];
+  evidence: EvidenceRef[];
+  decision: ObservationDecision;
+  reason: string;
+  createdBy: WorkItemProcessor;
+  attributes: Record<string, unknown>;
+};
+
+export type IgnoreDecision = {
+  decisionId: string;
+  workItemId: string;
+  inputHash: string;
+  sourceIds: string[];
+  propertyId: string;
+  reason: string;
+  createdBy: WorkItemProcessor;
+};
+
+export type DuplicateDecision = {
+  decisionId: string;
+  workItemId: string;
+  inputHash: string;
+  sourceIds: string[];
+  propertyId: string;
+  duplicateOf: string;
+  reason: string;
+  createdBy: WorkItemProcessor;
+};
+
+export type ErrorRecord = {
+  errorId: string;
+  workItemId: string;
+  inputHash: string;
+  sourceIds: string[];
+  propertyId: string;
+  error: string;
+  createdBy: WorkItemProcessor;
+};
+
+export type ExtractionSummary = {
+  generatedAt: string;
+  propertyId: string;
+  workItems: number;
+  extractedWorkItems: number;
+  reusedWorkItems: number;
+  erroredWorkItems: number;
+  observations: number;
+  ignoreDecisions: number;
+  duplicateDecisions: number;
+  errorRecords: number;
 };
 
 export type CoverageReport = {
