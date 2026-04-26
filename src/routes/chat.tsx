@@ -222,6 +222,7 @@ function toolCallLabel(event: AgentActivity) {
   if (event.label === "read_entity_context") return "Reading entity context";
   if (event.label === "append_context_note") return "Writing context note";
   if (event.label === "create_context_correction") return "Preparing context correction";
+  if (event.label === "search_local_services") return "Searching local services";
   return event.label.replace(/_/g, " ");
 }
 
@@ -229,7 +230,7 @@ const INITIAL_MESSAGES: Msg[] = [
   {
     role: "agent",
     content:
-      "Connected to property **Maximilianstraße 14, Berlin**. I have the live Context.md loaded. Ask me anything — rent roll, open tickets, vendor history, lease milestones.",
+      "Connected to property **WEG Immanuelkirchstraße 26, Berlin**. I have the live Context.md loaded. Ask me anything — rent roll, open tickets, vendor history, lease milestones, or local vendors near HAUS-12.",
   },
 ];
 

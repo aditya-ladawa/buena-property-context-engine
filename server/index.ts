@@ -54,6 +54,19 @@ const incrementalRoot = path.join(rootDir, "data", "incremental");
 const manifestPath = path.join(rootDir, "workdir", "manifest.json");
 let ingestRunning = false;
 
+const propertyLocations: Record<string, { label: string; address: string; note: string }> = {
+  "LIE-001": {
+    label: "WEG Immanuelkirchstraße 26",
+    address: "Immanuelkirchstraße 26, 10405 Berlin, Germany",
+    note: "Main property address.",
+  },
+  "HAUS-12": {
+    label: "HAUS-12",
+    address: "Immanuelkirchstraße 26, 10405 Berlin, Germany",
+    note: "Part of the main property WEG Immanuelkirchstraße 26.",
+  },
+};
+
 await mkdir(runtimeDir, { recursive: true });
 
 const checkpointer = SqliteSaver.fromConnString(checkpointPath);
@@ -83,6 +96,13 @@ const correctionSchema = z.object({
   targetFactIds: z.array(z.string().min(1)).default([]),
   targetEntityIds: z.array(z.string().min(1)).default([]),
   targetSourceIds: z.array(z.string().min(1)).default([]),
+});
+
+const localServiceSearchSchema = z.object({
+  query: z.string().min(1).describe("The local-service/vendor search query, such as plumber, electrician, locksmith, roof repair, or Hausmeister."),
+  entityId: z.string().min(1).optional().describe("Optional property/building/entity ID, for example HAUS-12 or LIE-001."),
+  location: z.string().min(1).optional().describe("Optional explicit address or neighborhood. If omitted, use the known property address for the entity."),
+  maxResults: z.number().int().min(1).max(8).default(5).optional(),
 });
 
 function safeFileStem(value: string) {
@@ -236,6 +256,50 @@ async function createContextCorrection(threadId: string, input: z.infer<typeof c
     correction.targetSectionHash ? `Captured current managed-section hash for ${correction.targetSectionId}: ${correction.targetSectionHash}` : "No managed-section hash captured.",
     "This does not directly rewrite generated facts. It preserves provenance and can be applied by a future correction-overlay/materialization step.",
   ].join("\n");
+}
+
+async function searchLocalServices(input: z.infer<typeof localServiceSearchSchema>) {
+  const apiKey = process.env.TAVILY_API_KEY;
+  if (!apiKey) return "TAVILY_API_KEY is not configured. Add it to .env and restart the API server.";
+
+  const entityLocation = input.entityId ? propertyLocations[input.entityId.toUpperCase()] : undefined;
+  const location = input.location ?? entityLocation?.address ?? propertyLocations["LIE-001"].address;
+  const query = `${input.query} near ${location}`;
+  const response = await fetch("https://api.tavily.com/search", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      api_key: apiKey,
+      query,
+      search_depth: "basic",
+      include_answer: true,
+      max_results: input.maxResults ?? 5,
+    }),
+  });
+
+  if (!response.ok) {
+    const body = await response.text().catch(() => "");
+    return `Tavily search failed with ${response.status}: ${body.slice(0, 300)}`;
+  }
+
+  const data = await response.json() as {
+    answer?: string;
+    results?: { title?: string; url?: string; content?: string; score?: number }[];
+  };
+  const results = (data.results ?? []).slice(0, input.maxResults ?? 5).map((result, index) => [
+    `${index + 1}. ${result.title ?? "Untitled result"}`,
+    result.url ? `   URL: ${result.url}` : undefined,
+    result.content ? `   Note: ${result.content.replace(/\s+/g, " ").slice(0, 240)}` : undefined,
+  ].filter(Boolean).join("\n"));
+
+  return [
+    `Search query: ${query}`,
+    entityLocation ? `Location context: ${entityLocation.label}; ${entityLocation.note}` : `Location context: ${location}`,
+    data.answer ? `Tavily answer: ${data.answer}` : undefined,
+    results.length ? "Results:" : "No Tavily results returned.",
+    ...results,
+    "Reminder: verify availability, licenses, pricing, and emergency coverage before assigning work.",
+  ].filter(Boolean).join("\n");
 }
 
 function createEmptyThread(threadId: string): ThreadRecord {
@@ -603,6 +667,15 @@ function createChatAgent(threadId: string, setTodos: (todos: Todo[]) => void) {
     },
   );
 
+  const searchLocalServicesTool = tool(
+    async (input) => searchLocalServices(input),
+    {
+      name: "search_local_services",
+      description: "Search the web with Tavily for local property-management services or vendors near a known property/building address. Use for questions like plumbers near HAUS-12, electricians near the property, locksmiths, roofers, Hausmeister, emergency repair vendors, or similar external/local lookup tasks. Do not use for internal context facts.",
+      schema: localServiceSearchSchema,
+    },
+  );
+
   const model = new ChatGoogleGenerativeAI({
     model: process.env.GEMINI_CHAT_MODEL ?? "gemini-3-pro-preview",
     apiKey: process.env.GEMINI_API_KEY,
@@ -611,15 +684,19 @@ function createChatAgent(threadId: string, setTodos: (todos: Todo[]) => void) {
 
   return createAgent({
     model,
-    tools: [writeTodos, readPropertyContext, readEntityContext, appendContextNoteTool, createContextCorrectionTool],
+    tools: [writeTodos, readPropertyContext, readEntityContext, appendContextNoteTool, createContextCorrectionTool, searchLocalServicesTool],
     checkpointer,
     systemPrompt: [
       "You are the Buena chat agent for a property context-engine demo.",
       "Answer concisely and practically.",
+      "Known location context: HAUS-12 is at Immanuelkirchstraße 26, 10405 Berlin, Germany and is part of the main property WEG Immanuelkirchstraße 26 (LIE-001).",
       "Use read_property_context when the user asks about the property, context engine, ingestion, or architecture.",
       "Use read_entity_context when the user asks about a specific building, unit, owner, tenant, contractor, invoice, letter, or email.",
+      "Use search_local_services for external/local vendor lookup questions such as plumbers, electricians, locksmiths, roofers, Hausmeister, or emergency repairs near HAUS-12/LIE-001. Prefer entityId HAUS-12 when the user mentions that building. Summarize results with names, URLs, and practical caveats; do not pretend Tavily results are source-backed property facts.",
       "Use append_context_note only when the user explicitly asks to update or save a context note. Explain that notes are preserved because they live outside BCE managed sections.",
       "Use create_context_correction when the user says generated context or a fact is wrong and asks you to correct it. Capture target section IDs, fact IDs, entity IDs, and source IDs when the user provides them.",
+      "When the user asks to edit, update, change, fix, or correct context, first clarify the exact target and intended change if either is ambiguous. Once clear, do what they asked using create_context_correction for generated facts/context or append_context_note for user notes.",
+      "For edit requests, do not silently guess which fact, section, entity, or source should change. Ask one concise clarification question when needed, then proceed after the user answers.",
       "Do not overwrite managed BCE sections. Durable facts should come from source ingestion and evidence, not direct chat edits.",
       "Context.md managed sections are guarded by BCE hashes; if a human edits a managed block, ingestion records a conflict instead of destroying the edit.",
       "Use write_todos before answering any request that has multiple steps, design decisions, or implementation work.",
