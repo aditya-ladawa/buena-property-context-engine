@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Buena Property Context Engine Architecture</title>
+  <desc id="desc">Raw property data is scanned, normalized, grouped into work items, linked to entities, extracted into observations and facts, then materialized into Context.md and entity views for the agent.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155" />
+    </marker>
+    <style>
+      .bg { fill: #f8fafc; }
+      .box { fill: #ffffff; stroke: #334155; stroke-width: 2; rx: 12; }
+      .store { fill: #ecfeff; stroke: #0891b2; stroke-width: 2; rx: 12; }
+      .ai { fill: #f5f3ff; stroke: #7c3aed; stroke-width: 2; rx: 12; }
+      .view { fill: #f0fdf4; stroke: #16a34a; stroke-width: 2; rx: 12; }
+      .arrow { stroke: #334155; stroke-width: 2.2; fill: none; marker-end: url(#arrow); }
+      .title { font: 700 24px Arial, sans-serif; fill: #0f172a; }
+      .label { font: 700 15px Arial, sans-serif; fill: #0f172a; text-anchor: middle; }
+      .small { font: 12px Arial, sans-serif; fill: #475569; text-anchor: middle; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1200" height="620" />
+  <text class="title" x="40" y="38">Buena Property Context Engine</text>
+
+  <rect class="box" x="40" y="70" width="155" height="66" />
+  <text class="label" x="117.5" y="99">Raw data</text>
+  <text class="small" x="117.5" y="118">PDF, email, bank, ERP</text>
+
+  <rect class="box" x="230" y="70" width="155" height="66" />
+  <text class="label" x="307.5" y="99">Inventory scan</text>
+  <text class="small" x="307.5" y="118">classify and hash</text>
+
+  <rect class="store" x="420" y="70" width="170" height="66" />
+  <text class="label" x="505" y="99">Source registry</text>
+  <text class="small" x="505" y="118">rawSha256, status, paths</text>
+
+  <rect class="box" x="625" y="70" width="155" height="66" />
+  <text class="label" x="702.5" y="99">Normalizers</text>
+  <text class="small" x="702.5" y="118">schema and extraction</text>
+
+  <rect class="store" x="815" y="70" width="170" height="66" />
+  <text class="label" x="900" y="99">Normalized</text>
+  <text class="small" x="900" y="118">normalizedSha256</text>
+
+  <rect class="box" x="1020" y="70" width="140" height="66" />
+  <text class="label" x="1090" y="99">Work queue</text>
+  <text class="small" x="1090" y="118">bounded items</text>
+
+  <rect class="box" x="1020" y="190" width="140" height="66" />
+  <text class="label" x="1090" y="219">Glimpses</text>
+  <text class="small" x="1090" y="238">summary, labels, hints</text>
+
+  <rect class="box" x="815" y="190" width="170" height="66" />
+  <text class="label" x="900" y="219">Entity linker</text>
+  <text class="small" x="900" y="238">aliases and evidence</text>
+
+  <rect class="store" x="610" y="190" width="170" height="66" />
+  <text class="label" x="695" y="219">Entity index</text>
+  <text class="small" x="695" y="238">canonical KG nodes</text>
+
+  <rect class="box" x="310" y="310" width="170" height="66" />
+  <text class="label" x="395" y="339">Deterministic</text>
+  <text class="small" x="395" y="358">structured extraction</text>
+
+  <rect class="ai" x="515" y="310" width="170" height="66" />
+  <text class="label" x="600" y="339">Gemini semantic</text>
+  <text class="small" x="600" y="358">high-signal threads</text>
+
+  <rect class="store" x="720" y="310" width="170" height="66" />
+  <text class="label" x="805" y="339">Observations</text>
+  <text class="small" x="805" y="358">evidence and decisions</text>
+
+  <rect class="store" x="925" y="310" width="170" height="66" />
+  <text class="label" x="1010" y="339">Fact index</text>
+  <text class="small" x="1010" y="358">durable FACT IDs</text>
+
+  <rect class="view" x="720" y="470" width="170" height="66" />
+  <text class="label" x="805" y="499">Context.md</text>
+  <text class="small" x="805" y="518">property view</text>
+
+  <rect class="view" x="925" y="470" width="170" height="66" />
+  <text class="label" x="1010" y="499">Entity views</text>
+  <text class="small" x="1010" y="518">scoped context</text>
+
+  <rect class="ai" x="410" y="470" width="170" height="66" />
+  <text class="label" x="495" y="499">Agent chat</text>
+  <text class="small" x="495" y="518">answers and corrections</text>
+
+  <path class="arrow" d="M195 103 H230" />
+  <path class="arrow" d="M385 103 H420" />
+  <path class="arrow" d="M590 103 H625" />
+  <path class="arrow" d="M780 103 H815" />
+  <path class="arrow" d="M985 103 H1020" />
+  <path class="arrow" d="M1090 136 V190" />
+  <path class="arrow" d="M1020 223 H985" />
+  <path class="arrow" d="M815 223 H780" />
+  <path class="arrow" d="M1090 256 C1090 300 1040 300 1040 310" />
+  <path class="arrow" d="M1090 256 C1090 295 620 295 600 310" />
+  <path class="arrow" d="M1090 256 C1090 285 400 285 395 310" />
+  <path class="arrow" d="M480 343 H515" />
+  <path class="arrow" d="M685 343 H720" />
+  <path class="arrow" d="M890 343 H925" />
+  <path class="arrow" d="M1010 376 V470" />
+  <path class="arrow" d="M965 376 C925 415 845 430 805 470" />
+  <path class="arrow" d="M695 256 C695 360 740 420 805 470" />
+  <path class="arrow" d="M720 503 H580" />
+  <path class="arrow" d="M925 503 H580" />
+  <path class="arrow" d="M420 136 C300 210 300 430 410 503" />
+</svg>

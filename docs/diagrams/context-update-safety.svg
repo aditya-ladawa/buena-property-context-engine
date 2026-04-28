@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="620" viewBox="0 0 1050 620" role="img" aria-labelledby="title desc">
+  <title id="title">Context Update Safety</title>
+  <desc id="desc">New or changed sources are hashed, normalized, extracted, reduced into facts, and used to build Context.md sections. Section hashes and protected user blocks prevent unsafe overwrites.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155" />
+    </marker>
+    <style>
+      .bg { fill: #f8fafc; }
+      .box { fill: #ffffff; stroke: #334155; stroke-width: 2; rx: 12; }
+      .safe { fill: #f0fdf4; stroke: #16a34a; stroke-width: 2; rx: 12; }
+      .warn { fill: #fff7ed; stroke: #ea580c; stroke-width: 2; rx: 12; }
+      .stop { fill: #fef2f2; stroke: #dc2626; stroke-width: 2; rx: 12; }
+      .diamond { fill: #fefce8; stroke: #ca8a04; stroke-width: 2; }
+      .arrow { stroke: #334155; stroke-width: 2.2; fill: none; marker-end: url(#arrow); }
+      .title { font: 700 24px Arial, sans-serif; fill: #0f172a; }
+      .label { font: 700 14px Arial, sans-serif; fill: #0f172a; text-anchor: middle; }
+      .small { font: 13px Arial, sans-serif; fill: #475569; text-anchor: middle; }
+      .edge { font: 700 13px Arial, sans-serif; fill: #334155; }
+    </style>
+  </defs>
+  <rect class="bg" width="1050" height="620" />
+  <text class="title" x="40" y="38">Context Update Safety</text>
+
+  <rect class="box" x="55" y="80" width="160" height="60" />
+  <text class="label" x="135" y="105">New or changed</text>
+  <text class="small" x="135" y="124">source</text>
+
+  <rect class="box" x="275" y="80" width="160" height="60" />
+  <text class="label" x="355" y="105">Compute</text>
+  <text class="small" x="355" y="124">rawSha256</text>
+
+  <rect class="box" x="495" y="80" width="180" height="60" />
+  <text class="label" x="585" y="105">Normalize</text>
+  <text class="small" x="585" y="124">normalizedSha256</text>
+
+  <rect class="box" x="735" y="80" width="180" height="60" />
+  <text class="label" x="825" y="105">Extract and reduce</text>
+  <text class="small" x="825" y="124">observations to facts</text>
+
+  <rect class="box" x="735" y="210" width="180" height="60" />
+  <text class="label" x="825" y="235">Build next</text>
+  <text class="small" x="825" y="254">Context.md section</text>
+
+  <polygon class="diamond" points="825,325 930,395 825,465 720,395" />
+  <text class="label" x="825" y="389">Section hash</text>
+  <text class="small" x="825" y="408">matches marker?</text>
+
+  <rect class="safe" x="470" y="365" width="180" height="60" />
+  <text class="label" x="560" y="390">Replace only</text>
+  <text class="small" x="560" y="409">that managed section</text>
+
+  <rect class="warn" x="735" y="515" width="180" height="60" />
+  <text class="label" x="825" y="540">Record conflict</text>
+  <text class="small" x="825" y="559">patch-log.jsonl</text>
+
+  <polygon class="diamond" points="320,325 435,395 320,465 205,395" />
+  <text class="label" x="320" y="384">Protected user</text>
+  <text class="label" x="320" y="402">blocks unchanged?</text>
+
+  <rect class="safe" x="85" y="515" width="170" height="60" />
+  <text class="label" x="170" y="540">Write</text>
+  <text class="small" x="170" y="559">Context.md</text>
+
+  <rect class="stop" x="365" y="515" width="170" height="60" />
+  <text class="label" x="450" y="540">Block write</text>
+  <text class="small" x="450" y="559">human edit wins</text>
+
+  <path class="arrow" d="M215 110 H275" />
+  <path class="arrow" d="M435 110 H495" />
+  <path class="arrow" d="M675 110 H735" />
+  <path class="arrow" d="M825 140 V210" />
+  <path class="arrow" d="M825 270 V325" />
+  <path class="arrow" d="M720 395 H650" />
+  <text class="edge" x="673" y="386">Yes</text>
+  <path class="arrow" d="M825 465 V515" />
+  <text class="edge" x="837" y="494">No</text>
+  <path class="arrow" d="M470 395 H435" />
+  <path class="arrow" d="M735 545 C610 545 500 470 435 420" />
+  <path class="arrow" d="M260 465 C240 490 210 505 170 515" />
+  <text class="edge" x="217" y="498">Yes</text>
+  <path class="arrow" d="M380 465 C400 490 425 505 450 515" />
+  <text class="edge" x="404" y="498">No</text>
+</svg>

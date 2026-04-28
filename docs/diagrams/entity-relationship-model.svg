@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+  <title id="title">Entity Relationship Model</title>
+  <desc id="desc">The property has buildings, buildings contain units, owners own units, tenants occupy units, contractors issue invoices, invoices reconcile with payments, and facts link entities to sources.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155" />
+    </marker>
+    <style>
+      .bg { fill: #f8fafc; }
+      .entity { fill: #ffffff; stroke: #334155; stroke-width: 2; rx: 12; }
+      .core { fill: #ecfeff; stroke: #0891b2; stroke-width: 2; rx: 12; }
+      .fact { fill: #f5f3ff; stroke: #7c3aed; stroke-width: 2; rx: 12; }
+      .source { fill: #f0fdf4; stroke: #16a34a; stroke-width: 2; rx: 12; }
+      .line { stroke: #334155; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+      .soft { stroke: #64748b; stroke-width: 2; fill: none; stroke-dasharray: 5 5; marker-end: url(#arrow); }
+      .title { font: 700 24px Arial, sans-serif; fill: #0f172a; }
+      .label { font: 700 15px Arial, sans-serif; fill: #0f172a; text-anchor: middle; }
+      .small { font: 12px Arial, sans-serif; fill: #475569; text-anchor: middle; }
+      .edge { font: 12px Arial, sans-serif; fill: #334155; text-anchor: middle; }
+    </style>
+  </defs>
+  <rect class="bg" width="1100" height="620" />
+  <text class="title" x="40" y="38">Entity Relationship Model</text>
+
+  <rect class="core" x="470" y="70" width="160" height="58" />
+  <text class="label" x="550" y="97">PROPERTY</text>
+  <text class="small" x="550" y="116">LIE-001</text>
+
+  <rect class="core" x="470" y="180" width="160" height="58" />
+  <text class="label" x="550" y="207">BUILDING</text>
+  <text class="small" x="550" y="226">HAUS-12, 14, 16</text>
+
+  <rect class="core" x="470" y="300" width="160" height="58" />
+  <text class="label" x="550" y="327">UNIT</text>
+  <text class="small" x="550" y="346">EH-001...</text>
+
+  <rect class="entity" x="210" y="300" width="150" height="58" />
+  <text class="label" x="285" y="327">OWNER</text>
+  <text class="small" x="285" y="346">owns units</text>
+
+  <rect class="entity" x="740" y="300" width="150" height="58" />
+  <text class="label" x="815" y="327">TENANT</text>
+  <text class="small" x="815" y="346">occupies units</text>
+
+  <rect class="entity" x="80" y="440" width="150" height="58" />
+  <text class="label" x="155" y="467">CONTRACTOR</text>
+  <text class="small" x="155" y="486">DL-012 etc.</text>
+
+  <rect class="entity" x="300" y="440" width="150" height="58" />
+  <text class="label" x="375" y="467">INVOICE</text>
+  <text class="small" x="375" y="486">INV-DUP-00192</text>
+
+  <rect class="entity" x="520" y="440" width="150" height="58" />
+  <text class="label" x="595" y="467">PAYMENT</text>
+  <text class="small" x="595" y="486">bank TX rows</text>
+
+  <rect class="entity" x="770" y="440" width="140" height="58" />
+  <text class="label" x="840" y="467">LETTER</text>
+  <text class="small" x="840" y="486">LTR IDs</text>
+
+  <rect class="entity" x="930" y="440" width="140" height="58" />
+  <text class="label" x="1000" y="467">EMAIL</text>
+  <text class="small" x="1000" y="486">threads</text>
+
+  <rect class="fact" x="660" y="180" width="150" height="58" />
+  <text class="label" x="735" y="207">FACT</text>
+  <text class="small" x="735" y="226">durable claim</text>
+
+  <rect class="source" x="850" y="180" width="160" height="58" />
+  <text class="label" x="930" y="207">SOURCE</text>
+  <text class="small" x="930" y="226">raw + normalized</text>
+
+  <path class="line" d="M550 128 V180" />
+  <text class="edge" x="585" y="158">has</text>
+  <path class="line" d="M550 238 V300" />
+  <text class="edge" x="590" y="274">contains</text>
+  <path class="line" d="M360 329 H470" />
+  <text class="edge" x="415" y="318">owns</text>
+  <path class="line" d="M740 329 H630" />
+  <text class="edge" x="685" y="318">occupies</text>
+  <path class="line" d="M230 469 H300" />
+  <text class="edge" x="265" y="458">issues</text>
+  <path class="line" d="M450 469 H520" />
+  <text class="edge" x="485" y="458">paid by</text>
+  <path class="soft" d="M630 99 C760 100 830 130 930 180" />
+  <text class="edge" x="815" y="102">property sources</text>
+  <path class="soft" d="M630 209 H660" />
+  <text class="edge" x="645" y="198">links</text>
+  <path class="soft" d="M810 209 H850" />
+  <text class="edge" x="830" y="198">evidence</text>
+  <path class="soft" d="M735 238 C690 300 640 360 595 440" />
+  <path class="soft" d="M735 238 C650 330 500 410 375 440" />
+  <path class="soft" d="M735 238 C830 300 890 360 1000 440" />
+  <path class="soft" d="M735 238 C790 300 820 360 840 440" />
+  <path class="soft" d="M470 99 C360 120 220 250 155 440" />
+  <path class="soft" d="M630 99 C770 125 850 245 815 300" />
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" role="img" aria-labelledby="title desc">
+  <title id="title">Agent Query Flow</title>
+  <desc id="desc">The user asks a question, the chat UI sends it to the Gemini agent, and the agent traverses entity views, fact index, Context.md, and source registry before streaming an answer.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155" />
+    </marker>
+    <style>
+      .bg { fill: #f8fafc; }
+      .lane { stroke: #cbd5e1; stroke-width: 2; stroke-dasharray: 6 6; }
+      .head { fill: #ffffff; stroke: #334155; stroke-width: 2; rx: 12; }
+      .head2 { fill: #f5f3ff; stroke: #7c3aed; stroke-width: 2; rx: 12; }
+      .head3 { fill: #ecfeff; stroke: #0891b2; stroke-width: 2; rx: 12; }
+      .arrow { stroke: #334155; stroke-width: 2.1; fill: none; marker-end: url(#arrow); }
+      .return { stroke: #64748b; stroke-width: 2; fill: none; stroke-dasharray: 5 5; marker-end: url(#arrow); }
+      .title { font: 700 24px Arial, sans-serif; fill: #0f172a; }
+      .label { font: 700 14px Arial, sans-serif; fill: #0f172a; text-anchor: middle; }
+      .small { font: 13px Arial, sans-serif; fill: #334155; }
+    </style>
+  </defs>
+  <rect class="bg" width="1100" height="560" />
+  <text class="title" x="40" y="38">Agent Query Flow</text>
+
+  <rect class="head" x="55" y="70" width="130" height="56" />
+  <text class="label" x="120" y="103">User</text>
+  <line class="lane" x1="120" y1="126" x2="120" y2="515" />
+
+  <rect class="head" x="245" y="70" width="130" height="56" />
+  <text class="label" x="310" y="103">Chat UI</text>
+  <line class="lane" x1="310" y1="126" x2="310" y2="515" />
+
+  <rect class="head2" x="435" y="70" width="130" height="56" />
+  <text class="label" x="500" y="103">Gemini Agent</text>
+  <line class="lane" x1="500" y1="126" x2="500" y2="515" />
+
+  <rect class="head3" x="625" y="70" width="130" height="56" />
+  <text class="label" x="690" y="95">Entity</text>
+  <text class="label" x="690" y="113">Views</text>
+  <line class="lane" x1="690" y1="126" x2="690" y2="515" />
+
+  <rect class="head3" x="795" y="70" width="130" height="56" />
+  <text class="label" x="860" y="95">Fact Index</text>
+  <text class="label" x="860" y="113">Context.md</text>
+  <line class="lane" x1="860" y1="126" x2="860" y2="515" />
+
+  <rect class="head3" x="965" y="70" width="120" height="56" />
+  <text class="label" x="1025" y="95">Source</text>
+  <text class="label" x="1025" y="113">Registry</text>
+  <line class="lane" x1="1025" y1="126" x2="1025" y2="515" />
+
+  <path class="arrow" d="M120 165 H310" />
+  <text class="small" x="145" y="157">Ask about invoice, building, owner, tenant, contractor</text>
+
+  <path class="arrow" d="M310 215 H500" />
+  <text class="small" x="335" y="207">Stream question and thread state</text>
+
+  <path class="arrow" d="M500 265 H690" />
+  <text class="small" x="525" y="257">Read scoped entity file</text>
+
+  <path class="arrow" d="M500 315 H860" />
+  <text class="small" x="525" y="307">Follow fact IDs, entities, Context.md section</text>
+
+  <path class="arrow" d="M500 365 H1025" />
+  <text class="small" x="525" y="357">Follow source IDs to raw and normalized evidence</text>
+
+  <path class="return" d="M1025 410 H500" />
+  <text class="small" x="555" y="402">rawPath, normalizedPath, checksums, source status</text>
+
+  <path class="arrow" d="M500 460 H310" />
+  <text class="small" x="330" y="452">Stream answer and tool actions</text>
+
+  <path class="arrow" d="M310 500 H120" />
+  <text class="small" x="145" y="492">Answer with facts, dates, entities, source IDs</text>
+</svg>
