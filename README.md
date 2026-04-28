@@ -6,6 +6,20 @@ This project turns scattered property-management data into a source-backed conte
 
 For the full technical implementation, file map, artifact contracts, pipeline details, and production path, see **[`docs/TECHNICAL_IMPLEMENTATION.md`](docs/TECHNICAL_IMPLEMENTATION.md).**
 
+## Output Examples
+
+These screenshots show the working demo output: the agent UI, context/artifact views, graph-style navigation, and streamed context-engine behavior.
+
+![Output example 1](new_img_out/Screenshot%20from%202026-04-28%2018-43-25.png)
+
+![Output example 2](new_img_out/Screenshot%20from%202026-04-28%2018-42-35.png)
+
+![Output example 3](new_img_out/Screenshot%20from%202026-04-28%2018-42-08.png)
+
+![Output example 4](new_img_out/Screenshot%20from%202026-04-28%2018-42-00.png)
+
+![Output example 5](new_img_out/Screenshot%20from%202026-04-28%2018-24-33.png)
+
 ## Core Idea
 
 Property-management work is context-heavy. A single question can depend on emails, scanned PDFs, invoices, bank exports, ERP master data, letters, owners, tenants, contractors, and prior human decisions.
