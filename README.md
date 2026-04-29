@@ -18,7 +18,6 @@ These screenshots show the working demo output: the agent UI, context/artifact v
 
 ![Output example 4](new_img_out/Screenshot%20from%202026-04-28%2018-42-00.png)
 
-![Output example 5](new_img_out/Screenshot%20from%202026-04-28%2018-24-33.png)
 
 ## Core Idea
 
